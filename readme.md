@@ -1,0 +1,1 @@
+- Дока по вектору https://threejs.org/docs/#api/en/math/Vector2
