@@ -1,0 +1,12 @@
+{
+  "workbench.editor.labelFormat": "medium",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "files.watcherExclude": {
+    "**/node_modules": true,
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+  },
+  "javascript.format.semicolons": "remove",
+  "editor.renderWhitespace": "trailing"
+}
