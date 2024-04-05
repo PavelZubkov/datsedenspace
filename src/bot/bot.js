@@ -2,6 +2,7 @@ import createGraph from 'ngraph.graph'
 import { aStar } from 'ngraph.path'
 import { Api } from '../api/api.js'
 import { rnd } from '../math/math.js'
+import { Log } from '../log/log.js'
 
 export class Navigator {
 
@@ -69,7 +70,8 @@ export class Bot {
   /** @type {import('../api/api.js').Player} */
   player
 
-  navigator = new Navigator()
+  navigator = new Navigator
+  log = new Log(Date.now().toString(36))
 
   async tick() {
     this.player = await this.api.getPlayerUniverse()
@@ -82,7 +84,10 @@ export class Bot {
     const path = this.navigator.findPath(this.player.ship.planet.name, target)
     console.log(`Path is: ${path.join(' -> ')}`)
 
-    await this.api.travelToPlanet({ planets: path })
+    const planetData = await this.api.travelToPlanet({ planets: path })
+    for (const fig of Object.values(planetData.planetGarbage)) {
+      this.log.addToLog(fig)
+    }
 
     console.log(`\n`)
 

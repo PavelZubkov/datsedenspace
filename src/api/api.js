@@ -113,6 +113,7 @@ export class Api {
       } catch(err) {
         if (axios.isAxiosError(err)) {
           console.error(`REQUEST ${path} ${err.response?.status} ${JSON.stringify(err.response?.data)}`)
+          // Less Than Three
           await (new Promise(r => setTimeout(r, 500)))
         } else {
           console.error('=================== WARNING =======================')

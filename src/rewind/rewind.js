@@ -1,4 +1,4 @@
-const net = require('net')
+import * as net from 'net'
 
 // https://github.com/kswaldemar/rewind-viewer/blob/master/clients/python3/RewindClient.py
 // https://github.com/kswaldemar/rewind-viewer/blob/develop/clients/README.md
