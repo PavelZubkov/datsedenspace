@@ -1,20 +1,92 @@
+import createGraph from 'ngraph.graph'
+import { aStar } from 'ngraph.path'
 import { Api } from '../api/api.js'
-import { Rewind } from '../rewind/rewind.js'
+import { rnd } from '../math/math.js'
+
+export class Navigator {
+
+  graph = createGraph()
+
+  /** @type {ReturnType<typeof aStar>} */
+  pathFinder
+
+  /** @type {string[]} */
+  planets = []
+
+  /** @param {import('../api/api.js').Universe} universe */
+  init(universe) {
+    const allPlanets = new Set
+
+    for (const [from, to, fuel] of universe) {
+      allPlanets.add(from)
+      allPlanets.add(to)
+
+      this.graph.addLink(from, to, { weight: fuel })
+    }
+
+    allPlanets.delete('Eden')
+    this.planets = [...allPlanets.values()]
+
+    this.pathFinder = aStar(this.graph, {
+      oriented: true,
+      distance(fromNode, toNode, link) {
+        return link.data.weight
+      }
+    })
+  }
+
+  isInit() {
+    return !!this.pathFinder
+  }
+
+  /**
+   * @param {string} from 
+   * @param {string} to 
+   * @returns {any}
+   */
+  findPath(from, to) {
+    const nodes = this.pathFinder.find(from, to)
+    const planets = nodes.map(node => node.id.toString()).reverse().filter(name => name !== from)
+    return planets
+  }
+
+  /**
+   * 
+   * @param {string[]} excludes 
+   */
+  getRandomPlanet(excludes = []) {
+    const filter = this.planets.filter(name => !excludes.includes(name))
+    const index = rnd(0, filter.length - 1)
+    const planet = filter[index]
+    return planet
+  }
+
+}
 
 export class Bot {
   api = new Api
-  rewind = new Rewind
+
+  /** @type {import('../api/api.js').Player} */
+  player
+
+  navigator = new Navigator()
 
   async tick() {
-    const gameState = await this.api.scan()
-
-    if (gameState.isFinished) return true
-
-    const cmd = {
-      moveTo: { x: gameState.player.pos.x, y: gameState.player.pos.y },
+    this.player = await this.api.getPlayerUniverse()
+    if (this.navigator.isInit() === false) {
+      this.navigator.init(this.player.universe)
     }
 
-    await this.api.command(cmd)
+    const target = this.navigator.getRandomPlanet([this.player.ship.planet.name])
+    console.log(`Now go to "${target}"`)
+    const path = this.navigator.findPath(this.player.ship.planet.name, target)
+    console.log(`Path is: ${path.join(' -> ')}`)
+
+    await this.api.travelToPlanet({ planets: path })
+
+    console.log(`\n`)
+
+    await (new Promise(r => setTimeout(r, 200)))
     return false
   }
 
@@ -26,3 +98,6 @@ export class Bot {
     }
   }
 }
+
+const obj = new Bot
+obj.loop()

@@ -40,8 +40,7 @@ if (!process.env.TOKEN) throw new Error("Set TOKEN in .env")
  */
 
 /**
- * @typedef {Object} Universe
- * @property {string[][]} universe
+ * @typedef {Array<[from: string, to: string, fuel: number]>} Universe
  */
 
 /**
@@ -95,10 +94,41 @@ export class Api {
   }
 
   /**
+   * @param {string} method 
+   * @param {string} path 
+   * @param {any} [data] 
+   */
+  async request(method, path, data) {
+    /** @type {import('axios').AxiosResponse | null} */
+    let response = null
+
+    do {
+      try {
+        response = await axios({
+          method,
+          headers: this.headers(),
+          url: `${this.base}/${path}`,
+          data,
+        })
+      } catch(err) {
+        if (axios.isAxiosError(err)) {
+          console.error(`REQUEST ${path} ${err.response?.status} ${JSON.stringify(err.response?.data)}`)
+          await (new Promise(r => setTimeout(r, 500)))
+        } else {
+          console.error('=================== WARNING =======================')
+          console.error(err)
+        }
+      }
+    } while (response?.status !== 200)
+
+    return response
+  }
+
+  /**
    * @returns {Promise<Player>}
    */
   async getPlayerUniverse() {
-    const res = await axios.get(`${this.base}/player/universe`, { headers: this.headers() })
+    const res = await this.request('get', 'player/universe')
     return res.data
   }
 
@@ -107,7 +137,7 @@ export class Api {
    * @returns {Promise<TravelResponse>}
    */
   async travelToPlanet(request) {
-    const res = await axios.post(`${this.base}/player/travel`, request, { headers: this.headers() })
+    const res = await this.request('post', 'player/travel', request)
     return res.data
   }
 
@@ -116,7 +146,7 @@ export class Api {
    * @returns {Promise<CollectResponse>}
    */
   async collectGarbage(request) {
-    const res = await axios.post(`${this.base}/player/collect`, request, { headers: this.headers() })
+    const res = await this.request('post', 'player/collect', request)
     return res.data
   }
 
@@ -124,7 +154,7 @@ export class Api {
    * @returns {Promise<AcceptedResponse>}
    */
   async resetGame() {
-    const res = await axios.delete(`${this.base}/player/reset`, { headers: this.headers() })
+    const res = await this.request('delete', 'player/reset')
     return res.data
   }
 
@@ -132,7 +162,7 @@ export class Api {
    * @returns {Promise<RoundList>}
    */
   async getRounds() {
-    const res = await axios.get(`${this.base}/player/rounds`, { headers: this.headers() })
+    const res = await this.request('get', 'player/rounds')
     return res.data
   }
 }
