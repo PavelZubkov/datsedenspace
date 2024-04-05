@@ -1,63 +1,76 @@
-const http = require('http');
+import * as http from 'http'
 
-class Server {
-  constructor() {
-    this.server = http.createServer((req, res) => this.requestHandler(req, res));
+/**
+ * @typedef {(ctx: { req: http.IncomingMessage, res: http.ServerResponse }, body: Object) => Promise<Object> | Object} ServerEndpoint
+ * 
+ * @typedef {{
+ *  [path: string]: {
+ *    [method: string]: ServerEndpoint,
+ *  }
+ * }} ServerEndpoints
+ */
+export class Server {
+  /**
+   * @param {ServerEndpoints} endpoints 
+   */
+  constructor(endpoints) {
+    this.endpoints = endpoints
+    this.server = http.createServer((req, res) => this.requestHandler(req, res))
   }
+
+  /** @type {ServerEndpoints} */
+  endpoints
 
   port = 3000
 
   start() {
     this.server.listen(this.port, () => {
-      console.log(`Server is running on port ${this.port}`);
-    });
+      console.log(`Server is running on port ${this.port}`)
+    })
   }
 
-  requestHandler(req, res) {
-    const { url, method } = req;
-
-    if (url === '/api/scan' && method === 'GET') {
-      this.handleScanRequest(req, res);
+  /** @param {http.IncomingMessage} req */
+  async receiveArgs(req) {
+    const buffers = []
+    for await (const chunk of req) buffers.push(chunk)
+    const data = Buffer.concat(buffers).toString()
+    try {
+      return JSON.parse(data)
+    } catch(err) {
+      return null
     }
-    else if (url === '/api/shipCommand' && method === 'POST') {
-      this.handleShipCommandRequest(req, res);
+  };
+
+  /**
+   * @param {http.IncomingMessage} req
+   * @param {http.ServerResponse} res
+   */
+  async requestHandler(req, res) {
+    console.log(`${req.method} ${req.url}`)
+    const method = this.endpoints?.[req.url]?.[req.method]
+
+    if (!method) {
+      console.log(`${req.method} ${req.url} 404`)
+      res.statusCode = 404
+      res.end(JSON.stringify(this.endpoints, null, 2))
+      return
     }
-    else {
-      res.writeHead(404, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify({ message: 'Endpoint not found' }));
+
+    const ctx = { req, res }
+    const body = await this.receiveArgs(req)
+
+    try {
+      const json = await method(ctx, body)
+      res.statusCode = 200
+      res.end(JSON.stringify(json, null, 2))
+      console.log(`${req.method} ${req.url} 200 ${JSON.stringify(body)}`)
+      console.log(JSON.stringify(json, null, 2))
+    } catch (err) {
+      console.log(`${req.method} ${req.url} 500`)
+      console.error(err)
+      res.statusCode = 500
+      res.end(err.stack)
     }
   }
 
-  handleScanRequest(req, res) {
-    const response = {
-      success: true,
-      data: {
-        message: 'Scan data retrieved successfully',
-      },
-    };
-
-    res.writeHead(200, { 'Content-Type': 'application/json' });
-    res.end(JSON.stringify(response));
-  }
-
-  handleShipCommandRequest(req, res) {
-    let body = '';
-
-    req.on('data', chunk => {
-      body += chunk.toString(); // Преобразуем Buffer в строку
-    });
-
-    req.on('end', () => {
-      const response = {
-        success: true,
-        data: {
-          message: 'Commands received successfully',
-          commands: JSON.parse(body),
-        },
-      };
-
-      res.writeHead(200, { 'Content-Type': 'application/json' });
-      res.end(JSON.stringify(response));
-    });
-  }
 }

@@ -2,7 +2,7 @@
   "compilerOptions": {
     "checkJs": true,
     "noEmit": true,
-		"types" : ["node"]
+		"types" : ["node"],
   },
 	"include": [
 		"**/*.js"
