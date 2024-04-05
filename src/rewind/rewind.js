@@ -6,7 +6,7 @@ const net = require('net')
 /**
  * Client for sending drawing commands to a Rewind viewer.
  */
-class Rewind {
+export class Rewind {
     static RED = 0xff0000;
     static GREEN = 0x00ff00;
     static BLUE = 0x0000ff;
@@ -185,13 +185,11 @@ class Rewind {
 
     /**
      * Sets options for the drawing layer.
-     * @param {number|null} [layer=null] - The layer to draw on.
-     * @param {boolean|null} [permanent=null] - Whether the drawing is permanent.
+     * @param {number} [layer] - The layer to draw on.
+     * @param {boolean} [permanent] - Whether the drawing is permanent.
      */
-    setOptions(layer = null, permanent = null) {
-        let data = { type: 'options' };
-        if (layer !== null) data['layer'] = layer;
-        if (permanent !== null) data['permanent'] = permanent;
+    setOptions(layer = 1, permanent = false) {
+        let data = { type: 'options', layer, permanent };
         this.send(data);
     }
 
@@ -202,5 +200,3 @@ class Rewind {
         this.send({ type: 'end' });
     }
 }
-
-module.exports = Rewind;

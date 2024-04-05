@@ -1,6 +1,7 @@
 import { Server } from "../server/server.js"
 import { Vec2, rnd } from "../math/math.js"
 import { Trash } from "./trash/trash.js"
+import { Bot } from '../bot/bot.js'
 
 export class Game {
 
@@ -100,10 +101,17 @@ export class Game {
 
     this.update(cmd)
 
-    return { success: true }
+    return { error: null }
+  }
+
+  static async launch() {
+    const gameServer = new Game
+    gameServer.server.start()
+    const bot = new Bot
+    await (new Promise(r => setTimeout(r, 1000)))
+    bot.loop().catch(console.error)
   }
 
 }
 
-const obj = new Game
-obj.server.start()
+Game.launch()

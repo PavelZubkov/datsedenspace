@@ -1,7 +1,7 @@
 import * as http from 'http'
 
 /**
- * @typedef {(ctx: { req: http.IncomingMessage, res: http.ServerResponse }, body: Object) => Promise<Object> | Object} ServerEndpoint
+ * @typedef {(ctx: { req: http.IncomingMessage, res: http.ServerResponse }, body: any) => Promise<Object> | Object} ServerEndpoint
  * 
  * @typedef {{
  *  [path: string]: {
@@ -25,7 +25,7 @@ export class Server {
 
   start() {
     this.server.listen(this.port, () => {
-      console.log(`Server is running on port ${this.port}`)
+      console.log(`Server is running on port ${this.port} at ${new Date}`)
     })
   }
 
@@ -46,11 +46,19 @@ export class Server {
    * @param {http.ServerResponse} res
    */
   async requestHandler(req, res) {
-    console.log(`${req.method} ${req.url}`)
+    // console.log(`${req.method} ${req.url}`)
+
+    if (!req.url || !req.method) {
+      // console.log(`${req.method} ${req.url} 400`)
+      res.statusCode = 400
+      res.end(JSON.stringify(this.endpoints, null, 2))
+      return
+    }
+
     const method = this.endpoints?.[req.url]?.[req.method]
 
     if (!method) {
-      console.log(`${req.method} ${req.url} 404`)
+      // console.log(`${req.method} ${req.url} 404`)
       res.statusCode = 404
       res.end(JSON.stringify(this.endpoints, null, 2))
       return
@@ -62,14 +70,15 @@ export class Server {
     try {
       const json = await method(ctx, body)
       res.statusCode = 200
+      res.setHeader('Content-Type', 'application/json')
       res.end(JSON.stringify(json, null, 2))
-      console.log(`${req.method} ${req.url} 200 ${JSON.stringify(body)}`)
-      console.log(JSON.stringify(json, null, 2))
+      // console.log(`${req.method} ${req.url} 200 ${JSON.stringify(body)}`)
+      // console.log(JSON.stringify(json, null, 2))
     } catch (err) {
-      console.log(`${req.method} ${req.url} 500`)
-      console.error(err)
+      // console.log(`${req.method} ${req.url} 500`)
+      // console.error(err)
       res.statusCode = 500
-      res.end(err.stack)
+      res.end(JSON.stringify(err))
     }
   }
 

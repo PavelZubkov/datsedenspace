@@ -1,11 +1,13 @@
-const { default: axios } = require("axios")
-require("dotenv").config()
+import axios from 'axios'
+import { configDotenv } from 'dotenv';
+import { Game } from '../game/game.js'
 
+configDotenv()
 if (!process.env.TOKEN) throw new Error("Set TOKEN in .env")
 
 export class Api {
   // base = 'https://datsedenspace.datsteam.dev'
-  base = "http://localhost:5000";
+  base = "http://localhost:3000/api";
 
   headers() {
     return {
@@ -13,26 +15,18 @@ export class Api {
     }
   }
 
-  /**
-   * 
-   * @returns {Promise<{
-   *  tick: number,
-   *  playerPos: { x: number, y: number },
-   *  map: number,
-   * }>}
-   */
-  scan() {
-    return axios.get(`${this.base}/scan`)
+  /** @returns {Promise<ReturnType<Game['state']>>} */
+  async scan() {
+    const res = await axios.get(`${this.base}/scan`)
+    return res.data
   }
 
   /**
-   *
-   * @param {{
-   *  move: { x: number, y: number }
-   * }} cmd
-   * @returns
+   * @param {Parameters<Game['update']>[0]} cmd
+   * @returns {Promise<{ error: string | null }>}
    */
-  command(cmd) {
-    return axios.post(`${this.base}/command`, cmd)
+  async command(cmd) {
+    const res = await axios.post(`${this.base}/command`, cmd)
+    return res.data
   }
 }

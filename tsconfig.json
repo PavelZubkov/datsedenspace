@@ -3,7 +3,8 @@
     "checkJs": true,
     "noEmit": true,
 		"types" : ["node"],
-    "module": "ESNext"
+    "module": "NodeNext",
+    "strict": true
   },
 	"include": [
 		"**/*.js"
