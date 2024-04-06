@@ -1,4 +1,4 @@
-import { figures } from './big_figures.js'
+import { figures } from '../bot/collector/testing/big_figures.js'
 
 let min = Number.Infinity
 let max = 0

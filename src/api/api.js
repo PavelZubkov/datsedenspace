@@ -93,6 +93,8 @@ export class Api {
     }
   }
 
+  lastRequestTime = 0
+
   /**
    * @param {string} method 
    * @param {string} path 
@@ -101,6 +103,11 @@ export class Api {
   async request(method, path, data) {
     /** @type {import('axios').AxiosResponse | null} */
     let response = null
+
+    if (this.lastRequestTime) {
+      const diff = Date.now() - this.lastRequestTime
+      if (diff < 250) await (new Promise(r => setTimeout(r, 250 - diff)))
+    }
 
     do {
       try {
@@ -111,10 +118,12 @@ export class Api {
           data,
         })
       } catch(err) {
-        if (axios.isAxiosError(err)) {
+        if (axios.isAxiosError(err) && err.response?.status === 429) {
           console.error(`REQUEST ${path} ${err.response?.status} ${JSON.stringify(err.response?.data)}`)
           // Less Than Three
           await (new Promise(r => setTimeout(r, 500)))
+        } else if(axios.isAxiosError(err) && err.response?.status === 400) {
+          return err.response
         } else {
           console.error('=================== WARNING =======================')
           console.error(err)
