@@ -4,3 +4,65 @@ File verbosity level: 0
 date       time         ( uptime  ) [ thread name/id ]                   file:line     v| 
 2024-04-06 17:05:36.246 (   0.001s) [main thread     ]             loguru.hpp:1971     0| Logging to 'rewindviewer.log', mode: 'w', verbosity: 0
 2024-04-06 17:05:36.246 (   0.001s) [main thread     ]               main.cpp:35       0| Init GLFW
+2024-04-06 17:05:36.334 (   0.089s) [main thread     ]               main.cpp:95       0| Create main window
+2024-04-06 17:05:36.463 (   0.218s) [main thread     ]               main.cpp:115      0| Setup application icon
+2024-04-06 17:05:36.466 (   0.221s) [main thread     ]               main.cpp:47       0| Load OpenGL functions
+2024-04-06 17:05:36.466 (   0.221s) [main thread     ]               main.cpp:54       0| OpenGL 3.3.0 - Build 31.0.101.4502, GLSL 3.30 - Build 31.0.101.4502
+2024-04-06 17:05:36.467 (   0.222s) [main thread     ]               main.cpp:55       0| Driver Intel, Renderer Intel(R) Iris(R) Xe Graphics
+2024-04-06 17:05:36.467 (   0.222s) [main thread     ]               main.cpp:66       0| Setup vertical sync to 60fps
+2024-04-06 17:05:36.467 (   0.222s) [main thread     ]               main.cpp:69       0| Start main draw loop
+2024-04-06 17:05:36.467 (   0.222s) [main thread     ]               main.cpp:126      0| Try load configuration file
+2024-04-06 17:05:36.467 (   0.222s) [main thread     ]               main.cpp:130      0| Create camera
+2024-04-06 17:05:36.467 (   0.222s) [main thread     ]               main.cpp:134      0| Create Resource manager
+2024-04-06 17:05:36.467 (   0.222s) [main thread     ]               main.cpp:138      0| Create Scene
+2024-04-06 17:05:36.467 (   0.222s) [main thread     ]           Renderer.cpp:65       0| Initialize needed attributes
+2024-04-06 17:05:36.467 (   0.222s) [main thread     ]           Renderer.cpp:71       0| Compile shaders
+2024-04-06 17:05:36.468 (   0.223s) [main thread     ]             Shader.cpp:112      0| Start compiling shader in directory 'resources/shaders/': vertex=color_pos.vert, fragment=color_pos.frag
+2024-04-06 17:05:36.468 (   0.223s) [main thread     ]             Shader.cpp:115      0| Load Vertex shader
+2024-04-06 17:05:36.468 (   0.223s) [main thread     ]             Shader.cpp:117      0| Compile Vertex shader
+2024-04-06 17:05:36.469 (   0.224s) [main thread     ]             Shader.cpp:120      0| Load Fragment shader
+2024-04-06 17:05:36.469 (   0.224s) [main thread     ]             Shader.cpp:122      0| Compile Fragment shader
+2024-04-06 17:05:36.470 (   0.225s) [main thread     ]             Shader.cpp:133      0| Link shader program
+2024-04-06 17:05:36.472 (   0.227s) [main thread     ]             Shader.cpp:109      0| Start compiling shader in directory 'resources/shaders/': vertex=circle.vert, fragment=circle.frag, geometry=circle.geom
+2024-04-06 17:05:36.472 (   0.227s) [main thread     ]             Shader.cpp:115      0| Load Vertex shader
+2024-04-06 17:05:36.472 (   0.227s) [main thread     ]             Shader.cpp:117      0| Compile Vertex shader
+2024-04-06 17:05:36.473 (   0.228s) [main thread     ]             Shader.cpp:120      0| Load Fragment shader
+2024-04-06 17:05:36.474 (   0.229s) [main thread     ]             Shader.cpp:122      0| Compile Fragment shader
+2024-04-06 17:05:36.475 (   0.230s) [main thread     ]             Shader.cpp:127      0| Load Geometry shader
+2024-04-06 17:05:36.475 (   0.230s) [main thread     ]             Shader.cpp:129      0| Compile Geometry shader
+2024-04-06 17:05:36.476 (   0.231s) [main thread     ]             Shader.cpp:133      0| Link shader program
+2024-04-06 17:05:36.477 (   0.232s) [main thread     ]             Shader.cpp:112      0| Start compiling shader in directory 'resources/shaders/': vertex=simple.vert, fragment=uniform_color.frag
+2024-04-06 17:05:36.478 (   0.233s) [main thread     ]             Shader.cpp:115      0| Load Vertex shader
+2024-04-06 17:05:36.479 (   0.234s) [main thread     ]             Shader.cpp:117      0| Compile Vertex shader
+2024-04-06 17:05:36.480 (   0.235s) [main thread     ]             Shader.cpp:120      0| Load Fragment shader
+2024-04-06 17:05:36.484 (   0.239s) [main thread     ]             Shader.cpp:122      0| Compile Fragment shader
+2024-04-06 17:05:36.484 (   0.239s) [main thread     ]             Shader.cpp:133      0| Link shader program
+2024-04-06 17:05:36.485 (   0.240s) [main thread     ]           Renderer.cpp:75       0| Create rectangle for future rendering
+2024-04-06 17:05:36.485 (   0.241s) [main thread     ]           Renderer.cpp:99       0| Create Uniform buffer
+2024-04-06 17:05:36.486 (   0.241s) [main thread     ]           Renderer.cpp:107      0| Bind Uniform buffer to shaders
+2024-04-06 17:05:36.487 (   0.242s) [main thread     ]               main.cpp:141      0| Create GUI controller
+2024-04-06 17:05:36.511 (   0.266s) [main thread     ]               main.cpp:149      0| Create network protocol handler: working with JSON protocol
+2024-04-06 17:05:36.511 (   0.266s) [main thread     ]               main.cpp:154      0| Start networking thread
+2024-04-06 17:05:36.512 (   0.267s) [main thread     ]               main.cpp:167      0| Start render loop
+2024-04-06 17:05:36.513 (   0.268s) [                ]        NetListener.cpp:34       0| NetClient:: Start listening
+2024-04-06 17:05:42.798 (   6.554s) [                ]        NetListener.cpp:48       0| NetListener:: Got connection from 127.0.0.1:47587
+2024-04-06 17:05:42.801 (   6.556s) [                ]       ProtoHandler.cpp:64    WARN| Incorrect layer id 0, should be in range 1-10. Will use 1 instead
+2024-04-06 17:11:21.830 ( 345.585s) [                ]        NetListener.cpp:34       0| NetClient:: Start listening
+2024-04-06 17:49:50.238 (2653.993s) [                ]        NetListener.cpp:48       0| NetListener:: Got connection from 127.0.0.1:58358
+2024-04-06 17:49:50.249 (2654.004s) [                ]       ProtoHandler.cpp:64    WARN| Incorrect layer id 0, should be in range 1-10. Will use 1 instead
+2024-04-06 17:49:57.804 (2661.559s) [                ]        NetListener.cpp:34       0| NetClient:: Start listening
+2024-04-06 17:51:07.298 (2731.054s) [                ]        NetListener.cpp:48       0| NetListener:: Got connection from 127.0.0.1:22519
+2024-04-06 17:51:07.301 (2731.056s) [                ]       ProtoHandler.cpp:64    WARN| Incorrect layer id 0, should be in range 1-10. Will use 1 instead
+2024-04-06 17:51:48.047 (2771.802s) [                ]        NetListener.cpp:34       0| NetClient:: Start listening
+2024-04-06 17:52:57.159 (2840.914s) [                ]        NetListener.cpp:48       0| NetListener:: Got connection from 127.0.0.1:1272
+2024-04-06 17:52:57.162 (2840.917s) [                ]       ProtoHandler.cpp:64    WARN| Incorrect layer id 0, should be in range 1-10. Will use 1 instead
+2024-04-06 17:54:59.075 (2962.830s) [                ]        NetListener.cpp:34       0| NetClient:: Start listening
+2024-04-06 18:22:08.188 (4591.943s) [                ]        NetListener.cpp:48       0| NetListener:: Got connection from 127.0.0.1:14278
+2024-04-06 18:22:08.191 (4591.946s) [                ]       ProtoHandler.cpp:64    WARN| Incorrect layer id 0, should be in range 1-10. Will use 1 instead
+2024-04-06 18:22:20.260 (4604.015s) [                ]        NetListener.cpp:34       0| NetClient:: Start listening
+2024-04-06 18:22:43.159 (4626.914s) [                ]        NetListener.cpp:48       0| NetListener:: Got connection from 127.0.0.1:27078
+2024-04-06 18:22:43.161 (4626.916s) [                ]       ProtoHandler.cpp:64    WARN| Incorrect layer id 0, should be in range 1-10. Will use 1 instead
+2024-04-06 18:23:14.266 (4658.021s) [                ]        NetListener.cpp:34       0| NetClient:: Start listening
+2024-04-06 18:24:32.991 (4736.746s) [                ]        NetListener.cpp:48       0| NetListener:: Got connection from 127.0.0.1:2503
+2024-04-06 18:24:32.993 (4736.748s) [                ]       ProtoHandler.cpp:64    WARN| Incorrect layer id 0, should be in range 1-10. Will use 1 instead
+2024-04-06 18:26:01.661 (4825.416s) [                ]        NetListener.cpp:34       0| NetClient:: Start listening

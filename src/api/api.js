@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { configDotenv } from 'dotenv'
+import { Log } from '../log/log.js'
 
 configDotenv()
 if (!process.env.TOKEN) throw new Error("Set TOKEN in .env")
@@ -87,6 +88,8 @@ export class Api {
     this.base = 'https://datsedenspace.datsteam.dev'
   }
 
+  log = new Log('api-' + Date.now().toString(36))
+
   headers() {
     return {
       "X-Auth-Token": process.env.TOKEN,
@@ -111,6 +114,9 @@ export class Api {
 
     do {
       try {
+        this.log.addToLog({
+          method, path, data
+        })
         response = await axios({
           method,
           headers: this.headers(),
@@ -123,13 +129,23 @@ export class Api {
           // Less Than Three
           await (new Promise(r => setTimeout(r, 500)))
         } else if(axios.isAxiosError(err) && err.response?.status === 400) {
+          this.log.addToLog({
+            error: err?.response?.data,
+          })
           return err.response
         } else {
           console.error('=================== WARNING =======================')
           console.error(err)
+          this.log.addToLog({
+            error: err?.stack ?? JSON.stringify(err),
+          })
         }
       }
     } while (response?.status !== 200)
+
+    this.log.addToLog({
+      res: response.data
+    })
 
     return response
   }

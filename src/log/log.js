@@ -15,7 +15,7 @@ export class Log {
     addToLog(json) {
         try {
             fs.appendFileSync(this.filePath, JSON.stringify(json) + '\n');
-            console.log(`Added to log: ${JSON.stringify(json)}`);
+            // console.log(`Added to log: ${JSON.stringify(json)}`);
         } catch (error) {
             console.error(`Error writing to log file: ${error.message}`);
         }
@@ -32,9 +32,47 @@ export class Log {
             return []; // В случае ошибки возвращаем пустой массив
         }
     }
+
+    /**
+     * 
+     * @param {string} name 
+     * @param {Object} json
+     */
+    static saveJSON(name, json) {
+      const fileName = `${name}.json`;
+      // Преобразуем URL в путь, корректный для Windows
+      const dirName = fileURLToPath(new URL('.', import.meta.url));
+      const filePath = path.join(dirName, fileName);
+      fs.writeFileSync(filePath, JSON.stringify(json, null, 2));
+    }
+
+    /**
+     * 
+     * @param {string} name 
+     */
+    static loadJSON(name) {
+      try {
+        const fileName = `${name}.json`;
+        // Преобразуем URL в путь, корректный для Windows
+        const dirName = fileURLToPath(new URL('.', import.meta.url));
+        const filePath = path.join(dirName, fileName);
+        const data = fs.readFileSync(filePath, { encoding: 'utf-8' });
+        const json = JSON.parse(data)
+        return json
+      } catch(err) {
+        console.error('log: Open json error')
+        return null
+      }
+    }
 }
 
 // // Пример использования
 // const logger = new Logger('example');
 // logger.addToLog({ message: 'Hello, world!' });
 // logger.addToLog({ message: 'Another message' });
+
+// Log.saveJSON('hui', { na: { hu: 'й' } })
+// console.log('loaded', Log.loadJSON('hui'))
+
+// Log.saveJSON('hui', { na: { hu: 'й ииии' } })
+console.log('updated', Log.loadJSON('hui1'))

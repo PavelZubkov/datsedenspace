@@ -7,8 +7,7 @@ import { Figure } from './collector/figure.js'
 import { Navigator } from './navigator.js'
 
 export class Bot {
-  api = new Api
-  log = new Log(Date.now().toString(36))
+  api = new Api 
 
   /** @type {import('../api/api.js').Player} */
   player
@@ -29,6 +28,38 @@ export class Bot {
 
   /**
    * 
+   * @param {string} planet 
+   * @param {boolean} [next] 
+   */
+  setPlanetCleared(planet, next) {
+    if (next === undefined) {
+      return this.planetCleared.get(planet)
+    }
+
+    Log.saveJSON('planetCleared', [...this.planetCleared.entries()])
+
+    this.planetCleared.set(planet, next)
+    return next
+  }
+
+  /**
+   * 
+   * @param {string} planet 
+   * @param {boolean} [next] 
+   */
+  setPlanetEmpty(planet, next) {
+    if (next === undefined) {
+      return this.planetEmpty.get(planet)
+    }
+
+    Log.saveJSON('planetEmpty', [...this.planetEmpty.entries()])
+
+    this.planetEmpty.set(planet, next)
+    return next
+  }
+
+  /**
+   * 
    * @param {string[]} path 
    */
   async travel(path) {
@@ -38,7 +69,7 @@ export class Bot {
     }
     const planetName = path.at(-1) ?? ''
     const planetData = await this.api.travelToPlanet({ planets: path })
-    const garbageCount = Object.keys(planetData.planetGarbage).length
+    const garbageCount = Object.keys(planetData?.planetGarbage ?? {}).length
 
     console.log(`travel: ${planetName} garbage=${garbageCount} ship=${this.box.getGarbagePlacedCount()}`)
     this.planetCurrent = planetName
@@ -48,13 +79,18 @@ export class Bot {
     }
 
     if (!garbageCount) {
-      this.planetEmpty.set(planetName, true)
+      this.setPlanetEmpty(planetName, true)
+    } else {
+      this.planetGarbage.set(planetName, planetData.planetGarbage)
     }
 
     return garbageCount
   }
 
   async init() {
+    this.planetCleared = new Map(Log.loadJSON('planetCleared') ?? [])
+    this.planetEmpty = new Map(Log.loadJSON('planetEmpty') ?? [])
+
     this.player = await this.api.getPlayerUniverse()
     console.log('init:', JSON.stringify(this.player, null, 2))
 
@@ -67,28 +103,28 @@ export class Bot {
       this.navigator.init(this.player.universe)
     }
 
-    this.planetEmpty.set('Earth', true)
+    this.setPlanetEmpty('Earth', true)
     const pathToEden = this.navigator.findPath(this.planetCurrent, 'Eden')
     await this.travel(pathToEden)
   }
 
   async collect() {
+    if (this.planetCurrent === 'Eden') {
+      console.log(`collect: Не надо собирать мусор на Eden`)
+      return false
+    }
+
     const garbageKnown = this.planetGarbage.get(this.planetCurrent)
 
     if (!garbageKnown) {
       console.log(`collect: Нет мусора! Похоже мы потеряли информацию об этой планете`)
-      this.planetEmpty.set(this.planetCurrent, true)
+      this.setPlanetEmpty(this.planetCurrent, true)
       return false
     }
 
     if (Object.keys(garbageKnown).length === 0) {
       console.log('collect: Нет мусора! Наши данные не соответствовали действительности')
-      this.planetEmpty.set(this.planetCurrent, true)
-      return false
-    }
-
-    if (this.planetCurrent === 'Eden') {
-      console.log(`collect: Не надо собирать мусор на Eden`)
+      this.setPlanetEmpty(this.planetCurrent, true)
       return false
     }
 
@@ -130,7 +166,7 @@ export class Bot {
     if (error) {
       const neighbor = this.navigator.getNeighborPlanets(this.planetCurrent)
       for (const name of neighbor) {
-        if (!this.planetCleared.get(name)) this.planetEmpty.set(name, true)
+        if (!this.planetCleared.get(name)) this.setPlanetEmpty(name, true) // this.planetEmpty.set(name, true)
         // reset garbage?
       }
       console.log('collect: Загрузка провалилась - ' + error)
@@ -138,8 +174,8 @@ export class Bot {
     }
 
     if (leaved?.length === 0) {
-      this.planetCleared.set(this.planetCurrent, true)
-      this.planetEmpty.set(this.planetCurrent, true)
+      this.setPlanetCleared(this.planetCurrent, true)
+      this.setPlanetEmpty(this.planetCurrent, true)
       this.planetGarbage.set(this.planetCurrent, {})
       console.log('collect: Очищено!')
     } else {
@@ -147,7 +183,7 @@ export class Bot {
       console.log(`collect: Осталось ${leaved.length} ${Object.keys(myLeaved).length}`)
     }
 
-    return box.loading() > 80
+    return box.loading() > 90
   }
 
   async goToNext(needToEden = true) {

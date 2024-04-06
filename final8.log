@@ -1,0 +1,4919 @@
+
+Nou Sagi@DESKTOP-092CICL MINGW64 ~/Desktop/datsedenspace (master)
+$ node ./src/bot/bot.js
+BOT started
+Connected to server
+init: {
+  "name": "Что-то фотонное",
+  "roundName": "Final 8",
+  "roundEndIn": 308,
+  "ship": {
+    "fuelUsed": 0,
+    "planet": {
+      "name": "Earth",
+      "garbage": {}
+    },
+    "capacityX": 8,
+    "capacityY": 11,
+    "garbage": {}
+  },
+  "universe": [
+    [
+      "Earth",
+      "Orn",
+      44
+    ],
+    [
+      "Earth",
+      "BermudasCrawler",
+      80
+    ],
+    [
+      "Orn",
+      "Earth",
+      3
+    ],
+    [
+      "Orn",
+      "Bruen",
+      79
+    ],
+    [
+      "BermudasCrawler",
+      "Earth",
+      80
+    ],
+    [
+      "BermudasCrawler",
+      "Hettinger",
+      60
+    ],
+    [
+      "BermudasCrawler",
+      "9KXB300Y0",
+      52
+    ],
+    [
+      "BermudasCrawler",
+      "I8KOVD7V3",
+      70
+    ],
+    [
+      "Bruen",
+      "Orn",
+      62
+    ],
+    [
+      "Bruen",
+      "ExuberantTiger",
+      59
+    ],
+    [
+      "Hettinger",
+      "BermudasCrawler",
+      49
+    ],
+    [
+      "Hettinger",
+      "8Z8NGMGM7",
+      50
+    ],
+    [
+      "Hettinger",
+      "LungWaiter6",
+      55
+    ],
+    [
+      "9KXB300Y0",
+      "PanickedWatch",
+      12
+    ],
+    [
+      "9KXB300Y0",
+      "Larson",
+      50
+    ],
+    [
+      "9KXB300Y0",
+      "RambutanFine",
+      72
+    ],
+    [
+      "I8KOVD7V3",
+      "Bashirian-284",
+      25
+    ],
+    [
+      "I8KOVD7V3",
+      "F51OLWSQ0",
+      85
+    ],
+    [
+      "I8KOVD7V3",
+      "Franecki-107",
+      52
+    ],
+    [
+      "ExuberantTiger",
+      "Bruen",
+      69
+    ],
+    [
+      "ExuberantTiger",
+      "7VY8G06B4",
+      90
+    ],
+    [
+      "ExuberantTiger",
+      "T2P1TS1J2",
+      68
+    ],
+    [
+      "ExuberantTiger",
+      "7X3PP57R9",
+      97
+    ],
+    [
+      "8Z8NGMGM7",
+      "Hettinger",
+      83
+    ],
+    [
+      "8Z8NGMGM7",
+      "Tremblay",
+      81
+    ],
+    [
+      "LungWaiter6",
+      "EvilGoat",
+      62
+    ],
+    [
+      "PanickedWatch",
+      "9KXB300Y0",
+      55
+    ],
+    [
+      "PanickedWatch",
+      "ApricotPoised9",
+      39
+    ],
+    [
+      "PanickedWatch",
+      "Gerlach",
+      88
+    ],
+    [
+      "Larson",
+      "Oberbrunner",
+      93
+    ],
+    [
+      "Larson",
+      "HZATX7BT5",
+      3
+    ],
+    [
+      "RambutanFine",
+      "9KXB300Y0",
+      74
+    ],
+    [
+      "RambutanFine",
+      "Nitzsche-2",
+      29
+    ],
+    [
+      "RambutanFine",
+      "Zieme",
+      42
+    ],
+    [
+      "RambutanFine",
+      "RJYS4UZJ3",
+      95
+    ],
+    [
+      "Bashirian-284",
+      "I8KOVD7V3",
+      95
+    ],
+    [
+      "Bashirian-284",
+      "LemonBlack",
+      22
+    ],
+    [
+      "Bashirian-284",
+      "Jerde",
+      35
+    ],
+    [
+      "F51OLWSQ0",
+      "P0X83T1N3",
+      72
+    ],
+    [
+      "F51OLWSQ0",
+      "Quigley",
+      50
+    ],
+    [
+      "F51OLWSQ0",
+      "Schulist-299",
+      64
+    ],
+    [
+      "Franecki-107",
+      "OFYDSWZ81",
+      11
+    ],
+    [
+      "7VY8G06B4",
+      "ExuberantTiger",
+      67
+    ],
+    [
+      "7VY8G06B4",
+      "Kassulke-227",
+      3
+    ],
+    [
+      "7VY8G06B4",
+      "IKPMZKNH8",
+      73
+    ],
+    [
+      "T2P1TS1J2",
+      "Z4D1P23M6",
+      60
+    ],
+    [
+      "T2P1TS1J2",
+      "Stiedemann-296",
+      34
+    ],
+    [
+      "7X3PP57R9",
+      "Hessel",
+      81
+    ],
+    [
+      "7X3PP57R9",
+      "Ruecker",
+      77
+    ],
+    [
+      "7X3PP57R9",
+      "Erdman-126",
+      63
+    ],
+    [
+      "Tremblay",
+      "8Z8NGMGM7",
+      56
+    ],
+    [
+      "Tremblay",
+      "Runte",
+      69
+    ],
+    [
+      "EvilGoat",
+      "LungWaiter6",
+      59
+    ],
+    [
+      "EvilGoat",
+      "M4G20V5H7",
+      88
+    ],
+    [
+      "ApricotPoised9",
+      "PanickedWatch",
+      7
+    ],
+    [
+      "ApricotPoised9",
+      "SF6TPI3P4",
+      94
+    ],
+    [
+      "Gerlach",
+      "Ondricka",
+      41
+    ],
+    [
+      "Gerlach",
+      "HorseClaper",
+      17
+    ],
+    [
+      "Oberbrunner",
+      "Larson",
+      11
+    ],
+    [
+      "Oberbrunner",
+      "Wuckert",
+      62
+    ],
+    [
+      "Oberbrunner",
+      "4WV8CLVC6",
+      61
+    ],
+    [
+      "Oberbrunner",
+      "Gerhold",
+      86
+    ],
+    [
+      "HZATX7BT5",
+      "Larson",
+      60
+    ],
+    [
+      "HZATX7BT5",
+      "ZebraWatcher",
+      68
+    ],
+    [
+      "HZATX7BT5",
+      "Pollich-202",
+      63
+    ],
+    [
+      "Nitzsche-2",
+      "RambutanFine",
+      86
+    ],
+    [
+      "Nitzsche-2",
+      "Wyman",
+      63
+    ],
+    [
+      "Zieme",
+      "RambutanFine",
+      44
+    ],
+    [
+      "Zieme",
+      "P4QL7WFT5",
+      3
+    ],
+    [
+      "Zieme",
+      "Hackett",
+      21
+    ],
+    [
+      "RJYS4UZJ3",
+      "Lang",
+      35
+    ],
+    [
+      "RJYS4UZJ3",
+      "Nikolaus",
+      41
+    ],
+    [
+      "RJYS4UZJ3",
+      "Padberg",
+      80
+    ],
+    [
+      "LemonBlack",
+      "Bashirian-284",
+      25
+    ],
+    [
+      "LemonBlack",
+      "Kautzer",
+      40
+    ],
+    [
+      "LemonBlack",
+      "TastyApro",
+      61
+    ],
+    [
+      "Jerde",
+      "Marvin-251",
+      4
+    ],
+    [
+      "Jerde",
+      "Zulauf",
+      93
+    ],
+    [
+      "P0X83T1N3",
+      "F51OLWSQ0",
+      48
+    ],
+    [
+      "P0X83T1N3",
+      "DamsonFancy",
+      19
+    ],
+    [
+      "P0X83T1N3",
+      "Yost-276",
+      41
+    ],
+    [
+      "P0X83T1N3",
+      "Haag-291",
+      37
+    ],
+    [
+      "Quigley",
+      "SillyCheese197",
+      28
+    ],
+    [
+      "Schulist-299",
+      "MonkeyThinker1",
+      38
+    ],
+    [
+      "Schulist-299",
+      "Goodwin",
+      92
+    ],
+    [
+      "Schulist-299",
+      "I3XU3HLY6",
+      6
+    ],
+    [
+      "OFYDSWZ81",
+      "Franecki-107",
+      47
+    ],
+    [
+      "OFYDSWZ81",
+      "Gusikowski",
+      39
+    ],
+    [
+      "OFYDSWZ81",
+      "PomegranateEnergetic940",
+      13
+    ],
+    [
+      "OFYDSWZ81",
+      "RockMelonFrantic",
+      53
+    ],
+    [
+      "Kassulke-227",
+      "7VY8G06B4",
+      67
+    ],
+    [
+      "Kassulke-227",
+      "G2O32LU71",
+      83
+    ],
+    [
+      "IKPMZKNH8",
+      "Ferry",
+      69
+    ],
+    [
+      "IKPMZKNH8",
+      "Schultz",
+      26
+    ],
+    [
+      "IKPMZKNH8",
+      "Gislason",
+      13
+    ],
+    [
+      "Z4D1P23M6",
+      "T2P1TS1J2",
+      70
+    ],
+    [
+      "Z4D1P23M6",
+      "BlackcurrantNice",
+      24
+    ],
+    [
+      "Z4D1P23M6",
+      "6TQHJYUQ2",
+      8
+    ],
+    [
+      "Z4D1P23M6",
+      "Boyle",
+      27
+    ],
+    [
+      "Stiedemann-296",
+      "6N5WAIFO1",
+      15
+    ],
+    [
+      "Stiedemann-296",
+      "Pfeffer",
+      26
+    ],
+    [
+      "Hessel",
+      "7X3PP57R9",
+      79
+    ],
+    [
+      "Hessel",
+      "Damore-50",
+      20
+    ],
+    [
+      "Ruecker",
+      "7X3PP57R9",
+      10
+    ],
+    [
+      "Ruecker",
+      "BraveWrist",
+      70
+    ],
+    [
+      "Erdman-126",
+      "7X3PP57R9",
+      84
+    ],
+    [
+      "Erdman-126",
+      "IIS1H9R61",
+      37
+    ],
+    [
+      "Erdman-126",
+      "NICLOHUP6",
+      25
+    ],
+    [
+      "Runte",
+      "Tremblay",
+      34
+    ],
+    [
+      "Runte",
+      "Windler",
+      94
+    ],
+    [
+      "Runte",
+      "TiredHerring81",
+      49
+    ],
+    [
+      "Runte",
+      "LimeUnusual",
+      14
+    ],
+    [
+      "M4G20V5H7",
+      "EvilGoat",
+      41
+    ],
+    [
+      "M4G20V5H7",
+      "Torp",
+      36
+    ],
+    [
+      "M4G20V5H7",
+      "J90ZI2R36",
+      32
+    ],
+    [
+      "SF6TPI3P4",
+      "ApricotPoised9",
+      78
+    ],
+    [
+      "SF6TPI3P4",
+      "CCPS4D1P5",
+      69
+    ],
+    [
+      "Ondricka",
+      "Gerlach",
+      97
+    ],
+    [
+      "Ondricka",
+      "BlushingVilla785",
+      76
+    ],
+    [
+      "Ondricka",
+      "AnxiousLeggings",
+      64
+    ],
+    [
+      "Ondricka",
+      "CardiganClaper4",
+      58
+    ],
+    [
+      "HorseClaper",
+      "Gerlach",
+      5
+    ],
+    [
+      "HorseClaper",
+      "IXS2G0RG4",
+      60
+    ],
+    [
+      "Wuckert",
+      "Oberbrunner",
+      94
+    ],
+    [
+      "Wuckert",
+      "LovelyGorilla",
+      87
+    ],
+    [
+      "4WV8CLVC6",
+      "ChairDrinker",
+      21
+    ],
+    [
+      "Gerhold",
+      "UmbrellaWriteer",
+      9
+    ],
+    [
+      "Gerhold",
+      "Runolfsson",
+      2
+    ],
+    [
+      "Gerhold",
+      "Johnston-36",
+      41
+    ],
+    [
+      "ZebraWatcher",
+      "HZATX7BT5",
+      91
+    ],
+    [
+      "ZebraWatcher",
+      "Eden",
+      91
+    ],
+    [
+      "Pollich-202",
+      "HZATX7BT5",
+      22
+    ],
+    [
+      "Wyman",
+      "Nitzsche-2",
+      54
+    ],
+    [
+      "P4QL7WFT5",
+      "Zieme",
+      72
+    ],
+    [
+      "P4QL7WFT5",
+      "Hackett",
+      91
+    ],
+    [
+      "Hackett",
+      "Bruen",
+      84
+    ],
+    [
+      "Lang",
+      "RJYS4UZJ3",
+      16
+    ],
+    [
+      "Lang",
+      "Nikolaus",
+      69
+    ],
+    [
+      "Nikolaus",
+      "RJYS4UZJ3",
+      28
+    ],
+    [
+      "Nikolaus",
+      "Padberg",
+      69
+    ],
+    [
+      "Padberg",
+      "RJYS4UZJ3",
+      33
+    ],
+    [
+      "Padberg",
+      "Earth",
+      73
+    ],
+    [
+      "Kautzer",
+      "LemonBlack",
+      51
+    ],
+    [
+      "Kautzer",
+      "TastyApro",
+      96
+    ],
+    [
+      "TastyApro",
+      "Earth",
+      80
+    ],
+    [
+      "Marvin-251",
+      "Jerde",
+      70
+    ],
+    [
+      "Marvin-251",
+      "Zulauf",
+      35
+    ],
+    [
+      "Zulauf",
+      "Windler",
+      3
+    ],
+    [
+      "DamsonFancy",
+      "P0X83T1N3",
+      77
+    ],
+    [
+      "DamsonFancy",
+      "Yost-276",
+      80
+    ],
+    [
+      "Yost-276",
+      "P0X83T1N3",
+      99
+    ],
+    [
+      "Yost-276",
+      "Haag-291",
+      89
+    ],
+    [
+      "Haag-291",
+      "P0X83T1N3",
+      8
+    ],
+    [
+      "Haag-291",
+      "ExuberantTiger",
+      54
+    ],
+    [
+      "SillyCheese197",
+      "Quigley",
+      27
+    ],
+    [
+      "SillyCheese197",
+      "Hettinger",
+      91
+    ],
+    [
+      "MonkeyThinker1",
+      "Schulist-299",
+      65
+    ],
+    [
+      "MonkeyThinker1",
+      "Goodwin",
+      2
+    ],
+    [
+      "Goodwin",
+      "I3XU3HLY6",
+      57
+    ],
+    [
+      "I3XU3HLY6",
+      "Schulist-299",
+      25
+    ],
+    [
+      "I3XU3HLY6",
+      "Bruen",
+      13
+    ],
+    [
+      "Gusikowski",
+      "OFYDSWZ81",
+      73
+    ],
+    [
+      "Gusikowski",
+      "PomegranateEnergetic940",
+      37
+    ],
+    [
+      "PomegranateEnergetic940",
+      "RockMelonFrantic",
+      69
+    ],
+    [
+      "RockMelonFrantic",
+      "BermudasCrawler",
+      63
+    ],
+    [
+      "G2O32LU71",
+      "Kassulke-227",
+      48
+    ],
+    [
+      "Ferry",
+      "IKPMZKNH8",
+      37
+    ],
+    [
+      "Ferry",
+      "Schultz",
+      45
+    ],
+    [
+      "Schultz",
+      "IKPMZKNH8",
+      51
+    ],
+    [
+      "Schultz",
+      "Gislason",
+      93
+    ],
+    [
+      "Gislason",
+      "IKPMZKNH8",
+      96
+    ],
+    [
+      "Gislason",
+      "LimeUnusual",
+      64
+    ],
+    [
+      "BlackcurrantNice",
+      "Z4D1P23M6",
+      61
+    ],
+    [
+      "BlackcurrantNice",
+      "6TQHJYUQ2",
+      41
+    ],
+    [
+      "6TQHJYUQ2",
+      "Boyle",
+      96
+    ],
+    [
+      "Boyle",
+      "TiredHerring81",
+      84
+    ],
+    [
+      "6N5WAIFO1",
+      "Stiedemann-296",
+      37
+    ],
+    [
+      "6N5WAIFO1",
+      "Pfeffer",
+      80
+    ],
+    [
+      "Pfeffer",
+      "ExuberantTiger",
+      59
+    ],
+    [
+      "Damore-50",
+      "Hessel",
+      97
+    ],
+    [
+      "BraveWrist",
+      "Ruecker",
+      83
+    ],
+    [
+      "BraveWrist",
+      "Bruen",
+      98
+    ],
+    [
+      "IIS1H9R61",
+      "Erdman-126",
+      10
+    ],
+    [
+      "IIS1H9R61",
+      "NICLOHUP6",
+      84
+    ],
+    [
+      "NICLOHUP6",
+      "Windler",
+      31
+    ],
+    [
+      "Windler",
+      "Runte",
+      12
+    ],
+    [
+      "Windler",
+      "TiredHerring81",
+      7
+    ],
+    [
+      "TiredHerring81",
+      "Runte",
+      72
+    ],
+    [
+      "TiredHerring81",
+      "LimeUnusual",
+      25
+    ],
+    [
+      "LimeUnusual",
+      "Runte",
+      24
+    ],
+    [
+      "Torp",
+      "M4G20V5H7",
+      81
+    ],
+    [
+      "Torp",
+      "J90ZI2R36",
+      95
+    ],
+    [
+      "J90ZI2R36",
+      "Hettinger",
+      66
+    ],
+    [
+      "CCPS4D1P5",
+      "SF6TPI3P4",
+      29
+    ],
+    [
+      "CCPS4D1P5",
+      "Runte",
+      63
+    ],
+    [
+      "BlushingVilla785",
+      "Ondricka",
+      7
+    ],
+    [
+      "BlushingVilla785",
+      "AnxiousLeggings",
+      31
+    ],
+    [
+      "AnxiousLeggings",
+      "Ondricka",
+      9
+    ],
+    [
+      "AnxiousLeggings",
+      "CardiganClaper4",
+      25
+    ],
+    [
+      "CardiganClaper4",
+      "G2O32LU71",
+      24
+    ],
+    [
+      "IXS2G0RG4",
+      "HorseClaper",
+      79
+    ],
+    [
+      "LovelyGorilla",
+      "Wuckert",
+      46
+    ],
+    [
+      "ChairDrinker",
+      "4WV8CLVC6",
+      32
+    ],
+    [
+      "ChairDrinker",
+      "TiredHerring81",
+      32
+    ],
+    [
+      "UmbrellaWriteer",
+      "Gerhold",
+      5
+    ],
+    [
+      "UmbrellaWriteer",
+      "Runolfsson",
+      85
+    ],
+    [
+      "Runolfsson",
+      "Johnston-36",
+      11
+    ],
+    [
+      "Johnston-36",
+      "Runte",
+      61
+    ],
+    [
+      "Eden",
+      "ZebraWatcher",
+      2
+    ]
+  ],
+  "attempt": 1
+}
+travel: Eden garbage=0 ship=0
+tick: start
+travel: RockMelonFrantic garbage=26 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Nikolaus garbage=27 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Wyman garbage=25 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: SF6TPI3P4 garbage=24 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: TiredHerring81 garbage=24 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: 6N5WAIFO1 garbage=25 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Hessel garbage=27 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Gerhold garbage=23 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Franecki-107 garbage=25 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: OFYDSWZ81 garbage=52 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: F51OLWSQ0 garbage=25 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Pollich-202 garbage=26 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: UmbrellaWriteer garbage=34 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: LemonBlack garbage=26 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: 7X3PP57R9 garbage=45 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Runolfsson garbage=46 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: RambutanFine garbage=25 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Erdman-126 garbage=40 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: BlackcurrantNice garbage=25 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Ruecker garbage=39 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: SillyCheese197 garbage=24 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: NICLOHUP6 garbage=45 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Oberbrunner garbage=27 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Gerlach garbage=23 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Ondricka garbage=37 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: PanickedWatch garbage=25 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: CardiganClaper4 garbage=32 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: CCPS4D1P5 garbage=42 ship=0
+
+Nou Sagi@DESKTOP-092CICL MINGW64 ~/Desktop/datsedenspace (master)
+$ node ./src/bot/bot.js
+BOT started
+Connected to server
+init: {
+  "name": "Что-то фотонное",
+  "roundName": "Final 8",
+  "roundEndIn": 231,
+  "ship": {
+    "fuelUsed": 18243,
+    "planet": {
+      "name": "ApricotPoised9",
+      "garbage": {}
+    },
+    "capacityX": 8,
+    "capacityY": 11,
+    "garbage": {}
+  },
+  "universe": [
+    [
+      "Earth",
+      "Orn",
+      74
+    ],
+    [
+      "Earth",
+      "BermudasCrawler",
+      130
+    ],
+    [
+      "Orn",
+      "Earth",
+      33
+    ],
+    [
+      "Orn",
+      "Bruen",
+      109
+    ],
+    [
+      "BermudasCrawler",
+      "Earth",
+      100
+    ],
+    [
+      "BermudasCrawler",
+      "Hettinger",
+      60
+    ],
+    [
+      "BermudasCrawler",
+      "9KXB300Y0",
+      172
+    ],
+    [
+      "BermudasCrawler",
+      "I8KOVD7V3",
+      120
+    ],
+    [
+      "Bruen",
+      "Orn",
+      92
+    ],
+    [
+      "Bruen",
+      "ExuberantTiger",
+      119
+    ],
+    [
+      "Hettinger",
+      "BermudasCrawler",
+      169
+    ],
+    [
+      "Hettinger",
+      "8Z8NGMGM7",
+      50
+    ],
+    [
+      "Hettinger",
+      "LungWaiter6",
+      55
+    ],
+    [
+      "9KXB300Y0",
+      "PanickedWatch",
+      62
+    ],
+    [
+      "9KXB300Y0",
+      "Larson",
+      100
+    ],
+    [
+      "9KXB300Y0",
+      "RambutanFine",
+      112
+    ],
+    [
+      "I8KOVD7V3",
+      "Bashirian-284",
+      35
+    ],
+    [
+      "I8KOVD7V3",
+      "F51OLWSQ0",
+      105
+    ],
+    [
+      "I8KOVD7V3",
+      "Franecki-107",
+      72
+    ],
+    [
+      "ExuberantTiger",
+      "Bruen",
+      89
+    ],
+    [
+      "ExuberantTiger",
+      "7VY8G06B4",
+      90
+    ],
+    [
+      "ExuberantTiger",
+      "T2P1TS1J2",
+      98
+    ],
+    [
+      "ExuberantTiger",
+      "7X3PP57R9",
+      147
+    ],
+    [
+      "8Z8NGMGM7",
+      "Hettinger",
+      183
+    ],
+    [
+      "8Z8NGMGM7",
+      "Tremblay",
+      81
+    ],
+    [
+      "LungWaiter6",
+      "EvilGoat",
+      62
+    ],
+    [
+      "PanickedWatch",
+      "9KXB300Y0",
+      65
+    ],
+    [
+      "PanickedWatch",
+      "ApricotPoised9",
+      69
+    ],
+    [
+      "PanickedWatch",
+      "Gerlach",
+      108
+    ],
+    [
+      "Larson",
+      "Oberbrunner",
+      143
+    ],
+    [
+      "Larson",
+      "HZATX7BT5",
+      23
+    ],
+    [
+      "RambutanFine",
+      "9KXB300Y0",
+      84
+    ],
+    [
+      "RambutanFine",
+      "Nitzsche-2",
+      39
+    ],
+    [
+      "RambutanFine",
+      "Zieme",
+      62
+    ],
+    [
+      "RambutanFine",
+      "RJYS4UZJ3",
+      105
+    ],
+    [
+      "Bashirian-284",
+      "I8KOVD7V3",
+      95
+    ],
+    [
+      "Bashirian-284",
+      "LemonBlack",
+      32
+    ],
+    [
+      "Bashirian-284",
+      "Jerde",
+      35
+    ],
+    [
+      "F51OLWSQ0",
+      "P0X83T1N3",
+      72
+    ],
+    [
+      "F51OLWSQ0",
+      "Quigley",
+      70
+    ],
+    [
+      "F51OLWSQ0",
+      "Schulist-299",
+      64
+    ],
+    [
+      "Franecki-107",
+      "OFYDSWZ81",
+      31
+    ],
+    [
+      "7VY8G06B4",
+      "ExuberantTiger",
+      87
+    ],
+    [
+      "7VY8G06B4",
+      "Kassulke-227",
+      3
+    ],
+    [
+      "7VY8G06B4",
+      "IKPMZKNH8",
+      73
+    ],
+    [
+      "T2P1TS1J2",
+      "Z4D1P23M6",
+      80
+    ],
+    [
+      "T2P1TS1J2",
+      "Stiedemann-296",
+      54
+    ],
+    [
+      "7X3PP57R9",
+      "Hessel",
+      91
+    ],
+    [
+      "7X3PP57R9",
+      "Ruecker",
+      97
+    ],
+    [
+      "7X3PP57R9",
+      "Erdman-126",
+      103
+    ],
+    [
+      "Tremblay",
+      "8Z8NGMGM7",
+      156
+    ],
+    [
+      "Tremblay",
+      "Runte",
+      69
+    ],
+    [
+      "EvilGoat",
+      "LungWaiter6",
+      59
+    ],
+    [
+      "EvilGoat",
+      "M4G20V5H7",
+      88
+    ],
+    [
+      "ApricotPoised9",
+      "PanickedWatch",
+      17
+    ],
+    [
+      "ApricotPoised9",
+      "SF6TPI3P4",
+      114
+    ],
+    [
+      "Gerlach",
+      "Ondricka",
+      61
+    ],
+    [
+      "Gerlach",
+      "HorseClaper",
+      17
+    ],
+    [
+      "Oberbrunner",
+      "Larson",
+      11
+    ],
+    [
+      "Oberbrunner",
+      "Wuckert",
+      62
+    ],
+    [
+      "Oberbrunner",
+      "4WV8CLVC6",
+      61
+    ],
+    [
+      "Oberbrunner",
+      "Gerhold",
+      136
+    ],
+    [
+      "HZATX7BT5",
+      "Larson",
+      80
+    ],
+    [
+      "HZATX7BT5",
+      "ZebraWatcher",
+      78
+    ],
+    [
+      "HZATX7BT5",
+      "Pollich-202",
+      73
+    ],
+    [
+      "Nitzsche-2",
+      "RambutanFine",
+      96
+    ],
+    [
+      "Nitzsche-2",
+      "Wyman",
+      73
+    ],
+    [
+      "Zieme",
+      "RambutanFine",
+      44
+    ],
+    [
+      "Zieme",
+      "P4QL7WFT5",
+      3
+    ],
+    [
+      "Zieme",
+      "Hackett",
+      41
+    ],
+    [
+      "RJYS4UZJ3",
+      "Lang",
+      35
+    ],
+    [
+      "RJYS4UZJ3",
+      "Nikolaus",
+      51
+    ],
+    [
+      "RJYS4UZJ3",
+      "Padberg",
+      80
+    ],
+    [
+      "LemonBlack",
+      "Bashirian-284",
+      25
+    ],
+    [
+      "LemonBlack",
+      "Kautzer",
+      40
+    ],
+    [
+      "LemonBlack",
+      "TastyApro",
+      71
+    ],
+    [
+      "Jerde",
+      "Marvin-251",
+      4
+    ],
+    [
+      "Jerde",
+      "Zulauf",
+      93
+    ],
+    [
+      "P0X83T1N3",
+      "F51OLWSQ0",
+      48
+    ],
+    [
+      "P0X83T1N3",
+      "DamsonFancy",
+      19
+    ],
+    [
+      "P0X83T1N3",
+      "Yost-276",
+      41
+    ],
+    [
+      "P0X83T1N3",
+      "Haag-291",
+      37
+    ],
+    [
+      "Quigley",
+      "SillyCheese197",
+      48
+    ],
+    [
+      "Schulist-299",
+      "MonkeyThinker1",
+      38
+    ],
+    [
+      "Schulist-299",
+      "Goodwin",
+      92
+    ],
+    [
+      "Schulist-299",
+      "I3XU3HLY6",
+      6
+    ],
+    [
+      "OFYDSWZ81",
+      "Franecki-107",
+      47
+    ],
+    [
+      "OFYDSWZ81",
+      "Gusikowski",
+      39
+    ],
+    [
+      "OFYDSWZ81",
+      "PomegranateEnergetic940",
+      13
+    ],
+    [
+      "OFYDSWZ81",
+      "RockMelonFrantic",
+      73
+    ],
+    [
+      "Kassulke-227",
+      "7VY8G06B4",
+      87
+    ],
+    [
+      "Kassulke-227",
+      "G2O32LU71",
+      83
+    ],
+    [
+      "IKPMZKNH8",
+      "Ferry",
+      69
+    ],
+    [
+      "IKPMZKNH8",
+      "Schultz",
+      26
+    ],
+    [
+      "IKPMZKNH8",
+      "Gislason",
+      13
+    ],
+    [
+      "Z4D1P23M6",
+      "T2P1TS1J2",
+      80
+    ],
+    [
+      "Z4D1P23M6",
+      "BlackcurrantNice",
+      34
+    ],
+    [
+      "Z4D1P23M6",
+      "6TQHJYUQ2",
+      8
+    ],
+    [
+      "Z4D1P23M6",
+      "Boyle",
+      37
+    ],
+    [
+      "Stiedemann-296",
+      "6N5WAIFO1",
+      25
+    ],
+    [
+      "Stiedemann-296",
+      "Pfeffer",
+      46
+    ],
+    [
+      "Hessel",
+      "7X3PP57R9",
+      89
+    ],
+    [
+      "Hessel",
+      "Damore-50",
+      20
+    ],
+    [
+      "Ruecker",
+      "7X3PP57R9",
+      10
+    ],
+    [
+      "Ruecker",
+      "BraveWrist",
+      90
+    ],
+    [
+      "Erdman-126",
+      "7X3PP57R9",
+      94
+    ],
+    [
+      "Erdman-126",
+      "IIS1H9R61",
+      37
+    ],
+    [
+      "Erdman-126",
+      "NICLOHUP6",
+      55
+    ],
+    [
+      "Runte",
+      "Tremblay",
+      134
+    ],
+    [
+      "Runte",
+      "Windler",
+      94
+    ],
+    [
+      "Runte",
+      "TiredHerring81",
+      59
+    ],
+    [
+      "Runte",
+      "LimeUnusual",
+      14
+    ],
+    [
+      "M4G20V5H7",
+      "EvilGoat",
+      41
+    ],
+    [
+      "M4G20V5H7",
+      "Torp",
+      36
+    ],
+    [
+      "M4G20V5H7",
+      "J90ZI2R36",
+      32
+    ],
+    [
+      "SF6TPI3P4",
+      "ApricotPoised9",
+      88
+    ],
+    [
+      "SF6TPI3P4",
+      "CCPS4D1P5",
+      89
+    ],
+    [
+      "Ondricka",
+      "Gerlach",
+      97
+    ],
+    [
+      "Ondricka",
+      "BlushingVilla785",
+      76
+    ],
+    [
+      "Ondricka",
+      "AnxiousLeggings",
+      64
+    ],
+    [
+      "Ondricka",
+      "CardiganClaper4",
+      78
+    ],
+    [
+      "HorseClaper",
+      "Gerlach",
+      5
+    ],
+    [
+      "HorseClaper",
+      "IXS2G0RG4",
+      60
+    ],
+    [
+      "Wuckert",
+      "Oberbrunner",
+      94
+    ],
+    [
+      "Wuckert",
+      "LovelyGorilla",
+      87
+    ],
+    [
+      "4WV8CLVC6",
+      "ChairDrinker",
+      21
+    ],
+    [
+      "Gerhold",
+      "UmbrellaWriteer",
+      19
+    ],
+    [
+      "Gerhold",
+      "Runolfsson",
+      52
+    ],
+    [
+      "Gerhold",
+      "Johnston-36",
+      41
+    ],
+    [
+      "ZebraWatcher",
+      "HZATX7BT5",
+      101
+    ],
+    [
+      "ZebraWatcher",
+      "Eden",
+      101
+    ],
+    [
+      "Pollich-202",
+      "HZATX7BT5",
+      32
+    ],
+    [
+      "Wyman",
+      "Nitzsche-2",
+      64
+    ],
+    [
+      "P4QL7WFT5",
+      "Zieme",
+      72
+    ],
+    [
+      "P4QL7WFT5",
+      "Hackett",
+      7
+    ],
+    [
+      "Hackett",
+      "Bruen",
+      104
+    ],
+    [
+      "Lang",
+      "RJYS4UZJ3",
+      16
+    ],
+    [
+      "Lang",
+      "Nikolaus",
+      2
+    ],
+    [
+      "Nikolaus",
+      "RJYS4UZJ3",
+      28
+    ],
+    [
+      "Nikolaus",
+      "Padberg",
+      67
+    ],
+    [
+      "Padberg",
+      "RJYS4UZJ3",
+      33
+    ],
+    [
+      "Padberg",
+      "Earth",
+      83
+    ],
+    [
+      "Kautzer",
+      "LemonBlack",
+      51
+    ],
+    [
+      "Kautzer",
+      "TastyApro",
+      25
+    ],
+    [
+      "TastyApro",
+      "Earth",
+      90
+    ],
+    [
+      "Marvin-251",
+      "Jerde",
+      70
+    ],
+    [
+      "Marvin-251",
+      "Zulauf",
+      96
+    ],
+    [
+      "Zulauf",
+      "Windler",
+      3
+    ],
+    [
+      "DamsonFancy",
+      "P0X83T1N3",
+      77
+    ],
+    [
+      "DamsonFancy",
+      "Yost-276",
+      69
+    ],
+    [
+      "Yost-276",
+      "P0X83T1N3",
+      99
+    ],
+    [
+      "Yost-276",
+      "Haag-291",
+      31
+    ],
+    [
+      "Haag-291",
+      "P0X83T1N3",
+      8
+    ],
+    [
+      "Haag-291",
+      "ExuberantTiger",
+      54
+    ],
+    [
+      "SillyCheese197",
+      "Quigley",
+      27
+    ],
+    [
+      "SillyCheese197",
+      "Hettinger",
+      111
+    ],
+    [
+      "MonkeyThinker1",
+      "Schulist-299",
+      65
+    ],
+    [
+      "MonkeyThinker1",
+      "Goodwin",
+      35
+    ],
+    [
+      "Goodwin",
+      "I3XU3HLY6",
+      84
+    ],
+    [
+      "I3XU3HLY6",
+      "Schulist-299",
+      25
+    ],
+    [
+      "I3XU3HLY6",
+      "Bruen",
+      13
+    ],
+    [
+      "Gusikowski",
+      "OFYDSWZ81",
+      73
+    ],
+    [
+      "Gusikowski",
+      "PomegranateEnergetic940",
+      41
+    ],
+    [
+      "PomegranateEnergetic940",
+      "RockMelonFrantic",
+      96
+    ],
+    [
+      "RockMelonFrantic",
+      "BermudasCrawler",
+      83
+    ],
+    [
+      "G2O32LU71",
+      "Kassulke-227",
+      68
+    ],
+    [
+      "Ferry",
+      "IKPMZKNH8",
+      37
+    ],
+    [
+      "Ferry",
+      "Schultz",
+      25
+    ],
+    [
+      "Schultz",
+      "IKPMZKNH8",
+      51
+    ],
+    [
+      "Schultz",
+      "Gislason",
+      69
+    ],
+    [
+      "Gislason",
+      "IKPMZKNH8",
+      96
+    ],
+    [
+      "Gislason",
+      "LimeUnusual",
+      64
+    ],
+    [
+      "BlackcurrantNice",
+      "Z4D1P23M6",
+      71
+    ],
+    [
+      "BlackcurrantNice",
+      "6TQHJYUQ2",
+      93
+    ],
+    [
+      "6TQHJYUQ2",
+      "Boyle",
+      95
+    ],
+    [
+      "Boyle",
+      "TiredHerring81",
+      94
+    ],
+    [
+      "6N5WAIFO1",
+      "Stiedemann-296",
+      47
+    ],
+    [
+      "6N5WAIFO1",
+      "Pfeffer",
+      45
+    ],
+    [
+      "Pfeffer",
+      "ExuberantTiger",
+      79
+    ],
+    [
+      "Damore-50",
+      "Hessel",
+      97
+    ],
+    [
+      "BraveWrist",
+      "Ruecker",
+      83
+    ],
+    [
+      "BraveWrist",
+      "Bruen",
+      118
+    ],
+    [
+      "IIS1H9R61",
+      "Erdman-126",
+      10
+    ],
+    [
+      "IIS1H9R61",
+      "NICLOHUP6",
+      69
+    ],
+    [
+      "NICLOHUP6",
+      "Windler",
+      61
+    ],
+    [
+      "Windler",
+      "Runte",
+      42
+    ],
+    [
+      "Windler",
+      "TiredHerring81",
+      85
+    ],
+    [
+      "TiredHerring81",
+      "Runte",
+      72
+    ],
+    [
+      "TiredHerring81",
+      "LimeUnusual",
+      31
+    ],
+    [
+      "LimeUnusual",
+      "Runte",
+      44
+    ],
+    [
+      "Torp",
+      "M4G20V5H7",
+      81
+    ],
+    [
+      "Torp",
+      "J90ZI2R36",
+      37
+    ],
+    [
+      "J90ZI2R36",
+      "Hettinger",
+      66
+    ],
+    [
+      "CCPS4D1P5",
+      "SF6TPI3P4",
+      39
+    ],
+    [
+      "CCPS4D1P5",
+      "Runte",
+      73
+    ],
+    [
+      "BlushingVilla785",
+      "Ondricka",
+      7
+    ],
+    [
+      "BlushingVilla785",
+      "AnxiousLeggings",
+      80
+    ],
+    [
+      "AnxiousLeggings",
+      "Ondricka",
+      9
+    ],
+    [
+      "AnxiousLeggings",
+      "CardiganClaper4",
+      89
+    ],
+    [
+      "CardiganClaper4",
+      "G2O32LU71",
+      44
+    ],
+    [
+      "IXS2G0RG4",
+      "HorseClaper",
+      79
+    ],
+    [
+      "LovelyGorilla",
+      "Wuckert",
+      46
+    ],
+    [
+      "ChairDrinker",
+      "4WV8CLVC6",
+      32
+    ],
+    [
+      "ChairDrinker",
+      "TiredHerring81",
+      32
+    ],
+    [
+      "UmbrellaWriteer",
+      "Gerhold",
+      15
+    ],
+    [
+      "UmbrellaWriteer",
+      "Runolfsson",
+      80
+    ],
+    [
+      "Runolfsson",
+      "Johnston-36",
+      141
+    ],
+    [
+      "Johnston-36",
+      "Runte",
+      111
+    ],
+    [
+      "Eden",
+      "ZebraWatcher",
+      12
+    ]
+  ],
+  "attempt": 1
+}
+travel: Eden garbage=0 ship=0
+tick: start
+travel: Boyle garbage=29 ship=0
+collector: winner #509
+collect: Загружено 90%
+collect: Осталось 18 18
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: IKPMZKNH8 garbage=30 ship=0
+collector: winner #189
+collect: Загружено 97%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: F51OLWSQ0 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Ondricka garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: RJYS4UZJ3 garbage=46 ship=0
+collector: winner #583
+collect: Загружено 97%
+collect: Осталось 33 33
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: ExuberantTiger garbage=27 ship=0
+collector: winner #263
+collect: Загружено 96%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: 6TQHJYUQ2 garbage=47 ship=0
+collector: winner #64
+collect: Загружено 94%
+collect: Осталось 36 36
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: BlushingVilla785 garbage=37 ship=0
+collector: winner #244
+collect: Загружено 98%
+collect: Осталось 24 24
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: PomegranateEnergetic940 garbage=44 ship=0
+collector: winner #131
+collect: Загружено 93%
+collect: Осталось 32 32
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Gislason garbage=24 ship=0
+collector: winner #34
+collect: Загружено 93%
+collect: Осталось 13 13
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: LimeUnusual garbage=38 ship=0
+collector: winner #761
+collect: Загружено 96%
+collect: Осталось 26 26
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: BlushingVilla785 garbage=24 ship=0
+collector: winner #119
+collect: Загружено 87%
+collect: Осталось 13 13
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Zulauf garbage=27 ship=0
+collector: winner #147
+collect: Загружено 91%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: 7X3PP57R9 garbage=36 ship=0
+collector: winner #143
+collect: Загружено 95%
+collect: Осталось 23 23
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: IXS2G0RG4 garbage=27 ship=0
+collector: winner #165
+collect: Загружено 89%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: TiredHerring81 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: ExuberantTiger garbage=15 ship=0
+collector: winner #363
+collect: Загружено 91%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Kautzer garbage=29 ship=0
+collector: winner #61
+collect: Загружено 89%
+collect: Осталось 19 19
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Jerde garbage=33 ship=0
+collector: winner #30
+collect: Загружено 98%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=16
+travel: Gerhold garbage=23 ship=0
+collector: winner #39
+collect: Загружено 87%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Runte garbage=62 ship=0
+collector: winner #501
+collect: Загружено 98%
+collect: Осталось 50 50
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: BraveWrist garbage=43 ship=0
+collector: winner #456
+collect: Загружено 99%
+collect: Осталось 29 29
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: P0X83T1N3 garbage=30 ship=0
+collector: winner #39
+collect: Загружено 93%
+collect: Осталось 19 19
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: CCPS4D1P5 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Franecki-107 garbage=11 ship=0
+collector: winner #14
+collect: Загружено 80%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: LemonBlack garbage=0 ship=11
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Nitzsche-2 garbage=60 ship=11
+collect: Учитываем мусор на корабле, загружено 80%
+collector: winner #148
+collet: Загрузка изменилась на 19%. :)
+collect: Загружено 99%
+collect: Осталось 58 58
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: P0X83T1N3 garbage=19 ship=0
+collector: winner #327
+collect: Загружено 88%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Z4D1P23M6 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Larson garbage=32 ship=0
+collector: winner #336
+collect: Загружено 95%
+collect: Осталось 20 20
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: 7X3PP57R9 garbage=23 ship=0
+collector: winner #166
+collect: Загружено 88%
+collect: Осталось 12 12
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Larson garbage=20 ship=0
+collector: winner #748
+collect: Загружено 87%
+collect: Осталось 9 9
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Gerlach garbage=25 ship=0
+collector: winner #623
+collect: Загружено 95%
+collect: Осталось 13 13
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Hackett garbage=26 ship=0
+collector: winner #645
+collect: Загружено 96%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Jerde garbage=17 ship=0
+collector: winner #363
+collect: Загружено 93%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Johnston-36 garbage=78 ship=0
+collector: winner #158
+collect: Загружено 96%
+collect: Осталось 66 66
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Pollich-202 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Gerlach garbage=13 ship=0
+collector: winner #698
+collect: Загружено 85%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: PomegranateEnergetic940 garbage=32 ship=0
+collector: winner #458
+collect: Загружено 91%
+collect: Осталось 20 20
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: 4WV8CLVC6 garbage=37 ship=0
+collector: winner #417
+collect: Загружено 93%
+collect: Осталось 26 26
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Pfeffer garbage=40 ship=0
+collector: winner #284
+collect: Загружено 94%
+collect: Осталось 29 29
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: OFYDSWZ81 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+
+Nou Sagi@DESKTOP-092CICL MINGW64 ~/Desktop/datsedenspace (master)
+$ node ./src/bot/bot.js
+BOT started
+Connected to server
+init: {
+  "name": "Что-то фотонное",
+  "roundName": "Final 8",
+  "roundEndIn": 121,
+  "ship": {
+    "fuelUsed": 220217,
+    "planet": {
+      "name": "P0X83T1N3",
+      "garbage": {}
+    },
+    "capacityX": 8,
+    "capacityY": 11,
+    "garbage": {}
+  },
+  "universe": [
+    [
+      "Earth",
+      "Orn",
+      74
+    ],
+    [
+      "Earth",
+      "BermudasCrawler",
+      330
+    ],
+    [
+      "Orn",
+      "Earth",
+      203
+    ],
+    [
+      "Orn",
+      "Bruen",
+      109
+    ],
+    [
+      "BermudasCrawler",
+      "Earth",
+      100
+    ],
+    [
+      "BermudasCrawler",
+      "Hettinger",
+      60
+    ],
+    [
+      "BermudasCrawler",
+      "9KXB300Y0",
+      582
+    ],
+    [
+      "BermudasCrawler",
+      "I8KOVD7V3",
+      360
+    ],
+    [
+      "Bruen",
+      "Orn",
+      262
+    ],
+    [
+      "Bruen",
+      "ExuberantTiger",
+      119
+    ],
+    [
+      "Hettinger",
+      "BermudasCrawler",
+      579
+    ],
+    [
+      "Hettinger",
+      "8Z8NGMGM7",
+      50
+    ],
+    [
+      "Hettinger",
+      "LungWaiter6",
+      55
+    ],
+    [
+      "9KXB300Y0",
+      "PanickedWatch",
+      132
+    ],
+    [
+      "9KXB300Y0",
+      "Larson",
+      430
+    ],
+    [
+      "9KXB300Y0",
+      "RambutanFine",
+      142
+    ],
+    [
+      "I8KOVD7V3",
+      "Bashirian-284",
+      85
+    ],
+    [
+      "I8KOVD7V3",
+      "F51OLWSQ0",
+      255
+    ],
+    [
+      "I8KOVD7V3",
+      "Franecki-107",
+      112
+    ],
+    [
+      "ExuberantTiger",
+      "Bruen",
+      189
+    ],
+    [
+      "ExuberantTiger",
+      "7VY8G06B4",
+      110
+    ],
+    [
+      "ExuberantTiger",
+      "T2P1TS1J2",
+      138
+    ],
+    [
+      "ExuberantTiger",
+      "7X3PP57R9",
+      177
+    ],
+    [
+      "8Z8NGMGM7",
+      "Hettinger",
+      593
+    ],
+    [
+      "8Z8NGMGM7",
+      "Tremblay",
+      81
+    ],
+    [
+      "LungWaiter6",
+      "EvilGoat",
+      62
+    ],
+    [
+      "PanickedWatch",
+      "9KXB300Y0",
+      75
+    ],
+    [
+      "PanickedWatch",
+      "ApricotPoised9",
+      79
+    ],
+    [
+      "PanickedWatch",
+      "Gerlach",
+      168
+    ],
+    [
+      "Larson",
+      "Oberbrunner",
+      473
+    ],
+    [
+      "Larson",
+      "HZATX7BT5",
+      363
+    ],
+    [
+      "RambutanFine",
+      "9KXB300Y0",
+      94
+    ],
+    [
+      "RambutanFine",
+      "Nitzsche-2",
+      49
+    ],
+    [
+      "RambutanFine",
+      "Zieme",
+      72
+    ],
+    [
+      "RambutanFine",
+      "RJYS4UZJ3",
+      115
+    ],
+    [
+      "Bashirian-284",
+      "I8KOVD7V3",
+      95
+    ],
+    [
+      "Bashirian-284",
+      "LemonBlack",
+      52
+    ],
+    [
+      "Bashirian-284",
+      "Jerde",
+      65
+    ],
+    [
+      "F51OLWSQ0",
+      "P0X83T1N3",
+      212
+    ],
+    [
+      "F51OLWSQ0",
+      "Quigley",
+      70
+    ],
+    [
+      "F51OLWSQ0",
+      "Schulist-299",
+      94
+    ],
+    [
+      "Franecki-107",
+      "OFYDSWZ81",
+      71
+    ],
+    [
+      "7VY8G06B4",
+      "ExuberantTiger",
+      147
+    ],
+    [
+      "7VY8G06B4",
+      "Kassulke-227",
+      3
+    ],
+    [
+      "7VY8G06B4",
+      "IKPMZKNH8",
+      93
+    ],
+    [
+      "T2P1TS1J2",
+      "Z4D1P23M6",
+      110
+    ],
+    [
+      "T2P1TS1J2",
+      "Stiedemann-296",
+      74
+    ],
+    [
+      "7X3PP57R9",
+      "Hessel",
+      91
+    ],
+    [
+      "7X3PP57R9",
+      "Ruecker",
+      127
+    ],
+    [
+      "7X3PP57R9",
+      "Erdman-126",
+      103
+    ],
+    [
+      "Tremblay",
+      "8Z8NGMGM7",
+      566
+    ],
+    [
+      "Tremblay",
+      "Runte",
+      69
+    ],
+    [
+      "EvilGoat",
+      "LungWaiter6",
+      59
+    ],
+    [
+      "EvilGoat",
+      "M4G20V5H7",
+      88
+    ],
+    [
+      "ApricotPoised9",
+      "PanickedWatch",
+      27
+    ],
+    [
+      "ApricotPoised9",
+      "SF6TPI3P4",
+      124
+    ],
+    [
+      "Gerlach",
+      "Ondricka",
+      121
+    ],
+    [
+      "Gerlach",
+      "HorseClaper",
+      27
+    ],
+    [
+      "Oberbrunner",
+      "Larson",
+      11
+    ],
+    [
+      "Oberbrunner",
+      "Wuckert",
+      62
+    ],
+    [
+      "Oberbrunner",
+      "4WV8CLVC6",
+      371
+    ],
+    [
+      "Oberbrunner",
+      "Gerhold",
+      156
+    ],
+    [
+      "HZATX7BT5",
+      "Larson",
+      420
+    ],
+    [
+      "HZATX7BT5",
+      "ZebraWatcher",
+      418
+    ],
+    [
+      "HZATX7BT5",
+      "Pollich-202",
+      83
+    ],
+    [
+      "Nitzsche-2",
+      "RambutanFine",
+      106
+    ],
+    [
+      "Nitzsche-2",
+      "Wyman",
+      73
+    ],
+    [
+      "Zieme",
+      "RambutanFine",
+      44
+    ],
+    [
+      "Zieme",
+      "P4QL7WFT5",
+      13
+    ],
+    [
+      "Zieme",
+      "Hackett",
+      41
+    ],
+    [
+      "RJYS4UZJ3",
+      "Lang",
+      35
+    ],
+    [
+      "RJYS4UZJ3",
+      "Nikolaus",
+      51
+    ],
+    [
+      "RJYS4UZJ3",
+      "Padberg",
+      90
+    ],
+    [
+      "LemonBlack",
+      "Bashirian-284",
+      25
+    ],
+    [
+      "LemonBlack",
+      "Kautzer",
+      60
+    ],
+    [
+      "LemonBlack",
+      "TastyApro",
+      71
+    ],
+    [
+      "Jerde",
+      "Marvin-251",
+      4
+    ],
+    [
+      "Jerde",
+      "Zulauf",
+      123
+    ],
+    [
+      "P0X83T1N3",
+      "F51OLWSQ0",
+      68
+    ],
+    [
+      "P0X83T1N3",
+      "DamsonFancy",
+      19
+    ],
+    [
+      "P0X83T1N3",
+      "Yost-276",
+      41
+    ],
+    [
+      "P0X83T1N3",
+      "Haag-291",
+      147
+    ],
+    [
+      "Quigley",
+      "SillyCheese197",
+      48
+    ],
+    [
+      "Schulist-299",
+      "MonkeyThinker1",
+      38
+    ],
+    [
+      "Schulist-299",
+      "Goodwin",
+      92
+    ],
+    [
+      "Schulist-299",
+      "I3XU3HLY6",
+      36
+    ],
+    [
+      "OFYDSWZ81",
+      "Franecki-107",
+      47
+    ],
+    [
+      "OFYDSWZ81",
+      "Gusikowski",
+      39
+    ],
+    [
+      "OFYDSWZ81",
+      "PomegranateEnergetic940",
+      33
+    ],
+    [
+      "OFYDSWZ81",
+      "RockMelonFrantic",
+      93
+    ],
+    [
+      "Kassulke-227",
+      "7VY8G06B4",
+      147
+    ],
+    [
+      "Kassulke-227",
+      "G2O32LU71",
+      83
+    ],
+    [
+      "IKPMZKNH8",
+      "Ferry",
+      69
+    ],
+    [
+      "IKPMZKNH8",
+      "Schultz",
+      26
+    ],
+    [
+      "IKPMZKNH8",
+      "Gislason",
+      33
+    ],
+    [
+      "Z4D1P23M6",
+      "T2P1TS1J2",
+      90
+    ],
+    [
+      "Z4D1P23M6",
+      "BlackcurrantNice",
+      34
+    ],
+    [
+      "Z4D1P23M6",
+      "6TQHJYUQ2",
+      18
+    ],
+    [
+      "Z4D1P23M6",
+      "Boyle",
+      47
+    ],
+    [
+      "Stiedemann-296",
+      "6N5WAIFO1",
+      25
+    ],
+    [
+      "Stiedemann-296",
+      "Pfeffer",
+      66
+    ],
+    [
+      "Hessel",
+      "7X3PP57R9",
+      89
+    ],
+    [
+      "Hessel",
+      "Damore-50",
+      20
+    ],
+    [
+      "Ruecker",
+      "7X3PP57R9",
+      10
+    ],
+    [
+      "Ruecker",
+      "BraveWrist",
+      120
+    ],
+    [
+      "Erdman-126",
+      "7X3PP57R9",
+      94
+    ],
+    [
+      "Erdman-126",
+      "IIS1H9R61",
+      37
+    ],
+    [
+      "Erdman-126",
+      "NICLOHUP6",
+      55
+    ],
+    [
+      "Runte",
+      "Tremblay",
+      544
+    ],
+    [
+      "Runte",
+      "Windler",
+      94
+    ],
+    [
+      "Runte",
+      "TiredHerring81",
+      59
+    ],
+    [
+      "Runte",
+      "LimeUnusual",
+      14
+    ],
+    [
+      "M4G20V5H7",
+      "EvilGoat",
+      41
+    ],
+    [
+      "M4G20V5H7",
+      "Torp",
+      36
+    ],
+    [
+      "M4G20V5H7",
+      "J90ZI2R36",
+      32
+    ],
+    [
+      "SF6TPI3P4",
+      "ApricotPoised9",
+      88
+    ],
+    [
+      "SF6TPI3P4",
+      "CCPS4D1P5",
+      99
+    ],
+    [
+      "Ondricka",
+      "Gerlach",
+      97
+    ],
+    [
+      "Ondricka",
+      "BlushingVilla785",
+      96
+    ],
+    [
+      "Ondricka",
+      "AnxiousLeggings",
+      64
+    ],
+    [
+      "Ondricka",
+      "CardiganClaper4",
+      138
+    ],
+    [
+      "HorseClaper",
+      "Gerlach",
+      15
+    ],
+    [
+      "HorseClaper",
+      "IXS2G0RG4",
+      70
+    ],
+    [
+      "Wuckert",
+      "Oberbrunner",
+      94
+    ],
+    [
+      "Wuckert",
+      "LovelyGorilla",
+      87
+    ],
+    [
+      "4WV8CLVC6",
+      "ChairDrinker",
+      331
+    ],
+    [
+      "Gerhold",
+      "UmbrellaWriteer",
+      19
+    ],
+    [
+      "Gerhold",
+      "Runolfsson",
+      52
+    ],
+    [
+      "Gerhold",
+      "Johnston-36",
+      61
+    ],
+    [
+      "ZebraWatcher",
+      "HZATX7BT5",
+      441
+    ],
+    [
+      "ZebraWatcher",
+      "Eden",
+      441
+    ],
+    [
+      "Pollich-202",
+      "HZATX7BT5",
+      42
+    ],
+    [
+      "Wyman",
+      "Nitzsche-2",
+      64
+    ],
+    [
+      "P4QL7WFT5",
+      "Zieme",
+      72
+    ],
+    [
+      "P4QL7WFT5",
+      "Hackett",
+      17
+    ],
+    [
+      "Hackett",
+      "Bruen",
+      114
+    ],
+    [
+      "Lang",
+      "RJYS4UZJ3",
+      16
+    ],
+    [
+      "Lang",
+      "Nikolaus",
+      2
+    ],
+    [
+      "Nikolaus",
+      "RJYS4UZJ3",
+      28
+    ],
+    [
+      "Nikolaus",
+      "Padberg",
+      67
+    ],
+    [
+      "Padberg",
+      "RJYS4UZJ3",
+      33
+    ],
+    [
+      "Padberg",
+      "Earth",
+      93
+    ],
+    [
+      "Kautzer",
+      "LemonBlack",
+      51
+    ],
+    [
+      "Kautzer",
+      "TastyApro",
+      45
+    ],
+    [
+      "TastyApro",
+      "Earth",
+      110
+    ],
+    [
+      "Marvin-251",
+      "Jerde",
+      70
+    ],
+    [
+      "Marvin-251",
+      "Zulauf",
+      96
+    ],
+    [
+      "Zulauf",
+      "Windler",
+      33
+    ],
+    [
+      "DamsonFancy",
+      "P0X83T1N3",
+      77
+    ],
+    [
+      "DamsonFancy",
+      "Yost-276",
+      69
+    ],
+    [
+      "Yost-276",
+      "P0X83T1N3",
+      99
+    ],
+    [
+      "Yost-276",
+      "Haag-291",
+      31
+    ],
+    [
+      "Haag-291",
+      "P0X83T1N3",
+      8
+    ],
+    [
+      "Haag-291",
+      "ExuberantTiger",
+      164
+    ],
+    [
+      "SillyCheese197",
+      "Quigley",
+      27
+    ],
+    [
+      "SillyCheese197",
+      "Hettinger",
+      111
+    ],
+    [
+      "MonkeyThinker1",
+      "Schulist-299",
+      65
+    ],
+    [
+      "MonkeyThinker1",
+      "Goodwin",
+      35
+    ],
+    [
+      "Goodwin",
+      "I3XU3HLY6",
+      84
+    ],
+    [
+      "I3XU3HLY6",
+      "Schulist-299",
+      25
+    ],
+    [
+      "I3XU3HLY6",
+      "Bruen",
+      43
+    ],
+    [
+      "Gusikowski",
+      "OFYDSWZ81",
+      73
+    ],
+    [
+      "Gusikowski",
+      "PomegranateEnergetic940",
+      41
+    ],
+    [
+      "PomegranateEnergetic940",
+      "RockMelonFrantic",
+      116
+    ],
+    [
+      "RockMelonFrantic",
+      "BermudasCrawler",
+      123
+    ],
+    [
+      "G2O32LU71",
+      "Kassulke-227",
+      128
+    ],
+    [
+      "Ferry",
+      "IKPMZKNH8",
+      37
+    ],
+    [
+      "Ferry",
+      "Schultz",
+      25
+    ],
+    [
+      "Schultz",
+      "IKPMZKNH8",
+      51
+    ],
+    [
+      "Schultz",
+      "Gislason",
+      69
+    ],
+    [
+      "Gislason",
+      "IKPMZKNH8",
+      96
+    ],
+    [
+      "Gislason",
+      "LimeUnusual",
+      84
+    ],
+    [
+      "BlackcurrantNice",
+      "Z4D1P23M6",
+      71
+    ],
+    [
+      "BlackcurrantNice",
+      "6TQHJYUQ2",
+      93
+    ],
+    [
+      "6TQHJYUQ2",
+      "Boyle",
+      105
+    ],
+    [
+      "Boyle",
+      "TiredHerring81",
+      114
+    ],
+    [
+      "6N5WAIFO1",
+      "Stiedemann-296",
+      47
+    ],
+    [
+      "6N5WAIFO1",
+      "Pfeffer",
+      45
+    ],
+    [
+      "Pfeffer",
+      "ExuberantTiger",
+      99
+    ],
+    [
+      "Damore-50",
+      "Hessel",
+      97
+    ],
+    [
+      "BraveWrist",
+      "Ruecker",
+      83
+    ],
+    [
+      "BraveWrist",
+      "Bruen",
+      148
+    ],
+    [
+      "IIS1H9R61",
+      "Erdman-126",
+      10
+    ],
+    [
+      "IIS1H9R61",
+      "NICLOHUP6",
+      69
+    ],
+    [
+      "NICLOHUP6",
+      "Windler",
+      61
+    ],
+    [
+      "Windler",
+      "Runte",
+      72
+    ],
+    [
+      "Windler",
+      "TiredHerring81",
+      85
+    ],
+    [
+      "TiredHerring81",
+      "Runte",
+      392
+    ],
+    [
+      "TiredHerring81",
+      "LimeUnusual",
+      41
+    ],
+    [
+      "LimeUnusual",
+      "Runte",
+      74
+    ],
+    [
+      "Torp",
+      "M4G20V5H7",
+      81
+    ],
+    [
+      "Torp",
+      "J90ZI2R36",
+      37
+    ],
+    [
+      "J90ZI2R36",
+      "Hettinger",
+      66
+    ],
+    [
+      "CCPS4D1P5",
+      "SF6TPI3P4",
+      39
+    ],
+    [
+      "CCPS4D1P5",
+      "Runte",
+      83
+    ],
+    [
+      "BlushingVilla785",
+      "Ondricka",
+      27
+    ],
+    [
+      "BlushingVilla785",
+      "AnxiousLeggings",
+      80
+    ],
+    [
+      "AnxiousLeggings",
+      "Ondricka",
+      9
+    ],
+    [
+      "AnxiousLeggings",
+      "CardiganClaper4",
+      89
+    ],
+    [
+      "CardiganClaper4",
+      "G2O32LU71",
+      104
+    ],
+    [
+      "IXS2G0RG4",
+      "HorseClaper",
+      89
+    ],
+    [
+      "LovelyGorilla",
+      "Wuckert",
+      46
+    ],
+    [
+      "ChairDrinker",
+      "4WV8CLVC6",
+      32
+    ],
+    [
+      "ChairDrinker",
+      "TiredHerring81",
+      342
+    ],
+    [
+      "UmbrellaWriteer",
+      "Gerhold",
+      15
+    ],
+    [
+      "UmbrellaWriteer",
+      "Runolfsson",
+      80
+    ],
+    [
+      "Runolfsson",
+      "Johnston-36",
+      141
+    ],
+    [
+      "Johnston-36",
+      "Runte",
+      131
+    ],
+    [
+      "Eden",
+      "ZebraWatcher",
+      352
+    ]
+  ],
+  "attempt": 1
+}
+travel: Eden garbage=0 ship=0
+tick: start
+travel: G2O32LU71 garbage=59 ship=0
+collector: winner #247
+collect: Загружено 97%
+collect: Осталось 45 45
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Schulist-299 garbage=32 ship=0
+collector: winner #649
+collect: Загружено 88%
+collect: Осталось 23 23
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Orn garbage=28 ship=0
+collector: winner #411
+collect: Загружено 94%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: BlackcurrantNice garbage=13 ship=0
+collector: winner #28
+collect: Загружено 86%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: 6TQHJYUQ2 garbage=36 ship=0
+collector: winner #28
+collect: Загружено 89%
+collect: Осталось 25 25
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Wyman garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: PomegranateEnergetic940 garbage=20 ship=0
+collector: winner #373
+collect: Загружено 89%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Torp garbage=25 ship=0
+collector: winner #843
+collect: Загружено 89%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: ZebraWatcher garbage=27 ship=0
+collector: winner #288
+collect: Загружено 94%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Boyle garbage=18 ship=0
+collector: winner #222
+collect: Загружено 87%
+collect: Осталось 6 6
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Franecki-107 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: I8KOVD7V3 garbage=26 ship=0
+collector: winner #5
+collect: Загружено 90%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Erdman-126 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Torp garbage=15 ship=0
+collector: winner #344
+collect: Загружено 88%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Schulist-299 garbage=23 ship=0
+collector: winner #432
+collect: Загружено 87%
+collect: Осталось 13 13
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Damore-50 garbage=37 ship=0
+collector: winner #855
+collect: Загружено 97%
+collect: Осталось 25 25
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Z4D1P23M6 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: BlackcurrantNice garbage=2 ship=0
+collector: winner #0
+collect: Загружено 11%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: ZebraWatcher garbage=15 ship=2
+collect: Учитываем мусор на корабле, загружено 11%
+collector: winner #19
+collet: Загрузка изменилась на 82%. :)
+collect: Загружено 93%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Haag-291 garbage=26 ship=0
+collector: winner #977
+collect: Загружено 90%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: PanickedWatch garbage=21 ship=0
+collector: winner #122
+collect: Загружено 93%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Zulauf garbage=15 ship=0
+collector: winner #552
+collect: Загружено 90%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: ExuberantTiger garbage=2 ship=0
+collector: winner #0
+collect: Загружено 11%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: 7VY8G06B4 garbage=26 ship=2
+collect: Учитываем мусор на корабле, загружено 11%
+collector: winner #258
+collet: Загрузка изменилась на 82%. :)
+collect: Загружено 93%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Runolfsson garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Pollich-202 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Ruecker garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: IIS1H9R61 garbage=42 ship=0
+collector: winner #706
+collect: Загружено 98%
+collect: Осталось 28 28
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: AnxiousLeggings garbage=35 ship=0
+collector: winner #12
+collect: Загружено 91%
+collect: Осталось 23 23
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Gusikowski garbage=42 ship=0
+collector: winner #82
+collect: Загружено 91%
+collect: Осталось 30 30
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: RockMelonFrantic garbage=10 ship=0
+collector: winner #4
+collect: Загружено 75%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: EvilGoat garbage=26 ship=10
+collect: Учитываем мусор на корабле, загружено 75%
+collector: winner #218
+collet: Загрузка изменилась на 18%. :)
+collect: Загружено 93%
+collect: Осталось 25 25
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: SillyCheese197 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Gerhold garbage=14 ship=0
+collector: winner #79
+collect: Загружено 85%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: 7VY8G06B4 garbage=16 ship=0
+collector: winner #581
+collect: Загружено 91%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Boyle garbage=6 ship=0
+collector: winner #0
+collect: Загружено 32%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: IXS2G0RG4 garbage=17 ship=6
+collect: Учитываем мусор на корабле, загружено 32%
+collector: winner #12
+collet: Загрузка изменилась на 58%. :)
+collect: Загружено 90%
+collect: Осталось 9 9
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: F51OLWSQ0 garbage=2 ship=0
+collector: winner #0
+collect: Загружено 19%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Gerlach garbage=2 ship=2
+collect: Учитываем мусор на корабле, загружено 19%
+collector: winner #0
+collet: Загрузка изменилась на 14%. :)
+collect: Загружено 33%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: 9KXB300Y0 garbage=37 ship=4
+collect: Учитываем мусор на корабле, загружено 33%
+collector: winner #101
+collet: Загрузка изменилась на 60%. :)
+collect: Загружено 93%
+collect: Осталось 30 30
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Ondricka garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Hackett garbage=14 ship=0
+collector: winner #680
+collect: Загружено 85%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: M4G20V5H7 garbage=26 ship=0
+collector: winner #391
+collect: Загружено 91%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: CardiganClaper4 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Oberbrunner garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: I8KOVD7V3 garbage=16 ship=0
+collector: winner #308
+collect: Загружено 88%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: HorseClaper garbage=40 ship=0
+collector: winner #323
+collect: Загружено 96%
+collect: Осталось 27 27
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Bashirian-284 garbage=36 ship=0
+collector: winner #37
+collect: Загружено 94%
+collect: Осталось 24 24
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Schulist-299 garbage=13 ship=0
+collector: winner #348
+collect: Загружено 82%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: AnxiousLeggings garbage=23 ship=0
+collector: winner #883
+collect: Загружено 87%
+collect: Осталось 13 13
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: BermudasCrawler garbage=53 ship=0
+collector: winner #160
+collect: Загружено 99%
+collect: Осталось 40 40
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: IXS2G0RG4 garbage=9 ship=0
+collector: winner #0
+collect: Загружено 52%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: 9KXB300Y0 garbage=30 ship=9
+collect: Учитываем мусор на корабле, загружено 52%
+collector: winner #324
+collet: Загрузка изменилась на 36%. :)
+collect: Загружено 88%
+collect: Осталось 29 29
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Gerhold garbage=3 ship=0
+collector: winner #0
+collect: Загружено 18%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Windler garbage=70 ship=3
+collect: Учитываем мусор на корабле, загружено 18%
+collector: winner #520
+collet: Загрузка изменилась на 82%. :)
+collect: Загружено 100%
+collect: Осталось 60 60
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: TastyApro garbage=40 ship=0
+collector: winner #210
+collect: Загружено 93%
+collect: Осталось 27 27
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Hackett garbage=3 ship=0
+collector: winner #0
+collect: Загружено 16%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Johnston-36 garbage=66 ship=3
+collect: Учитываем мусор на корабле, загружено 16%
+collector: winner #812
+collet: Загрузка изменилась на 74%. :)
+collect: Загружено 90%
+collect: Осталось 59 59
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: TastyApro garbage=27 ship=0
+collector: winner #27
+collect: Загружено 90%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Larson garbage=9 ship=0
+collector: winner #0
+collect: Загружено 54%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Jerde garbage=3 ship=9
+collect: Учитываем мусор на корабле, загружено 54%
+collector: winner #1
+collet: Загрузка изменилась на 18%. :)
+collect: Загружено 72%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: P4QL7WFT5 garbage=24 ship=12
+collect: Учитываем мусор на корабле, загружено 72%
+collector: winner #532
+collet: Загрузка изменилась на 19%. :)
+collect: Загружено 91%
+collect: Осталось 25 25
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: TastyApro garbage=14 ship=0
+collector: winner #318
+collect: Загружено 85%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: ChairDrinker garbage=28 ship=0
+collector: winner #409
+collect: Загружено 93%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Goodwin garbage=29 ship=0
+collector: winner #834
+collect: Загружено 96%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: 7VY8G06B4 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 23%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: J90ZI2R36 garbage=28 ship=4
+collect: Учитываем мусор на корабле, загружено 23%
+collector: winner #829
+collet: Загрузка изменилась на 74%. :)
+collect: Загружено 97%
+collect: Осталось 19 19
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Wuckert garbage=29 ship=0
+collector: winner #465
+collect: Загружено 91%
+collect: Осталось 18 18
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: I3XU3HLY6 garbage=27 ship=0
+collector: winner #316
+collect: Загружено 89%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Damore-50 garbage=25 ship=0
+collector: winner #123
+collect: Загружено 90%
+collect: Осталось 13 13
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Quigley garbage=50 ship=0
+collector: winner #375
+collect: Загружено 98%
+collect: Осталось 38 38
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: I8KOVD7V3 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 20%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: HorseClaper garbage=27 ship=4
+collect: Учитываем мусор на корабле, загружено 20%
+collector: winner #24
+collet: Загрузка изменилась на 68%. :)
+collect: Загружено 88%
+collect: Осталось 21 21
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: ChairDrinker garbage=16 ship=0
+collector: winner #130
+collect: Загружено 88%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: ChairDrinker garbage=3 ship=0
+collector: winner #0
+collect: Загружено 18%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: HZATX7BT5 garbage=51 ship=3
+collect: Учитываем мусор на корабле, загружено 18%
+collector: winner #343
+collet: Загрузка изменилась на 78%. :)
+collect: Загружено 96%
+collect: Осталось 42 42
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: ZebraWatcher garbage=4 ship=0
+collector: winner #0
+collect: Загружено 27%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: TiredHerring81 garbage=0 ship=4
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: M4G20V5H7 garbage=15 ship=4
+collect: Учитываем мусор на корабле, загружено 27%
+collector: winner #109
+collet: Загрузка изменилась на 60%. :)
+collect: Загружено 87%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Windler garbage=60 ship=0
+collector: winner #113
+collect: Загружено 95%
+collect: Осталось 47 47
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: BermudasCrawler garbage=40 ship=0
+collector: winner #59
+collect: Загружено 91%
+collect: Осталось 29 29
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: SF6TPI3P4 garbage=43 ship=0
+collector: winner #137
+collect: Загружено 93%
+collect: Осталось 32 32
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Bashirian-284 garbage=24 ship=0
+collector: winner #649
+collect: Загружено 87%
+collect: Осталось 13 13
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Hessel garbage=15 ship=0
+collector: winner #338
+collect: Загружено 87%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Kautzer garbage=19 ship=0
+collector: winner #234
+collect: Загружено 83%
+collect: Осталось 9 9
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: 6TQHJYUQ2 garbage=25 ship=0
+collector: winner #31
+collect: Загружено 86%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Nitzsche-2 garbage=58 ship=0
+collector: winner #368
+collect: Загружено 93%
+collect: Осталось 46 46
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Kautzer garbage=9 ship=0
+collector: winner #0
+collect: Загружено 62%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: P0X83T1N3 garbage=0 ship=9
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: ApricotPoised9 garbage=0 ship=9
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Damore-50 garbage=13 ship=9
+collect: Учитываем мусор на корабле, загружено 62%
+collector: winner #501
+collet: Загрузка изменилась на 26%. :)
+collect: Загружено 88%
+collect: Осталось 10 10
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: LovelyGorilla garbage=28 ship=0
+collector: winner #833
+collect: Загружено 93%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: LovelyGorilla garbage=16 ship=0
+collector: winner #295
+collect: Загружено 87%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Zieme garbage=33 ship=0
+collector: winner #133
+collect: Загружено 87%
+collect: Осталось 23 23
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Schulist-299 garbage=2 ship=0
+collector: winner #0
+collect: Загружено 14%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: LungWaiter6 garbage=30 ship=2
+collect: Учитываем мусор на корабле, загружено 14%
+collector: winner #518
+collet: Загрузка изменилась на 81%. :)
+collect: Загружено 95%
+collect: Осталось 19 19
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: BermudasCrawler garbage=29 ship=0
+collector: winner #915
+collect: Загружено 91%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Orn garbage=15 ship=0
+collector: winner #296
+collect: Загружено 88%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: AnxiousLeggings garbage=13 ship=0
+collector: winner #64
+collect: Загружено 80%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: EvilGoat garbage=25 ship=10
+collect: Учитываем мусор на корабле, загружено 80%
+collector: winner #116
+collet: Загрузка изменилась на 11%. :)
+collect: Загружено 91%
+collect: Осталось 23 23
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Torp garbage=4 ship=0
+collector: winner #0
+collect: Загружено 27%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: LemonBlack garbage=0 ship=4
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Gusikowski garbage=30 ship=4
+collect: Учитываем мусор на корабле, загружено 27%
+collector: winner #51
+collet: Загрузка изменилась на 60%. :)
+collect: Загружено 87%
+collect: Осталось 24 24
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Nikolaus garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Gusikowski garbage=24 ship=0
+collector: winner #373
+collect: Загружено 93%
+collect: Осталось 12 12
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: 6TQHJYUQ2 garbage=15 ship=0
+collector: winner #106
+collect: Загружено 86%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Bruen garbage=25 ship=0
+collector: winner #181
+collect: Загружено 91%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: BermudasCrawler garbage=16 ship=0
+collector: winner #9
+collect: Загружено 86%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Gislason garbage=13 ship=0
+collector: winner #756
+collect: Загружено 82%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: OFYDSWZ81 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: NICLOHUP6 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Wuckert garbage=18 ship=0
+collector: winner #198
+collect: Загружено 87%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: M4G20V5H7 garbage=7 ship=0
+collector: winner #0
+collect: Загружено 41%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: HZATX7BT5 garbage=42 ship=7
+collect: Учитываем мусор на корабле, загружено 41%
+collector: winner #865
+collet: Загрузка изменилась на 48%. :)
+collect: Загружено 89%
+collect: Осталось 38 38
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: CCPS4D1P5 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: LungWaiter6 garbage=19 ship=0
+collector: winner #149
+collect: Загружено 89%
+collect: Осталось 6 6
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: UmbrellaWriteer garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: PomegranateEnergetic940 garbage=7 ship=0
+collector: winner #0
+collect: Загружено 39%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: LungWaiter6 garbage=6 ship=7
+collect: Учитываем мусор на корабле, загружено 39%
+collector: winner #0
+collet: Загрузка изменилась на 34%. :)
+collect: Загружено 73%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Marvin-251 garbage=23 ship=13
+collect: Учитываем мусор на корабле, загружено 73%
+collector: winner #68
+collet: Загрузка изменилась на 14%. :)
+collect: Загружено 87%
+collect: Осталось 26 26
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: PanickedWatch garbage=8 ship=0
+collector: winner #0
+collect: Загружено 52%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: RambutanFine garbage=0 ship=8
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: 8Z8NGMGM7 garbage=26 ship=8
+collect: Учитываем мусор на корабле, загружено 52%
+collector: winner #456
+collet: Загрузка изменилась на 42%. :)
+collect: Загружено 94%
+collect: Осталось 22 22
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Quigley garbage=38 ship=0
+collector: winner #84
+collect: Загружено 91%
+collect: Осталось 26 26
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Zulauf garbage=3 ship=0
+collector: winner #0
+collect: Загружено 21%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Padberg garbage=45 ship=3
+collect: Учитываем мусор на корабле, загружено 21%
+collector: winner #75
+collet: Загрузка изменилась на 77%. :)
+collect: Загружено 98%
+collect: Осталось 33 33
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=15
+travel: T2P1TS1J2 garbage=40 ship=0
+collector: winner #472
+collect: Загружено 96%
+collect: Осталось 27 27
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: RJYS4UZJ3 garbage=33 ship=0
+collector: winner #194
+collect: Загружено 91%
+collect: Осталось 21 21
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Stiedemann-296 garbage=40 ship=0
+collector: winner #550
+collect: Загружено 99%
+collect: Осталось 26 26
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Quigley garbage=26 ship=0
+collector: winner #894
+collect: Загружено 88%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Haag-291 garbage=15 ship=0
+collector: winner #81
+collect: Загружено 80%
+collect: Осталось 6 6
+tick: end
+
+tick: start
+travel: Runte garbage=50 ship=9
+collect: Учитываем мусор на корабле, загружено 80%
+collector: winner #114
+collet: Загрузка изменилась на 14%. :)
+collect: Загружено 94%
+collect: Осталось 46 46
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: HorseClaper garbage=21 ship=0
+collector: winner #834
+collect: Загружено 90%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: MonkeyThinker1 garbage=24 ship=0
+collector: winner #430
+collect: Загружено 90%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: IKPMZKNH8 garbage=16 ship=0
+collector: winner #666
+collect: Загружено 88%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Schultz garbage=28 ship=0
+collector: winner #286
+collect: Загружено 94%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: J90ZI2R36 garbage=19 ship=0
+collector: winner #194
+collect: Загружено 91%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: LovelyGorilla garbage=3 ship=0
+collector: winner #0
+collect: Загружено 19%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: 7X3PP57R9 garbage=12 ship=3
+collect: Учитываем мусор на корабле, загружено 19%
+collector: winner #285
+collet: Загрузка изменилась на 67%. :)
+collect: Загружено 86%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Bruen garbage=14 ship=0
+collector: winner #440
+collect: Загружено 87%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: 4WV8CLVC6 garbage=26 ship=0
+collector: winner #114
+collect: Загружено 91%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Schultz garbage=16 ship=0
+collector: winner #973
+collect: Загружено 88%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Gislason garbage=3 ship=0
+collector: winner #0
+collect: Загружено 21%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Haag-291 garbage=6 ship=3
+collect: Учитываем мусор на корабле, загружено 21%
+collector: winner #5
+collet: Загрузка изменилась на 47%. :)
+collect: Загружено 68%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: BermudasCrawler garbage=4 ship=9
+collect: Учитываем мусор на корабле, загружено 68%
+collector: winner #529
+collet: Загрузка изменилась на 13%. :)
+collect: Загружено 81%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: AnxiousLeggings garbage=3 ship=0
+collector: winner #0
+collect: Загружено 18%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: J90ZI2R36 garbage=5 ship=3
+collect: Учитываем мусор на корабле, загружено 18%
+collector: winner #0
+collet: Загрузка изменилась на 32%. :)
+collect: Загружено 50%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Marvin-251 garbage=26 ship=8
+collect: Учитываем мусор на корабле, загружено 50%
+collector: winner #680
+collet: Загрузка изменилась на 39%. :)
+collect: Загружено 89%
+collect: Осталось 23 23
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: BermudasCrawler garbage=2 ship=0
+collector: winner #0
+collect: Загружено 13%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Pfeffer garbage=29 ship=2
+collect: Учитываем мусор на корабле, загружено 13%
+collector: winner #567
+collet: Загрузка изменилась на 82%. :)
+collect: Загружено 95%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: 9KXB300Y0 garbage=29 ship=0
+collector: winner #254
+collect: Загружено 90%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Bruen garbage=2 ship=0
+collector: winner #0
+collect: Загружено 16%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: 8Z8NGMGM7 garbage=22 ship=2
+collect: Учитываем мусор на корабле, загружено 16%
+collector: winner #33
+collet: Загрузка изменилась на 73%. :)
+collect: Загружено 89%
+collect: Осталось 12 12
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: 7X3PP57R9 garbage=2 ship=0
+collector: winner #0
+collect: Загружено 10%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Quigley garbage=15 ship=2
+collect: Учитываем мусор на корабле, загружено 10%
+collector: winner #699
+collet: Загрузка изменилась на 77%. :)
+collect: Загружено 87%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Lang garbage=25 ship=0
+collector: winner #62
+collect: Загружено 87%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Marvin-251 garbage=23 ship=0
+collector: winner #289
+collect: Загружено 88%
+collect: Осталось 10 10
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: G2O32LU71 garbage=45 ship=0
+collector: winner #54
+collect: Загружено 89%
+collect: Осталось 34 34
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Marvin-251 garbage=10 ship=0
+collector: winner #0
+collect: Загружено 58%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: LimeUnusual garbage=26 ship=10
+collect: Учитываем мусор на корабле, загружено 58%
+collector: winner #349
+collet: Загрузка изменилась на 32%. :)
+collect: Загружено 90%
+collect: Осталось 24 24
+tick: end
+
+tick: start
+file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:41
+    const garbageCount = Object.keys(planetData.planetGarbage).length
+                                ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Bot.travel (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:41:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Bot.goToNext (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:158:7)
+    at async Bot.tick (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:172:5)
+    at async Bot.loop (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:186:14)
+
+Node.js v20.9.0
