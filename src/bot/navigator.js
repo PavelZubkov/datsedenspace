@@ -59,9 +59,14 @@ export class Navigator {
    * @returns {any}
    */
   findPath(from, to) {
-    const nodes = this.pathFinder.find(from, to)
-    const planets = nodes.map(node => node.id.toString()).reverse().filter(name => name !== from)
-    return planets
+    try {
+      const nodes = this.pathFinder.find(from, to)
+      const planets = nodes.map(node => node.id.toString()).reverse().filter(name => name !== from)
+      return planets
+    } catch(err) {
+      console.log({ from, to })
+      throw err
+    }
   }
 
   /**

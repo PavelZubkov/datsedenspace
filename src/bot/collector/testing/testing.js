@@ -14,8 +14,10 @@ for (let i = 0; i < points.length; i+=step) {
   const figures = Object.entries(garbage).map(([id, points]) => new Figure(`${id}`, points))
   Figure.drawAll(new Vec2(5, 0), figures)
 
-  const box = new Box()
-  const leaved = box.putAll(figures)
+  // const box = new Box()
+  // const leaved = box.putAll(figures)
+
+  const { box, leaved } = Box.putAllRndSort(figures)
 
   box.draw(new Vec2(0, 0))
 

@@ -106,7 +106,7 @@ export class Api {
 
     if (this.lastRequestTime) {
       const diff = Date.now() - this.lastRequestTime
-      if (diff < 250) await (new Promise(r => setTimeout(r, 250 - diff)))
+      if (diff < 350) await (new Promise(r => setTimeout(r, 250 - diff)))
     }
 
     do {
@@ -119,7 +119,7 @@ export class Api {
         })
       } catch(err) {
         if (axios.isAxiosError(err) && err.response?.status === 429) {
-          console.error(`REQUEST ${path} ${err.response?.status} ${JSON.stringify(err.response?.data)}`)
+          // console.error(`REQUEST ${path} ${err.response?.status} ${JSON.stringify(err.response?.data)}`)
           // Less Than Three
           await (new Promise(r => setTimeout(r, 500)))
         } else if(axios.isAxiosError(err) && err.response?.status === 400) {

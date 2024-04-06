@@ -40,9 +40,19 @@ export class Bot {
     const planetData = await this.api.travelToPlanet({ planets: path })
     const garbageCount = Object.keys(planetData.planetGarbage).length
 
-    console.log(`travel: Welcome To "${planetName}"! Garbage count: ${garbageCount}`)
+    console.log(`travel: ${planetName} garbage=${garbageCount} ship=${this.box.getGarbagePlacedCount()}`)
     this.planetCurrent = planetName
-    this.planetGarbage.set(planetName, planetData.planetGarbage)
+
+    if (planetName === 'Eden') {
+      this.box = new Box
+    }
+
+    if (this.box.getGarbagePlacedCount() > 0 && planetName !== 'Eden') {
+      const placed = this.box.getGarbagePlaced(false)
+      this.planetGarbage.set(planetName, { ...planetData.planetGarbage, ...placed })
+    } else {
+      this.planetGarbage.set(planetName, planetData.planetGarbage)
+    }
 
     if (!garbageCount) {
       this.planetEmpty.set(planetName, true)
@@ -82,10 +92,13 @@ export class Bot {
       return false
     }
 
-    const box = new Box
-    this.box = box
+    // const box = new Box
+    // this.box = box
     const figures = Object.entries(garbageKnown).map(([id, points]) => new Figure(`${id}`, points))
-    const myLeaved = box.putAll(figures)
+    // const myLeaved = box.putAll(figures)
+
+    const { box, leaved: myLeaved } = Box.putAllRndSort(figures)
+    this.box = box
 
     Figure.drawAll(new Vec2(5, 0), figures)
     box.draw(new Vec2(0, 0))
@@ -102,32 +115,21 @@ export class Bot {
         if (!this.planetCleared.get(name)) this.planetEmpty.set(name, true)
         // reset garbage?
       }
-      console.log('collect: Загрузка провалилась')
+      console.log('collect: Загрузка провалилась - ' + error)
       return false
     }
 
     if (leaved?.length === 0) {
       this.planetCleared.set(this.planetCurrent, true)
       this.planetEmpty.set(this.planetCurrent, true)
+      this.planetGarbage.set(this.planetCurrent, {})
       console.log('collect: Очищено!')
     } else {
-      const obj = this.planetGarbage.get(this.planetCurrent) ?? {}
-      /** @type {Record<string, number[][]>} */
-      const next = {}
-      for (const key of leaved) {
-        if (!obj[key]) {
-          console.log(JSON.stringify({ obj, next, key, leaved }), null, 2)
-          // throw new Error('OOOO')
-          console.log('collect: OPS, OOOO')
-        }
-        next[key] = obj[key]
-      }
-      this.planetGarbage.set(this.planetCurrent, next)
-      console.log(`collect: Осталось ${leaved.length}`)
+      this.planetGarbage.set(this.planetCurrent, myLeaved)
+      console.log(`collect: Осталось ${leaved.length} ${Object.keys(myLeaved).length}`)
     }
-    
-    // return box.loading() > 40
-    return true
+
+    return box.loading() > 40
   }
 
   async goToNext(needToEden = true) {
@@ -135,7 +137,10 @@ export class Bot {
       const pathToEden = this.navigator.findPath(this.planetCurrent, 'Eden')
       await this.travel(pathToEden)
     }
-    const randomFullyPlanet = this.navigator.getRandomPlanet(this.excludedPlanets())
+    let randomFullyPlanet = this.navigator.getRandomPlanet(this.excludedPlanets())
+    if (!randomFullyPlanet) {
+      randomFullyPlanet = this.navigator.getRandomPlanet([])
+    }
     const pathToRandomFullyPlanet = this.navigator.findPath(this.planetCurrent, randomFullyPlanet)
     await this.travel(pathToRandomFullyPlanet)
   }
@@ -180,9 +185,9 @@ export class Bot {
     return names
   }
 }
-    // for (const fig of Object.values(planetData.planetGarbage)) {
-    //   this.log.addToLog(fig)
-    // }
+// for (const fig of Object.values(planetData.planetGarbage)) {
+//   this.log.addToLog(fig)
+// }
 
 const obj = new Bot
 obj.loop()

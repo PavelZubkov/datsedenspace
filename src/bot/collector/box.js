@@ -2,6 +2,15 @@ import { Vec2 } from "../../math/math.js"
 import { Rewind } from "../../rewind/rewind.js"
 import { Figure } from "./figure.js"
 
+export function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    // Получить случайный индекс от 0 до i
+    const j = Math.floor(Math.random() * (i + 1));
+    // Поменять местами элементы с индексами i и j
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
 export class Box {
   /**
    *
@@ -18,13 +27,17 @@ export class Box {
   /** @type {Map<string, { figure: Figure, boxPoints: number[][] }>} */
   placed = new Map();
 
-  getGarbagePlaced() {
+  getGarbagePlaced(boxed = true) {
     /** @type {Record<string, number[][]>} */
     const obj = {}
     for (const [id, figure] of this.placed.entries()) {
-      obj[id] = figure.boxPoints
+      obj[id] = boxed ? figure.boxPoints : figure.figure.points
     }
     return obj
+  }
+
+  getGarbagePlacedCount() {
+    return this.placed.size
   }
 
   /**
@@ -98,6 +111,119 @@ export class Box {
     }
 
     this.placed.set(figure.id, { figure, boxPoints })
+  }
+
+  /**
+   *
+   * @param {Figure[]} figures
+   */
+  static putAllRndSort(figures) {
+    const decrees = figures.slice().sort((a, b) => b.size - a.size)
+    const increase = figures.slice().sort((a, b) => b.size - a.size)
+    const random = [
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+      shuffleArray(figures.slice()),
+    ]
+
+    const boxes = [decrees, increase, ...random].map((figs, index) => {
+      const box = new Box
+      const leaved = box.putAll(figs)
+      return { index, box, leaved }
+    })
+
+    const [winner] = boxes.sort((a,b) => b.box.loading() - a.box.loading())
+
+    console.log(`collector: winner #${winner.index}`)
+
+    return winner
   }
 
   /**
