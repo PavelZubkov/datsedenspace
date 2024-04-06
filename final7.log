@@ -1,0 +1,9219 @@
+$ node ./src/bot/bot.js
+BOT started
+Connected to server
+init: {
+  "name": "Что-то фотонное",
+  "roundName": "Final 7",
+  "roundEndIn": 1374,
+  "ship": {
+    "fuelUsed": 0,
+    "planet": {
+      "name": "Earth",
+      "garbage": {}
+    },
+    "capacityX": 8,
+    "capacityY": 11,
+    "garbage": {}
+  },
+  "universe": [
+    [
+      "Earth",
+      "BrightSlippers33",
+      26
+    ],
+    [
+      "Earth",
+      "Hoppe-269",
+      50
+    ],
+    [
+      "BrightSlippers33",
+      "Earth",
+      40
+    ],
+    [
+      "BrightSlippers33",
+      "VV2WINB13",
+      8
+    ],
+    [
+      "BrightSlippers33",
+      "J3JUPO4P0",
+      18
+    ],
+    [
+      "Hoppe-269",
+      "Earth",
+      52
+    ],
+    [
+      "Hoppe-269",
+      "Jones-43",
+      9
+    ],
+    [
+      "Hoppe-269",
+      "Lubowitz-92",
+      85
+    ],
+    [
+      "VV2WINB13",
+      "BrightSlippers33",
+      79
+    ],
+    [
+      "VV2WINB13",
+      "Shanahan-46",
+      84
+    ],
+    [
+      "VV2WINB13",
+      "Roob",
+      84
+    ],
+    [
+      "J3JUPO4P0",
+      "Mayer-191",
+      11
+    ],
+    [
+      "Jones-43",
+      "Hoppe-269",
+      90
+    ],
+    [
+      "Jones-43",
+      "Gutkowski",
+      58
+    ],
+    [
+      "Lubowitz-92",
+      "Hoppe-269",
+      51
+    ],
+    [
+      "Lubowitz-92",
+      "VictoriousMother",
+      35
+    ],
+    [
+      "Lubowitz-92",
+      "Cummings",
+      24
+    ],
+    [
+      "Shanahan-46",
+      "VV2WINB13",
+      22
+    ],
+    [
+      "Shanahan-46",
+      "Torphy-233",
+      76
+    ],
+    [
+      "Shanahan-46",
+      "Schiller",
+      5
+    ],
+    [
+      "Shanahan-46",
+      "EnchantedFruit975",
+      51
+    ],
+    [
+      "Roob",
+      "VV2WINB13",
+      22
+    ],
+    [
+      "Roob",
+      "ArrowCloseer",
+      66
+    ],
+    [
+      "Mayer-191",
+      "J3JUPO4P0",
+      47
+    ],
+    [
+      "Mayer-191",
+      "Wehner",
+      81
+    ],
+    [
+      "Gutkowski",
+      "Jones-43",
+      64
+    ],
+    [
+      "Gutkowski",
+      "Schulist-205",
+      69
+    ],
+    [
+      "Gutkowski",
+      "Denesik-95",
+      74
+    ],
+    [
+      "Gutkowski",
+      "3PII5YI30",
+      27
+    ],
+    [
+      "VictoriousMother",
+      "Lubowitz-92",
+      74
+    ],
+    [
+      "VictoriousMother",
+      "Koepp",
+      80
+    ],
+    [
+      "VictoriousMother",
+      "RedHyena778",
+      72
+    ],
+    [
+      "Cummings",
+      "Morissette",
+      49
+    ],
+    [
+      "Cummings",
+      "Mueller",
+      14
+    ],
+    [
+      "Cummings",
+      "Dietrich",
+      75
+    ],
+    [
+      "Torphy-233",
+      "Shanahan-46",
+      32
+    ],
+    [
+      "Torphy-233",
+      "DateAshamed",
+      39
+    ],
+    [
+      "Torphy-233",
+      "NiceDuck",
+      37
+    ],
+    [
+      "Torphy-233",
+      "DamsonBlue",
+      79
+    ],
+    [
+      "Schiller",
+      "LibraryHuger35",
+      46
+    ],
+    [
+      "EnchantedFruit975",
+      "GAWYB4Z61",
+      91
+    ],
+    [
+      "EnchantedFruit975",
+      "AirSmeller",
+      38
+    ],
+    [
+      "EnchantedFruit975",
+      "Turner-223",
+      87
+    ],
+    [
+      "ArrowCloseer",
+      "Roob",
+      13
+    ],
+    [
+      "ArrowCloseer",
+      "PSTSWC2T4",
+      9
+    ],
+    [
+      "ArrowCloseer",
+      "Denesik-223",
+      12
+    ],
+    [
+      "ArrowCloseer",
+      "Blanda",
+      87
+    ],
+    [
+      "Wehner",
+      "Mayer-191",
+      3
+    ],
+    [
+      "Wehner",
+      "FilthyUmbrella",
+      16
+    ],
+    [
+      "Wehner",
+      "Aufderhar",
+      30
+    ],
+    [
+      "Schulist-205",
+      "Gutkowski",
+      90
+    ],
+    [
+      "Schulist-205",
+      "Adams",
+      18
+    ],
+    [
+      "Schulist-205",
+      "Zulauf",
+      49
+    ],
+    [
+      "Schulist-205",
+      "Hagenes",
+      99
+    ],
+    [
+      "Denesik-95",
+      "Gutkowski",
+      19
+    ],
+    [
+      "Denesik-95",
+      "SuitPlayer",
+      72
+    ],
+    [
+      "Denesik-95",
+      "KG16FSY05",
+      18
+    ],
+    [
+      "Denesik-95",
+      "Skiles-255",
+      79
+    ],
+    [
+      "3PII5YI30",
+      "VehicleWasher",
+      72
+    ],
+    [
+      "3PII5YI30",
+      "WhiteSand8",
+      65
+    ],
+    [
+      "Koepp",
+      "VictoriousMother",
+      8
+    ],
+    [
+      "Koepp",
+      "BusyWolf",
+      7
+    ],
+    [
+      "Koepp",
+      "Lynch-1",
+      46
+    ],
+    [
+      "RedHyena778",
+      "VictoriousMother",
+      49
+    ],
+    [
+      "RedHyena778",
+      "Glover",
+      68
+    ],
+    [
+      "RedHyena778",
+      "PharmacyHuger",
+      29
+    ],
+    [
+      "Morissette",
+      "Cummings",
+      50
+    ],
+    [
+      "Morissette",
+      "TOJ6I4WU6",
+      90
+    ],
+    [
+      "Morissette",
+      "McClure",
+      27
+    ],
+    [
+      "Morissette",
+      "GooseberryScenic1",
+      72
+    ],
+    [
+      "Mueller",
+      "Cummings",
+      64
+    ],
+    [
+      "Mueller",
+      "Jerde",
+      14
+    ],
+    [
+      "Mueller",
+      "Torphy-175",
+      67
+    ],
+    [
+      "Dietrich",
+      "Cummings",
+      91
+    ],
+    [
+      "Dietrich",
+      "ArrowDiveer",
+      30
+    ],
+    [
+      "Dietrich",
+      "Grady",
+      84
+    ],
+    [
+      "DateAshamed",
+      "Torphy-233",
+      80
+    ],
+    [
+      "DateAshamed",
+      "Paucek",
+      65
+    ],
+    [
+      "DateAshamed",
+      "Gerhold-47",
+      5
+    ],
+    [
+      "DateAshamed",
+      "3QJAGIOZ9",
+      3
+    ],
+    [
+      "NiceDuck",
+      "Wyman",
+      37
+    ],
+    [
+      "NiceDuck",
+      "Bernhard-177",
+      74
+    ],
+    [
+      "DamsonBlue",
+      "Carter-118",
+      4
+    ],
+    [
+      "LibraryHuger35",
+      "Schiller",
+      34
+    ],
+    [
+      "LibraryHuger35",
+      "Hane",
+      40
+    ],
+    [
+      "LibraryHuger35",
+      "LazyPaper4",
+      89
+    ],
+    [
+      "LibraryHuger35",
+      "Swaniawski-255",
+      92
+    ],
+    [
+      "GAWYB4Z61",
+      "EnchantedFruit975",
+      35
+    ],
+    [
+      "GAWYB4Z61",
+      "ChaiseLongueSnoreer19",
+      92
+    ],
+    [
+      "GAWYB4Z61",
+      "Lowe-189",
+      90
+    ],
+    [
+      "GAWYB4Z61",
+      "I3PM4MOI3",
+      99
+    ],
+    [
+      "AirSmeller",
+      "EnchantedFruit975",
+      26
+    ],
+    [
+      "AirSmeller",
+      "29FQVX810",
+      69
+    ],
+    [
+      "AirSmeller",
+      "SenatorClaper",
+      18
+    ],
+    [
+      "Turner-223",
+      "Hoppe-99",
+      23
+    ],
+    [
+      "Turner-223",
+      "Lueilwitz-135",
+      59
+    ],
+    [
+      "PSTSWC2T4",
+      "ArrowCloseer",
+      94
+    ],
+    [
+      "PSTSWC2T4",
+      "McCullough-264",
+      31
+    ],
+    [
+      "PSTSWC2T4",
+      "Brekke-29",
+      57
+    ],
+    [
+      "Denesik-223",
+      "ArrowCloseer",
+      24
+    ],
+    [
+      "Denesik-223",
+      "TensePanther88",
+      57
+    ],
+    [
+      "Denesik-223",
+      "ExpensiveParfume",
+      2
+    ],
+    [
+      "Blanda",
+      "ArrowCloseer",
+      99
+    ],
+    [
+      "Blanda",
+      "Anderson-287",
+      91
+    ],
+    [
+      "Blanda",
+      "LimeGrumpy",
+      39
+    ],
+    [
+      "Blanda",
+      "PhotographerHuger",
+      29
+    ],
+    [
+      "FilthyUmbrella",
+      "Wehner",
+      30
+    ],
+    [
+      "FilthyUmbrella",
+      "Rogahn",
+      71
+    ],
+    [
+      "FilthyUmbrella",
+      "Kuhic",
+      90
+    ],
+    [
+      "FilthyUmbrella",
+      "AwfulMoose60",
+      88
+    ],
+    [
+      "Aufderhar",
+      "QXC5NYQ41",
+      11
+    ],
+    [
+      "Adams",
+      "Schulist-205",
+      98
+    ],
+    [
+      "Adams",
+      "Mosciski",
+      63
+    ],
+    [
+      "Adams",
+      "Huel-8",
+      71
+    ],
+    [
+      "Zulauf",
+      "VonRueden",
+      11
+    ],
+    [
+      "Zulauf",
+      "SparklyWombat",
+      98
+    ],
+    [
+      "Hagenes",
+      "RockMelonAuspicious257",
+      95
+    ],
+    [
+      "Hagenes",
+      "Kuhic-175",
+      82
+    ],
+    [
+      "Hagenes",
+      "Upton",
+      54
+    ],
+    [
+      "SuitPlayer",
+      "Denesik-95",
+      60
+    ],
+    [
+      "SuitPlayer",
+      "QODSKIDI1",
+      41
+    ],
+    [
+      "SuitPlayer",
+      "Collier",
+      49
+    ],
+    [
+      "KG16FSY05",
+      "InexpensiveMouse7",
+      16
+    ],
+    [
+      "KG16FSY05",
+      "QBQG7L937",
+      96
+    ],
+    [
+      "KG16FSY05",
+      "PreciousEagle688",
+      7
+    ],
+    [
+      "Skiles-255",
+      "Hackett-292",
+      65
+    ],
+    [
+      "VehicleWasher",
+      "3PII5YI30",
+      53
+    ],
+    [
+      "VehicleWasher",
+      "Becker-277",
+      79
+    ],
+    [
+      "VehicleWasher",
+      "GJHXABH17",
+      40
+    ],
+    [
+      "VehicleWasher",
+      "Eden",
+      69
+    ],
+    [
+      "WhiteSand8",
+      "Roob",
+      60
+    ],
+    [
+      "BusyWolf",
+      "Koepp",
+      7
+    ],
+    [
+      "BusyWolf",
+      "Lynch-1",
+      77
+    ],
+    [
+      "Lynch-1",
+      "Koepp",
+      51
+    ],
+    [
+      "Glover",
+      "RedHyena778",
+      55
+    ],
+    [
+      "Glover",
+      "PharmacyHuger",
+      35
+    ],
+    [
+      "PharmacyHuger",
+      "RedHyena778",
+      47
+    ],
+    [
+      "TOJ6I4WU6",
+      "Morissette",
+      47
+    ],
+    [
+      "TOJ6I4WU6",
+      "McClure",
+      89
+    ],
+    [
+      "McClure",
+      "Morissette",
+      99
+    ],
+    [
+      "McClure",
+      "GooseberryScenic1",
+      53
+    ],
+    [
+      "GooseberryScenic1",
+      "Morissette",
+      76
+    ],
+    [
+      "GooseberryScenic1",
+      "BrightSlippers33",
+      14
+    ],
+    [
+      "Jerde",
+      "Mueller",
+      37
+    ],
+    [
+      "Jerde",
+      "Torphy-175",
+      93
+    ],
+    [
+      "Torphy-175",
+      "VictoriousMother",
+      20
+    ],
+    [
+      "ArrowDiveer",
+      "Dietrich",
+      96
+    ],
+    [
+      "ArrowDiveer",
+      "Grady",
+      93
+    ],
+    [
+      "Grady",
+      "Shanahan-46",
+      39
+    ],
+    [
+      "Paucek",
+      "DateAshamed",
+      17
+    ],
+    [
+      "Paucek",
+      "Gerhold-47",
+      98
+    ],
+    [
+      "Gerhold-47",
+      "3QJAGIOZ9",
+      26
+    ],
+    [
+      "3QJAGIOZ9",
+      "Adams",
+      72
+    ],
+    [
+      "Wyman",
+      "NiceDuck",
+      12
+    ],
+    [
+      "Wyman",
+      "Bernhard-177",
+      84
+    ],
+    [
+      "Bernhard-177",
+      "SuitPlayer",
+      76
+    ],
+    [
+      "Carter-118",
+      "DamsonBlue",
+      10
+    ],
+    [
+      "Carter-118",
+      "Lubowitz-92",
+      88
+    ],
+    [
+      "Hane",
+      "LibraryHuger35",
+      22
+    ],
+    [
+      "Hane",
+      "LazyPaper4",
+      5
+    ],
+    [
+      "LazyPaper4",
+      "Swaniawski-255",
+      47
+    ],
+    [
+      "Swaniawski-255",
+      "LibraryHuger35",
+      3
+    ],
+    [
+      "Swaniawski-255",
+      "TensePanther88",
+      76
+    ],
+    [
+      "ChaiseLongueSnoreer19",
+      "GAWYB4Z61",
+      68
+    ],
+    [
+      "ChaiseLongueSnoreer19",
+      "Lowe-189",
+      60
+    ],
+    [
+      "Lowe-189",
+      "GAWYB4Z61",
+      65
+    ],
+    [
+      "Lowe-189",
+      "I3PM4MOI3",
+      70
+    ],
+    [
+      "I3PM4MOI3",
+      "RedHyena778",
+      49
+    ],
+    [
+      "29FQVX810",
+      "AirSmeller",
+      4
+    ],
+    [
+      "29FQVX810",
+      "SenatorClaper",
+      50
+    ],
+    [
+      "SenatorClaper",
+      "AirSmeller",
+      42
+    ],
+    [
+      "Hoppe-99",
+      "Turner-223",
+      5
+    ],
+    [
+      "Hoppe-99",
+      "Lueilwitz-135",
+      64
+    ],
+    [
+      "Lueilwitz-135",
+      "Denesik-95",
+      91
+    ],
+    [
+      "McCullough-264",
+      "PSTSWC2T4",
+      72
+    ],
+    [
+      "McCullough-264",
+      "Brekke-29",
+      68
+    ],
+    [
+      "Brekke-29",
+      "PSTSWC2T4",
+      64
+    ],
+    [
+      "TensePanther88",
+      "Denesik-223",
+      63
+    ],
+    [
+      "TensePanther88",
+      "ExpensiveParfume",
+      95
+    ],
+    [
+      "ExpensiveParfume",
+      "Denesik-223",
+      23
+    ],
+    [
+      "Anderson-287",
+      "Blanda",
+      60
+    ],
+    [
+      "Anderson-287",
+      "LimeGrumpy",
+      74
+    ],
+    [
+      "LimeGrumpy",
+      "PhotographerHuger",
+      54
+    ],
+    [
+      "PhotographerHuger",
+      "Blanda",
+      34
+    ],
+    [
+      "Rogahn",
+      "FilthyUmbrella",
+      97
+    ],
+    [
+      "Rogahn",
+      "Kuhic",
+      68
+    ],
+    [
+      "Kuhic",
+      "AwfulMoose60",
+      69
+    ],
+    [
+      "AwfulMoose60",
+      "FilthyUmbrella",
+      14
+    ],
+    [
+      "AwfulMoose60",
+      "RedHyena778",
+      14
+    ],
+    [
+      "QXC5NYQ41",
+      "Aufderhar",
+      13
+    ],
+    [
+      "QXC5NYQ41",
+      "Glover",
+      37
+    ],
+    [
+      "Mosciski",
+      "Adams",
+      32
+    ],
+    [
+      "Mosciski",
+      "Huel-8",
+      84
+    ],
+    [
+      "Huel-8",
+      "ArrowCloseer",
+      81
+    ],
+    [
+      "VonRueden",
+      "Zulauf",
+      18
+    ],
+    [
+      "VonRueden",
+      "SparklyWombat",
+      43
+    ],
+    [
+      "SparklyWombat",
+      "SuitPlayer",
+      99
+    ],
+    [
+      "RockMelonAuspicious257",
+      "Hagenes",
+      85
+    ],
+    [
+      "RockMelonAuspicious257",
+      "Kuhic-175",
+      98
+    ],
+    [
+      "Kuhic-175",
+      "Hagenes",
+      68
+    ],
+    [
+      "Kuhic-175",
+      "Upton",
+      71
+    ],
+    [
+      "Upton",
+      "DateAshamed",
+      33
+    ],
+    [
+      "QODSKIDI1",
+      "SuitPlayer",
+      46
+    ],
+    [
+      "QODSKIDI1",
+      "Collier",
+      66
+    ],
+    [
+      "Collier",
+      "Glover",
+      72
+    ],
+    [
+      "InexpensiveMouse7",
+      "KG16FSY05",
+      45
+    ],
+    [
+      "InexpensiveMouse7",
+      "QBQG7L937",
+      33
+    ],
+    [
+      "QBQG7L937",
+      "PreciousEagle688",
+      60
+    ],
+    [
+      "PreciousEagle688",
+      "DateAshamed",
+      24
+    ],
+    [
+      "Hackett-292",
+      "Skiles-255",
+      60
+    ],
+    [
+      "Hackett-292",
+      "Mosciski",
+      3
+    ],
+    [
+      "Becker-277",
+      "VehicleWasher",
+      42
+    ],
+    [
+      "Becker-277",
+      "GJHXABH17",
+      37
+    ],
+    [
+      "GJHXABH17",
+      "VehicleWasher",
+      19
+    ],
+    [
+      "GJHXABH17",
+      "Eden",
+      8
+    ],
+    [
+      "Eden",
+      "VehicleWasher",
+      26
+    ],
+    [
+      "Eden",
+      "Schulist-205",
+      93
+    ]
+  ],
+  "attempt": 1
+}
+travel: Eden garbage=0 ship=0
+tick: start
+travel: 3PII5YI30 garbage=29 ship=0
+collector: winner #85
+collect: Загружено 93%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Anderson-287 garbage=24 ship=0
+collector: winner #35
+collect: Загружено 83%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: AirSmeller garbage=26 ship=0
+collector: winner #31
+collect: Загружено 89%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: 3QJAGIOZ9 garbage=24 ship=0
+collector: winner #70
+collect: Загружено 86%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+Connection error: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read'
+}
+travel: Paucek garbage=26 ship=0
+collector: winner #104
+collect: Загружено 87%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Cummings garbage=28 ship=0
+collector: winner #149
+collect: Загружено 93%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: KG16FSY05 garbage=27 ship=0
+collector: winner #285
+collect: Загружено 96%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Hackett-292 garbage=30 ship=0
+collector: winner #159
+collect: Загружено 94%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: GAWYB4Z61 garbage=27 ship=0
+collector: winner #167
+collect: Загружено 93%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Becker-277 garbage=25 ship=0
+collector: winner #51
+collect: Загружено 88%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Jones-43 garbage=27 ship=0
+collector: winner #146
+collect: Загружено 93%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Turner-223 garbage=28 ship=0
+collector: winner #142
+collect: Загружено 91%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Hane garbage=29 ship=0
+collector: winner #95
+collect: Загружено 96%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Mosciski garbage=29 ship=0
+collector: winner #89
+collect: Загружено 95%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: VV2WINB13 garbage=29 ship=0
+collector: winner #196
+collect: Загружено 96%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Koepp garbage=33 ship=0
+collector: winner #222
+collect: Загружено 98%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=16
+travel: LazyPaper4 garbage=25 ship=0
+collector: winner #151
+collect: Загружено 90%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Denesik-223 garbage=26 ship=0
+collector: winner #58
+collect: Загружено 93%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Hackett-292 garbage=17 ship=0
+collector: winner #70
+collect: Загружено 90%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Paucek garbage=16 ship=0
+collector: winner #4
+collect: Загружено 83%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Gutkowski garbage=30 ship=0
+collector: winner #71
+collect: Загружено 99%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=15
+travel: J3JUPO4P0 garbage=25 ship=0
+collector: winner #24
+collect: Загружено 89%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: ChaiseLongueSnoreer19 garbage=24 ship=0
+collector: winner #50
+collect: Загружено 86%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Gerhold-47 garbage=25 ship=0
+collector: winner #131
+collect: Загружено 88%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Kuhic garbage=24 ship=0
+collector: winner #232
+collect: Загружено 85%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: VV2WINB13 garbage=17 ship=0
+collector: winner #3
+collect: Загружено 90%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: RedHyena778 garbage=26 ship=0
+collector: winner #270
+collect: Загружено 88%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: SenatorClaper garbage=26 ship=0
+collector: winner #241
+collect: Загружено 90%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Lynch-1 garbage=28 ship=0
+collector: winner #36
+collect: Загружено 93%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Dietrich garbage=28 ship=0
+collector: winner #102
+collect: Загружено 94%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Shanahan-46 garbage=25 ship=0
+collector: winner #21
+collect: Загружено 89%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: VonRueden garbage=23 ship=0
+collector: winner #225
+collect: Загружено 82%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=8
+travel: Upton garbage=27 ship=0
+collector: winner #236
+collect: Загружено 96%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Huel-8 garbage=25 ship=0
+collector: winner #238
+collect: Загружено 86%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Brekke-29 garbage=30 ship=0
+collector: winner #237
+collect: Загружено 98%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: LazyPaper4 garbage=14 ship=0
+collector: winner #17
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: LazyPaper4 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 27%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Zulauf garbage=27 ship=4
+collector: winner #13
+collect: Загружено 96%
+collect: Осталось 18 18
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Lynch-1 garbage=15 ship=0
+collector: winner #3
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: GooseberryScenic1 garbage=24 ship=0
+collector: winner #188
+collect: Загружено 85%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: TOJ6I4WU6 garbage=27 ship=0
+collector: winner #121
+collect: Загружено 91%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Denesik-95 garbage=26 ship=0
+collector: winner #81
+collect: Загружено 89%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: ArrowDiveer garbage=27 ship=0
+collector: winner #252
+collect: Загружено 94%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Hoppe-269 garbage=30 ship=0
+collector: winner #47
+collect: Загружено 95%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: McClure garbage=29 ship=0
+collector: winner #84
+collect: Загружено 91%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Jerde garbage=24 ship=0
+collector: winner #109
+collect: Загружено 87%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: 3QJAGIOZ9 garbage=14 ship=0
+collector: winner #23
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Hoppe-269 garbage=16 ship=0
+collector: winner #132
+collect: Загружено 91%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Morissette garbage=29 ship=0
+collector: winner #154
+collect: Загружено 91%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Anderson-287 garbage=15 ship=0
+collector: winner #245
+collect: Загружено 86%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: J3JUPO4P0 garbage=15 ship=0
+collector: winner #6
+collect: Загружено 86%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: PSTSWC2T4 garbage=27 ship=0
+collector: winner #269
+collect: Загружено 95%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Jones-43 garbage=15 ship=0
+collector: winner #44
+collect: Загружено 90%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Schulist-205 garbage=25 ship=0
+collector: winner #185
+collect: Загружено 83%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Bernhard-177 garbage=25 ship=0
+collector: winner #271
+collect: Загружено 93%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: VictoriousMother garbage=26 ship=0
+collector: winner #43
+collect: Загружено 83%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Denesik-95 garbage=16 ship=0
+collector: winner #68
+collect: Загружено 88%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: ArrowCloseer garbage=27 ship=0
+collector: winner #37
+collect: Загружено 93%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Torphy-175 garbage=26 ship=0
+collector: winner #298
+collect: Загружено 89%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Skiles-255 garbage=27 ship=0
+collector: winner #17
+collect: Загружено 91%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: BusyWolf garbage=28 ship=0
+collector: winner #258
+collect: Загружено 93%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: 29FQVX810 garbage=25 ship=0
+collector: winner #141
+collect: Загружено 89%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: QBQG7L937 garbage=26 ship=0
+collector: winner #24
+collect: Загружено 93%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Mueller garbage=26 ship=0
+collector: winner #18
+collect: Загружено 91%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Shanahan-46 garbage=14 ship=0
+collector: winner #173
+collect: Загружено 80%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Gerhold-47 garbage=15 ship=10
+collector: winner #190
+collect: Загружено 85%
+collect: Загрузка провалилась - you have to take at least 75 blocks, but current load is 74 blocks
+tick: end
+
+tick: start
+travel: McClure garbage=17 ship=10
+collector: winner #109
+collect: Загружено 90%
+collect: Загрузка провалилась - garbage with ID 7TKhYD6 not found on planet McClure
+tick: end
+
+tick: start
+travel: Denesik-95 garbage=4 ship=12
+collector: winner #102
+collect: Загружено 87%
+collect: Загрузка провалилась - garbage with ID 7LkgPm1 not found on planet Denesik-95
+tick: end
+
+tick: start
+travel: Hagenes garbage=26 ship=12
+collector: winner #65
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID 7Lki4di not found on planet Hagenes
+tick: end
+
+tick: start
+travel: Schulist-205 garbage=16 ship=12
+collector: winner #121
+collect: Загружено 94%
+collect: Загрузка провалилась - garbage with ID 77h63Fw not found on planet Schulist-205
+tick: end
+
+tick: start
+travel: Dietrich garbage=15 ship=12
+collector: winner #232
+collect: Загружено 90%
+collect: Загрузка провалилась - garbage with ID 77iZh8r not found on planet Dietrich
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=24 ship=11
+collector: winner #187
+collect: Загружено 90%
+collect: Загрузка провалилась - garbage with ID 77h63Fw not found on planet PhotographerHuger
+tick: end
+
+tick: start
+travel: Denesik-223 garbage=15 ship=10
+collector: winner #156
+collect: Загружено 90%
+collect: Загрузка провалилась - garbage with ID 77iZMW4 not found on planet Denesik-223
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=28 ship=11
+collector: winner #60
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID RVu7EUGT not found on planet EnchantedFruit975
+tick: end
+
+tick: start
+travel: 3PII5YI30 garbage=16 ship=12
+collector: winner #289
+collect: Загружено 95%
+collect: Загрузка провалилась - garbage with ID RVu7EoSk not found on planet 3PII5YI30
+tick: end
+
+tick: start
+travel: LimeGrumpy garbage=27 ship=12
+collector: winner #52
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RVu8i89N not found on planet LimeGrumpy
+tick: end
+
+tick: start
+travel: PharmacyHuger garbage=29 ship=13
+collector: winner #3
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID 77iZMW4 not found on planet PharmacyHuger
+tick: end
+
+tick: start
+travel: Dietrich garbage=0 ship=14
+collector: winner #135
+collect: Загружено 98%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hane garbage=15 ship=14
+collector: winner #80
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID RVu7F95Y not found on planet Hane
+tick: end
+
+tick: start
+travel: QBQG7L937 garbage=14 ship=13
+collector: winner #203
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID RVu5i85i not found on planet QBQG7L937
+tick: end
+
+tick: start
+travel: LimeGrumpy garbage=0 ship=13
+collector: winner #5
+collect: Загружено 91%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Torphy-233 garbage=28 ship=12
+collector: winner #207
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RVu5i85i not found on planet Torphy-233
+tick: end
+
+tick: start
+travel: PharmacyHuger garbage=0 ship=15
+collector: winner #148
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Denesik-223 garbage=0 ship=14
+collector: winner #7
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: VictoriousMother garbage=17 ship=14
+collector: winner #0
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RVu7EoSk not found on planet VictoriousMother
+tick: end
+
+tick: start
+travel: Carter-118 garbage=26 ship=14
+collector: winner #78
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RVu7EUGT not found on planet Carter-118
+tick: end
+
+tick: start
+travel: BrightSlippers33 garbage=28 ship=14
+collector: winner #77
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID 6Z6tBrn not found on planet BrightSlippers33
+tick: end
+
+tick: start
+travel: Schiller garbage=28 ship=14
+collector: winner #229
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID 2FwbGL not found on planet Schiller
+tick: end
+
+tick: start
+travel: Hoppe-269 garbage=3 ship=15
+collector: winner #86
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RVu7EUGT not found on planet Hoppe-269
+tick: end
+
+tick: start
+travel: Glover garbage=32 ship=15
+collector: winner #3
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RVfqnDyH not found on planet Glover
+tick: end
+
+tick: start
+travel: Torphy-175 garbage=15 ship=16
+collector: winner #39
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RVu7EoSk not found on planet Torphy-175
+tick: end
+
+tick: start
+travel: QBQG7L937 garbage=0 ship=16
+collector: winner #85
+collect: Загружено 99%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Lueilwitz-135 garbage=25 ship=16
+collector: winner #126
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RVu7EUGT not found on planet Lueilwitz-135
+tick: end
+
+tick: start
+travel: Hoppe-269 garbage=0 ship=15
+collector: winner #269
+collect: Загружено 99%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Anderson-287 garbage=4 ship=15
+collector: winner #0
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID 6Z6tBrn not found on planet Anderson-287
+tick: end
+
+tick: start
+travel: Glover garbage=0 ship=15
+collector: winner #226
+collect: Загружено 98%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: QXC5NYQ41 garbage=25 ship=15
+collector: winner #287
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RVu7EoSk not found on planet QXC5NYQ41
+tick: end
+
+tick: start
+travel: Gerhold-47 garbage=0 ship=14
+collector: winner #212
+collect: Загружено 98%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PSTSWC2T4 garbage=15 ship=13
+collector: winner #74
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID 7EK6r8t not found on planet PSTSWC2T4
+tick: end
+
+tick: start
+travel: BrightSlippers33 garbage=0 ship=13
+collector: winner #14
+collect: Загружено 91%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: VonRueden garbage=15 ship=12
+collector: winner #10
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID 6Z6tBrn not found on planet VonRueden
+tick: end
+
+tick: start
+travel: InexpensiveMouse7 garbage=26 ship=12
+collector: winner #1
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID RVu7EoSk not found on planet InexpensiveMouse7
+tick: end
+
+tick: start
+travel: Becker-277 garbage=15 ship=13
+collector: winner #66
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RVu7EoSk not found on planet Becker-277
+tick: end
+
+tick: start
+travel: Schulist-205 garbage=0 ship=14
+collector: winner #213
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Anderson-287 garbage=0 ship=13
+collector: winner #0
+collect: Загружено 91%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hane garbage=0 ship=12
+collector: winner #42
+collect: Загружено 91%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Wyman garbage=26 ship=12
+collector: winner #19
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID 6Z6tBrn not found on planet Wyman
+tick: end
+
+tick: start
+travel: BusyWolf garbage=16 ship=14
+collector: winner #185
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID RVu7F95Y not found on planet BusyWolf
+tick: end
+
+tick: start
+travel: Wehner garbage=26 ship=14
+collector: winner #19
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID 6fWyjWh not found on planet Wehner
+tick: end
+
+tick: start
+travel: Swaniawski-255 garbage=26 ship=14
+collector: winner #7
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID 6fWyjWh not found on planet Swaniawski-255
+tick: end
+
+tick: start
+travel: Mosciski garbage=16 ship=14
+collector: winner #285
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID 7TQ9ALu not found on planet Mosciski
+tick: end
+
+tick: start
+travel: InexpensiveMouse7 garbage=0 ship=14
+collector: winner #2
+collect: Загружено 94%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: VonRueden garbage=0 ship=13
+collector: winner #9
+collect: Загружено 94%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Paucek garbage=5 ship=13
+collector: winner #39
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID RVfyDW5T not found on planet Paucek
+tick: end
+
+tick: start
+travel: I3PM4MOI3 garbage=30 ship=14
+collector: winner #79
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RVfyBVZx not found on planet I3PM4MOI3
+tick: end
+
+tick: start
+travel: Mosciski garbage=0 ship=14
+collector: winner #9
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Becker-277 garbage=0 ship=13
+collector: winner #5
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: I3PM4MOI3 garbage=0 ship=13
+collector: winner #44
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Lueilwitz-135 garbage=0 ship=13
+collector: winner #16
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: 29FQVX810 garbage=14 ship=13
+collector: winner #104
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RVg58nYg not found on planet 29FQVX810
+tick: end
+
+tick: start
+travel: Swaniawski-255 garbage=0 ship=13
+collector: winner #13
+collect: Загружено 99%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Schiller garbage=0 ship=13
+collector: winner #34
+collect: Загружено 94%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Roob garbage=25 ship=12
+collector: winner #36
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID 7TQ9ALu not found on planet Roob
+tick: end
+
+tick: start
+travel: Jerde garbage=14 ship=15
+collector: winner #231
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID 6YvVGHk not found on planet Jerde
+tick: end
+
+tick: start
+travel: QXC5NYQ41 garbage=0 ship=14
+collector: winner #34
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hoppe-99 garbage=27 ship=13
+collector: winner #72
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RVnQmhcu not found on planet Hoppe-99
+tick: end
+
+tick: start
+travel: Torphy-233 garbage=0 ship=13
+collector: winner #268
+collect: Загружено 99%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ChaiseLongueSnoreer19 garbage=15 ship=13
+collector: winner #5
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID 6Yu2HDv not found on planet ChaiseLongueSnoreer19
+tick: end
+
+tick: start
+travel: Wyman garbage=0 ship=13
+collector: winner #8
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Rogahn garbage=27 ship=13
+collector: winner #110
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID 7TQ8VXp not found on planet Rogahn
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=0 ship=13
+collector: winner #3
+collect: Загружено 94%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hoppe-99 garbage=0 ship=12
+collector: winner #95
+collect: Загружено 89%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: McClure garbage=0 ship=11
+collector: winner #0
+collect: Загружено 89%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Wehner garbage=0 ship=11
+collector: winner #57
+collect: Загружено 89%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: AwfulMoose60 garbage=29 ship=11
+collector: winner #286
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RW1UNNqm not found on planet AwfulMoose60
+tick: end
+
+tick: start
+travel: PSTSWC2T4 garbage=0 ship=13
+collector: winner #8
+collect: Загружено 91%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ChaiseLongueSnoreer19 garbage=0 ship=12
+collector: winner #13
+collect: Загружено 91%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: 29FQVX810 garbage=0 ship=12
+collector: winner #0
+collect: Загружено 91%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: TOJ6I4WU6 garbage=16 ship=12
+collector: winner #2
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID RVnWheSi not found on planet TOJ6I4WU6
+tick: end
+
+tick: start
+travel: Empty PATH!
+collector: winner #5
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RVu7EoSk not found on planet TOJ6I4WU6
+tick: end
+
+tick: start
+travel: Empty PATH!
+collector: winner #34
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID RVu7EoSk not found on planet TOJ6I4WU6
+tick: end
+
+tick: start
+travel: 3PII5YI30 garbage=0 ship=13
+collector: winner #109
+collect: Загружено 91%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Rogahn garbage=0 ship=12
+collector: winner #24
+collect: Загружено 88%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Collier garbage=26 ship=11
+collector: winner #91
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RW1XKgDL not found on planet Collier
+tick: end
+
+tick: start
+travel: Roob garbage=0 ship=14
+collector: winner #112
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Paucek garbage=0 ship=13
+collector: winner #285
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Collier garbage=0 ship=13
+collector: winner #47
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: TOJ6I4WU6 garbage=0 ship=13
+collector: winner #25
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hackett-292 garbage=4 ship=13
+collector: winner #42
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID RW8FERUq not found on planet Hackett-292
+tick: end
+
+tick: start
+travel: Carter-118 garbage=0 ship=15
+collector: winner #63
+collect: Загружено 94%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=14
+collector: winner #52
+collect: Загружено 94%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: AwfulMoose60 garbage=0 ship=14
+collector: winner #129
+collect: Загружено 94%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: QODSKIDI1 garbage=30 ship=14
+collector: winner #56
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet QODSKIDI1
+tick: end
+
+tick: start
+travel: Hackett-292 garbage=0 ship=15
+collector: winner #30
+collect: Загружено 99%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: QODSKIDI1 garbage=0 ship=15
+collector: winner #71
+collect: Загружено 99%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: BusyWolf garbage=0 ship=15
+collector: winner #59
+collect: Загружено 99%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mosciski garbage=1 ship=15
+collector: winner #23
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID RW8Dmn3o not found on planet Mosciski
+tick: end
+
+tick: start
+travel: Schiller garbage=0 ship=14
+collector: winner #16
+collect: Загружено 97%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Morissette garbage=34 ship=14
+collector: winner #19
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RW8Dmn3o not found on planet Morissette
+tick: end
+
+tick: start
+travel: Rogahn garbage=0 ship=14
+collector: winner #256
+collect: Загружено 95%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Koepp garbage=28 ship=13
+collector: winner #136
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID RVu7EoSk not found on planet Koepp
+tick: end
+
+tick: start
+travel: AirSmeller garbage=31 ship=14
+collector: winner #127
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RW8CJTog not found on planet AirSmeller
+tick: end
+
+tick: start
+travel: TensePanther88 garbage=49 ship=14
+collector: winner #116
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RW1XKgDL not found on planet TensePanther88
+tick: end
+
+tick: start
+travel: Lynch-1 garbage=24 ship=15
+collector: winner #3
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RVu7EoSk not found on planet Lynch-1
+tick: end
+
+tick: start
+travel: ExpensiveParfume garbage=56 ship=15
+collector: winner #13
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW8Dmn3o not found on planet ExpensiveParfume
+tick: end
+
+tick: start
+travel: Glover garbage=34 ship=13
+collector: winner #221
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RVnYBHwN not found on planet Glover
+tick: end
+
+tick: start
+travel: Denesik-223 garbage=79 ship=13
+collector: winner #19
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet Denesik-223
+tick: end
+
+tick: start
+travel: LimeGrumpy garbage=1 ship=13
+collector: winner #259
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW8FERUq not found on planet LimeGrumpy
+tick: end
+
+tick: start
+travel: DateAshamed garbage=34 ship=13
+collector: winner #9
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RVu1HAqE not found on planet DateAshamed
+tick: end
+
+tick: start
+travel: QXC5NYQ41 garbage=0 ship=14
+collector: winner #10
+collect: Загружено 98%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Gutkowski garbage=20 ship=14
+collector: winner #1
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RW8FERUq not found on planet Gutkowski
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=8 ship=13
+collector: winner #29
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID 6Z6tBrn not found on planet EnchantedFruit975
+tick: end
+
+tick: start
+travel: AirSmeller garbage=1 ship=12
+collector: winner #51
+collect: Загружено 90%
+collect: Загрузка провалилась - garbage with ID RVu1HAqE not found on planet AirSmeller
+tick: end
+
+tick: start
+travel: Paucek garbage=5 ship=11
+collector: winner #8
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID 6tZ5Qhj not found on planet Paucek
+tick: end
+
+tick: start
+travel: Denesik-95 garbage=36 ship=13
+collector: winner #294
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RVu1JBjc not found on planet Denesik-95
+tick: end
+
+tick: start
+travel: PreciousEagle688 garbage=39 ship=13
+collector: winner #75
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RVnYBHwN not found on planet PreciousEagle688
+tick: end
+
+tick: start
+travel: Zulauf garbage=29 ship=13
+collector: winner #53
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RWEdszyJ not found on planet Zulauf
+tick: end
+
+tick: start
+travel: Aufderhar garbage=56 ship=13
+collector: winner #211
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RVu1JBjc not found on planet Aufderhar
+tick: end
+
+tick: start
+travel: SenatorClaper garbage=40 ship=13
+collector: winner #187
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet SenatorClaper
+tick: end
+
+tick: start
+travel: BrightSlippers33 garbage=0 ship=13
+collector: winner #28
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: BusyWolf garbage=7 ship=13
+collector: winner #214
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet BusyWolf
+tick: end
+
+tick: start
+travel: Hane garbage=0 ship=13
+collector: winner #65
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hackett-292 garbage=0 ship=13
+collector: winner #130
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Carter-118 garbage=0 ship=13
+collector: winner #86
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Cummings garbage=37 ship=13
+collector: winner #257
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID RVnYBHwN not found on planet Cummings
+tick: end
+
+tick: start
+travel: NiceDuck garbage=44 ship=13
+collector: winner #51
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet NiceDuck
+tick: end
+
+tick: start
+travel: Mosciski garbage=0 ship=15
+collector: winner #47
+collect: Загружено 97%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Lynch-1 garbage=4 ship=14
+collector: winner #27
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet Lynch-1
+tick: end
+
+tick: start
+travel: LazyPaper4 garbage=0 ship=14
+collector: winner #43
+collect: Загружено 97%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: SenatorClaper garbage=0 ship=14
+collector: winner #116
+collect: Загружено 97%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hoppe-99 garbage=0 ship=14
+collector: winner #92
+collect: Загружено 97%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: BusyWolf garbage=0 ship=14
+collector: winner #5
+collect: Загружено 97%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Schulist-205 garbage=1 ship=14
+collector: winner #25
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID 6taakSb not found on planet Schulist-205
+tick: end
+
+tick: start
+travel: WhiteSand8 garbage=31 ship=14
+collector: winner #281
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID 6taakSb not found on planet WhiteSand8
+tick: end
+
+tick: start
+travel: GooseberryScenic1 garbage=29 ship=15
+collector: winner #212
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet GooseberryScenic1
+tick: end
+
+tick: start
+travel: Gerhold-47 garbage=18 ship=15
+collector: winner #267
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID 6taZjTy not found on planet Gerhold-47
+tick: end
+
+tick: start
+travel: Denesik-223 garbage=0 ship=14
+collector: winner #10
+collect: Загружено 95%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: KG16FSY05 garbage=28 ship=13
+collector: winner #114
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID 6tc23ii not found on planet KG16FSY05
+tick: end
+
+tick: start
+travel: Hoppe-99 garbage=0 ship=14
+collector: winner #12
+collect: Загружено 99%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mayer-191 garbage=30 ship=14
+collector: winner #0
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet Mayer-191
+tick: end
+
+tick: start
+travel: Becker-277 garbage=0 ship=14
+collector: winner #39
+collect: Загружено 99%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Carter-118 garbage=0 ship=14
+collector: winner #90
+collect: Загружено 99%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Denesik-95 garbage=0 ship=14
+collector: winner #180
+collect: Загружено 99%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ArrowDiveer garbage=18 ship=14
+collector: winner #21
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID 6Ywwa5z not found on planet ArrowDiveer
+tick: end
+
+tick: start
+travel: Huel-8 garbage=24 ship=14
+collector: winner #149
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID 6YwxvEu not found on planet Huel-8
+tick: end
+
+tick: start
+travel: SuitPlayer garbage=54 ship=14
+collector: winner #11
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID 6tc23ii not found on planet SuitPlayer
+tick: end
+
+tick: start
+travel: Hane garbage=0 ship=13
+collector: winner #44
+collect: Загружено 99%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: BusyWolf garbage=0 ship=13
+collector: winner #198
+collect: Загружено 99%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Morissette garbage=40 ship=13
+collector: winner #37
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID 77k6N3P not found on planet Morissette
+tick: end
+
+tick: start
+travel: 29FQVX810 garbage=8 ship=13
+collector: winner #8
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID 6Ywwa5z not found on planet 29FQVX810
+tick: end
+
+tick: start
+travel: Lowe-189 garbage=34 ship=13
+collector: winner #19
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet Lowe-189
+tick: end
+
+tick: start
+travel: Blanda garbage=53 ship=13
+collector: winner #36
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID 7TDkasA not found on planet Blanda
+tick: end
+
+tick: start
+travel: 3PII5YI30 garbage=4 ship=14
+collector: winner #20
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RW1dExE4 not found on planet 3PII5YI30
+tick: end
+
+tick: start
+travel: GJHXABH17 garbage=34 ship=14
+collector: winner #2
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet GJHXABH17
+tick: end
+
+tick: start
+travel: Skiles-255 garbage=28 ship=14
+collector: winner #0
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID 7TDkasA not found on planet Skiles-255
+tick: end
+
+tick: start
+travel: Gerhold-47 garbage=0 ship=14
+collector: winner #35
+collect: Загружено 99%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Lueilwitz-135 garbage=15 ship=14
+collector: winner #4
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RWEmKH5U not found on planet Lueilwitz-135
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=36 ship=15
+collector: winner #4
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RVnVG1Xo not found on planet PhotographerHuger
+tick: end
+
+tick: start
+travel: AirSmeller garbage=45 ship=12
+collector: winner #146
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID RVu7F95Y not found on planet AirSmeller
+tick: end
+
+tick: start
+travel: VictoriousMother garbage=27 ship=12
+collector: winner #45
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID 71E2BL5 not found on planet VictoriousMother
+tick: end
+
+tick: start
+travel: McClure garbage=30 ship=12
+collector: winner #77
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID 7LrdLeS not found on planet McClure
+tick: end
+
+tick: start
+travel: PreciousEagle688 garbage=9 ship=14
+collector: winner #258
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID 7LkgPm1 not found on planet PreciousEagle688
+tick: end
+
+tick: start
+travel: NiceDuck garbage=0 ship=13
+collector: winner #267
+collect: Загружено 98%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=13
+collector: winner #117
+collect: Загружено 95%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: BusyWolf garbage=0 ship=12
+collector: winner #78
+collect: Загружено 95%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Kuhic-175 garbage=32 ship=12
+collector: winner #259
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID 7LuYy9J not found on planet Kuhic-175
+tick: end
+
+tick: start
+travel: I3PM4MOI3 garbage=19 ship=13
+collector: winner #69
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RVu7F95Y not found on planet I3PM4MOI3
+tick: end
+
+tick: start
+travel: Koepp garbage=41 ship=13
+collector: winner #13
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet Koepp
+tick: end
+
+tick: start
+travel: AirSmeller garbage=0 ship=13
+collector: winner #0
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: InexpensiveMouse7 garbage=12 ship=13
+collector: winner #21
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW87qALf not found on planet InexpensiveMouse7
+tick: end
+
+tick: start
+travel: Upton garbage=37 ship=13
+collector: winner #63
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID 6Ywwa5z not found on planet Upton
+tick: end
+
+tick: start
+travel: BusyWolf garbage=11 ship=12
+collector: winner #6
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID 71E2BL5 not found on planet BusyWolf
+tick: end
+
+tick: start
+travel: Anderson-287 garbage=15 ship=12
+collector: winner #70
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID RW87rAQH not found on planet Anderson-287
+tick: end
+
+tick: start
+travel: SuitPlayer garbage=0 ship=12
+collector: winner #0
+collect: Загружено 97%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Kuhic-175 garbage=0 ship=12
+collector: winner #2
+collect: Загружено 97%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: BrightSlippers33 garbage=10 ship=12
+collector: winner #175
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RW87rAQH not found on planet BrightSlippers33
+tick: end
+
+tick: start
+travel: Collier garbage=31 ship=12
+collector: winner #8
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RVuAA5rK not found on planet Collier
+tick: end
+
+tick: start
+travel: Mosciski garbage=0 ship=12
+collector: winner #0
+collect: Загружено 98%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Wehner garbage=18 ship=12
+collector: winner #90
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet Wehner
+tick: end
+
+tick: start
+travel: I3PM4MOI3 garbage=0 ship=12
+collector: winner #184
+collect: Загружено 96%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mayer-191 garbage=6 ship=12
+collector: winner #14
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet Mayer-191
+tick: end
+
+tick: start
+travel: GooseberryScenic1 garbage=22 ship=12
+collector: winner #12
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID 6Ywwa5z not found on planet GooseberryScenic1
+tick: end
+
+tick: start
+travel: KG16FSY05 garbage=3 ship=12
+collector: winner #255
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID 6fbRhHJ not found on planet KG16FSY05
+tick: end
+
+tick: start
+travel: SparklyWombat garbage=54 ship=12
+collector: winner #256
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID 6Ywyvgn not found on planet SparklyWombat
+tick: end
+
+tick: start
+travel: ArrowDiveer garbage=0 ship=13
+collector: winner #279
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Bernhard-177 garbage=58 ship=13
+collector: winner #51
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet Bernhard-177
+tick: end
+
+tick: start
+travel: KG16FSY05 garbage=0 ship=12
+collector: winner #129
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ChaiseLongueSnoreer19 garbage=0 ship=12
+collector: winner #25
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Lynch-1 garbage=18 ship=12
+collector: winner #13
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID 6taZjvU not found on planet Lynch-1
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=0 ship=12
+collector: winner #41
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: QBQG7L937 garbage=34 ship=12
+collector: winner #62
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID 6Ywwa5z not found on planet QBQG7L937
+tick: end
+
+tick: start
+travel: Paucek garbage=0 ship=12
+collector: winner #41
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Dietrich garbage=17 ship=12
+collector: winner #19
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID 7TRcpkZ not found on planet Dietrich
+tick: end
+
+tick: start
+travel: Upton garbage=0 ship=12
+collector: winner #23
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: LibraryHuger35 garbage=80 ship=12
+collector: winner #77
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet LibraryHuger35
+tick: end
+
+tick: start
+travel: LazyPaper4 garbage=0 ship=12
+collector: winner #86
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Schiller garbage=25 ship=12
+collector: winner #300
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID 6fTz55q not found on planet Schiller
+tick: end
+
+tick: start
+travel: DamsonBlue garbage=47 ship=12
+collector: winner #225
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID 6fbRgpo not found on planet DamsonBlue
+tick: end
+
+tick: start
+travel: ArrowCloseer garbage=101 ship=12
+collector: winner #5
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW87qALf not found on planet ArrowCloseer
+tick: end
+
+tick: start
+travel: Collier garbage=0 ship=12
+collector: winner #3
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hoppe-99 garbage=0 ship=12
+collector: winner #50
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PSTSWC2T4 garbage=25 ship=12
+collector: winner #29
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID 6YvVGHk not found on planet PSTSWC2T4
+tick: end
+
+tick: start
+travel: KG16FSY05 garbage=0 ship=12
+collector: winner #27
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: TOJ6I4WU6 garbage=16 ship=12
+collector: winner #3
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID 6tdYj5k not found on planet TOJ6I4WU6
+tick: end
+
+tick: start
+travel: SparklyWombat garbage=0 ship=12
+collector: winner #34
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: LazyPaper4 garbage=0 ship=12
+collector: winner #89
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: I3PM4MOI3 garbage=0 ship=12
+collector: winner #5
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ChaiseLongueSnoreer19 garbage=0 ship=12
+collector: winner #5
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Earth garbage=0 ship=12
+collector: winner #3
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hane garbage=30 ship=12
+collector: winner #18
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet Hane
+tick: end
+
+tick: start
+travel: Swaniawski-255 garbage=25 ship=12
+collector: winner #33
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW1ekd9D not found on planet Swaniawski-255
+tick: end
+
+tick: start
+travel: Hoppe-269 garbage=0 ship=13
+collector: winner #55
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Bernhard-177 garbage=0 ship=13
+collector: winner #33
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: I3PM4MOI3 garbage=0 ship=13
+collector: winner #4
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Kuhic-175 garbage=0 ship=13
+collector: winner #22
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: TOJ6I4WU6 garbage=0 ship=13
+collector: winner #265
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Aufderhar garbage=5 ship=13
+collector: winner #115
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RVfyDW5T not found on planet Aufderhar
+tick: end
+
+tick: start
+travel: RockMelonAuspicious257 garbage=37 ship=13
+collector: winner #12
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID 6YwxEu5 not found on planet RockMelonAuspicious257
+tick: end
+
+tick: start
+travel: QXC5NYQ41 garbage=61 ship=13
+collector: winner #20
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW84rBFd not found on planet QXC5NYQ41
+tick: end
+
+tick: start
+travel: I3PM4MOI3 garbage=0 ship=13
+collector: winner #2
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: 3QJAGIOZ9 garbage=46 ship=13
+collector: winner #3
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RVfyDW5T not found on planet 3QJAGIOZ9
+tick: end
+
+tick: start
+travel: Lueilwitz-135 garbage=0 ship=13
+collector: winner #0
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=18 ship=13
+collector: winner #37
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW84rr4i not found on planet EnchantedFruit975
+tick: end
+
+tick: start
+travel: Mayer-191 garbage=0 ship=13
+collector: winner #14
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ExpensiveParfume garbage=25 ship=13
+collector: winner #11
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW87qALf not found on planet ExpensiveParfume
+tick: end
+
+tick: start
+travel: RockMelonAuspicious257 garbage=0 ship=13
+collector: winner #9
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mosciski garbage=0 ship=13
+collector: winner #8
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=0 ship=13
+collector: winner #0
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Carter-118 garbage=47 ship=13
+collector: winner #18
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW87qALf not found on planet Carter-118
+tick: end
+
+tick: start
+travel: Hoppe-99 garbage=0 ship=12
+collector: winner #59
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Aufderhar garbage=26 ship=12
+collector: winner #50
+collect: Загружено 98%
+collect: Загрузка провалилась - garbage with ID RW84rBFd not found on planet Aufderhar
+tick: end
+
+tick: start
+travel: Adams garbage=83 ship=12
+collector: winner #192
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID RW84rBFd not found on planet Adams
+tick: end
+
+tick: start
+travel: Shanahan-46 garbage=12 ship=13
+collector: winner #42
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID 6tZ6RgM not found on planet Shanahan-46
+tick: end
+
+tick: start
+travel: Collier garbage=0 ship=13
+collector: winner #16
+collect: Загружено 97%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Paucek garbage=0 ship=13
+collector: winner #1
+collect: Загружено 97%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ArrowDiveer garbage=6 ship=13
+collector: winner #27
+collect: Загружено 95%
+collect: Загрузка провалилась - garbage with ID 7TNeWQN not found on planet ArrowDiveer
+tick: end
+
+tick: start
+travel: Empty PATH!
+collector: winner #92
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID 6tZ6RgM not found on planet ArrowDiveer
+tick: end
+
+tick: start
+travel: McCullough-264 garbage=35 ship=13
+collector: winner #261
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID 77cekJR not found on planet McCullough-264
+tick: end
+
+tick: start
+travel: Mueller garbage=26 ship=12
+collector: winner #110
+collect: Загружено 97%
+collect: Загрузка провалилась - garbage with ID 77cekJR not found on planet Mueller
+tick: end
+
+tick: start
+travel: PharmacyHuger garbage=38 ship=12
+collector: winner #4
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID 6fSXReo not found on planet PharmacyHuger
+tick: end
+
+tick: start
+travel: WhiteSand8 garbage=3 ship=13
+collector: winner #1
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW84rBFd not found on planet WhiteSand8
+tick: end
+
+tick: start
+travel: 29FQVX810 garbage=9 ship=13
+collector: winner #4
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW87qALf not found on planet 29FQVX810
+tick: end
+
+tick: start
+travel: KG16FSY05 garbage=0 ship=13
+collector: winner #15
+collect: Загружено 100%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Glover garbage=66 ship=13
+collector: winner #34
+collect: Загружено 100%
+collect: Загрузка провалилась - garbage with ID RW8FFRzx not found on planet Glover
+tick: end
+
+tick: start
+travel: LimeGrumpy garbage=25 ship=12
+collector: winner #117
+collect: Загружено 99%
+collect: Загрузка провалилась - garbage with ID 6fSXReo not found on planet LimeGrumpy
+tick: end
+
+
+Nou Sagi@DESKTOP-092CICL MINGW64 ~/Desktop/datsedenspace (master)
+$ node ./src/bot/bot.js
+BOT started
+Connection error: Error: connect ECONNREFUSED 127.0.0.1:9111
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9111
+}
+node:internal/process/promises:289
+            triggerUncaughtException(err, true /* fromPromise */);
+            ^
+
+Error: connect ECONNREFUSED 127.0.0.1:9111
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1595:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 9111
+}
+
+Node.js v20.9.0
+
+Nou Sagi@DESKTOP-092CICL MINGW64 ~/Desktop/datsedenspace (master)
+$ node ./src/bot/bot.js
+BOT started
+Connected to server
+init: {
+  "name": "Что-то фотонное",
+  "roundName": "Final 7",
+  "roundEndIn": 1156,
+  "ship": {
+    "fuelUsed": 605470,
+    "planet": {
+      "name": "FilthyUmbrella",
+      "garbage": {}
+    },
+    "capacityX": 8,
+    "capacityY": 11,
+    "garbage": {}
+  },
+  "universe": [
+    [
+      "Earth",
+      "BrightSlippers33",
+      416
+    ],
+    [
+      "Earth",
+      "Hoppe-269",
+      530
+    ],
+    [
+      "BrightSlippers33",
+      "Earth",
+      510
+    ],
+    [
+      "BrightSlippers33",
+      "VV2WINB13",
+      328
+    ],
+    [
+      "BrightSlippers33",
+      "J3JUPO4P0",
+      258
+    ],
+    [
+      "Hoppe-269",
+      "Earth",
+      442
+    ],
+    [
+      "Hoppe-269",
+      "Jones-43",
+      699
+    ],
+    [
+      "Hoppe-269",
+      "Lubowitz-92",
+      385
+    ],
+    [
+      "VV2WINB13",
+      "BrightSlippers33",
+      539
+    ],
+    [
+      "VV2WINB13",
+      "Shanahan-46",
+      654
+    ],
+    [
+      "VV2WINB13",
+      "Roob",
+      224
+    ],
+    [
+      "J3JUPO4P0",
+      "Mayer-191",
+      251
+    ],
+    [
+      "Jones-43",
+      "Hoppe-269",
+      380
+    ],
+    [
+      "Jones-43",
+      "Gutkowski",
+      768
+    ],
+    [
+      "Lubowitz-92",
+      "Hoppe-269",
+      661
+    ],
+    [
+      "Lubowitz-92",
+      "VictoriousMother",
+      175
+    ],
+    [
+      "Lubowitz-92",
+      "Cummings",
+      354
+    ],
+    [
+      "Shanahan-46",
+      "VV2WINB13",
+      102
+    ],
+    [
+      "Shanahan-46",
+      "Torphy-233",
+      296
+    ],
+    [
+      "Shanahan-46",
+      "Schiller",
+      165
+    ],
+    [
+      "Shanahan-46",
+      "EnchantedFruit975",
+      421
+    ],
+    [
+      "Roob",
+      "VV2WINB13",
+      792
+    ],
+    [
+      "Roob",
+      "ArrowCloseer",
+      236
+    ],
+    [
+      "Mayer-191",
+      "J3JUPO4P0",
+      47
+    ],
+    [
+      "Mayer-191",
+      "Wehner",
+      321
+    ],
+    [
+      "Gutkowski",
+      "Jones-43",
+      374
+    ],
+    [
+      "Gutkowski",
+      "Schulist-205",
+      209
+    ],
+    [
+      "Gutkowski",
+      "Denesik-95",
+      344
+    ],
+    [
+      "Gutkowski",
+      "3PII5YI30",
+      757
+    ],
+    [
+      "VictoriousMother",
+      "Lubowitz-92",
+      734
+    ],
+    [
+      "VictoriousMother",
+      "Koepp",
+      240
+    ],
+    [
+      "VictoriousMother",
+      "RedHyena778",
+      102
+    ],
+    [
+      "Cummings",
+      "Morissette",
+      229
+    ],
+    [
+      "Cummings",
+      "Mueller",
+      94
+    ],
+    [
+      "Cummings",
+      "Dietrich",
+      165
+    ],
+    [
+      "Torphy-233",
+      "Shanahan-46",
+      202
+    ],
+    [
+      "Torphy-233",
+      "DateAshamed",
+      109
+    ],
+    [
+      "Torphy-233",
+      "NiceDuck",
+      177
+    ],
+    [
+      "Torphy-233",
+      "DamsonBlue",
+      199
+    ],
+    [
+      "Schiller",
+      "LibraryHuger35",
+      226
+    ],
+    [
+      "EnchantedFruit975",
+      "GAWYB4Z61",
+      251
+    ],
+    [
+      "EnchantedFruit975",
+      "AirSmeller",
+      168
+    ],
+    [
+      "EnchantedFruit975",
+      "Turner-223",
+      337
+    ],
+    [
+      "ArrowCloseer",
+      "Roob",
+      553
+    ],
+    [
+      "ArrowCloseer",
+      "PSTSWC2T4",
+      69
+    ],
+    [
+      "ArrowCloseer",
+      "Denesik-223",
+      92
+    ],
+    [
+      "ArrowCloseer",
+      "Blanda",
+      227
+    ],
+    [
+      "Wehner",
+      "Mayer-191",
+      3
+    ],
+    [
+      "Wehner",
+      "FilthyUmbrella",
+      156
+    ],
+    [
+      "Wehner",
+      "Aufderhar",
+      130
+    ],
+    [
+      "Schulist-205",
+      "Gutkowski",
+      560
+    ],
+    [
+      "Schulist-205",
+      "Adams",
+      148
+    ],
+    [
+      "Schulist-205",
+      "Zulauf",
+      139
+    ],
+    [
+      "Schulist-205",
+      "Hagenes",
+      259
+    ],
+    [
+      "Denesik-95",
+      "Gutkowski",
+      289
+    ],
+    [
+      "Denesik-95",
+      "SuitPlayer",
+      102
+    ],
+    [
+      "Denesik-95",
+      "KG16FSY05",
+      308
+    ],
+    [
+      "Denesik-95",
+      "Skiles-255",
+      159
+    ],
+    [
+      "3PII5YI30",
+      "VehicleWasher",
+      742
+    ],
+    [
+      "3PII5YI30",
+      "WhiteSand8",
+      325
+    ],
+    [
+      "Koepp",
+      "VictoriousMother",
+      168
+    ],
+    [
+      "Koepp",
+      "BusyWolf",
+      87
+    ],
+    [
+      "Koepp",
+      "Lynch-1",
+      96
+    ],
+    [
+      "RedHyena778",
+      "VictoriousMother",
+      539
+    ],
+    [
+      "RedHyena778",
+      "Glover",
+      78
+    ],
+    [
+      "RedHyena778",
+      "PharmacyHuger",
+      49
+    ],
+    [
+      "Morissette",
+      "Cummings",
+      50
+    ],
+    [
+      "Morissette",
+      "TOJ6I4WU6",
+      140
+    ],
+    [
+      "Morissette",
+      "McClure",
+      67
+    ],
+    [
+      "Morissette",
+      "GooseberryScenic1",
+      212
+    ],
+    [
+      "Mueller",
+      "Cummings",
+      84
+    ],
+    [
+      "Mueller",
+      "Jerde",
+      54
+    ],
+    [
+      "Mueller",
+      "Torphy-175",
+      107
+    ],
+    [
+      "Dietrich",
+      "Cummings",
+      91
+    ],
+    [
+      "Dietrich",
+      "ArrowDiveer",
+      70
+    ],
+    [
+      "Dietrich",
+      "Grady",
+      134
+    ],
+    [
+      "DateAshamed",
+      "Torphy-233",
+      360
+    ],
+    [
+      "DateAshamed",
+      "Paucek",
+      135
+    ],
+    [
+      "DateAshamed",
+      "Gerhold-47",
+      55
+    ],
+    [
+      "DateAshamed",
+      "3QJAGIOZ9",
+      193
+    ],
+    [
+      "NiceDuck",
+      "Wyman",
+      57
+    ],
+    [
+      "NiceDuck",
+      "Bernhard-177",
+      194
+    ],
+    [
+      "DamsonBlue",
+      "Carter-118",
+      124
+    ],
+    [
+      "LibraryHuger35",
+      "Schiller",
+      54
+    ],
+    [
+      "LibraryHuger35",
+      "Hane",
+      160
+    ],
+    [
+      "LibraryHuger35",
+      "LazyPaper4",
+      89
+    ],
+    [
+      "LibraryHuger35",
+      "Swaniawski-255",
+      152
+    ],
+    [
+      "GAWYB4Z61",
+      "EnchantedFruit975",
+      75
+    ],
+    [
+      "GAWYB4Z61",
+      "ChaiseLongueSnoreer19",
+      142
+    ],
+    [
+      "GAWYB4Z61",
+      "Lowe-189",
+      100
+    ],
+    [
+      "GAWYB4Z61",
+      "I3PM4MOI3",
+      189
+    ],
+    [
+      "AirSmeller",
+      "EnchantedFruit975",
+      156
+    ],
+    [
+      "AirSmeller",
+      "29FQVX810",
+      119
+    ],
+    [
+      "AirSmeller",
+      "SenatorClaper",
+      48
+    ],
+    [
+      "Turner-223",
+      "Hoppe-99",
+      83
+    ],
+    [
+      "Turner-223",
+      "Lueilwitz-135",
+      249
+    ],
+    [
+      "PSTSWC2T4",
+      "ArrowCloseer",
+      154
+    ],
+    [
+      "PSTSWC2T4",
+      "McCullough-264",
+      41
+    ],
+    [
+      "PSTSWC2T4",
+      "Brekke-29",
+      67
+    ],
+    [
+      "Denesik-223",
+      "ArrowCloseer",
+      264
+    ],
+    [
+      "Denesik-223",
+      "TensePanther88",
+      67
+    ],
+    [
+      "Denesik-223",
+      "ExpensiveParfume",
+      22
+    ],
+    [
+      "Blanda",
+      "ArrowCloseer",
+      239
+    ],
+    [
+      "Blanda",
+      "Anderson-287",
+      141
+    ],
+    [
+      "Blanda",
+      "LimeGrumpy",
+      79
+    ],
+    [
+      "Blanda",
+      "PhotographerHuger",
+      69
+    ],
+    [
+      "FilthyUmbrella",
+      "Wehner",
+      30
+    ],
+    [
+      "FilthyUmbrella",
+      "Rogahn",
+      101
+    ],
+    [
+      "FilthyUmbrella",
+      "Kuhic",
+      110
+    ],
+    [
+      "FilthyUmbrella",
+      "AwfulMoose60",
+      178
+    ],
+    [
+      "Aufderhar",
+      "QXC5NYQ41",
+      111
+    ],
+    [
+      "Adams",
+      "Schulist-205",
+      338
+    ],
+    [
+      "Adams",
+      "Mosciski",
+      123
+    ],
+    [
+      "Adams",
+      "Huel-8",
+      221
+    ],
+    [
+      "Zulauf",
+      "VonRueden",
+      101
+    ],
+    [
+      "Zulauf",
+      "SparklyWombat",
+      98
+    ],
+    [
+      "Hagenes",
+      "RockMelonAuspicious257",
+      115
+    ],
+    [
+      "Hagenes",
+      "Kuhic-175",
+      112
+    ],
+    [
+      "Hagenes",
+      "Upton",
+      184
+    ],
+    [
+      "SuitPlayer",
+      "Denesik-95",
+      210
+    ],
+    [
+      "SuitPlayer",
+      "QODSKIDI1",
+      61
+    ],
+    [
+      "SuitPlayer",
+      "Collier",
+      149
+    ],
+    [
+      "KG16FSY05",
+      "InexpensiveMouse7",
+      86
+    ],
+    [
+      "KG16FSY05",
+      "QBQG7L937",
+      96
+    ],
+    [
+      "KG16FSY05",
+      "PreciousEagle688",
+      257
+    ],
+    [
+      "Skiles-255",
+      "Hackett-292",
+      145
+    ],
+    [
+      "VehicleWasher",
+      "3PII5YI30",
+      253
+    ],
+    [
+      "VehicleWasher",
+      "Becker-277",
+      119
+    ],
+    [
+      "VehicleWasher",
+      "GJHXABH17",
+      680
+    ],
+    [
+      "VehicleWasher",
+      "Eden",
+      69
+    ],
+    [
+      "WhiteSand8",
+      "Roob",
+      320
+    ],
+    [
+      "BusyWolf",
+      "Koepp",
+      87
+    ],
+    [
+      "BusyWolf",
+      "Lynch-1",
+      64
+    ],
+    [
+      "Lynch-1",
+      "Koepp",
+      101
+    ],
+    [
+      "Glover",
+      "RedHyena778",
+      265
+    ],
+    [
+      "Glover",
+      "PharmacyHuger",
+      43
+    ],
+    [
+      "PharmacyHuger",
+      "RedHyena778",
+      77
+    ],
+    [
+      "TOJ6I4WU6",
+      "Morissette",
+      97
+    ],
+    [
+      "TOJ6I4WU6",
+      "McClure",
+      35
+    ],
+    [
+      "McClure",
+      "Morissette",
+      99
+    ],
+    [
+      "McClure",
+      "GooseberryScenic1",
+      129
+    ],
+    [
+      "GooseberryScenic1",
+      "Morissette",
+      76
+    ],
+    [
+      "GooseberryScenic1",
+      "BrightSlippers33",
+      194
+    ],
+    [
+      "Jerde",
+      "Mueller",
+      57
+    ],
+    [
+      "Jerde",
+      "Torphy-175",
+      94
+    ],
+    [
+      "Torphy-175",
+      "VictoriousMother",
+      80
+    ],
+    [
+      "ArrowDiveer",
+      "Dietrich",
+      96
+    ],
+    [
+      "ArrowDiveer",
+      "Grady",
+      108
+    ],
+    [
+      "Grady",
+      "Shanahan-46",
+      129
+    ],
+    [
+      "Paucek",
+      "DateAshamed",
+      87
+    ],
+    [
+      "Paucek",
+      "Gerhold-47",
+      98
+    ],
+    [
+      "Gerhold-47",
+      "3QJAGIOZ9",
+      121
+    ],
+    [
+      "3QJAGIOZ9",
+      "Adams",
+      312
+    ],
+    [
+      "Wyman",
+      "NiceDuck",
+      12
+    ],
+    [
+      "Wyman",
+      "Bernhard-177",
+      80
+    ],
+    [
+      "Bernhard-177",
+      "SuitPlayer",
+      216
+    ],
+    [
+      "Carter-118",
+      "DamsonBlue",
+      10
+    ],
+    [
+      "Carter-118",
+      "Lubowitz-92",
+      208
+    ],
+    [
+      "Hane",
+      "LibraryHuger35",
+      22
+    ],
+    [
+      "Hane",
+      "LazyPaper4",
+      157
+    ],
+    [
+      "LazyPaper4",
+      "Swaniawski-255",
+      128
+    ],
+    [
+      "Swaniawski-255",
+      "LibraryHuger35",
+      23
+    ],
+    [
+      "Swaniawski-255",
+      "TensePanther88",
+      236
+    ],
+    [
+      "ChaiseLongueSnoreer19",
+      "GAWYB4Z61",
+      98
+    ],
+    [
+      "ChaiseLongueSnoreer19",
+      "Lowe-189",
+      104
+    ],
+    [
+      "Lowe-189",
+      "GAWYB4Z61",
+      65
+    ],
+    [
+      "Lowe-189",
+      "I3PM4MOI3",
+      90
+    ],
+    [
+      "I3PM4MOI3",
+      "RedHyena778",
+      169
+    ],
+    [
+      "29FQVX810",
+      "AirSmeller",
+      54
+    ],
+    [
+      "29FQVX810",
+      "SenatorClaper",
+      68
+    ],
+    [
+      "SenatorClaper",
+      "AirSmeller",
+      72
+    ],
+    [
+      "Hoppe-99",
+      "Turner-223",
+      5
+    ],
+    [
+      "Hoppe-99",
+      "Lueilwitz-135",
+      113
+    ],
+    [
+      "Lueilwitz-135",
+      "Denesik-95",
+      341
+    ],
+    [
+      "McCullough-264",
+      "PSTSWC2T4",
+      82
+    ],
+    [
+      "McCullough-264",
+      "Brekke-29",
+      54
+    ],
+    [
+      "Brekke-29",
+      "PSTSWC2T4",
+      74
+    ],
+    [
+      "TensePanther88",
+      "Denesik-223",
+      233
+    ],
+    [
+      "TensePanther88",
+      "ExpensiveParfume",
+      98
+    ],
+    [
+      "ExpensiveParfume",
+      "Denesik-223",
+      43
+    ],
+    [
+      "Anderson-287",
+      "Blanda",
+      110
+    ],
+    [
+      "Anderson-287",
+      "LimeGrumpy",
+      95
+    ],
+    [
+      "LimeGrumpy",
+      "PhotographerHuger",
+      124
+    ],
+    [
+      "PhotographerHuger",
+      "Blanda",
+      114
+    ],
+    [
+      "Rogahn",
+      "FilthyUmbrella",
+      97
+    ],
+    [
+      "Rogahn",
+      "Kuhic",
+      35
+    ],
+    [
+      "Kuhic",
+      "AwfulMoose60",
+      97
+    ],
+    [
+      "AwfulMoose60",
+      "FilthyUmbrella",
+      24
+    ],
+    [
+      "AwfulMoose60",
+      "RedHyena778",
+      144
+    ],
+    [
+      "QXC5NYQ41",
+      "Aufderhar",
+      13
+    ],
+    [
+      "QXC5NYQ41",
+      "Glover",
+      137
+    ],
+    [
+      "Mosciski",
+      "Adams",
+      112
+    ],
+    [
+      "Mosciski",
+      "Huel-8",
+      137
+    ],
+    [
+      "Huel-8",
+      "ArrowCloseer",
+      291
+    ],
+    [
+      "VonRueden",
+      "Zulauf",
+      18
+    ],
+    [
+      "VonRueden",
+      "SparklyWombat",
+      156
+    ],
+    [
+      "SparklyWombat",
+      "SuitPlayer",
+      189
+    ],
+    [
+      "RockMelonAuspicious257",
+      "Hagenes",
+      105
+    ],
+    [
+      "RockMelonAuspicious257",
+      "Kuhic-175",
+      26
+    ],
+    [
+      "Kuhic-175",
+      "Hagenes",
+      68
+    ],
+    [
+      "Kuhic-175",
+      "Upton",
+      123
+    ],
+    [
+      "Upton",
+      "DateAshamed",
+      193
+    ],
+    [
+      "QODSKIDI1",
+      "SuitPlayer",
+      56
+    ],
+    [
+      "QODSKIDI1",
+      "Collier",
+      79
+    ],
+    [
+      "Collier",
+      "Glover",
+      182
+    ],
+    [
+      "InexpensiveMouse7",
+      "KG16FSY05",
+      75
+    ],
+    [
+      "InexpensiveMouse7",
+      "QBQG7L937",
+      133
+    ],
+    [
+      "QBQG7L937",
+      "PreciousEagle688",
+      90
+    ],
+    [
+      "PreciousEagle688",
+      "DateAshamed",
+      314
+    ],
+    [
+      "Hackett-292",
+      "Skiles-255",
+      60
+    ],
+    [
+      "Hackett-292",
+      "Mosciski",
+      83
+    ],
+    [
+      "Becker-277",
+      "VehicleWasher",
+      62
+    ],
+    [
+      "Becker-277",
+      "GJHXABH17",
+      90
+    ],
+    [
+      "GJHXABH17",
+      "VehicleWasher",
+      19
+    ],
+    [
+      "GJHXABH17",
+      "Eden",
+      703
+    ],
+    [
+      "Eden",
+      "VehicleWasher",
+      216
+    ],
+    [
+      "Eden",
+      "Schulist-205",
+      563
+    ]
+  ],
+  "attempt": 1
+}
+travel: Eden garbage=0 ship=0
+tick: start
+travel: EnchantedFruit975 garbage=1 ship=0
+collector: winner #0
+collect: Загружено 8%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: TensePanther88 garbage=43 ship=1
+collector: winner #125
+collect: Загружено 98%
+collect: Осталось 30 30
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Swaniawski-255 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: QBQG7L937 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: GJHXABH17 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: VV2WINB13 garbage=42 ship=0
+collector: winner #115
+collect: Загружено 99%
+collect: Осталось 29 29
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Huel-8 garbage=23 ship=0
+collector: winner #295
+collect: Загружено 86%
+collect: Осталось 12 12
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: BrightSlippers33 garbage=12 ship=0
+collector: winner #198
+collect: Загружено 77%
+collect: Осталось 1 1
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: PharmacyHuger garbage=35 ship=0
+collector: winner #77
+collect: Загружено 96%
+collect: Осталось 23 23
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Grady garbage=45 ship=0
+collector: winner #151
+collect: Загружено 87%
+collect: Осталось 35 35
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Glover garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: BusyWolf garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Dietrich garbage=4 ship=0
+collector: winner #0
+collect: Загружено 33%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Mayer-191 garbage=0 ship=4
+collector: winner #0
+collect: Загружено 33%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Gerhold-47 garbage=0 ship=4
+collector: winner #0
+collect: Загружено 33%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: GAWYB4Z61 garbage=53 ship=4
+collector: winner #4
+collect: Загружено 95%
+collect: Осталось 45 45
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Lowe-189 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Blanda garbage=64 ship=0
+collector: winner #237
+collect: Загружено 99%
+collect: Осталось 51 51
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: McClure garbage=7 ship=0
+collector: winner #0
+collect: Загружено 49%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Gutkowski garbage=15 ship=7
+collector: winner #119
+collect: Загружено 91%
+collect: Осталось 10 10
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Lubowitz-92 garbage=79 ship=0
+collector: winner #187
+collect: Загружено 87%
+collect: Осталось 70 70
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: ExpensiveParfume garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Hoppe-269 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Lubowitz-92 garbage=70 ship=0
+collector: winner #44
+collect: Загружено 90%
+collect: Осталось 59 59
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: VV2WINB13 garbage=29 ship=0
+collector: winner #216
+collect: Загружено 91%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: 29FQVX810 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PharmacyHuger garbage=23 ship=0
+collector: winner #177
+collect: Загружено 91%
+collect: Осталось 11 11
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: PhotographerHuger garbage=25 ship=0
+collector: winner #59
+collect: Загружено 87%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: ArrowDiveer garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: SenatorClaper garbage=24 ship=0
+collector: winner #113
+collect: Загружено 87%
+collect: Осталось 13 13
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: LibraryHuger35 garbage=65 ship=0
+collector: winner #38
+collect: Загружено 95%
+collect: Осталось 53 53
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Huel-8 garbage=12 ship=0
+collector: winner #245
+collect: Загружено 82%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Grady garbage=35 ship=0
+collector: winner #291
+collect: Загружено 93%
+collect: Осталось 23 23
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Jerde garbage=9 ship=0
+collector: winner #0
+collect: Загружено 65%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Mosciski garbage=31 ship=0
+collector: winner #78
+collect: Загружено 90%
+collect: Осталось 20 20
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: VehicleWasher garbage=83 ship=0
+collector: winner #6
+collect: Загружено 99%
+collect: Осталось 68 68
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=15
+travel: DateAshamed garbage=86 ship=0
+collector: winner #55
+collect: Загружено 93%
+collect: Осталось 75 75
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Gutkowski garbage=10 ship=0
+collector: winner #1
+collect: Загружено 72%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Becker-277 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Wyman garbage=17 ship=0
+collector: winner #286
+collect: Загружено 94%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Lynch-1 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: TensePanther88 garbage=30 ship=0
+collector: winner #14
+collect: Загружено 89%
+collect: Осталось 19 19
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Schiller garbage=2 ship=0
+collector: winner #0
+collect: Загружено 15%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Torphy-233 garbage=13 ship=2
+collector: winner #209
+collect: Загружено 86%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Denesik-95 garbage=36 ship=0
+collector: winner #215
+collect: Загружено 94%
+collect: Осталось 24 24
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Blanda garbage=51 ship=0
+collector: winner #9
+collect: Загружено 93%
+collect: Осталось 38 38
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Shanahan-46 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=15 ship=0
+collector: winner #36
+collect: Загружено 79%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: WhiteSand8 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: VonRueden garbage=14 ship=0
+collector: winner #26
+collect: Загружено 85%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: VonRueden garbage=3 ship=0
+collector: winner #0
+collect: Загружено 19%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: ChaiseLongueSnoreer19 garbage=0 ship=3
+collector: winner #0
+collect: Загружено 19%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PreciousEagle688 garbage=35 ship=3
+collector: winner #196
+collect: Загружено 90%
+collect: Осталось 27 27
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: QODSKIDI1 garbage=17 ship=0
+collector: winner #240
+collect: Загружено 90%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: VehicleWasher garbage=68 ship=0
+collector: winner #212
+collect: Загружено 93%
+collect: Осталось 56 56
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Collier garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Morissette garbage=34 ship=0
+collector: winner #21
+collect: Загружено 93%
+collect: Осталось 20 20
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: SuitPlayer garbage=112 ship=0
+collector: winner #2
+collect: Загружено 99%
+collect: Осталось 98 98
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Wyman garbage=4 ship=0
+collector: winner #0
+collect: Загружено 30%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Turner-223 garbage=49 ship=4
+collector: winner #92
+collect: Загружено 95%
+collect: Осталось 40 40
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: NiceDuck garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: GooseberryScenic1 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: BrightSlippers33 garbage=1 ship=0
+collector: winner #0
+collect: Загружено 5%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: SenatorClaper garbage=13 ship=1
+collector: winner #12
+collect: Загружено 85%
+collect: Осталось 1 1
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: AwfulMoose60 garbage=48 ship=0
+collector: winner #271
+collect: Загружено 93%
+collect: Осталось 36 36
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Mueller garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Brekke-29 garbage=54 ship=0
+collector: winner #11
+collect: Загружено 97%
+collect: Осталось 41 41
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: PhotographerHuger garbage=5 ship=0
+collector: winner #0
+collect: Загружено 35%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: LimeGrumpy garbage=0 ship=5
+collector: winner #0
+collect: Загружено 35%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Adams garbage=0 ship=5
+collector: winner #0
+collect: Загружено 35%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: KG16FSY05 garbage=0 ship=5
+collector: winner #0
+collect: Загружено 35%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: I3PM4MOI3 garbage=0 ship=5
+collector: winner #0
+collect: Загружено 35%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Bernhard-177 garbage=0 ship=5
+collector: winner #0
+collect: Загружено 35%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: SparklyWombat garbage=0 ship=5
+collector: winner #0
+collect: Загружено 35%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PharmacyHuger garbage=11 ship=5
+collector: winner #73
+collect: Загружено 80%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Brekke-29 garbage=41 ship=0
+collector: winner #207
+collect: Загружено 94%
+collect: Осталось 28 28
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: TensePanther88 garbage=19 ship=0
+collector: winner #57
+collect: Загружено 87%
+collect: Осталось 6 6
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: AwfulMoose60 garbage=36 ship=0
+collector: winner #140
+collect: Загружено 88%
+collect: Осталось 24 24
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: DamsonBlue garbage=21 ship=0
+collector: winner #159
+collect: Загружено 93%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Torphy-233 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 30%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Roob garbage=60 ship=4
+collector: winner #77
+collect: Загружено 95%
+collect: Осталось 53 53
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: McCullough-264 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Blanda garbage=38 ship=0
+collector: winner #220
+collect: Загружено 87%
+collect: Осталось 27 27
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Cummings garbage=20 ship=0
+collector: winner #9
+collect: Загружено 86%
+collect: Осталось 9 9
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Kuhic-175 garbage=17 ship=0
+collector: winner #122
+collect: Загружено 82%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: TensePanther88 garbage=6 ship=0
+collector: winner #0
+collect: Загружено 38%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Hagenes garbage=40 ship=6
+collector: winner #142
+collect: Загружено 90%
+collect: Осталось 35 35
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: TOJ6I4WU6 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Lubowitz-92 garbage=59 ship=0
+collector: winner #124
+collect: Загружено 89%
+collect: Осталось 47 47
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Hackett-292 garbage=28 ship=0
+collector: winner #87
+collect: Загружено 93%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Upton garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: AirSmeller garbage=13 ship=0
+collector: winner #3
+collect: Загружено 83%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: QXC5NYQ41 garbage=26 ship=0
+collector: winner #27
+collect: Загружено 88%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Carter-118 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Torphy-175 garbage=22 ship=0
+collector: winner #56
+collect: Загружено 85%
+collect: Осталось 12 12
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Rogahn garbage=14 ship=0
+collector: winner #19
+collect: Загружено 90%
+collect: Осталось 1 1
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: PharmacyHuger garbage=5 ship=0
+collector: winner #0
+collect: Загружено 32%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Lueilwitz-135 garbage=0 ship=5
+collector: winner #0
+collect: Загружено 32%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Blanda garbage=27 ship=5
+collector: winner #21
+collect: Загружено 90%
+collect: Осталось 20 20
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: QODSKIDI1 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 18%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Blanda garbage=20 ship=3
+collector: winner #118
+collect: Загружено 88%
+collect: Осталось 10 10
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Aufderhar garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: RockMelonAuspicious257 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Hagenes garbage=35 ship=0
+collector: winner #64
+collect: Загружено 87%
+collect: Осталось 25 25
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Denesik-223 garbage=54 ship=0
+collector: winner #184
+collect: Загружено 90%
+collect: Осталось 43 43
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Rogahn garbage=1 ship=0
+collector: winner #0
+collect: Загружено 7%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Denesik-223 garbage=43 ship=1
+collector: winner #52
+collect: Загружено 91%
+collect: Осталось 32 32
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: LibraryHuger35 garbage=53 ship=0
+collector: winner #24
+collect: Загружено 91%
+collect: Осталось 42 42
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Denesik-223 garbage=32 ship=0
+collector: winner #290
+collect: Загружено 88%
+collect: Осталось 21 21
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Hagenes garbage=25 ship=0
+collector: winner #74
+collect: Загружено 87%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: VictoriousMother garbage=14 ship=0
+collector: winner #71
+collect: Загружено 86%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Koepp garbage=27 ship=0
+collector: winner #81
+collect: Загружено 89%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Morissette garbage=20 ship=0
+collector: winner #78
+collect: Загружено 90%
+collect: Осталось 6 6
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: SenatorClaper garbage=1 ship=0
+collector: winner #0
+collect: Загружено 5%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: PSTSWC2T4 garbage=14 ship=1
+collector: winner #217
+collect: Загружено 82%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: PSTSWC2T4 garbage=5 ship=0
+collector: winner #0
+collect: Загружено 33%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Hagenes garbage=14 ship=5
+collector: winner #35
+collect: Загружено 86%
+collect: Осталось 6 6
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Torphy-175 garbage=12 ship=0
+collector: winner #6
+collect: Загружено 81%
+collect: Осталось 1 1
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: VV2WINB13 garbage=16 ship=0
+collector: winner #261
+collect: Загружено 87%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Cummings garbage=9 ship=0
+collector: winner #1
+collect: Загружено 64%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: DateAshamed garbage=75 ship=0
+collector: winner #8
+collect: Загружено 94%
+collect: Осталось 64 64
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: ArrowCloseer garbage=7 ship=0
+collector: winner #0
+collect: Загружено 54%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Hagenes garbage=6 ship=7
+collector: winner #9
+collect: Загружено 81%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: VictoriousMother garbage=2 ship=0
+collector: winner #0
+collect: Загружено 13%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Skiles-255 garbage=0 ship=2
+collector: winner #0
+collect: Загружено 13%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Kuhic-175 garbage=7 ship=2
+collector: winner #0
+collect: Загружено 61%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: 3PII5YI30 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: AwfulMoose60 garbage=24 ship=0
+collector: winner #98
+collect: Загружено 88%
+collect: Осталось 12 12
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Roob garbage=53 ship=0
+collector: winner #245
+collect: Загружено 95%
+collect: Осталось 41 41
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Paucek garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Torphy-175 garbage=1 ship=0
+collector: winner #0
+collect: Загружено 6%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: QXC5NYQ41 garbage=16 ship=1
+collector: winner #262
+collect: Загружено 87%
+collect: Осталось 6 6
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Brekke-29 garbage=28 ship=0
+collector: winner #157
+collect: Загружено 90%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Turner-223 garbage=40 ship=0
+collector: winner #222
+collect: Загружено 88%
+collect: Осталось 29 29
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Zulauf garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Grady garbage=23 ship=0
+collector: winner #155
+collect: Загружено 89%
+collect: Осталось 11 11
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Kuhic garbage=22 ship=0
+collector: winner #144
+collect: Загружено 88%
+collect: Осталось 11 11
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: LazyPaper4 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Blanda garbage=10 ship=0
+collector: winner #0
+collect: Загружено 62%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Morissette garbage=6 ship=0
+collector: winner #0
+collect: Загружено 36%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: DamsonBlue garbage=8 ship=6
+collector: winner #67
+collect: Загружено 82%
+collect: Осталось 1 1
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Hoppe-99 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: FilthyUmbrella garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: LibraryHuger35 garbage=42 ship=0
+collector: winner #35
+collect: Загружено 87%
+collect: Осталось 31 31
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Grady garbage=11 ship=0
+collector: winner #0
+collect: Загружено 70%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: LibraryHuger35 garbage=31 ship=0
+collector: winner #122
+collect: Загружено 86%
+collect: Осталось 19 19
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: AirSmeller garbage=2 ship=0
+collector: winner #0
+collect: Загружено 13%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Hagenes garbage=2 ship=2
+collector: winner #0
+collect: Загружено 24%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Hane garbage=0 ship=4
+collector: winner #0
+collect: Загружено 24%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: DamsonBlue garbage=1 ship=4
+collector: winner #0
+collect: Загружено 30%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Lubowitz-92 garbage=47 ship=5
+collector: winner #46
+collect: Загружено 88%
+collect: Осталось 41 41
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: VV2WINB13 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 19%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Denesik-223 garbage=21 ship=3
+collector: winner #50
+collect: Загружено 88%
+collect: Осталось 12 12
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Koepp garbage=14 ship=0
+collector: winner #2
+collect: Загружено 79%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: QXC5NYQ41 garbage=6 ship=0
+collector: winner #0
+collect: Загружено 35%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: AwfulMoose60 garbage=12 ship=6
+collector: winner #5
+collect: Загружено 88%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: VehicleWasher garbage=56 ship=0
+collector: winner #0
+collect: Загружено 90%
+collect: Осталось 44 44
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Roob garbage=41 ship=0
+collector: winner #280
+collect: Загружено 89%
+collect: Осталось 30 30
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: AwfulMoose60 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 24%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Brekke-29 garbage=14 ship=4
+collector: winner #41
+collect: Загружено 88%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Jones-43 garbage=7 ship=0
+collector: winner #0
+collect: Загружено 48%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: DateAshamed garbage=64 ship=7
+collector: winner #277
+collect: Загружено 93%
+collect: Осталось 58 58
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Brekke-29 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 23%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Denesik-223 garbage=12 ship=4
+collector: winner #127
+collect: Загружено 83%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: DateAshamed garbage=58 ship=0
+collector: winner #77
+collect: Загружено 88%
+collect: Осталось 47 47
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Turner-223 garbage=29 ship=0
+collector: winner #257
+collect: Загружено 89%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Denesik-223 garbage=2 ship=0
+collector: winner #0
+collect: Загружено 10%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Roob garbage=30 ship=2
+collector: winner #20
+collect: Загружено 89%
+collect: Осталось 20 20
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Kuhic garbage=11 ship=0
+collector: winner #1
+collect: Загружено 75%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: DateAshamed garbage=47 ship=0
+collector: winner #113
+collect: Загружено 89%
+collect: Осталось 35 35
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Roob garbage=20 ship=0
+collector: winner #295
+collect: Загружено 82%
+collect: Осталось 9 9
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Turner-223 garbage=17 ship=0
+collector: winner #40
+collect: Загружено 88%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Turner-223 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 15%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Roob garbage=9 ship=3
+collector: winner #1
+collect: Загружено 73%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Lubowitz-92 garbage=41 ship=0
+collector: winner #7
+collect: Загружено 85%
+collect: Осталось 30 30
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: DateAshamed garbage=35 ship=0
+collector: winner #128
+collect: Загружено 86%
+collect: Осталось 24 24
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: VehicleWasher garbage=44 ship=0
+collector: winner #301
+collect: Загружено 89%
+collect: Осталось 33 33
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: DateAshamed garbage=24 ship=0
+collector: winner #240
+collect: Загружено 82%
+collect: Осталось 13 13
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Lubowitz-92 garbage=30 ship=0
+collector: winner #56
+collect: Загружено 83%
+collect: Осталось 19 19
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Anderson-287 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Lubowitz-92 garbage=19 ship=0
+collector: winner #100
+collect: Загружено 81%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: VehicleWasher garbage=33 ship=0
+collector: winner #144
+collect: Загружено 89%
+collect: Осталось 20 20
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: VehicleWasher garbage=20 ship=0
+collector: winner #27
+collect: Загружено 85%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Lubowitz-92 garbage=7 ship=0
+collector: winner #0
+collect: Загружено 44%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: VehicleWasher garbage=7 ship=7
+collector: winner #283
+collect: Загружено 82%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: DateAshamed garbage=13 ship=0
+collector: winner #72
+collect: Загружено 79%
+collect: Осталось 1 1
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: DateAshamed garbage=1 ship=0
+collector: winner #0
+collect: Загружено 5%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Brekke-29 garbage=0 ship=1
+collector: winner #0
+collect: Загружено 5%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: LibraryHuger35 garbage=19 ship=1
+collector: winner #27
+collect: Загружено 86%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Wehner garbage=18 ship=0
+collector: winner #63
+collect: Загружено 89%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Aufderhar garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: AirSmeller garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Jones-43 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: ExpensiveParfume garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: InexpensiveMouse7 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: SuitPlayer garbage=98 ship=0
+collector: winner #238
+collect: Загружено 93%
+collect: Осталось 87 87
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Hoppe-269 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: RedHyena778 garbage=216 ship=0
+collector: winner #77
+collect: Загружено 100%
+collect: Осталось 201 201
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=15
+travel: RockMelonAuspicious257 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Cummings garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Paucek garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: NiceDuck garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: VictoriousMother garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: LazyPaper4 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Swaniawski-255 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Zulauf garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: SuitPlayer garbage=87 ship=0
+collector: winner #156
+collect: Загружено 91%
+collect: Осталось 76 76
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: GooseberryScenic1 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Gerhold-47 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Kuhic-175 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Grady garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Wehner garbage=7 ship=0
+collector: winner #0
+collect: Загружено 47%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Mayer-191 garbage=0 ship=7
+collector: winner #0
+collect: Загружено 47%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PSTSWC2T4 garbage=0 ship=7
+collector: winner #0
+collect: Загружено 47%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: LazyPaper4 garbage=0 ship=7
+collector: winner #0
+collect: Загружено 47%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Morissette garbage=0 ship=7
+collector: winner #0
+collect: Загружено 47%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: LimeGrumpy garbage=0 ship=7
+collector: winner #0
+collect: Загружено 47%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: SenatorClaper garbage=0 ship=7
+collector: winner #0
+collect: Загружено 47%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ArrowDiveer garbage=0 ship=7
+collector: winner #0
+collect: Загружено 47%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Grady garbage=0 ship=7
+collector: winner #0
+collect: Загружено 47%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Wehner garbage=0 ship=7
+collector: winner #0
+collect: Загружено 47%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Collier garbage=0 ship=7
+collector: winner #0
+collect: Загружено 47%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hackett-292 garbage=16 ship=7
+collector: winner #208
+collect: Загружено 89%
+collect: Осталось 10 10
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Jones-43 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Earth garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Lowe-189 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Swaniawski-255 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Adams garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Empty PATH!
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: GAWYB4Z61 garbage=45 ship=0
+collector: winner #195
+collect: Загружено 90%
+collect: Осталось 33 33
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Huel-8 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: QBQG7L937 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: McClure garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Jones-43 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Hackett-292 garbage=10 ship=0
+collector: winner #0
+collect: Загружено 64%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: AirSmeller garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: SenatorClaper garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Roob garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: KG16FSY05 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Hackett-292 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Brekke-29 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: ExpensiveParfume garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: RockMelonAuspicious257 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Upton garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Swaniawski-255 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Koepp garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Wyman garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: RockMelonAuspicious257 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: AwfulMoose60 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Dietrich garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: ArrowCloseer garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Denesik-95 garbage=24 ship=0
+collector: winner #129
+collect: Загружено 86%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Cummings garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Paucek garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: BrightSlippers33 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Empty PATH!
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Zulauf garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: QXC5NYQ41 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: GJHXABH17 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Kuhic-175 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: KG16FSY05 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Adams garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PSTSWC2T4 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Denesik-95 garbage=14 ship=0
+collector: winner #269
+collect: Загружено 80%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Swaniawski-255 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Denesik-95 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 16%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=0 ship=3
+collector: winner #0
+collect: Загружено 16%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: WhiteSand8 garbage=0 ship=3
+collector: winner #0
+collect: Загружено 16%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: 3PII5YI30 garbage=0 ship=3
+collector: winner #0
+collect: Загружено 16%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: J3JUPO4P0 garbage=35 ship=3
+collector: winner #185
+collect: Загружено 89%
+collect: Осталось 27 27
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: McClure garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Hackett-292 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: LimeGrumpy garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: VehicleWasher garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: RedHyena778 garbage=201 ship=0
+collector: winner #112
+collect: Загружено 98%
+collect: Осталось 188 188
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Huel-8 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: QBQG7L937 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: BrightSlippers33 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Swaniawski-255 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Jones-43 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: DateAshamed garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: InexpensiveMouse7 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Empty PATH!
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Bernhard-177 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: 29FQVX810 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Mueller garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Torphy-233 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Lowe-189 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: BrightSlippers33 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Roob garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: VehicleWasher garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Shanahan-46 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Wyman garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Roob garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: AwfulMoose60 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: TOJ6I4WU6 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Swaniawski-255 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Lynch-1 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: 3PII5YI30 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: QODSKIDI1 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Lynch-1 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Torphy-233 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: LibraryHuger35 garbage=7 ship=0
+collector: winner #0
+collect: Загружено 40%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Earth garbage=0 ship=7
+collector: winner #0
+collect: Загружено 40%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mosciski garbage=20 ship=7
+collector: winner #204
+collect: Загружено 86%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: I3PM4MOI3 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Swaniawski-255 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: KG16FSY05 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Mosciski garbage=15 ship=0
+collector: winner #224
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: PreciousEagle688 garbage=27 ship=0
+collector: winner #42
+collect: Загружено 89%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Kuhic garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Turner-223 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: LimeGrumpy garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Gerhold-47 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: ChaiseLongueSnoreer19 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Kuhic garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: DateAshamed garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Cummings garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: RockMelonAuspicious257 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: LibraryHuger35 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Glover garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: QBQG7L937 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Morissette garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: QXC5NYQ41 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: LimeGrumpy garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Torphy-233 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Anderson-287 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: ExpensiveParfume garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Roob garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: QODSKIDI1 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: SuitPlayer garbage=76 ship=0
+collector: winner #43
+collect: Загружено 88%
+collect: Осталось 66 66
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: RockMelonAuspicious257 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: 29FQVX810 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Dietrich garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Grady garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: LimeGrumpy garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: VehicleWasher garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Schiller garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Mueller garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Kuhic-175 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Hoppe-99 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: LimeGrumpy garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Turner-223 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: LibraryHuger35 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Schiller garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: 29FQVX810 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: McClure garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: BusyWolf garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: I3PM4MOI3 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: NiceDuck garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: AwfulMoose60 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: ArrowDiveer garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Collier garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Schulist-205 garbage=29 ship=0
+collector: winner #34
+collect: Загружено 90%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: 29FQVX810 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: NiceDuck garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: KG16FSY05 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: 29FQVX810 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Becker-277 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Turner-223 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: DamsonBlue garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Koepp garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: VonRueden garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: AwfulMoose60 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Lueilwitz-135 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: VictoriousMother garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Mayer-191 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Gerhold-47 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Dietrich garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: 3PII5YI30 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: AwfulMoose60 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Empty PATH!
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: SenatorClaper garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Adams garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: RockMelonAuspicious257 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Schulist-205 garbage=17 ship=0
+collector: winner #187
+collect: Загружено 89%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=15
+travel: QXC5NYQ41 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: LimeGrumpy garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Swaniawski-255 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Denesik-223 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: AirSmeller garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: KG16FSY05 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Aufderhar garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Mayer-191 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Torphy-175 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: GAWYB4Z61 garbage=33 ship=0
+collector: winner #4
+collect: Загружено 88%
+collect: Осталось 21 21
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: VonRueden garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Roob garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Hackett-292 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Upton garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Torphy-233 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Paucek garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Lubowitz-92 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: VV2WINB13 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: InexpensiveMouse7 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: J3JUPO4P0 garbage=27 ship=0
+collector: winner #204
+collect: Загружено 89%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Dietrich garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Kuhic garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: 3PII5YI30 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Denesik-95 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Huel-8 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Torphy-233 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Lueilwitz-135 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: BrightSlippers33 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Shanahan-46 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Brekke-29 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: FilthyUmbrella garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Torphy-175 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: GooseberryScenic1 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Earth garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: I3PM4MOI3 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Swaniawski-255 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PharmacyHuger garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PSTSWC2T4 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Glover garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Gutkowski garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: DateAshamed garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: BrightSlippers33 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Skiles-255 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Denesik-95 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: InexpensiveMouse7 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: SparklyWombat garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: McCullough-264 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: RockMelonAuspicious257 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PreciousEagle688 garbage=15 ship=0
+collector: winner #135
+collect: Загружено 83%
+collect: Осталось 2 2
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Wehner garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Hoppe-269 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Gutkowski garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: TensePanther88 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: BrightSlippers33 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: ArrowCloseer garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Torphy-175 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Lueilwitz-135 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Mueller garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: AirSmeller garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: WhiteSand8 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: KG16FSY05 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: FilthyUmbrella garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Wyman garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: DateAshamed garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: GJHXABH17 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Morissette garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: KG16FSY05 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Morissette garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: LibraryHuger35 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: RedHyena778 garbage=188 ship=0
+collector: winner #66
+collect: Загружено 95%
+collect: Осталось 176 176
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Torphy-233 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: TensePanther88 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: RockMelonAuspicious257 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Brekke-29 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Paucek garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Hagenes garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: AirSmeller garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Wehner garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: 3QJAGIOZ9 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Skiles-255 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: SenatorClaper garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Anderson-287 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Hoppe-269 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Shanahan-46 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Grady garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: ArrowCloseer garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: ExpensiveParfume garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: WhiteSand8 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: 3PII5YI30 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: VV2WINB13 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Grady garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Gutkowski garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: InexpensiveMouse7 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: 3PII5YI30 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Denesik-95 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Schiller garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Shanahan-46 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Bernhard-177 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Anderson-287 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Torphy-233 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Cummings garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: McClure garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: WhiteSand8 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Morissette garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: RedHyena778 garbage=176 ship=0
+collector: winner #3
+collect: Загружено 93%
+collect: Осталось 165 165
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: PSTSWC2T4 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: I3PM4MOI3 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Swaniawski-255 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: SuitPlayer garbage=66 ship=0
+collector: winner #150
+collect: Загружено 93%
+collect: Осталось 54 54
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Anderson-287 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Huel-8 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: NiceDuck garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Becker-277 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Schulist-205 garbage=2 ship=0
+collector: winner #0
+collect: Загружено 12%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: ChaiseLongueSnoreer19 garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Carter-118 garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: LibraryHuger35 garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: LazyPaper4 garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Roob garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: AwfulMoose60 garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hackett-292 garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: McClure garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Koepp garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: SparklyWombat garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mueller garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: SenatorClaper garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: LibraryHuger35 garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: SenatorClaper garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: InexpensiveMouse7 garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: RedHyena778 garbage=165 ship=2
+collector: winner #26
+collect: Загружено 96%
+collect: Осталось 154 154
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: GooseberryScenic1 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: 3PII5YI30 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Turner-223 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Jones-43 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Wyman garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: RedHyena778 garbage=154 ship=0
+collector: winner #17
+collect: Загружено 96%
+collect: Осталось 141 141
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Skiles-255 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: RedHyena778 garbage=141 ship=0
+collector: winner #245
+collect: Загружено 94%
+collect: Осталось 128 128
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Carter-118 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: QODSKIDI1 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Grady garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Schiller garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: DamsonBlue garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: 3PII5YI30 garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: Paucek garbage=0 ship=0
+collect: IS EMTPY!!
+tick: end
+
+tick: start
+travel: PreciousEagle688 garbage=2 ship=0
+collector: winner #0
+collect: Загружено 12%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Zulauf garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Lynch-1 garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Lubowitz-92 garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: InexpensiveMouse7 garbage=0 ship=2
+collector: winner #0
+collect: Загружено 12%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mosciski garbage=4 ship=2
+collector: winner #0
+collect: Загружено 37%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Kuhic garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: TOJ6I4WU6 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Anderson-287 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Becker-277 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mayer-191 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Upton garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: QBQG7L937 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: SenatorClaper garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Becker-277 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: 3PII5YI30 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: AirSmeller garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: TOJ6I4WU6 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ExpensiveParfume garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hagenes garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Zulauf garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: 3QJAGIOZ9 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Aufderhar garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: AirSmeller garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Torphy-233 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: BrightSlippers33 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: 29FQVX810 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: McCullough-264 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Cummings garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Skiles-255 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Swaniawski-255 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PharmacyHuger garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: QXC5NYQ41 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Collier garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ExpensiveParfume garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: VictoriousMother garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: RockMelonAuspicious257 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hackett-292 garbage=0 ship=6
+collector: winner #0
+collect: Загружено 37%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: J3JUPO4P0 garbage=15 ship=6
+collector: winner #274
+collect: Загружено 87%
+collect: Загрузка провалилась - garbage with ID 6tgUgku not found on planet J3JUPO4P0
+tick: end
+
+tick: start
+travel: ChaiseLongueSnoreer19 garbage=0 ship=13
+collector: winner #88
+collect: Загружено 82%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: KG16FSY05 garbage=0 ship=12
+collector: winner #130
+collect: Загружено 82%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ArrowDiveer garbage=0 ship=12
+collector: winner #5
+collect: Загружено 82%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: QODSKIDI1 garbage=0 ship=12
+collector: winner #61
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=11
+collector: winner #21
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: DateAshamed garbage=0 ship=11
+collector: winner #15
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: RockMelonAuspicious257 garbage=0 ship=11
+collector: winner #11
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Denesik-223 garbage=0 ship=11
+collector: winner #13
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: NiceDuck garbage=0 ship=11
+collector: winner #4
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: AwfulMoose60 garbage=0 ship=11
+collector: winner #32
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Denesik-223 garbage=0 ship=11
+collector: winner #57
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: BrightSlippers33 garbage=0 ship=11
+collector: winner #16
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Jones-43 garbage=0 ship=11
+collector: winner #35
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Gerhold-47 garbage=0 ship=11
+collector: winner #58
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Aufderhar garbage=0 ship=11
+collector: winner #15
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: QXC5NYQ41 garbage=0 ship=11
+collector: winner #44
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Upton garbage=0 ship=11
+collector: winner #107
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: SenatorClaper garbage=0 ship=11
+collector: winner #41
+collect: Загружено 78%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mayer-191 garbage=15 ship=11
+collector: winner #128
+collect: Загружено 83%
+collect: Загрузка провалилась - garbage with ID 6tgUgku not found on planet Mayer-191
+tick: end
+
+tick: start
+travel: Paucek garbage=0 ship=12
+collector: winner #13
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: RockMelonAuspicious257 garbage=0 ship=11
+collector: winner #1
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: McClure garbage=0 ship=10
+collector: winner #29
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ArrowCloseer garbage=0 ship=10
+collector: winner #1
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: VonRueden garbage=0 ship=10
+collector: winner #7
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Wehner garbage=0 ship=10
+collector: winner #1
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Bernhard-177 garbage=0 ship=10
+collector: winner #11
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Schiller garbage=0 ship=10
+collector: winner #0
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: AirSmeller garbage=0 ship=10
+collector: winner #32
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Bernhard-177 garbage=0 ship=10
+collector: winner #17
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Lowe-189 garbage=0 ship=10
+collector: winner #31
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mayer-191 garbage=0 ship=10
+collector: winner #45
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: TensePanther88 garbage=0 ship=10
+collector: winner #3
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Wyman garbage=0 ship=10
+collector: winner #29
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Morissette garbage=0 ship=10
+collector: winner #1
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Denesik-95 garbage=0 ship=10
+collector: winner #8
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Schulist-205 garbage=0 ship=10
+collector: winner #55
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Denesik-223 garbage=0 ship=10
+collector: winner #9
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: 3PII5YI30 garbage=0 ship=10
+collector: winner #7
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: InexpensiveMouse7 garbage=0 ship=10
+collector: winner #5
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: 3PII5YI30 garbage=0 ship=10
+collector: winner #7
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Skiles-255 garbage=0 ship=10
+collector: winner #46
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Kuhic-175 garbage=0 ship=10
+collector: winner #28
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ArrowCloseer garbage=0 ship=10
+collector: winner #23
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: GooseberryScenic1 garbage=0 ship=10
+collector: winner #3
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: GJHXABH17 garbage=0 ship=10
+collector: winner #2
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: TOJ6I4WU6 garbage=0 ship=10
+collector: winner #60
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: FilthyUmbrella garbage=0 ship=10
+collector: winner #13
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Aufderhar garbage=0 ship=10
+collector: winner #22
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ChaiseLongueSnoreer19 garbage=0 ship=10
+collector: winner #34
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Schulist-205 garbage=0 ship=10
+collector: winner #84
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Lubowitz-92 garbage=0 ship=10
+collector: winner #27
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=0 ship=10
+collector: winner #25
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: LazyPaper4 garbage=0 ship=10
+collector: winner #67
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: SenatorClaper garbage=0 ship=10
+collector: winner #0
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mosciski garbage=0 ship=10
+collector: winner #16
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: LibraryHuger35 garbage=0 ship=10
+collector: winner #14
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Earth garbage=0 ship=10
+collector: winner #0
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Kuhic garbage=0 ship=10
+collector: winner #8
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Upton garbage=0 ship=10
+collector: winner #106
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Wyman garbage=0 ship=10
+collector: winner #5
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hane garbage=0 ship=10
+collector: winner #36
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hackett-292 garbage=0 ship=10
+collector: winner #14
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PharmacyHuger garbage=0 ship=10
+collector: winner #16
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Lowe-189 garbage=0 ship=10
+collector: winner #20
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: DateAshamed garbage=0 ship=10
+collector: winner #8
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hoppe-269 garbage=0 ship=10
+collector: winner #38
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PreciousEagle688 garbage=0 ship=10
+collector: winner #4
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Jones-43 garbage=0 ship=10
+collector: winner #6
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Huel-8 garbage=0 ship=10
+collector: winner #67
+collect: Загружено 73%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: RedHyena778 garbage=128 ship=10
+collector: winner #224
+collect: Загружено 95%
+collect: Загрузка провалилась - garbage with ID 2FxcAi not found on planet RedHyena778
+tick: end
+
+tick: start
+travel: TensePanther88 garbage=0 ship=13
+collector: winner #38
+collect: Загружено 86%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Rogahn garbage=0 ship=12
+collector: winner #33
+collect: Загружено 86%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hoppe-99 garbage=0 ship=12
+collector: winner #24
+collect: Загружено 86%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mayer-191 garbage=0 ship=12
+collector: winner #20
+collect: Загружено 86%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: WhiteSand8 garbage=0 ship=12
+collector: winner #3
+collect: Загружено 86%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: VV2WINB13 garbage=0 ship=12
+collector: winner #8
+collect: Загружено 86%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=12
+collector: winner #98
+collect: Загружено 86%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: SuitPlayer garbage=54 ship=12
+collector: winner #53
+collect: Загружено 91%
+collect: Загрузка провалилась - garbage with ID RVg57S1W not found on planet SuitPlayer
+tick: end
+
+tick: start
+travel: Gerhold-47 garbage=0 ship=13
+collector: winner #287
+collect: Загружено 91%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Torphy-233 garbage=0 ship=13
+collector: winner #84
+collect: Загружено 91%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Dietrich garbage=0 ship=13
+collector: winner #201
+collect: Загружено 87%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mosciski garbage=0 ship=12
+collector: winner #10
+collect: Загружено 87%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hoppe-269 garbage=0 ship=12
+collector: winner #33
+collect: Загружено 87%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hagenes garbage=0 ship=12
+collector: winner #92
+collect: Загружено 87%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PreciousEagle688 garbage=0 ship=12
+collector: winner #31
+collect: Загружено 87%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Swaniawski-255 garbage=0 ship=12
+collector: winner #72
+collect: Загружено 87%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Torphy-233 garbage=0 ship=12
+collector: winner #98
+collect: Загружено 87%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: J3JUPO4P0 garbage=15 ship=12
+collector: winner #178
+collect: Загружено 93%
+collect: Загрузка провалилась - garbage with ID RW1dHzAg not found on planet J3JUPO4P0
+tick: end
+
+tick: start
+travel: Wyman garbage=0 ship=13
+collector: winner #28
+collect: Загружено 88%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Jones-43 garbage=0 ship=12
+collector: winner #2
+collect: Загружено 88%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Anderson-287 garbage=0 ship=12
+collector: winner #44
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ExpensiveParfume garbage=0 ship=11
+collector: winner #246
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: AwfulMoose60 garbage=0 ship=11
+collector: winner #33
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mueller garbage=0 ship=11
+collector: winner #24
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: AirSmeller garbage=0 ship=11
+collector: winner #13
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: GooseberryScenic1 garbage=0 ship=11
+collector: winner #30
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Aufderhar garbage=0 ship=11
+collector: winner #60
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: TensePanther88 garbage=0 ship=11
+collector: winner #60
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: McCullough-264 garbage=0 ship=11
+collector: winner #137
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Dietrich garbage=0 ship=11
+collector: winner #174
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PharmacyHuger garbage=0 ship=11
+collector: winner #106
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: NiceDuck garbage=0 ship=11
+collector: winner #73
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Earth garbage=0 ship=11
+collector: winner #44
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Schiller garbage=0 ship=11
+collector: winner #22
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hoppe-99 garbage=0 ship=11
+collector: winner #20
+collect: Загружено 83%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Collier garbage=54 ship=11
+collector: winner #79
+collect: Загружено 90%
+collect: Загрузка провалилась - garbage with ID 77bAmFD not found on planet Collier
+tick: end
+
+tick: start
+travel: Wehner garbage=0 ship=11
+collector: winner #104
+collect: Загружено 82%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Koepp garbage=0 ship=10
+collector: winner #34
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Paucek garbage=0 ship=9
+collector: winner #26
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Bernhard-177 garbage=0 ship=9
+collector: winner #4
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: ExpensiveParfume garbage=0 ship=9
+collector: winner #5
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Carter-118 garbage=0 ship=9
+collector: winner #147
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Gerhold-47 garbage=0 ship=9
+collector: winner #228
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PSTSWC2T4 garbage=0 ship=9
+collector: winner #55
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: BrightSlippers33 garbage=0 ship=9
+collector: winner #50
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: GooseberryScenic1 garbage=0 ship=9
+collector: winner #8
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: VehicleWasher garbage=0 ship=9
+collector: winner #18
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Lynch-1 garbage=0 ship=9
+collector: winner #16
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Gerhold-47 garbage=0 ship=9
+collector: winner #32
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=0 ship=9
+collector: winner #32
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Upton garbage=0 ship=9
+collector: winner #3
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Cummings garbage=0 ship=9
+collector: winner #79
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hagenes garbage=0 ship=9
+collector: winner #0
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hane garbage=0 ship=9
+collector: winner #78
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: NiceDuck garbage=0 ship=9
+collector: winner #124
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Wehner garbage=0 ship=9
+collector: winner #32
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: RedHyena778 garbage=0 ship=9
+collector: winner #81
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Skiles-255 garbage=0 ship=9
+collector: winner #38
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: McCullough-264 garbage=0 ship=9
+collector: winner #19
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=9
+collector: winner #109
+collect: Загружено 77%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mayer-191 garbage=15 ship=9
+collector: winner #15
+collect: Загружено 86%
+collect: Загрузка провалилась - garbage with ID RVnPL4dk not found on planet Mayer-191
+tick: end
+
+tick: start
+travel: Carter-118 garbage=0 ship=11
+collector: winner #32
+collect: Загружено 80%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hoppe-99 garbage=0 ship=10
+collector: winner #0
+collect: Загружено 80%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Skiles-255 garbage=0 ship=10
+collector: winner #29
+collect: Загружено 80%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: DateAshamed garbage=0 ship=10
+collector: winner #6
+collect: Загружено 80%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Lowe-189 garbage=0 ship=10
+collector: winner #16
+collect: Загружено 80%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: LimeGrumpy garbage=0 ship=10
+collector: winner #73
+collect: Загружено 80%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Jerde garbage=0 ship=10
+collector: winner #24
+collect: Загружено 80%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Koepp garbage=0 ship=10
+collector: winner #3
+collect: Загружено 80%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: LibraryHuger35 garbage=0 ship=10
+collector: winner #10
+collect: Загружено 80%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: BusyWolf garbage=0 ship=10
+collector: winner #53
+collect: Загружено 80%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: LimeGrumpy garbage=0 ship=10
+collector: winner #24
+collect: Загружено 80%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: J3JUPO4P0 garbage=15 ship=10
+collector: winner #74
+collect: Загружено 86%
+collect: Загрузка провалилась - garbage with ID RW1hhFhh not found on planet J3JUPO4P0
+tick: end
+
+tick: start
+travel: ArrowCloseer garbage=0 ship=11
+collector: winner #155
+collect: Загружено 86%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mayer-191 garbage=15 ship=11
+collector: winner #86
+collect: Загружено 87%
+collect: Загрузка провалилась - garbage with ID RW1hhFhh not found on planet Mayer-191
+tick: end
+
+tick: start
+travel: GJHXABH17 garbage=0 ship=11
+collector: winner #3
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Carter-118 garbage=0 ship=10
+collector: winner #18
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Roob garbage=0 ship=10
+collector: winner #45
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=0 ship=10
+collector: winner #4
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: PhotographerHuger garbage=0 ship=10
+collector: winner #0
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Brekke-29 garbage=0 ship=10
+collector: winner #11
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: GJHXABH17 garbage=0 ship=10
+collector: winner #12
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Earth garbage=0 ship=10
+collector: winner #96
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Torphy-233 garbage=0 ship=10
+collector: winner #37
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=0 ship=10
+collector: winner #2
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hoppe-269 garbage=0 ship=10
+collector: winner #16
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Hoppe-99 garbage=0 ship=10
+collector: winner #29
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: EnchantedFruit975 garbage=0 ship=10
+collector: winner #57
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Aufderhar garbage=0 ship=10
+collector: winner #0
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: AirSmeller garbage=0 ship=10
+collector: winner #5
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: InexpensiveMouse7 garbage=0 ship=10
+collector: winner #11
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: SuitPlayer garbage=0 ship=10
+collector: winner #8
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Upton garbage=0 ship=10
+collector: winner #8
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Paucek garbage=0 ship=10
+collector: winner #13
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: McCullough-264 garbage=0 ship=10
+collector: winner #13
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: FilthyUmbrella garbage=0 ship=10
+collector: winner #24
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Mayer-191 garbage=0 ship=10
+collector: winner #21
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Schulist-205 garbage=0 ship=10
+collector: winner #2
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: McCullough-264 garbage=0 ship=10
+collector: winner #38
+collect: Загружено 79%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: RedHyena778 garbage=0 ship=10
+collector: winner #8

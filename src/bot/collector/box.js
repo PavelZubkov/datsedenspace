@@ -120,7 +120,7 @@ export class Box {
   static putAllRndSort(figures) {
     const decrees = figures.slice().sort((a, b) => b.size - a.size)
     const increase = figures.slice().sort((a, b) => b.size - a.size)
-    const randomCount = 300
+    const randomCount = 1000
     const random = []
     for (let i = 0; i < randomCount; i++) {
       random.push(shuffleArray(figures.slice()))

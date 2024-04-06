@@ -1,0 +1,3405 @@
+$ node ./src/bot/bot.js
+BOT started
+Connected to server
+init: {
+  "name": "Что-то фотонное",
+  "roundName": "Final 6",
+  "roundEndIn": 753,
+  "ship": {
+    "fuelUsed": 0,
+    "planet": {
+      "name": "Earth",
+      "garbage": {}
+    },
+    "capacityX": 8,
+    "capacityY": 11,
+    "garbage": {}
+  },
+  "universe": [
+    [
+      "Earth",
+      "Yundt-167",
+      86
+    ],
+    [
+      "Earth",
+      "QueerHound",
+      92
+    ],
+    [
+      "Yundt-167",
+      "Earth",
+      75
+    ],
+    [
+      "Yundt-167",
+      "Osinski-214",
+      49
+    ],
+    [
+      "Yundt-167",
+      "X4J893TA1",
+      24
+    ],
+    [
+      "QueerHound",
+      "Earth",
+      13
+    ],
+    [
+      "QueerHound",
+      "ShyCod",
+      43
+    ],
+    [
+      "QueerHound",
+      "Dibbert",
+      92
+    ],
+    [
+      "QueerHound",
+      "Marks-31",
+      51
+    ],
+    [
+      "Osinski-214",
+      "Yundt-167",
+      48
+    ],
+    [
+      "Osinski-214",
+      "Abshire",
+      83
+    ],
+    [
+      "X4J893TA1",
+      "KRQN5K242",
+      76
+    ],
+    [
+      "X4J893TA1",
+      "VonRueden",
+      28
+    ],
+    [
+      "X4J893TA1",
+      "Fay",
+      43
+    ],
+    [
+      "ShyCod",
+      "QueerHound",
+      66
+    ],
+    [
+      "ShyCod",
+      "7LVOFGYC7",
+      39
+    ],
+    [
+      "ShyCod",
+      "Thiel",
+      64
+    ],
+    [
+      "ShyCod",
+      "MV8R9FNI5",
+      23
+    ],
+    [
+      "Dibbert",
+      "QueerHound",
+      33
+    ],
+    [
+      "Dibbert",
+      "Luettgen",
+      12
+    ],
+    [
+      "Marks-31",
+      "QueerHound",
+      85
+    ],
+    [
+      "Marks-31",
+      "Krajcik-117",
+      58
+    ],
+    [
+      "Marks-31",
+      "Bradtke",
+      94
+    ],
+    [
+      "Marks-31",
+      "Hintz-166",
+      5
+    ],
+    [
+      "Abshire",
+      "Osinski-214",
+      64
+    ],
+    [
+      "Abshire",
+      "Stark-138",
+      34
+    ],
+    [
+      "Abshire",
+      "Prohaska-175",
+      29
+    ],
+    [
+      "Abshire",
+      "GrapeScary",
+      57
+    ],
+    [
+      "KRQN5K242",
+      "X4J893TA1",
+      97
+    ],
+    [
+      "KRQN5K242",
+      "Pacocha",
+      51
+    ],
+    [
+      "VonRueden",
+      "X4J893TA1",
+      75
+    ],
+    [
+      "VonRueden",
+      "Sanford",
+      18
+    ],
+    [
+      "VonRueden",
+      "Wilderman",
+      25
+    ],
+    [
+      "Fay",
+      "X4J893TA1",
+      83
+    ],
+    [
+      "Fay",
+      "ColorfulOtter",
+      74
+    ],
+    [
+      "Fay",
+      "CantaloupeUpset",
+      64
+    ],
+    [
+      "7LVOFGYC7",
+      "ShyCod",
+      63
+    ],
+    [
+      "7LVOFGYC7",
+      "Walsh",
+      23
+    ],
+    [
+      "Thiel",
+      "EncouragingKeyboard",
+      48
+    ],
+    [
+      "MV8R9FNI5",
+      "ShyCod",
+      32
+    ],
+    [
+      "MV8R9FNI5",
+      "GuavaFoolish",
+      89
+    ],
+    [
+      "MV8R9FNI5",
+      "K4MKW4Z68",
+      82
+    ],
+    [
+      "Luettgen",
+      "Dibbert",
+      92
+    ],
+    [
+      "Luettgen",
+      "Windler-273",
+      41
+    ],
+    [
+      "Luettgen",
+      "YRQ25GIL7",
+      50
+    ],
+    [
+      "Luettgen",
+      "Hilll",
+      53
+    ],
+    [
+      "Krajcik-117",
+      "Marks-31",
+      43
+    ],
+    [
+      "Krajcik-117",
+      "0B36WQTR8",
+      16
+    ],
+    [
+      "Krajcik-117",
+      "Brown-114",
+      43
+    ],
+    [
+      "Krajcik-117",
+      "Bode-42",
+      2
+    ],
+    [
+      "Bradtke",
+      "Marks-31",
+      88
+    ],
+    [
+      "Bradtke",
+      "HungryBat81",
+      20
+    ],
+    [
+      "Hintz-166",
+      "Marquardt",
+      23
+    ],
+    [
+      "Hintz-166",
+      "Bashirian",
+      82
+    ],
+    [
+      "Hintz-166",
+      "Waters",
+      99
+    ],
+    [
+      "Stark-138",
+      "Abshire",
+      12
+    ],
+    [
+      "Stark-138",
+      "KLNGC4S50",
+      75
+    ],
+    [
+      "Stark-138",
+      "PIRDGTPE0",
+      81
+    ],
+    [
+      "Prohaska-175",
+      "Robel-299",
+      34
+    ],
+    [
+      "GrapeScary",
+      "Wisozk",
+      87
+    ],
+    [
+      "GrapeScary",
+      "Kuhn",
+      53
+    ],
+    [
+      "GrapeScary",
+      "TableSewer",
+      96
+    ],
+    [
+      "Pacocha",
+      "KRQN5K242",
+      20
+    ],
+    [
+      "Pacocha",
+      "Graham",
+      6
+    ],
+    [
+      "Sanford",
+      "VonRueden",
+      56
+    ],
+    [
+      "Sanford",
+      "LegumePuzzled",
+      21
+    ],
+    [
+      "Wilderman",
+      "Schinner",
+      25
+    ],
+    [
+      "ColorfulOtter",
+      "Fay",
+      54
+    ],
+    [
+      "ColorfulOtter",
+      "BusStopTurner",
+      31
+    ],
+    [
+      "ColorfulOtter",
+      "Harber-80",
+      88
+    ],
+    [
+      "ColorfulOtter",
+      "RPYJOGOM3",
+      84
+    ],
+    [
+      "CantaloupeUpset",
+      "Bayer",
+      86
+    ],
+    [
+      "Walsh",
+      "7LVOFGYC7",
+      12
+    ],
+    [
+      "Walsh",
+      "OrangeNoodles415",
+      14
+    ],
+    [
+      "EncouragingKeyboard",
+      "Thiel",
+      16
+    ],
+    [
+      "EncouragingKeyboard",
+      "Hand",
+      77
+    ],
+    [
+      "GuavaFoolish",
+      "MV8R9FNI5",
+      63
+    ],
+    [
+      "GuavaFoolish",
+      "Ankunding-182",
+      85
+    ],
+    [
+      "GuavaFoolish",
+      "Lynch",
+      87
+    ],
+    [
+      "K4MKW4Z68",
+      "MV8R9FNI5",
+      83
+    ],
+    [
+      "K4MKW4Z68",
+      "Ratke",
+      86
+    ],
+    [
+      "K4MKW4Z68",
+      "Cole",
+      47
+    ],
+    [
+      "K4MKW4Z68",
+      "Davis",
+      19
+    ],
+    [
+      "Windler-273",
+      "Luettgen",
+      92
+    ],
+    [
+      "Windler-273",
+      "SpoonCryer",
+      13
+    ],
+    [
+      "Windler-273",
+      "CMCX69GJ1",
+      17
+    ],
+    [
+      "YRQ25GIL7",
+      "Luettgen",
+      72
+    ],
+    [
+      "YRQ25GIL7",
+      "UglyDog",
+      58
+    ],
+    [
+      "YRQ25GIL7",
+      "ShyVest",
+      13
+    ],
+    [
+      "Hilll",
+      "HandSkier",
+      69
+    ],
+    [
+      "Hilll",
+      "PinkClam",
+      52
+    ],
+    [
+      "0B36WQTR8",
+      "Krajcik-117",
+      14
+    ],
+    [
+      "0B36WQTR8",
+      "Barrows-114",
+      8
+    ],
+    [
+      "Brown-114",
+      "Anderson",
+      64
+    ],
+    [
+      "Brown-114",
+      "Dickinson",
+      11
+    ],
+    [
+      "Brown-114",
+      "Wiza",
+      26
+    ],
+    [
+      "Bode-42",
+      "Kling-238",
+      97
+    ],
+    [
+      "HungryBat81",
+      "Bradtke",
+      57
+    ],
+    [
+      "HungryBat81",
+      "3VYOF0YJ6",
+      73
+    ],
+    [
+      "Marquardt",
+      "Hintz-166",
+      18
+    ],
+    [
+      "Marquardt",
+      "Glover",
+      10
+    ],
+    [
+      "Marquardt",
+      "BMZH0CGX0",
+      12
+    ],
+    [
+      "Bashirian",
+      "McLaughlin",
+      53
+    ],
+    [
+      "Bashirian",
+      "UptightPagoda",
+      16
+    ],
+    [
+      "Waters",
+      "Hintz-166",
+      70
+    ],
+    [
+      "Waters",
+      "FO286S9R8",
+      57
+    ],
+    [
+      "KLNGC4S50",
+      "Stark-138",
+      84
+    ],
+    [
+      "KLNGC4S50",
+      "Schaden-108",
+      58
+    ],
+    [
+      "KLNGC4S50",
+      "Greenfelder",
+      92
+    ],
+    [
+      "PIRDGTPE0",
+      "Stark-138",
+      8
+    ],
+    [
+      "PIRDGTPE0",
+      "FYNUKUIZ5",
+      45
+    ],
+    [
+      "PIRDGTPE0",
+      "Howell",
+      45
+    ],
+    [
+      "PIRDGTPE0",
+      "EncouragingFox2",
+      41
+    ],
+    [
+      "Robel-299",
+      "Prohaska-175",
+      2
+    ],
+    [
+      "Robel-299",
+      "Kilback",
+      18
+    ],
+    [
+      "Robel-299",
+      "Dare",
+      17
+    ],
+    [
+      "Robel-299",
+      "Konopelski-43",
+      63
+    ],
+    [
+      "Wisozk",
+      "GrapeScary",
+      84
+    ],
+    [
+      "Wisozk",
+      "Rath",
+      31
+    ],
+    [
+      "Kuhn",
+      "Marks",
+      71
+    ],
+    [
+      "Kuhn",
+      "Kihn",
+      17
+    ],
+    [
+      "TableSewer",
+      "GrapeScary",
+      81
+    ],
+    [
+      "TableSewer",
+      "DuBuque-152",
+      29
+    ],
+    [
+      "TableSewer",
+      "ObedientServal",
+      41
+    ],
+    [
+      "TableSewer",
+      "Kunze",
+      15
+    ],
+    [
+      "Graham",
+      "Pacocha",
+      9
+    ],
+    [
+      "Graham",
+      "23Z7683B9",
+      9
+    ],
+    [
+      "Graham",
+      "Dietrich",
+      76
+    ],
+    [
+      "Graham",
+      "WatermelonCreepy",
+      80
+    ],
+    [
+      "LegumePuzzled",
+      "Sanford",
+      79
+    ],
+    [
+      "LegumePuzzled",
+      "C7YLYSQL7",
+      46
+    ],
+    [
+      "LegumePuzzled",
+      "Green",
+      65
+    ],
+    [
+      "Schinner",
+      "Wilderman",
+      64
+    ],
+    [
+      "Schinner",
+      "IO9RK7335",
+      23
+    ],
+    [
+      "Schinner",
+      "Ruecker",
+      3
+    ],
+    [
+      "BusStopTurner",
+      "ColorfulOtter",
+      92
+    ],
+    [
+      "BusStopTurner",
+      "Eden",
+      59
+    ],
+    [
+      "Harber-80",
+      "ColorfulOtter",
+      84
+    ],
+    [
+      "Harber-80",
+      "RPYJOGOM3",
+      87
+    ],
+    [
+      "RPYJOGOM3",
+      "HungryBat81",
+      56
+    ],
+    [
+      "Bayer",
+      "CantaloupeUpset",
+      26
+    ],
+    [
+      "Bayer",
+      "OrangeNoodles415",
+      44
+    ],
+    [
+      "OrangeNoodles415",
+      "Walsh",
+      56
+    ],
+    [
+      "Hand",
+      "EncouragingKeyboard",
+      93
+    ],
+    [
+      "Hand",
+      "UglyDog",
+      16
+    ],
+    [
+      "Ankunding-182",
+      "GuavaFoolish",
+      65
+    ],
+    [
+      "Ankunding-182",
+      "Lynch",
+      47
+    ],
+    [
+      "Lynch",
+      "GuavaFoolish",
+      49
+    ],
+    [
+      "Ratke",
+      "K4MKW4Z68",
+      52
+    ],
+    [
+      "Ratke",
+      "Cole",
+      8
+    ],
+    [
+      "Cole",
+      "Davis",
+      61
+    ],
+    [
+      "Davis",
+      "K4MKW4Z68",
+      80
+    ],
+    [
+      "SpoonCryer",
+      "Windler-273",
+      48
+    ],
+    [
+      "SpoonCryer",
+      "CMCX69GJ1",
+      53
+    ],
+    [
+      "CMCX69GJ1",
+      "Windler-273",
+      4
+    ],
+    [
+      "UglyDog",
+      "YRQ25GIL7",
+      86
+    ],
+    [
+      "UglyDog",
+      "ShyVest",
+      56
+    ],
+    [
+      "ShyVest",
+      "K4MKW4Z68",
+      45
+    ],
+    [
+      "HandSkier",
+      "Hilll",
+      84
+    ],
+    [
+      "HandSkier",
+      "PinkClam",
+      51
+    ],
+    [
+      "PinkClam",
+      "Barrows-114",
+      59
+    ],
+    [
+      "Barrows-114",
+      "0B36WQTR8",
+      32
+    ],
+    [
+      "Anderson",
+      "Brown-114",
+      38
+    ],
+    [
+      "Anderson",
+      "Dickinson",
+      12
+    ],
+    [
+      "Dickinson",
+      "Wiza",
+      84
+    ],
+    [
+      "Wiza",
+      "Brown-114",
+      69
+    ],
+    [
+      "Wiza",
+      "Earth",
+      86
+    ],
+    [
+      "Kling-238",
+      "Bode-42",
+      53
+    ],
+    [
+      "Kling-238",
+      "EncouragingFox2",
+      29
+    ],
+    [
+      "3VYOF0YJ6",
+      "HungryBat81",
+      24
+    ],
+    [
+      "Glover",
+      "Marquardt",
+      89
+    ],
+    [
+      "Glover",
+      "BMZH0CGX0",
+      91
+    ],
+    [
+      "BMZH0CGX0",
+      "Ratke",
+      89
+    ],
+    [
+      "McLaughlin",
+      "Bashirian",
+      21
+    ],
+    [
+      "McLaughlin",
+      "UptightPagoda",
+      70
+    ],
+    [
+      "UptightPagoda",
+      "FYNUKUIZ5",
+      44
+    ],
+    [
+      "FO286S9R8",
+      "Waters",
+      29
+    ],
+    [
+      "Schaden-108",
+      "KLNGC4S50",
+      66
+    ],
+    [
+      "Schaden-108",
+      "Greenfelder",
+      8
+    ],
+    [
+      "Greenfelder",
+      "KLNGC4S50",
+      49
+    ],
+    [
+      "FYNUKUIZ5",
+      "PIRDGTPE0",
+      33
+    ],
+    [
+      "FYNUKUIZ5",
+      "Howell",
+      58
+    ],
+    [
+      "Howell",
+      "EncouragingFox2",
+      83
+    ],
+    [
+      "EncouragingFox2",
+      "PIRDGTPE0",
+      25
+    ],
+    [
+      "Kilback",
+      "Robel-299",
+      52
+    ],
+    [
+      "Kilback",
+      "Dare",
+      51
+    ],
+    [
+      "Dare",
+      "Konopelski-43",
+      50
+    ],
+    [
+      "Konopelski-43",
+      "Yundt-167",
+      72
+    ],
+    [
+      "Rath",
+      "Wisozk",
+      21
+    ],
+    [
+      "Marks",
+      "Kuhn",
+      68
+    ],
+    [
+      "Marks",
+      "Kihn",
+      35
+    ],
+    [
+      "Kihn",
+      "Kuhn",
+      42
+    ],
+    [
+      "Kihn",
+      "Bradtke",
+      71
+    ],
+    [
+      "DuBuque-152",
+      "TableSewer",
+      46
+    ],
+    [
+      "DuBuque-152",
+      "ObedientServal",
+      65
+    ],
+    [
+      "ObedientServal",
+      "Kunze",
+      40
+    ],
+    [
+      "Kunze",
+      "Schaden-108",
+      43
+    ],
+    [
+      "23Z7683B9",
+      "Graham",
+      28
+    ],
+    [
+      "23Z7683B9",
+      "Dietrich",
+      22
+    ],
+    [
+      "Dietrich",
+      "Graham",
+      26
+    ],
+    [
+      "Dietrich",
+      "WatermelonCreepy",
+      80
+    ],
+    [
+      "WatermelonCreepy",
+      "Dibbert",
+      81
+    ],
+    [
+      "C7YLYSQL7",
+      "LegumePuzzled",
+      75
+    ],
+    [
+      "C7YLYSQL7",
+      "Green",
+      13
+    ],
+    [
+      "Green",
+      "Krajcik-117",
+      9
+    ],
+    [
+      "IO9RK7335",
+      "Schinner",
+      23
+    ],
+    [
+      "IO9RK7335",
+      "Ruecker",
+      83
+    ],
+    [
+      "Ruecker",
+      "Schinner",
+      37
+    ],
+    [
+      "Ruecker",
+      "ShyCod",
+      9
+    ],
+    [
+      "Eden",
+      "BusStopTurner",
+      17
+    ]
+  ],
+  "attempt": 1
+}
+travel: Eden garbage=0 ship=0
+tick: start
+travel: 23Z7683B9 garbage=26 ship=0
+collector: winner #119
+collect: Загружено 89%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: KRQN5K242 garbage=23 ship=0
+collector: winner #218
+collect: Загружено 82%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: K4MKW4Z68 garbage=24 ship=0
+collector: winner #80
+collect: Загружено 87%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: X4J893TA1 garbage=25 ship=0
+collector: winner #9
+collect: Загружено 86%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: DuBuque-152 garbage=25 ship=0
+collector: winner #46
+collect: Загружено 87%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: 23Z7683B9 garbage=14 ship=0
+collector: winner #286
+collect: Загружено 81%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Walsh garbage=26 ship=0
+collector: winner #164
+collect: Загружено 90%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Harber-80 garbage=28 ship=0
+collector: winner #256
+collect: Загружено 95%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: MV8R9FNI5 garbage=25 ship=0
+collector: winner #49
+collect: Загружено 87%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Kling-238 garbage=28 ship=0
+collector: winner #218
+collect: Загружено 96%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Glover garbage=28 ship=0
+collector: winner #269
+collect: Загружено 94%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Ruecker garbage=26 ship=0
+collector: winner #54
+collect: Загружено 93%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: RPYJOGOM3 garbage=24 ship=0
+collector: winner #288
+collect: Загружено 87%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Green garbage=25 ship=0
+collector: winner #24
+collect: Загружено 86%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Davis garbage=26 ship=0
+collector: winner #206
+collect: Загружено 93%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: WatermelonCreepy garbage=26 ship=0
+collector: winner #59
+collect: Загружено 89%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: C7YLYSQL7 garbage=25 ship=0
+collector: winner #61
+collect: Загружено 91%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Schaden-108 garbage=25 ship=0
+collector: winner #14
+collect: Загружено 89%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: 3VYOF0YJ6 garbage=27 ship=0
+collector: winner #144
+collect: Загружено 95%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Schinner garbage=27 ship=0
+collector: winner #214
+collect: Загружено 95%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Kuhn garbage=27 ship=0
+collector: winner #12
+collect: Загружено 87%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: IO9RK7335 garbage=27 ship=0
+collector: winner #68
+collect: Загружено 89%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: HandSkier garbage=28 ship=0
+collector: winner #253
+collect: Загружено 93%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Pacocha garbage=29 ship=0
+collector: winner #67
+collect: Загружено 88%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: CMCX69GJ1 garbage=24 ship=0
+collector: winner #97
+collect: Загружено 89%
+collect: Осталось 13 13
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Hilll garbage=27 ship=0
+collector: winner #67
+collect: Загружено 90%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: RPYJOGOM3 garbage=15 ship=0
+collector: winner #108
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Schaden-108 garbage=15 ship=0
+collector: winner #252
+collect: Загружено 88%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: 0B36WQTR8 garbage=27 ship=0
+collector: winner #5
+collect: Загружено 91%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: GuavaFoolish garbage=25 ship=0
+collector: winner #293
+collect: Загружено 88%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Kling-238 garbage=15 ship=0
+collector: winner #58
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Green garbage=15 ship=0
+collector: winner #296
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Rath garbage=27 ship=0
+collector: winner #135
+collect: Загружено 93%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Greenfelder garbage=26 ship=0
+collector: winner #24
+collect: Загружено 87%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Hilll garbage=15 ship=0
+collector: winner #296
+collect: Загружено 82%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: PinkClam garbage=29 ship=0
+collector: winner #224
+collect: Загружено 97%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=15
+travel: Konopelski-43 garbage=24 ship=0
+collector: winner #3
+collect: Загружено 89%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Marks-31 garbage=26 ship=0
+collector: winner #145
+collect: Загружено 88%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: EncouragingFox2 garbage=26 ship=0
+collector: winner #187
+collect: Загружено 86%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: VonRueden garbage=26 ship=0
+collector: winner #28
+collect: Загружено 87%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: 23Z7683B9 garbage=5 ship=0
+collector: winner #0
+collect: Загружено 35%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: YRQ25GIL7 garbage=25 ship=5
+collector: winner #264
+collect: Загружено 93%
+collect: Осталось 19 19
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: K4MKW4Z68 garbage=14 ship=0
+collector: winner #116
+collect: Загружено 80%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Lynch garbage=24 ship=0
+collector: winner #202
+collect: Загружено 83%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Stark-138 garbage=27 ship=0
+collector: winner #189
+collect: Загружено 93%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Green garbage=4 ship=0
+collector: winner #0
+collect: Загружено 25%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: K4MKW4Z68 garbage=5 ship=4
+collector: winner #0
+collect: Загружено 58%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: X4J893TA1 garbage=15 ship=0
+collector: winner #59
+collect: Загружено 86%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Bayer garbage=24 ship=0
+collector: winner #295
+collect: Загружено 90%
+collect: Осталось 13 13
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Abshire garbage=24 ship=0
+collector: winner #144
+collect: Загружено 82%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: DuBuque-152 garbage=15 ship=0
+collector: winner #167
+collect: Загружено 79%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: ObedientServal garbage=31 ship=0
+collector: winner #11
+collect: Загружено 95%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: MV8R9FNI5 garbage=15 ship=0
+collector: winner #123
+collect: Загружено 86%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Prohaska-175 garbage=30 ship=0
+collector: winner #17
+collect: Загружено 96%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: OrangeNoodles415 garbage=25 ship=0
+collector: winner #46
+collect: Загружено 89%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: WatermelonCreepy garbage=15 ship=0
+collector: winner #292
+collect: Загружено 86%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: HandSkier garbage=16 ship=0
+collector: winner #135
+collect: Загружено 86%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: KLNGC4S50 garbage=27 ship=0
+collector: winner #37
+collect: Загружено 95%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Kihn garbage=28 ship=0
+collector: winner #91
+collect: Загружено 95%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Prohaska-175 garbage=16 ship=0
+collector: winner #149
+collect: Загружено 87%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: EncouragingKeyboard garbage=29 ship=0
+collector: winner #243
+collect: Загружено 94%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Hand garbage=28 ship=0
+collector: winner #81
+collect: Загружено 90%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: HandSkier garbage=3 ship=0
+collector: winner #0
+collect: Загружено 18%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: ColorfulOtter garbage=22 ship=3
+collector: winner #39
+collect: Загружено 78%
+collect: Осталось 18 18
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: EncouragingFox2 garbage=16 ship=0
+collector: winner #130
+collect: Загружено 80%
+collect: Осталось 6 6
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Kunze garbage=28 ship=0
+collector: winner #265
+collect: Загружено 95%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Dare garbage=26 ship=0
+collector: winner #37
+collect: Загружено 88%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Marquardt garbage=28 ship=0
+collector: winner #125
+collect: Загружено 95%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Schinner garbage=15 ship=0
+collector: winner #258
+collect: Загружено 87%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Osinski-214 garbage=25 ship=0
+collector: winner #47
+collect: Загружено 90%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: KLNGC4S50 garbage=14 ship=0
+collector: winner #13
+collect: Загружено 87%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Wiza garbage=27 ship=0
+collector: winner #237
+collect: Загружено 90%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: BMZH0CGX0 garbage=27 ship=0
+collector: winner #208
+collect: Загружено 95%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: KRQN5K242 garbage=14 ship=0
+collector: winner #241
+collect: Загружено 82%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Konopelski-43 garbage=14 ship=0
+collector: winner #15
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Krajcik-117 garbage=27 ship=0
+collector: winner #93
+collect: Загружено 94%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Stark-138 garbage=15 ship=0
+collector: winner #64
+collect: Загружено 89%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: BusStopTurner garbage=26 ship=0
+collector: winner #71
+collect: Загружено 91%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Dickinson garbage=26 ship=0
+collector: winner #94
+collect: Загружено 86%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Wilderman garbage=26 ship=0
+collector: winner #235
+collect: Загружено 90%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: UptightPagoda garbage=32 ship=0
+collector: winner #27
+collect: Загружено 97%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=15
+travel: GrapeScary garbage=26 ship=0
+collector: winner #144
+collect: Загружено 91%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Yundt-167 garbage=28 ship=0
+collector: winner #161
+collect: Загружено 95%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Brown-114 garbage=28 ship=0
+collector: winner #192
+collect: Загружено 95%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Robel-299 garbage=26 ship=0
+collector: winner #53
+collect: Загружено 87%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Fay garbage=24 ship=0
+collector: winner #12
+collect: Загружено 89%
+collect: Осталось 13 13
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: LegumePuzzled garbage=28 ship=0
+collector: winner #89
+collect: Загружено 90%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Dietrich garbage=29 ship=0
+collector: winner #26
+collect: Загружено 96%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: MV8R9FNI5 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 21%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Marks garbage=26 ship=3
+collector: winner #263
+collect: Загружено 90%
+collect: Осталось 18 18
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: ShyVest garbage=24 ship=0
+collector: winner #134
+collect: Загружено 83%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: HungryBat81 garbage=24 ship=0
+collector: winner #8
+collect: Загружено 86%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Dibbert garbage=24 ship=0
+collector: winner #281
+collect: Загружено 88%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Kunze garbage=15 ship=0
+collector: winner #56
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: EncouragingKeyboard garbage=15 ship=0
+collector: winner #83
+collect: Загружено 79%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: UglyDog garbage=24 ship=0
+collector: winner #291
+collect: Загружено 87%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Anderson garbage=26 ship=0
+collector: winner #85
+collect: Загружено 88%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Schinner garbage=3 ship=0
+collector: winner #0
+collect: Загружено 21%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Cole garbage=24 ship=3
+collector: winner #25
+collect: Загружено 85%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Howell garbage=24 ship=0
+collector: winner #72
+collect: Загружено 89%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Cole garbage=17 ship=0
+collector: winner #101
+collect: Загружено 90%
+collect: Осталось 6 6
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Ratke garbage=26 ship=0
+collector: winner #79
+collect: Загружено 93%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Bode-42 garbage=24 ship=0
+collector: winner #28
+collect: Загружено 89%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: PinkClam garbage=14 ship=0
+collector: winner #52
+collect: Загружено 79%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: ColorfulOtter garbage=18 ship=0
+collector: winner #11
+collect: Загружено 85%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Glover garbage=15 ship=0
+collector: winner #139
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Krajcik-117 garbage=15 ship=0
+collector: winner #122
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Rath garbage=14 ship=0
+collector: winner #45
+collect: Загружено 82%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Fay garbage=13 ship=0
+collector: winner #125
+collect: Загружено 83%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: DuBuque-152 garbage=5 ship=0
+collector: winner #0
+collect: Загружено 36%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Kling-238 garbage=4 ship=5
+collector: winner #0
+collect: Загружено 60%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: FO286S9R8 garbage=24 ship=0
+collector: winner #40
+collect: Загружено 86%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: ColorfulOtter garbage=8 ship=0
+collector: winner #0
+collect: Загружено 53%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=8
+travel: Barrows-114 garbage=25 ship=0
+collector: winner #150
+collect: Загружено 89%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Kuhn garbage=16 ship=0
+collector: winner #113
+collect: Загружено 87%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Howell garbage=14 ship=0
+collector: winner #148
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: KLNGC4S50 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 18%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Bode-42 garbage=14 ship=3
+collector: winner #119
+collect: Загружено 82%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Abshire garbage=15 ship=0
+collector: winner #287
+collect: Загружено 82%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: WatermelonCreepy garbage=3 ship=0
+collector: winner #0
+collect: Загружено 20%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: HungryBat81 garbage=14 ship=3
+collector: winner #6
+collect: Загружено 86%
+collect: Осталось 6 6
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Glover garbage=4 ship=0
+collector: winner #0
+collect: Загружено 25%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Fay garbage=3 ship=4
+collector: winner #0
+collect: Загружено 48%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: Waters garbage=24 ship=0
+collector: winner #69
+collect: Загружено 89%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Ruecker garbage=14 ship=0
+collector: winner #105
+collect: Загружено 80%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Kuhn garbage=4 ship=0
+collector: winner #0
+collect: Загружено 22%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Ankunding-182 garbage=28 ship=4
+collector: winner #228
+collect: Загружено 95%
+collect: Осталось 19 19
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Abshire garbage=5 ship=0
+collector: winner #0
+collect: Загружено 36%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: FYNUKUIZ5 garbage=28 ship=5
+collector: winner #120
+collect: Загружено 91%
+collect: Осталось 21 21
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Graham garbage=28 ship=0
+collector: winner #51
+collect: Загружено 93%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: VonRueden garbage=16 ship=0
+collector: winner #44
+collect: Загружено 88%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Robel-299 garbage=15 ship=0
+collector: winner #1
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: GuavaFoolish garbage=15 ship=0
+collector: winner #130
+collect: Загружено 87%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Bashirian garbage=24 ship=0
+collector: winner #110
+collect: Загружено 83%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: KRQN5K242 garbage=5 ship=0
+collector: winner #0
+collect: Загружено 35%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: IO9RK7335 garbage=16 ship=5
+collector: winner #247
+collect: Загружено 87%
+collect: Осталось 9 9
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: ShyCod garbage=27 ship=0
+collector: winner #123
+collect: Загружено 90%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: C7YLYSQL7 garbage=14 ship=0
+collector: winner #216
+collect: Загружено 80%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: 7LVOFGYC7 garbage=27 ship=0
+collector: winner #44
+collect: Загружено 87%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Robel-299 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 23%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: UptightPagoda garbage=17 ship=4
+collector: winner #5
+collect: Загружено 89%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Harber-80 garbage=15 ship=0
+collector: winner #23
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: OrangeNoodles415 garbage=15 ship=0
+collector: winner #84
+collect: Загружено 85%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Rath garbage=3 ship=0
+collector: winner #0
+collect: Загружено 20%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: UglyDog garbage=15 ship=3
+collector: winner #2
+collect: Загружено 85%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Kilback garbage=24 ship=0
+collector: winner #115
+collect: Загружено 87%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Bayer garbage=13 ship=0
+collector: winner #137
+collect: Загружено 81%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Kunze garbage=4 ship=0
+collector: winner #0
+collect: Загружено 27%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Kihn garbage=15 ship=4
+collector: winner #178
+collect: Загружено 89%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: 3VYOF0YJ6 garbage=15 ship=0
+collector: winner #90
+collect: Загружено 86%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: GrapeScary garbage=14 ship=0
+collector: winner #188
+collect: Загружено 86%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Luettgen garbage=29 ship=0
+collector: winner #83
+collect: Загружено 94%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Ruecker garbage=4 ship=0
+collector: winner #0
+collect: Загружено 25%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Hand garbage=17 ship=4
+collector: winner #225
+collect: Загружено 88%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Graham garbage=15 ship=0
+collector: winner #112
+collect: Загружено 85%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: 3VYOF0YJ6 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 16%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Davis garbage=14 ship=3
+collector: winner #74
+collect: Загружено 87%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: EncouragingFox2 garbage=6 ship=0
+collector: winner #0
+collect: Загружено 36%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Sanford garbage=29 ship=6
+collector: winner #300
+collect: Загружено 96%
+collect: Осталось 22 22
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: SpoonCryer garbage=29 ship=0
+collector: winner #73
+collect: Загружено 95%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: YRQ25GIL7 garbage=19 ship=0
+collector: winner #167
+collect: Загружено 88%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: CMCX69GJ1 garbage=13 ship=0
+collector: winner #182
+collect: Загружено 79%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: FO286S9R8 garbage=15 ship=0
+collector: winner #2
+collect: Загружено 87%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Barrows-114 garbage=14 ship=0
+collector: winner #125
+collect: Загружено 85%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Bashirian garbage=15 ship=0
+collector: winner #169
+collect: Загружено 82%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Thiel garbage=26 ship=0
+collector: winner #81
+collect: Загружено 89%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Luettgen garbage=16 ship=0
+collector: winner #296
+collect: Загружено 86%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: RPYJOGOM3 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 27%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: TableSewer garbage=30 ship=4
+collector: winner #72
+collect: Загружено 95%
+collect: Осталось 21 21
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: QueerHound garbage=26 ship=0
+collector: winner #192
+collect: Загружено 91%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: BusStopTurner garbage=15 ship=0
+collector: winner #9
+collect: Загружено 86%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: OrangeNoodles415 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 23%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Osinski-214 garbage=14 ship=4
+collector: winner #164
+collect: Загружено 86%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: BusStopTurner garbage=4 ship=0
+collector: winner #0
+collect: Загружено 25%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Wiza garbage=15 ship=4
+collector: winner #165
+collect: Загружено 90%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Prohaska-175 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 20%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: GuavaFoolish garbage=4 ship=3
+collector: winner #0
+collect: Загружено 44%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: ObedientServal garbage=17 ship=0
+collector: winner #14
+collect: Загружено 85%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Osinski-214 garbage=7 ship=0
+collector: winner #0
+collect: Загружено 46%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: Walsh garbage=15 ship=0
+collector: winner #290
+collect: Загружено 86%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Sanford garbage=22 ship=0
+collector: winner #214
+collect: Загружено 91%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Brown-114 garbage=15 ship=0
+collector: winner #264
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: PIRDGTPE0 garbage=25 ship=0
+collector: winner #48
+collect: Загружено 89%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: GrapeScary garbage=3 ship=0
+collector: winner #0
+collect: Загружено 22%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Konopelski-43 garbage=4 ship=3
+collector: winner #0
+collect: Загружено 49%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: Bayer garbage=4 ship=0
+collector: winner #0
+collect: Загружено 29%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Lynch garbage=15 ship=4
+collector: winner #129
+collect: Загружено 85%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Brown-114 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 22%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Bashirian garbage=5 ship=4
+collector: winner #0
+collect: Загружено 54%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Hintz-166 garbage=26 ship=0
+collector: winner #96
+collect: Загружено 88%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Thiel garbage=15 ship=0
+collector: winner #193
+collect: Загружено 81%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Greenfelder garbage=16 ship=0
+collector: winner #12
+collect: Загружено 82%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: BMZH0CGX0 garbage=14 ship=0
+collector: winner #140
+collect: Загружено 82%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Anderson garbage=15 ship=0
+collector: winner #42
+collect: Загружено 79%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: UglyDog garbage=7 ship=0
+collector: winner #0
+collect: Загружено 43%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: Hintz-166 garbage=16 ship=0
+collector: winner #25
+collect: Загружено 82%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: QueerHound garbage=14 ship=0
+collector: winner #95
+collect: Загружено 85%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: X4J893TA1 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 25%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Barrows-114 garbage=3 ship=4
+collector: winner #0
+collect: Загружено 47%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: Howell garbage=4 ship=0
+collector: winner #0
+collect: Загружено 28%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: TableSewer garbage=21 ship=4
+collector: winner #4
+collect: Загружено 89%
+collect: Осталось 12 12
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Harber-80 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 28%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Greenfelder garbage=5 ship=4
+collector: winner #0
+collect: Загружено 57%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Kihn garbage=7 ship=0
+collector: winner #0
+collect: Загружено 46%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: Marks garbage=18 ship=0
+collector: winner #9
+collect: Загружено 85%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Krajcik-117 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 23%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: PinkClam garbage=4 ship=4
+collector: winner #0
+collect: Загружено 50%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=8
+travel: UptightPagoda garbage=8 ship=0
+collector: winner #0
+collect: Загружено 46%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=8
+travel: FO286S9R8 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 24%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: BMZH0CGX0 garbage=3 ship=4
+collector: winner #0
+collect: Загружено 46%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: ShyCod garbage=16 ship=0
+collector: winner #4
+collect: Загружено 83%
+collect: Осталось 5 5
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Davis garbage=5 ship=0
+collector: winner #0
+collect: Загружено 31%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: TableSewer garbage=12 ship=5
+collector: winner #55
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Wiza garbage=7 ship=0
+collector: winner #0
+collect: Загружено 48%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: Waters garbage=14 ship=0
+collector: winner #57
+collect: Загружено 81%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: IO9RK7335 garbage=9 ship=0
+collector: winner #0
+collect: Загружено 60%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Thiel garbage=5 ship=0
+collector: winner #0
+collect: Загружено 31%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Dietrich garbage=15 ship=5
+collector: winner #75
+collect: Загружено 82%
+collect: Осталось 9 9
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: ShyCod garbage=5 ship=0
+collector: winner #0
+collect: Загружено 29%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Dickinson garbage=16 ship=5
+collector: winner #216
+collect: Загружено 86%
+collect: Осталось 9 9
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: TableSewer garbage=4 ship=0
+collector: winner #0
+collect: Загружено 23%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: YRQ25GIL7 garbage=8 ship=4
+collector: winner #0
+collect: Загружено 71%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Marks-31 garbage=15 ship=0
+collector: winner #96
+collect: Загружено 83%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Ankunding-182 garbage=19 ship=0
+collector: winner #154
+collect: Загружено 89%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: McLaughlin garbage=28 ship=0
+collector: winner #100
+collect: Загружено 93%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Walsh garbage=4 ship=0
+collector: winner #0
+collect: Загружено 24%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Dare garbage=15 ship=4
+collector: winner #181
+collect: Загружено 86%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Kilback garbage=14 ship=0
+collector: winner #90
+collect: Загружено 81%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: FYNUKUIZ5 garbage=21 ship=0
+collector: winner #34
+collect: Загружено 85%
+collect: Осталось 9 9
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Marks-31 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 22%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Anderson garbage=5 ship=3
+collector: winner #0
+collect: Загружено 54%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=8
+travel: LegumePuzzled garbage=17 ship=0
+collector: winner #161
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: CMCX69GJ1 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 29%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Windler-273 garbage=29 ship=4
+collector: winner #177
+collect: Загружено 97%
+collect: Осталось 20 20
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: ShyVest garbage=15 ship=0
+collector: winner #0
+collect: Загружено 85%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Hand garbage=8 ship=0
+collector: winner #0
+collect: Загружено 49%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=8
+travel: Waters garbage=4 ship=0
+collector: winner #0
+collect: Загружено 27%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Marquardt garbage=14 ship=4
+collector: winner #94
+collect: Загружено 83%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Hintz-166 garbage=5 ship=0
+collector: winner #0
+collect: Загружено 28%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Ratke garbage=14 ship=5
+collector: winner #87
+collect: Загружено 83%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: VonRueden garbage=4 ship=0
+collector: winner #0
+collect: Загружено 25%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: QueerHound garbage=3 ship=4
+collector: winner #0
+collect: Загружено 46%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: Pacocha garbage=17 ship=0
+collector: winner #159
+collect: Загружено 90%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Schaden-108 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 22%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Lynch garbage=8 ship=3
+collector: winner #108
+collect: Загружено 79%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Dietrich garbage=9 ship=0
+collector: winner #0
+collect: Загружено 55%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Dare garbage=8 ship=0
+collector: winner #0
+collect: Загружено 52%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=8
+travel: Sanford garbage=8 ship=0
+collector: winner #0
+collect: Загружено 45%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=8
+travel: McLaughlin garbage=16 ship=0
+collector: winner #161
+collect: Загружено 86%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Yundt-167 garbage=15 ship=0
+collector: winner #110
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Kilback garbage=4 ship=0
+collector: winner #0
+collect: Загружено 30%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Dickinson garbage=9 ship=4
+collector: winner #162
+collect: Загружено 81%
+collect: Осталось 1 1
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Pacocha garbage=4 ship=0
+collector: winner #0
+collect: Загружено 22%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Yundt-167 garbage=4 ship=4
+collector: winner #0
+collect: Загружено 47%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=8
+travel: Wisozk garbage=28 ship=0
+collector: winner #170
+collect: Загружено 97%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Dickinson garbage=1 ship=0
+collector: winner #0
+collect: Загружено 6%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Bode-42 garbage=7 ship=1
+collector: winner #0
+collect: Загружено 49%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=8
+travel: Luettgen garbage=4 ship=0
+collector: winner #0
+collect: Загружено 23%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: SpoonCryer garbage=16 ship=4
+collector: winner #99
+collect: Загружено 88%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: ShyVest garbage=4 ship=0
+collector: winner #0
+collect: Загружено 27%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Wilderman garbage=16 ship=4
+collector: winner #184
+collect: Загружено 94%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Windler-273 garbage=20 ship=0
+collector: winner #108
+collect: Загружено 88%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Ankunding-182 garbage=7 ship=0
+collector: winner #0
+collect: Загружено 43%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: Marks garbage=7 ship=0
+collector: winner #0
+collect: Загружено 48%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: EncouragingKeyboard garbage=5 ship=0
+collector: winner #0
+collect: Загружено 32%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Wisozk garbage=14 ship=5
+collector: winner #110
+collect: Загружено 89%
+collect: Осталось 7 7
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Wisozk garbage=7 ship=0
+collector: winner #0
+collect: Загружено 47%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: LegumePuzzled garbage=4 ship=0
+collector: winner #0
+collect: Загружено 25%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Graham garbage=4 ship=4
+collector: winner #0
+collect: Загружено 53%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=8
+travel: Cole garbage=6 ship=0
+collector: winner #0
+collect: Загружено 43%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=6
+travel: 7LVOFGYC7 garbage=17 ship=0
+collector: winner #127
+collect: Загружено 90%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: CantaloupeUpset garbage=29 ship=0
+collector: winner #227
+collect: Загружено 95%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Marquardt garbage=7 ship=0
+collector: winner #0
+collect: Загружено 47%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+travel: Ratke garbage=8 ship=0
+collector: winner #0
+collect: Загружено 52%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=8
+travel: Stark-138 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 21%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: SpoonCryer garbage=8 ship=3
+collector: winner #0
+collect: Загружено 63%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: PIRDGTPE0 garbage=14 ship=0
+collector: winner #18
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: 7LVOFGYC7 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 22%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Hilll garbage=5 ship=4
+collector: winner #0
+collect: Загружено 55%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Bradtke garbage=27 ship=0
+collector: winner #81
+collect: Загружено 89%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: PIRDGTPE0 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 28%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Bradtke garbage=15 ship=4
+collector: winner #290
+collect: Загружено 85%
+collect: Осталось 8 8
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: HungryBat81 garbage=6 ship=0
+collector: winner #0
+collect: Загружено 43%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=6
+travel: McLaughlin garbage=3 ship=0
+collector: winner #0
+collect: Загружено 19%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Wilderman garbage=7 ship=3
+collector: winner #0
+collect: Загружено 62%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Dibbert garbage=14 ship=0
+collector: winner #171
+collect: Загружено 87%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: CantaloupeUpset garbage=16 ship=0
+collector: winner #144
+collect: Загружено 88%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: ObedientServal garbage=4 ship=0
+collector: winner #0
+collect: Загружено 24%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: 0B36WQTR8 garbage=15 ship=4
+collector: winner #148
+collect: Загружено 81%
+collect: Осталось 9 9
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Dibbert garbage=4 ship=0
+collector: winner #0
+collect: Загружено 27%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Windler-273 garbage=7 ship=4
+collector: winner #0
+collect: Загружено 73%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: 0B36WQTR8 garbage=9 ship=0
+collector: winner #1
+collect: Загружено 57%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Bradtke garbage=8 ship=0
+collector: winner #0
+collect: Загружено 52%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=8
+travel: FYNUKUIZ5 garbage=9 ship=0
+collector: winner #0
+collect: Загружено 56%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: C7YLYSQL7 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 30%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: CantaloupeUpset garbage=3 ship=4
+collector: winner #0
+collect: Загружено 47%
+collect: Очищено!
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=7
+file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:41
+    const garbageCount = Object.keys(planetData.planetGarbage).length
+                                ^
+
+TypeError: Cannot convert undefined or null to object
+    at Function.keys (<anonymous>)
+    at Bot.travel (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:41:33)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Bot.goToNext (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:145:5)
+    at async Bot.tick (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:152:5)
+    at async Bot.loop (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:166:14)
+
+Node.js v20.9.0
+
+Nou Sagi@DESKTOP-092CICL MINGW64 ~/Desktop/datsedenspace (master)
+$
+
+
+

@@ -43,15 +43,8 @@ export class Bot {
     console.log(`travel: ${planetName} garbage=${garbageCount} ship=${this.box.getGarbagePlacedCount()}`)
     this.planetCurrent = planetName
 
-    if (planetName === 'Eden') {
+    if (path.includes('Eden')) {
       this.box = new Box
-    }
-
-    if (this.box.getGarbagePlacedCount() > 0 && planetName !== 'Eden') {
-      const placed = this.box.getGarbagePlaced(false)
-      this.planetGarbage.set(planetName, { ...planetData.planetGarbage, ...placed })
-    } else {
-      this.planetGarbage.set(planetName, planetData.planetGarbage)
     }
 
     if (!garbageCount) {
@@ -81,23 +74,48 @@ export class Bot {
 
   async collect() {
     const garbageKnown = this.planetGarbage.get(this.planetCurrent)
+
     if (!garbageKnown) {
-      console.log(`collect: planet "${this.planetCurrent}" not have garbage`)
+      console.log(`collect: Нет мусора! Похоже мы потеряли информацию об этой планете`)
       this.planetEmpty.set(this.planetCurrent, true)
       return false
     }
+
     if (Object.keys(garbageKnown).length === 0) {
-      console.log('collect: IS EMTPY!!')
+      console.log('collect: Нет мусора! Наши данные не соответствовали действительности')
       this.planetEmpty.set(this.planetCurrent, true)
       return false
     }
 
-    // const box = new Box
-    // this.box = box
-    const figures = Object.entries(garbageKnown).map(([id, points]) => new Figure(`${id}`, points))
-    // const myLeaved = box.putAll(figures)
+    if (this.planetCurrent === 'Eden') {
+      console.log(`collect: Не надо собирать мусор на Eden`)
+      return false
+    }
 
+    if (this.box.getGarbagePlacedCount() > 0) {
+      console.log(`collect: Учитываем мусор на корабле, загружено ${this.box.loading()}%`)
+    }
+
+    //   const placed = this.box.getGarbagePlaced(false)
+    //   this.planetGarbage.set(planetName, { ...planetData.planetGarbage, ...placed })
+    // } else {
+    //   this.planetGarbage.set(planetName, planetData.planetGarbage)
+    // }
+
+    const shipGarbage = this.box.getGarbagePlaced(false)
+    const totalGarbage = { ...garbageKnown, ...shipGarbage }
+    const figures = Object.entries(totalGarbage).map(([id, points]) => new Figure(`${id}`, points))
     const { box, leaved: myLeaved } = Box.putAllRndSort(figures)
+
+    if (this.box.getGarbagePlacedCount() > 0) {
+      const diff = box.loading() - this.box.loading()
+      console.log(`collet: Загрузка изменилась на ${diff}%. ${diff >= 5 ? ':)' : ':('}`)
+
+      if (diff < 5) {
+        return true
+      }
+    }
+
     this.box = box
 
     Figure.drawAll(new Vec2(5, 0), figures)
@@ -129,7 +147,7 @@ export class Bot {
       console.log(`collect: Осталось ${leaved.length} ${Object.keys(myLeaved).length}`)
     }
 
-    return box.loading() > 40
+    return box.loading() > 80
   }
 
   async goToNext(needToEden = true) {

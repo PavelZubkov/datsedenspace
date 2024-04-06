@@ -80,4 +80,16 @@ export class Navigator {
     return planet
   }
 
+  /**
+   * 
+   * @param {string} path 
+   */
+  increaseWeights(path) {
+    for (let i = 0; i < path.length; i++) {
+      const fromId = path
+    }
+    this.graph.forEachLink(link => {
+    })
+  }
+
 }
