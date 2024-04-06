@@ -36,9 +36,9 @@ export class Bot {
       return this.planetCleared.get(planet)
     }
 
+    this.planetCleared.set(planet, next)
     Log.saveJSON('planetCleared', [...this.planetCleared.entries()])
 
-    this.planetCleared.set(planet, next)
     return next
   }
 
@@ -52,9 +52,9 @@ export class Bot {
       return this.planetEmpty.get(planet)
     }
 
+    this.planetEmpty.set(planet, next)
     Log.saveJSON('planetEmpty', [...this.planetEmpty.entries()])
 
-    this.planetEmpty.set(planet, next)
     return next
   }
 
@@ -92,7 +92,7 @@ export class Bot {
     this.planetEmpty = new Map(Log.loadJSON('planetEmpty') ?? [])
 
     this.player = await this.api.getPlayerUniverse()
-    console.log('init:', JSON.stringify(this.player, null, 2))
+    // console.log('init:', JSON.stringify(this.player, null, 2))
 
     this.box = new Box(new Vec2(this.player.ship.capacityX, this.player.ship.capacityY))
     // init garbage
@@ -145,9 +145,9 @@ export class Bot {
 
     if (this.box.getGarbagePlacedCount() > 0) {
       const diff = box.loading() - this.box.loading()
-      console.log(`collet: Загрузка изменилась на ${diff}%. ${diff >= 5 ? ':)' : ':('}`)
+      console.log(`collet: Загрузка изменилась на ${diff}%. ${diff >= 6 ? ':)' : ':('}`)
 
-      if (diff < 5) {
+      if (diff < 6) {
         return true
       }
     }
@@ -183,7 +183,7 @@ export class Bot {
       console.log(`collect: Осталось ${leaved.length} ${Object.keys(myLeaved).length}`)
     }
 
-    return box.loading() > 90
+    return box.loading() >= 87
   }
 
   async goToNext(needToEden = true) {
@@ -196,7 +196,7 @@ export class Bot {
       randomFullyPlanet = this.navigator.getRandomPlanet([])
     }
     const pathToRandomFullyPlanet = this.navigator.findPath(this.planetCurrent, randomFullyPlanet)
-    await this.travel(pathToRandomFullyPlanet)
+    return await this.travel(pathToRandomFullyPlanet)
   }
 
   needToEdenInNextTick = false

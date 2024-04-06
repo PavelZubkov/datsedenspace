@@ -1,0 +1,5729 @@
+
+Nou Sagi@DESKTOP-092CICL MINGW64 ~/Desktop/datsedenspace (master)
+$ node ./src/bot/bot.js
+log: Open json error
+updated null
+BOT started
+log: Open json error
+log: Open json error
+
+Connected to server
+
+init: {
+  "name": "Что-то фотонное",
+  "roundName": "Final 9",
+  "roundEndIn": 170,
+  "ship": {
+    "fuelUsed": 0,
+    "planet": {
+      "name": "Earth",
+      "garbage": {}
+    },
+    "capacityX": 8,
+    "capacityY": 11,
+    "garbage": {}
+  },
+  "universe": [
+    [
+      "Earth",
+      "SQX8TPRJ4",
+      8
+    ],
+    [
+      "Earth",
+      "Dickinson-191",
+      88
+    ],
+    [
+      "Earth",
+      "CourageousPark",
+      91
+    ],
+    [
+      "SQX8TPRJ4",
+      "Earth",
+      56
+    ],
+    [
+      "SQX8TPRJ4",
+      "JambulPrickling814",
+      22
+    ],
+    [
+      "Dickinson-191",
+      "Earth",
+      48
+    ],
+    [
+      "Dickinson-191",
+      "ZMR0FDY61",
+      94
+    ],
+    [
+      "Dickinson-191",
+      "BadImpala",
+      48
+    ],
+    [
+      "Dickinson-191",
+      "Stamm-209",
+      69
+    ],
+    [
+      "CourageousPark",
+      "Earth",
+      84
+    ],
+    [
+      "CourageousPark",
+      "Howe",
+      31
+    ],
+    [
+      "CourageousPark",
+      "Beatty",
+      39
+    ],
+    [
+      "JambulPrickling814",
+      "SQX8TPRJ4",
+      5
+    ],
+    [
+      "JambulPrickling814",
+      "BananaKnightly1",
+      85
+    ],
+    [
+      "ZMR0FDY61",
+      "Dickinson-191",
+      29
+    ],
+    [
+      "ZMR0FDY61",
+      "WAURFJRX3",
+      22
+    ],
+    [
+      "BadImpala",
+      "Dickinson-191",
+      69
+    ],
+    [
+      "BadImpala",
+      "KnightlyPig",
+      6
+    ],
+    [
+      "BadImpala",
+      "Padberg-7",
+      13
+    ],
+    [
+      "BadImpala",
+      "Volkman-295",
+      61
+    ],
+    [
+      "Stamm-209",
+      "TerribleRazor",
+      15
+    ],
+    [
+      "Howe",
+      "CourageousPark",
+      51
+    ],
+    [
+      "Howe",
+      "GentlePig935",
+      40
+    ],
+    [
+      "Howe",
+      "Hegmann",
+      3
+    ],
+    [
+      "Howe",
+      "Reynolds",
+      34
+    ],
+    [
+      "Beatty",
+      "XW7LZFEB1",
+      43
+    ],
+    [
+      "Beatty",
+      "MouseTalker106",
+      6
+    ],
+    [
+      "Beatty",
+      "ScaryAntlers5",
+      56
+    ],
+    [
+      "BananaKnightly1",
+      "JambulPrickling814",
+      67
+    ],
+    [
+      "BananaKnightly1",
+      "PEFI4ZZI0",
+      78
+    ],
+    [
+      "BananaKnightly1",
+      "GorgeousMacaw",
+      38
+    ],
+    [
+      "WAURFJRX3",
+      "ZMR0FDY61",
+      27
+    ],
+    [
+      "WAURFJRX3",
+      "Bartell",
+      91
+    ],
+    [
+      "WAURFJRX3",
+      "MelonOutrageous",
+      99
+    ],
+    [
+      "WAURFJRX3",
+      "0Y20AMSN5",
+      56
+    ],
+    [
+      "KnightlyPig",
+      "BadImpala",
+      60
+    ],
+    [
+      "KnightlyPig",
+      "Nitzsche",
+      76
+    ],
+    [
+      "KnightlyPig",
+      "Simonis",
+      81
+    ],
+    [
+      "KnightlyPig",
+      "Swift",
+      67
+    ],
+    [
+      "Padberg-7",
+      "BadImpala",
+      41
+    ],
+    [
+      "Padberg-7",
+      "UMTLTK6G6",
+      16
+    ],
+    [
+      "Volkman-295",
+      "BadImpala",
+      45
+    ],
+    [
+      "Volkman-295",
+      "BlackcurrantInnocent",
+      23
+    ],
+    [
+      "Volkman-295",
+      "S4IIP5GQ2",
+      29
+    ],
+    [
+      "TerribleRazor",
+      "Stamm-209",
+      59
+    ],
+    [
+      "TerribleRazor",
+      "Langosh",
+      69
+    ],
+    [
+      "TerribleRazor",
+      "TenderJersey",
+      81
+    ],
+    [
+      "TerribleRazor",
+      "RichShirt",
+      4
+    ],
+    [
+      "GentlePig935",
+      "Howe",
+      37
+    ],
+    [
+      "GentlePig935",
+      "Wiza-70",
+      98
+    ],
+    [
+      "GentlePig935",
+      "RaspberryTame878",
+      4
+    ],
+    [
+      "Hegmann",
+      "Howe",
+      88
+    ],
+    [
+      "Hegmann",
+      "Pollich",
+      78
+    ],
+    [
+      "Hegmann",
+      "6I8FWIGB9",
+      53
+    ],
+    [
+      "Hegmann",
+      "Parisian",
+      55
+    ],
+    [
+      "Reynolds",
+      "Rippin-84",
+      13
+    ],
+    [
+      "Reynolds",
+      "MushyPig3",
+      27
+    ],
+    [
+      "XW7LZFEB1",
+      "Beatty",
+      96
+    ],
+    [
+      "XW7LZFEB1",
+      "Dickinson",
+      48
+    ],
+    [
+      "MouseTalker106",
+      "36EYHO732",
+      25
+    ],
+    [
+      "MouseTalker106",
+      "Macejkovic",
+      31
+    ],
+    [
+      "ScaryAntlers5",
+      "Koss",
+      22
+    ],
+    [
+      "PEFI4ZZI0",
+      "BananaKnightly1",
+      95
+    ],
+    [
+      "PEFI4ZZI0",
+      "Littel-265",
+      66
+    ],
+    [
+      "GorgeousMacaw",
+      "Stiedemann",
+      34
+    ],
+    [
+      "GorgeousMacaw",
+      "Kling",
+      85
+    ],
+    [
+      "GorgeousMacaw",
+      "[No entry]",
+      10
+    ],
+    [
+      "Bartell",
+      "WAURFJRX3",
+      74
+    ],
+    [
+      "Bartell",
+      "TomatoOpener468",
+      15
+    ],
+    [
+      "Bartell",
+      "Weissnat-54",
+      42
+    ],
+    [
+      "Bartell",
+      "MangostineBad2",
+      56
+    ],
+    [
+      "MelonOutrageous",
+      "Jenkins-209",
+      72
+    ],
+    [
+      "MelonOutrageous",
+      "BraClimber326",
+      37
+    ],
+    [
+      "0Y20AMSN5",
+      "Wunsch-8",
+      14
+    ],
+    [
+      "Nitzsche",
+      "KnightlyPig",
+      94
+    ],
+    [
+      "Nitzsche",
+      "ScaryJaw",
+      20
+    ],
+    [
+      "Nitzsche",
+      "Wisozk-164",
+      12
+    ],
+    [
+      "Simonis",
+      "KnightlyPig",
+      78
+    ],
+    [
+      "Simonis",
+      "ShyBadger",
+      77
+    ],
+    [
+      "Simonis",
+      "PitayaEager",
+      4
+    ],
+    [
+      "Simonis",
+      "KY8ND0YB1",
+      5
+    ],
+    [
+      "Swift",
+      "LongTrenchCoat465",
+      92
+    ],
+    [
+      "Swift",
+      "PotatoKniter",
+      63
+    ],
+    [
+      "Swift",
+      "Roberts-180",
+      57
+    ],
+    [
+      "UMTLTK6G6",
+      "Padberg-7",
+      29
+    ],
+    [
+      "UMTLTK6G6",
+      "Funk-51",
+      21
+    ],
+    [
+      "BlackcurrantInnocent",
+      "Volkman-295",
+      72
+    ],
+    [
+      "BlackcurrantInnocent",
+      "Farrell",
+      3
+    ],
+    [
+      "BlackcurrantInnocent",
+      "Heaney",
+      55
+    ],
+    [
+      "S4IIP5GQ2",
+      "Ondricka",
+      22
+    ],
+    [
+      "S4IIP5GQ2",
+      "ShirtTalker",
+      74
+    ],
+    [
+      "Langosh",
+      "TerribleRazor",
+      65
+    ],
+    [
+      "Langosh",
+      "ComfortableCrab43",
+      75
+    ],
+    [
+      "Langosh",
+      "Lemke",
+      2
+    ],
+    [
+      "TenderJersey",
+      "TerribleRazor",
+      31
+    ],
+    [
+      "TenderJersey",
+      "Smitham",
+      36
+    ],
+    [
+      "TenderJersey",
+      "Shanahan",
+      77
+    ],
+    [
+      "RichShirt",
+      "Little",
+      40
+    ],
+    [
+      "RichShirt",
+      "Bruen-147",
+      19
+    ],
+    [
+      "RichShirt",
+      "Mraz",
+      66
+    ],
+    [
+      "Wiza-70",
+      "GentlePig935",
+      97
+    ],
+    [
+      "Wiza-70",
+      "FunnyAircraft15",
+      44
+    ],
+    [
+      "Wiza-70",
+      "Anderson",
+      54
+    ],
+    [
+      "RaspberryTame878",
+      "GentlePig935",
+      67
+    ],
+    [
+      "RaspberryTame878",
+      "Hoeger",
+      70
+    ],
+    [
+      "RaspberryTame878",
+      "SmilingBaby",
+      78
+    ],
+    [
+      "Pollich",
+      "Hegmann",
+      65
+    ],
+    [
+      "Pollich",
+      "Kub",
+      79
+    ],
+    [
+      "Pollich",
+      "Cole",
+      29
+    ],
+    [
+      "Pollich",
+      "Corwin-201",
+      38
+    ],
+    [
+      "6I8FWIGB9",
+      "NEB4YIDW5",
+      68
+    ],
+    [
+      "Parisian",
+      "Hegmann",
+      21
+    ],
+    [
+      "Parisian",
+      "Schowalter-246",
+      40
+    ],
+    [
+      "Parisian",
+      "Walter-114",
+      24
+    ],
+    [
+      "Rippin-84",
+      "Reynolds",
+      30
+    ],
+    [
+      "Rippin-84",
+      "Kilback",
+      72
+    ],
+    [
+      "Rippin-84",
+      "Halvorson",
+      28
+    ],
+    [
+      "Rippin-84",
+      "Considine",
+      69
+    ],
+    [
+      "MushyPig3",
+      "Reynolds",
+      99
+    ],
+    [
+      "MushyPig3",
+      "BeltWriteer",
+      85
+    ],
+    [
+      "MushyPig3",
+      "M69EUJHH5",
+      86
+    ],
+    [
+      "MushyPig3",
+      "Bergstrom-39",
+      88
+    ],
+    [
+      "Dickinson",
+      "XW7LZFEB1",
+      5
+    ],
+    [
+      "Dickinson",
+      "Kessler-31",
+      89
+    ],
+    [
+      "36EYHO732",
+      "MouseTalker106",
+      20
+    ],
+    [
+      "36EYHO732",
+      "Price-5",
+      11
+    ],
+    [
+      "Macejkovic",
+      "Schuster",
+      18
+    ],
+    [
+      "Macejkovic",
+      "DeerSiter",
+      98
+    ],
+    [
+      "Macejkovic",
+      "R89SQTOI8",
+      19
+    ],
+    [
+      "Koss",
+      "ScaryAntlers5",
+      69
+    ],
+    [
+      "Koss",
+      "Rogahn-254",
+      93
+    ],
+    [
+      "Koss",
+      "Eden",
+      39
+    ],
+    [
+      "Littel-265",
+      "PEFI4ZZI0",
+      11
+    ],
+    [
+      "Stiedemann",
+      "GorgeousMacaw",
+      76
+    ],
+    [
+      "Stiedemann",
+      "Kling",
+      11
+    ],
+    [
+      "Kling",
+      "[No entry]",
+      92
+    ],
+    [
+      "[No entry]",
+      "Simonis",
+      22
+    ],
+    [
+      "TomatoOpener468",
+      "Bartell",
+      15
+    ],
+    [
+      "TomatoOpener468",
+      "Weissnat-54",
+      4
+    ],
+    [
+      "Weissnat-54",
+      "MangostineBad2",
+      80
+    ],
+    [
+      "MangostineBad2",
+      "Wiza-70",
+      64
+    ],
+    [
+      "Jenkins-209",
+      "MelonOutrageous",
+      41
+    ],
+    [
+      "Jenkins-209",
+      "BraClimber326",
+      87
+    ],
+    [
+      "BraClimber326",
+      "Wiza-70",
+      92
+    ],
+    [
+      "Wunsch-8",
+      "0Y20AMSN5",
+      19
+    ],
+    [
+      "Wunsch-8",
+      "JambulPrickling814",
+      97
+    ],
+    [
+      "ScaryJaw",
+      "Nitzsche",
+      77
+    ],
+    [
+      "ScaryJaw",
+      "Wisozk-164",
+      5
+    ],
+    [
+      "Wisozk-164",
+      "Padberg-7",
+      93
+    ],
+    [
+      "ShyBadger",
+      "Simonis",
+      65
+    ],
+    [
+      "ShyBadger",
+      "PitayaEager",
+      92
+    ],
+    [
+      "PitayaEager",
+      "KY8ND0YB1",
+      84
+    ],
+    [
+      "KY8ND0YB1",
+      "Simonis",
+      26
+    ],
+    [
+      "LongTrenchCoat465",
+      "Swift",
+      84
+    ],
+    [
+      "LongTrenchCoat465",
+      "PotatoKniter",
+      83
+    ],
+    [
+      "PotatoKniter",
+      "Swift",
+      94
+    ],
+    [
+      "PotatoKniter",
+      "Roberts-180",
+      47
+    ],
+    [
+      "Roberts-180",
+      "Swift",
+      11
+    ],
+    [
+      "Roberts-180",
+      "WAURFJRX3",
+      61
+    ],
+    [
+      "Funk-51",
+      "UMTLTK6G6",
+      10
+    ],
+    [
+      "Farrell",
+      "BlackcurrantInnocent",
+      63
+    ],
+    [
+      "Farrell",
+      "Heaney",
+      47
+    ],
+    [
+      "Heaney",
+      "BlackcurrantInnocent",
+      62
+    ],
+    [
+      "Ondricka",
+      "S4IIP5GQ2",
+      57
+    ],
+    [
+      "Ondricka",
+      "ShirtTalker",
+      81
+    ],
+    [
+      "ShirtTalker",
+      "S4IIP5GQ2",
+      58
+    ],
+    [
+      "ShirtTalker",
+      "RaspberryTame878",
+      68
+    ],
+    [
+      "ComfortableCrab43",
+      "Langosh",
+      39
+    ],
+    [
+      "ComfortableCrab43",
+      "Lemke",
+      71
+    ],
+    [
+      "Lemke",
+      "Parisian",
+      42
+    ],
+    [
+      "Smitham",
+      "TenderJersey",
+      42
+    ],
+    [
+      "Smitham",
+      "Shanahan",
+      6
+    ],
+    [
+      "Shanahan",
+      "RaspberryTame878",
+      24
+    ],
+    [
+      "Little",
+      "RichShirt",
+      49
+    ],
+    [
+      "Little",
+      "Bruen-147",
+      10
+    ],
+    [
+      "Bruen-147",
+      "RichShirt",
+      9
+    ],
+    [
+      "Bruen-147",
+      "Mraz",
+      50
+    ],
+    [
+      "Mraz",
+      "BlackcurrantInnocent",
+      77
+    ],
+    [
+      "FunnyAircraft15",
+      "Wiza-70",
+      50
+    ],
+    [
+      "FunnyAircraft15",
+      "Anderson",
+      74
+    ],
+    [
+      "Anderson",
+      "Wiza-70",
+      12
+    ],
+    [
+      "Hoeger",
+      "RaspberryTame878",
+      12
+    ],
+    [
+      "Hoeger",
+      "SmilingBaby",
+      22
+    ],
+    [
+      "SmilingBaby",
+      "Wiza-70",
+      67
+    ],
+    [
+      "Kub",
+      "Pollich",
+      32
+    ],
+    [
+      "Kub",
+      "Cole",
+      44
+    ],
+    [
+      "Cole",
+      "Corwin-201",
+      35
+    ],
+    [
+      "Corwin-201",
+      "JambulPrickling814",
+      29
+    ],
+    [
+      "NEB4YIDW5",
+      "6I8FWIGB9",
+      91
+    ],
+    [
+      "NEB4YIDW5",
+      "GentlePig935",
+      19
+    ],
+    [
+      "Schowalter-246",
+      "Parisian",
+      97
+    ],
+    [
+      "Schowalter-246",
+      "Walter-114",
+      79
+    ],
+    [
+      "Walter-114",
+      "Parisian",
+      48
+    ],
+    [
+      "Kilback",
+      "Rippin-84",
+      43
+    ],
+    [
+      "Kilback",
+      "Halvorson",
+      33
+    ],
+    [
+      "Halvorson",
+      "Rippin-84",
+      3
+    ],
+    [
+      "Halvorson",
+      "Considine",
+      91
+    ],
+    [
+      "Considine",
+      "Rippin-84",
+      75
+    ],
+    [
+      "BeltWriteer",
+      "MushyPig3",
+      97
+    ],
+    [
+      "BeltWriteer",
+      "M69EUJHH5",
+      97
+    ],
+    [
+      "M69EUJHH5",
+      "MushyPig3",
+      28
+    ],
+    [
+      "M69EUJHH5",
+      "Bergstrom-39",
+      21
+    ],
+    [
+      "Bergstrom-39",
+      "BlackcurrantInnocent",
+      40
+    ],
+    [
+      "Kessler-31",
+      "Dickinson",
+      98
+    ],
+    [
+      "Price-5",
+      "36EYHO732",
+      79
+    ],
+    [
+      "Price-5",
+      "Littel-265",
+      64
+    ],
+    [
+      "Schuster",
+      "Macejkovic",
+      63
+    ],
+    [
+      "Schuster",
+      "DeerSiter",
+      74
+    ],
+    [
+      "DeerSiter",
+      "R89SQTOI8",
+      69
+    ],
+    [
+      "R89SQTOI8",
+      "Macejkovic",
+      66
+    ],
+    [
+      "R89SQTOI8",
+      "TomatoOpener468",
+      25
+    ],
+    [
+      "Rogahn-254",
+      "Koss",
+      99
+    ],
+    [
+      "Rogahn-254",
+      "Eden",
+      83
+    ],
+    [
+      "Eden",
+      "Koss",
+      90
+    ],
+    [
+      "Eden",
+      "RaspberryTame878",
+      46
+    ]
+  ],
+  "attempt": 1
+}
+
+
+travel: Eden garbage=0 ship=0
+tick: start
+
+
+travel: RaspberryTame878 garbage=25 ship=0
+collector: winner #40
+collect: Загружено 88%
+
+
+collect: Осталось 15 15
+tick: end
+
+tick: start
+
+
+travel: Rippin-84 garbage=25 ship=10
+collect: Учитываем мусор на корабле, загружено 88%
+collector: winner #122
+collet: Загрузка изменилась на 6%. :)
+collect: Загружено 94%
+
+
+collect: Осталось 24 24
+tick: end
+
+tick: start
+
+
+travel: Eden garbage=0 ship=11
+
+
+travel: RichShirt garbage=26 ship=0
+collector: winner #44
+collect: Загружено 91%
+
+
+collect: Осталось 15 15
+tick: end
+
+tick: start
+
+
+travel: Eden garbage=0 ship=11
+
+
+travel: Price-5 garbage=26 ship=0
+collector: winner #965
+collect: Загружено 95%
+
+
+collect: Осталось 14 14
+tick: end
+
+tick: start
+
+
+travel: Eden garbage=0 ship=12
+
+
+travel: NEB4YIDW5 garbage=31 ship=0
+collector: winner #45
+collect: Загружено 96%
+
+
+collect: Осталось 17 17
+tick: end
+
+tick: start
+
+
+travel: Eden garbage=0 ship=14
+
+
+travel: S4IIP5GQ2 garbage=28 ship=0
+collector: winner #20
+collect: Загружено 88%
+
+
+collect: Осталось 17 17
+tick: end
+
+tick: start
+
+
+travel: DeerSiter garbage=27 ship=11
+collect: Учитываем мусор на корабле, загружено 88%
+collector: winner #767
+collet: Загрузка изменилась на 7%. :)
+collect: Загружено 95%
+
+
+collect: Осталось 25 25
+tick: end
+
+tick: start
+
+
+travel: Eden garbage=0 ship=13
+
+
+travel: BlackcurrantInnocent garbage=27 ship=0
+collector: winner #635
+collect: Загружено 96%
+
+
+collect: Осталось 15 15
+tick: end
+
+tick: start
+
+
+travel: Eden garbage=0 ship=12
+
+
+travel: KnightlyPig garbage=24 ship=0
+collector: winner #121
+collect: Загружено 85%
+
+
+collect: Осталось 15 15
+tick: end
+
+tick: start
+
+
+travel: GorgeousMacaw garbage=27 ship=9
+collect: Учитываем мусор на корабле, загружено 85%
+collector: winner #96
+collet: Загрузка изменилась на 11%. :)
+collect: Загружено 96%
+
+
+collect: Осталось 24 24
+tick: end
+
+tick: start
+
+
+travel: Eden garbage=0 ship=12
+
+
+travel: Funk-51 garbage=27 ship=0
+collector: winner #529
+collect: Загружено 93%
+
+
+collect: Осталось 15 15
+tick: end
+
+tick: start
+
+
+travel: Eden garbage=0 ship=12
+
+
+travel: GentlePig935 garbage=24 ship=0
+collector: winner #693
+collect: Загружено 89%
+
+
+collect: Осталось 15 15
+tick: end
+
+tick: start
+
+
+
+Nou Sagi@DESKTOP-092CICL MINGW64 ~/Desktop/datsedenspace (master)
+$ node ./src/bot/bot.js
+log: Open json error
+updated null
+BOT started
+log: Open json error
+Connected to server
+init: {
+  "name": "Что-то фотонное",
+  "roundName": "Final 9",
+  "roundEndIn": 135,
+  "ship": {
+    "fuelUsed": 12322,
+    "planet": {
+      "name": "Parisian",
+      "garbage": {}
+    },
+    "capacityX": 8,
+    "capacityY": 11,
+    "garbage": {
+      "6fVX5dA": [
+        [
+          4,
+          4
+        ],
+        [
+          5,
+          4
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          7,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          7,
+          5
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "6fVX65f": [
+        [
+          7,
+          0
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          7,
+          2
+        ],
+        [
+          7,
+          3
+        ],
+        [
+          6,
+          0
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          5,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "6fWyPsu": [
+        [
+          5,
+          3
+        ],
+        [
+          5,
+          2
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "6fWyj4C": [
+        [
+          4,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          2,
+          1
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "6fWz4gz": [
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "6fWzjW5": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ]
+      ],
+      "6fX158s": [
+        [
+          0,
+          10
+        ],
+        [
+          0,
+          9
+        ],
+        [
+          0,
+          8
+        ],
+        [
+          0,
+          7
+        ],
+        [
+          1,
+          10
+        ],
+        [
+          1,
+          8
+        ],
+        [
+          2,
+          10
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "6fYS3Jw": [
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          10
+        ]
+      ],
+      "6fYSNwj": [
+        [
+          7,
+          7
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          6
+        ],
+        [
+          6,
+          5
+        ],
+        [
+          5,
+          5
+        ]
+      ]
+    }
+  },
+  "universe": [
+    [
+      "Earth",
+      "SQX8TPRJ4",
+      18
+    ],
+    [
+      "Earth",
+      "Dickinson-191",
+      118
+    ],
+    [
+      "Earth",
+      "CourageousPark",
+      171
+    ],
+    [
+      "SQX8TPRJ4",
+      "Earth",
+      66
+    ],
+    [
+      "SQX8TPRJ4",
+      "JambulPrickling814",
+      32
+    ],
+    [
+      "Dickinson-191",
+      "Earth",
+      118
+    ],
+    [
+      "Dickinson-191",
+      "ZMR0FDY61",
+      94
+    ],
+    [
+      "Dickinson-191",
+      "BadImpala",
+      68
+    ],
+    [
+      "Dickinson-191",
+      "Stamm-209",
+      79
+    ],
+    [
+      "CourageousPark",
+      "Earth",
+      114
+    ],
+    [
+      "CourageousPark",
+      "Howe",
+      31
+    ],
+    [
+      "CourageousPark",
+      "Beatty",
+      149
+    ],
+    [
+      "JambulPrickling814",
+      "SQX8TPRJ4",
+      15
+    ],
+    [
+      "JambulPrickling814",
+      "BananaKnightly1",
+      95
+    ],
+    [
+      "ZMR0FDY61",
+      "Dickinson-191",
+      39
+    ],
+    [
+      "ZMR0FDY61",
+      "WAURFJRX3",
+      22
+    ],
+    [
+      "BadImpala",
+      "Dickinson-191",
+      129
+    ],
+    [
+      "BadImpala",
+      "KnightlyPig",
+      16
+    ],
+    [
+      "BadImpala",
+      "Padberg-7",
+      23
+    ],
+    [
+      "BadImpala",
+      "Volkman-295",
+      61
+    ],
+    [
+      "Stamm-209",
+      "TerribleRazor",
+      25
+    ],
+    [
+      "Howe",
+      "CourageousPark",
+      111
+    ],
+    [
+      "Howe",
+      "GentlePig935",
+      40
+    ],
+    [
+      "Howe",
+      "Hegmann",
+      23
+    ],
+    [
+      "Howe",
+      "Reynolds",
+      64
+    ],
+    [
+      "Beatty",
+      "XW7LZFEB1",
+      43
+    ],
+    [
+      "Beatty",
+      "MouseTalker106",
+      26
+    ],
+    [
+      "Beatty",
+      "ScaryAntlers5",
+      146
+    ],
+    [
+      "BananaKnightly1",
+      "JambulPrickling814",
+      77
+    ],
+    [
+      "BananaKnightly1",
+      "PEFI4ZZI0",
+      78
+    ],
+    [
+      "BananaKnightly1",
+      "GorgeousMacaw",
+      48
+    ],
+    [
+      "WAURFJRX3",
+      "ZMR0FDY61",
+      37
+    ],
+    [
+      "WAURFJRX3",
+      "Bartell",
+      91
+    ],
+    [
+      "WAURFJRX3",
+      "MelonOutrageous",
+      99
+    ],
+    [
+      "WAURFJRX3",
+      "0Y20AMSN5",
+      56
+    ],
+    [
+      "KnightlyPig",
+      "BadImpala",
+      80
+    ],
+    [
+      "KnightlyPig",
+      "Nitzsche",
+      76
+    ],
+    [
+      "KnightlyPig",
+      "Simonis",
+      81
+    ],
+    [
+      "KnightlyPig",
+      "Swift",
+      67
+    ],
+    [
+      "Padberg-7",
+      "BadImpala",
+      51
+    ],
+    [
+      "Padberg-7",
+      "UMTLTK6G6",
+      26
+    ],
+    [
+      "Volkman-295",
+      "BadImpala",
+      75
+    ],
+    [
+      "Volkman-295",
+      "BlackcurrantInnocent",
+      23
+    ],
+    [
+      "Volkman-295",
+      "S4IIP5GQ2",
+      39
+    ],
+    [
+      "TerribleRazor",
+      "Stamm-209",
+      59
+    ],
+    [
+      "TerribleRazor",
+      "Langosh",
+      69
+    ],
+    [
+      "TerribleRazor",
+      "TenderJersey",
+      81
+    ],
+    [
+      "TerribleRazor",
+      "RichShirt",
+      14
+    ],
+    [
+      "GentlePig935",
+      "Howe",
+      147
+    ],
+    [
+      "GentlePig935",
+      "Wiza-70",
+      98
+    ],
+    [
+      "GentlePig935",
+      "RaspberryTame878",
+      4
+    ],
+    [
+      "Hegmann",
+      "Howe",
+      88
+    ],
+    [
+      "Hegmann",
+      "Pollich",
+      78
+    ],
+    [
+      "Hegmann",
+      "6I8FWIGB9",
+      63
+    ],
+    [
+      "Hegmann",
+      "Parisian",
+      65
+    ],
+    [
+      "Reynolds",
+      "Rippin-84",
+      23
+    ],
+    [
+      "Reynolds",
+      "MushyPig3",
+      57
+    ],
+    [
+      "XW7LZFEB1",
+      "Beatty",
+      96
+    ],
+    [
+      "XW7LZFEB1",
+      "Dickinson",
+      48
+    ],
+    [
+      "MouseTalker106",
+      "36EYHO732",
+      35
+    ],
+    [
+      "MouseTalker106",
+      "Macejkovic",
+      41
+    ],
+    [
+      "ScaryAntlers5",
+      "Koss",
+      112
+    ],
+    [
+      "PEFI4ZZI0",
+      "BananaKnightly1",
+      105
+    ],
+    [
+      "PEFI4ZZI0",
+      "Littel-265",
+      66
+    ],
+    [
+      "GorgeousMacaw",
+      "Stiedemann",
+      34
+    ],
+    [
+      "GorgeousMacaw",
+      "Kling",
+      85
+    ],
+    [
+      "GorgeousMacaw",
+      "[No entry]",
+      20
+    ],
+    [
+      "Bartell",
+      "WAURFJRX3",
+      84
+    ],
+    [
+      "Bartell",
+      "TomatoOpener468",
+      15
+    ],
+    [
+      "Bartell",
+      "Weissnat-54",
+      42
+    ],
+    [
+      "Bartell",
+      "MangostineBad2",
+      56
+    ],
+    [
+      "MelonOutrageous",
+      "Jenkins-209",
+      72
+    ],
+    [
+      "MelonOutrageous",
+      "BraClimber326",
+      37
+    ],
+    [
+      "0Y20AMSN5",
+      "Wunsch-8",
+      14
+    ],
+    [
+      "Nitzsche",
+      "KnightlyPig",
+      94
+    ],
+    [
+      "Nitzsche",
+      "ScaryJaw",
+      20
+    ],
+    [
+      "Nitzsche",
+      "Wisozk-164",
+      12
+    ],
+    [
+      "Simonis",
+      "KnightlyPig",
+      88
+    ],
+    [
+      "Simonis",
+      "ShyBadger",
+      77
+    ],
+    [
+      "Simonis",
+      "PitayaEager",
+      4
+    ],
+    [
+      "Simonis",
+      "KY8ND0YB1",
+      5
+    ],
+    [
+      "Swift",
+      "LongTrenchCoat465",
+      92
+    ],
+    [
+      "Swift",
+      "PotatoKniter",
+      63
+    ],
+    [
+      "Swift",
+      "Roberts-180",
+      57
+    ],
+    [
+      "UMTLTK6G6",
+      "Padberg-7",
+      39
+    ],
+    [
+      "UMTLTK6G6",
+      "Funk-51",
+      31
+    ],
+    [
+      "BlackcurrantInnocent",
+      "Volkman-295",
+      112
+    ],
+    [
+      "BlackcurrantInnocent",
+      "Farrell",
+      3
+    ],
+    [
+      "BlackcurrantInnocent",
+      "Heaney",
+      55
+    ],
+    [
+      "S4IIP5GQ2",
+      "Ondricka",
+      22
+    ],
+    [
+      "S4IIP5GQ2",
+      "ShirtTalker",
+      84
+    ],
+    [
+      "Langosh",
+      "TerribleRazor",
+      65
+    ],
+    [
+      "Langosh",
+      "ComfortableCrab43",
+      75
+    ],
+    [
+      "Langosh",
+      "Lemke",
+      2
+    ],
+    [
+      "TenderJersey",
+      "TerribleRazor",
+      31
+    ],
+    [
+      "TenderJersey",
+      "Smitham",
+      36
+    ],
+    [
+      "TenderJersey",
+      "Shanahan",
+      77
+    ],
+    [
+      "RichShirt",
+      "Little",
+      40
+    ],
+    [
+      "RichShirt",
+      "Bruen-147",
+      19
+    ],
+    [
+      "RichShirt",
+      "Mraz",
+      76
+    ],
+    [
+      "Wiza-70",
+      "GentlePig935",
+      97
+    ],
+    [
+      "Wiza-70",
+      "FunnyAircraft15",
+      44
+    ],
+    [
+      "Wiza-70",
+      "Anderson",
+      54
+    ],
+    [
+      "RaspberryTame878",
+      "GentlePig935",
+      167
+    ],
+    [
+      "RaspberryTame878",
+      "Hoeger",
+      70
+    ],
+    [
+      "RaspberryTame878",
+      "SmilingBaby",
+      78
+    ],
+    [
+      "Pollich",
+      "Hegmann",
+      65
+    ],
+    [
+      "Pollich",
+      "Kub",
+      79
+    ],
+    [
+      "Pollich",
+      "Cole",
+      29
+    ],
+    [
+      "Pollich",
+      "Corwin-201",
+      38
+    ],
+    [
+      "6I8FWIGB9",
+      "NEB4YIDW5",
+      78
+    ],
+    [
+      "Parisian",
+      "Hegmann",
+      21
+    ],
+    [
+      "Parisian",
+      "Schowalter-246",
+      40
+    ],
+    [
+      "Parisian",
+      "Walter-114",
+      24
+    ],
+    [
+      "Rippin-84",
+      "Reynolds",
+      40
+    ],
+    [
+      "Rippin-84",
+      "Kilback",
+      72
+    ],
+    [
+      "Rippin-84",
+      "Halvorson",
+      28
+    ],
+    [
+      "Rippin-84",
+      "Considine",
+      69
+    ],
+    [
+      "MushyPig3",
+      "Reynolds",
+      99
+    ],
+    [
+      "MushyPig3",
+      "BeltWriteer",
+      85
+    ],
+    [
+      "MushyPig3",
+      "M69EUJHH5",
+      86
+    ],
+    [
+      "MushyPig3",
+      "Bergstrom-39",
+      118
+    ],
+    [
+      "Dickinson",
+      "XW7LZFEB1",
+      5
+    ],
+    [
+      "Dickinson",
+      "Kessler-31",
+      89
+    ],
+    [
+      "36EYHO732",
+      "MouseTalker106",
+      20
+    ],
+    [
+      "36EYHO732",
+      "Price-5",
+      21
+    ],
+    [
+      "Macejkovic",
+      "Schuster",
+      28
+    ],
+    [
+      "Macejkovic",
+      "DeerSiter",
+      98
+    ],
+    [
+      "Macejkovic",
+      "R89SQTOI8",
+      19
+    ],
+    [
+      "Koss",
+      "ScaryAntlers5",
+      69
+    ],
+    [
+      "Koss",
+      "Rogahn-254",
+      93
+    ],
+    [
+      "Koss",
+      "Eden",
+      129
+    ],
+    [
+      "Littel-265",
+      "PEFI4ZZI0",
+      21
+    ],
+    [
+      "Stiedemann",
+      "GorgeousMacaw",
+      76
+    ],
+    [
+      "Stiedemann",
+      "Kling",
+      11
+    ],
+    [
+      "Kling",
+      "[No entry]",
+      92
+    ],
+    [
+      "[No entry]",
+      "Simonis",
+      32
+    ],
+    [
+      "TomatoOpener468",
+      "Bartell",
+      25
+    ],
+    [
+      "TomatoOpener468",
+      "Weissnat-54",
+      4
+    ],
+    [
+      "Weissnat-54",
+      "MangostineBad2",
+      80
+    ],
+    [
+      "MangostineBad2",
+      "Wiza-70",
+      64
+    ],
+    [
+      "Jenkins-209",
+      "MelonOutrageous",
+      41
+    ],
+    [
+      "Jenkins-209",
+      "BraClimber326",
+      87
+    ],
+    [
+      "BraClimber326",
+      "Wiza-70",
+      92
+    ],
+    [
+      "Wunsch-8",
+      "0Y20AMSN5",
+      19
+    ],
+    [
+      "Wunsch-8",
+      "JambulPrickling814",
+      97
+    ],
+    [
+      "ScaryJaw",
+      "Nitzsche",
+      77
+    ],
+    [
+      "ScaryJaw",
+      "Wisozk-164",
+      5
+    ],
+    [
+      "Wisozk-164",
+      "Padberg-7",
+      93
+    ],
+    [
+      "ShyBadger",
+      "Simonis",
+      65
+    ],
+    [
+      "ShyBadger",
+      "PitayaEager",
+      92
+    ],
+    [
+      "PitayaEager",
+      "KY8ND0YB1",
+      84
+    ],
+    [
+      "KY8ND0YB1",
+      "Simonis",
+      26
+    ],
+    [
+      "LongTrenchCoat465",
+      "Swift",
+      84
+    ],
+    [
+      "LongTrenchCoat465",
+      "PotatoKniter",
+      83
+    ],
+    [
+      "PotatoKniter",
+      "Swift",
+      94
+    ],
+    [
+      "PotatoKniter",
+      "Roberts-180",
+      47
+    ],
+    [
+      "Roberts-180",
+      "Swift",
+      11
+    ],
+    [
+      "Roberts-180",
+      "WAURFJRX3",
+      61
+    ],
+    [
+      "Funk-51",
+      "UMTLTK6G6",
+      20
+    ],
+    [
+      "Farrell",
+      "BlackcurrantInnocent",
+      63
+    ],
+    [
+      "Farrell",
+      "Heaney",
+      47
+    ],
+    [
+      "Heaney",
+      "BlackcurrantInnocent",
+      62
+    ],
+    [
+      "Ondricka",
+      "S4IIP5GQ2",
+      57
+    ],
+    [
+      "Ondricka",
+      "ShirtTalker",
+      81
+    ],
+    [
+      "ShirtTalker",
+      "S4IIP5GQ2",
+      58
+    ],
+    [
+      "ShirtTalker",
+      "RaspberryTame878",
+      78
+    ],
+    [
+      "ComfortableCrab43",
+      "Langosh",
+      39
+    ],
+    [
+      "ComfortableCrab43",
+      "Lemke",
+      71
+    ],
+    [
+      "Lemke",
+      "Parisian",
+      42
+    ],
+    [
+      "Smitham",
+      "TenderJersey",
+      42
+    ],
+    [
+      "Smitham",
+      "Shanahan",
+      6
+    ],
+    [
+      "Shanahan",
+      "RaspberryTame878",
+      24
+    ],
+    [
+      "Little",
+      "RichShirt",
+      49
+    ],
+    [
+      "Little",
+      "Bruen-147",
+      10
+    ],
+    [
+      "Bruen-147",
+      "RichShirt",
+      9
+    ],
+    [
+      "Bruen-147",
+      "Mraz",
+      50
+    ],
+    [
+      "Mraz",
+      "BlackcurrantInnocent",
+      87
+    ],
+    [
+      "FunnyAircraft15",
+      "Wiza-70",
+      50
+    ],
+    [
+      "FunnyAircraft15",
+      "Anderson",
+      74
+    ],
+    [
+      "Anderson",
+      "Wiza-70",
+      12
+    ],
+    [
+      "Hoeger",
+      "RaspberryTame878",
+      12
+    ],
+    [
+      "Hoeger",
+      "SmilingBaby",
+      22
+    ],
+    [
+      "SmilingBaby",
+      "Wiza-70",
+      67
+    ],
+    [
+      "Kub",
+      "Pollich",
+      32
+    ],
+    [
+      "Kub",
+      "Cole",
+      44
+    ],
+    [
+      "Cole",
+      "Corwin-201",
+      35
+    ],
+    [
+      "Corwin-201",
+      "JambulPrickling814",
+      29
+    ],
+    [
+      "NEB4YIDW5",
+      "6I8FWIGB9",
+      91
+    ],
+    [
+      "NEB4YIDW5",
+      "GentlePig935",
+      29
+    ],
+    [
+      "Schowalter-246",
+      "Parisian",
+      97
+    ],
+    [
+      "Schowalter-246",
+      "Walter-114",
+      79
+    ],
+    [
+      "Walter-114",
+      "Parisian",
+      48
+    ],
+    [
+      "Kilback",
+      "Rippin-84",
+      43
+    ],
+    [
+      "Kilback",
+      "Halvorson",
+      33
+    ],
+    [
+      "Halvorson",
+      "Rippin-84",
+      3
+    ],
+    [
+      "Halvorson",
+      "Considine",
+      91
+    ],
+    [
+      "Considine",
+      "Rippin-84",
+      75
+    ],
+    [
+      "BeltWriteer",
+      "MushyPig3",
+      97
+    ],
+    [
+      "BeltWriteer",
+      "M69EUJHH5",
+      97
+    ],
+    [
+      "M69EUJHH5",
+      "MushyPig3",
+      28
+    ],
+    [
+      "M69EUJHH5",
+      "Bergstrom-39",
+      21
+    ],
+    [
+      "Bergstrom-39",
+      "BlackcurrantInnocent",
+      70
+    ],
+    [
+      "Kessler-31",
+      "Dickinson",
+      98
+    ],
+    [
+      "Price-5",
+      "36EYHO732",
+      79
+    ],
+    [
+      "Price-5",
+      "Littel-265",
+      74
+    ],
+    [
+      "Schuster",
+      "Macejkovic",
+      63
+    ],
+    [
+      "Schuster",
+      "DeerSiter",
+      84
+    ],
+    [
+      "DeerSiter",
+      "R89SQTOI8",
+      79
+    ],
+    [
+      "R89SQTOI8",
+      "Macejkovic",
+      66
+    ],
+    [
+      "R89SQTOI8",
+      "TomatoOpener468",
+      35
+    ],
+    [
+      "Rogahn-254",
+      "Koss",
+      99
+    ],
+    [
+      "Rogahn-254",
+      "Eden",
+      83
+    ],
+    [
+      "Eden",
+      "Koss",
+      90
+    ],
+    [
+      "Eden",
+      "RaspberryTame878",
+      136
+    ]
+  ],
+  "attempt": 1
+}
+travel: Eden garbage=0 ship=0
+tick: start
+travel: BadImpala garbage=29 ship=0
+collector: winner #376
+collect: Загружено 97%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Schowalter-246 garbage=35 ship=0
+collector: winner #537
+collect: Загружено 90%
+collect: Осталось 25 25
+tick: end
+
+tick: start
+travel: Nitzsche garbage=26 ship=10
+collect: Учитываем мусор на корабле, загружено 90%
+collector: winner #35
+collet: Загрузка изменилась на -1%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: WAURFJRX3 garbage=23 ship=0
+collector: winner #287
+collect: Загружено 85%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: RichShirt garbage=15 ship=9
+collect: Учитываем мусор на корабле, загружено 85%
+collector: winner #420
+collet: Загрузка изменилась на 2%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: Beatty garbage=28 ship=0
+collector: winner #215
+collect: Загружено 93%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Reynolds garbage=24 ship=0
+collector: winner #898
+collect: Загружено 87%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Considine garbage=26 ship=10
+collect: Учитываем мусор на корабле, загружено 87%
+collector: winner #58
+collet: Загрузка изменилась на -2%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Anderson garbage=25 ship=0
+collector: winner #774
+collect: Загружено 91%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Funk-51 garbage=15 ship=0
+collector: winner #226
+collect: Загружено 85%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: Swift garbage=26 ship=11
+collect: Учитываем мусор на корабле, загружено 85%
+collector: winner #408
+collet: Загрузка изменилась на 3%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: FunnyAircraft15 garbage=23 ship=0
+collector: winner #189
+collect: Загружено 83%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: ScaryAntlers5 garbage=28 ship=9
+collect: Учитываем мусор на корабле, загружено 83%
+collector: winner #36
+collet: Загрузка изменилась на 5%. :)
+collect: Загружено 88%
+collect: Загрузка провалилась - you have to take at least 78 blocks, but current load is 77 blocks
+tick: end
+
+tick: start
+travel: BadImpala garbage=16 ship=10
+collector: winner #96
+collect: Загружено 88%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: 36EYHO732 garbage=28 ship=13
+collect: Учитываем мусор на корабле, загружено 88%
+collector: winner #753
+collet: Загрузка изменилась на 5%. :)
+collect: Загружено 93%
+collect: Загрузка провалилась - you have to take at least 82 blocks, but current load is 81 blocks
+tick: end
+
+tick: start
+travel: Wunsch-8 garbage=26 ship=12
+collect: Учитываем мусор на корабле, загружено 93%
+collector: winner #580
+collet: Загрузка изменилась на 2%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: PotatoKniter garbage=37 ship=0
+collector: winner #440
+collect: Загружено 93%
+collect: Осталось 25 25
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Dickinson-191 garbage=27 ship=0
+collector: winner #599
+collect: Загружено 94%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Cole garbage=28 ship=0
+collector: winner #473
+collect: Загружено 90%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Corwin-201 garbage=25 ship=12
+collect: Учитываем мусор на корабле, загружено 90%
+collector: winner #293
+collet: Загрузка изменилась на -1%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Hegmann garbage=31 ship=0
+collector: winner #222
+collect: Загружено 90%
+collect: Осталось 22 22
+tick: end
+
+tick: start
+travel: TomatoOpener468 garbage=27 ship=9
+collect: Учитываем мусор на корабле, загружено 90%
+collector: winner #161
+collet: Загрузка изменилась на 0%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: 36EYHO732 garbage=0 ship=0
+collector: winner #183
+collect: Загружено 89%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: [No entry] garbage=26 ship=11
+collect: Учитываем мусор на корабле, загружено 89%
+collector: winner #709
+collet: Загрузка изменилась на 7%. :)
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID 77pVJrc not found on planet [No entry]
+tick: end
+
+tick: start
+travel: Nitzsche garbage=0 ship=12
+collect: Учитываем мусор на корабле, загружено 96%
+collector: winner #472
+collet: Загрузка изменилась на -3%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: CourageousPark garbage=25 ship=0
+collector: winner #191
+collect: Загружено 90%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Shanahan garbage=25 ship=11
+collect: Учитываем мусор на корабле, загружено 90%
+collector: winner #441
+collet: Загрузка изменилась на 7%. :)
+collect: Загружено 97%
+collect: Осталось 24 24
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Weissnat-54 garbage=35 ship=0
+collector: winner #760
+collect: Загружено 94%
+collect: Осталось 24 24
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Cole garbage=16 ship=0
+collector: winner #127
+collect: Загружено 88%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: Pollich garbage=26 ship=13
+collect: Учитываем мусор на корабле, загружено 88%
+collector: winner #902
+collet: Загрузка изменилась на 5%. :)
+collect: Загружено 93%
+collect: Загрузка провалилась - you have to take at least 82 blocks, but current load is 81 blocks
+tick: end
+
+tick: start
+travel: Littel-265 garbage=24 ship=12
+collect: Учитываем мусор на корабле, загружено 93%
+collector: winner #40
+collet: Загрузка изменилась на 0%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Swift garbage=0 ship=0
+collector: winner #428
+collect: Загружено 86%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: Kilback garbage=28 ship=10
+collect: Учитываем мусор на корабле, загружено 86%
+collector: winner #718
+collet: Загрузка изменилась на 10%. :)
+collect: Загружено 96%
+collect: Загрузка провалилась - garbage with ID 6tc3PLt not found on planet Kilback
+tick: end
+
+tick: start
+travel: BadImpala garbage=3 ship=13
+collect: Учитываем мусор на корабле, загружено 96%
+collector: winner #81
+collet: Загрузка изменилась на -6%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Heaney garbage=26 ship=0
+collector: winner #213
+collect: Загружено 90%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: BlackcurrantInnocent garbage=15 ship=11
+collect: Учитываем мусор на корабле, загружено 90%
+collector: winner #602
+collet: Загрузка изменилась на 4%. :(
+
+Nou Sagi@DESKTOP-092CICL MINGW64 ~/Desktop/datsedenspace (master)
+$ node ./src/bot/bot.js
+log: Open json error
+updated null
+BOT started
+log: Open json error
+Connected to server
+init: {
+  "name": "Что-то фотонное",
+  "roundName": "Final 9",
+  "roundEndIn": 25,
+  "ship": {
+    "fuelUsed": 72011,
+    "planet": {
+      "name": "Littel-265",
+      "garbage": {}
+    },
+    "capacityX": 8,
+    "capacityY": 11,
+    "garbage": {}
+  },
+  "universe": [
+    [
+      "Earth",
+      "SQX8TPRJ4",
+      18
+    ],
+    [
+      "Earth",
+      "Dickinson-191",
+      198
+    ],
+    [
+      "Earth",
+      "CourageousPark",
+      341
+    ],
+    [
+      "SQX8TPRJ4",
+      "Earth",
+      106
+    ],
+    [
+      "SQX8TPRJ4",
+      "JambulPrickling814",
+      32
+    ],
+    [
+      "Dickinson-191",
+      "Earth",
+      248
+    ],
+    [
+      "Dickinson-191",
+      "ZMR0FDY61",
+      104
+    ],
+    [
+      "Dickinson-191",
+      "BadImpala",
+      118
+    ],
+    [
+      "Dickinson-191",
+      "Stamm-209",
+      99
+    ],
+    [
+      "CourageousPark",
+      "Earth",
+      194
+    ],
+    [
+      "CourageousPark",
+      "Howe",
+      51
+    ],
+    [
+      "CourageousPark",
+      "Beatty",
+      389
+    ],
+    [
+      "JambulPrickling814",
+      "SQX8TPRJ4",
+      55
+    ],
+    [
+      "JambulPrickling814",
+      "BananaKnightly1",
+      125
+    ],
+    [
+      "ZMR0FDY61",
+      "Dickinson-191",
+      89
+    ],
+    [
+      "ZMR0FDY61",
+      "WAURFJRX3",
+      32
+    ],
+    [
+      "BadImpala",
+      "Dickinson-191",
+      209
+    ],
+    [
+      "BadImpala",
+      "KnightlyPig",
+      46
+    ],
+    [
+      "BadImpala",
+      "Padberg-7",
+      33
+    ],
+    [
+      "BadImpala",
+      "Volkman-295",
+      61
+    ],
+    [
+      "Stamm-209",
+      "TerribleRazor",
+      45
+    ],
+    [
+      "Howe",
+      "CourageousPark",
+      281
+    ],
+    [
+      "Howe",
+      "GentlePig935",
+      40
+    ],
+    [
+      "Howe",
+      "Hegmann",
+      83
+    ],
+    [
+      "Howe",
+      "Reynolds",
+      94
+    ],
+    [
+      "Beatty",
+      "XW7LZFEB1",
+      43
+    ],
+    [
+      "Beatty",
+      "MouseTalker106",
+      66
+    ],
+    [
+      "Beatty",
+      "ScaryAntlers5",
+      346
+    ],
+    [
+      "BananaKnightly1",
+      "JambulPrickling814",
+      87
+    ],
+    [
+      "BananaKnightly1",
+      "PEFI4ZZI0",
+      98
+    ],
+    [
+      "BananaKnightly1",
+      "GorgeousMacaw",
+      68
+    ],
+    [
+      "WAURFJRX3",
+      "ZMR0FDY61",
+      87
+    ],
+    [
+      "WAURFJRX3",
+      "Bartell",
+      91
+    ],
+    [
+      "WAURFJRX3",
+      "MelonOutrageous",
+      99
+    ],
+    [
+      "WAURFJRX3",
+      "0Y20AMSN5",
+      66
+    ],
+    [
+      "KnightlyPig",
+      "BadImpala",
+      80
+    ],
+    [
+      "KnightlyPig",
+      "Nitzsche",
+      96
+    ],
+    [
+      "KnightlyPig",
+      "Simonis",
+      81
+    ],
+    [
+      "KnightlyPig",
+      "Swift",
+      97
+    ],
+    [
+      "Padberg-7",
+      "BadImpala",
+      81
+    ],
+    [
+      "Padberg-7",
+      "UMTLTK6G6",
+      36
+    ],
+    [
+      "Volkman-295",
+      "BadImpala",
+      115
+    ],
+    [
+      "Volkman-295",
+      "BlackcurrantInnocent",
+      23
+    ],
+    [
+      "Volkman-295",
+      "S4IIP5GQ2",
+      39
+    ],
+    [
+      "TerribleRazor",
+      "Stamm-209",
+      59
+    ],
+    [
+      "TerribleRazor",
+      "Langosh",
+      69
+    ],
+    [
+      "TerribleRazor",
+      "TenderJersey",
+      91
+    ],
+    [
+      "TerribleRazor",
+      "RichShirt",
+      24
+    ],
+    [
+      "GentlePig935",
+      "Howe",
+      367
+    ],
+    [
+      "GentlePig935",
+      "Wiza-70",
+      98
+    ],
+    [
+      "GentlePig935",
+      "RaspberryTame878",
+      4
+    ],
+    [
+      "Hegmann",
+      "Howe",
+      108
+    ],
+    [
+      "Hegmann",
+      "Pollich",
+      128
+    ],
+    [
+      "Hegmann",
+      "6I8FWIGB9",
+      63
+    ],
+    [
+      "Hegmann",
+      "Parisian",
+      75
+    ],
+    [
+      "Reynolds",
+      "Rippin-84",
+      43
+    ],
+    [
+      "Reynolds",
+      "MushyPig3",
+      87
+    ],
+    [
+      "XW7LZFEB1",
+      "Beatty",
+      96
+    ],
+    [
+      "XW7LZFEB1",
+      "Dickinson",
+      48
+    ],
+    [
+      "MouseTalker106",
+      "36EYHO732",
+      55
+    ],
+    [
+      "MouseTalker106",
+      "Macejkovic",
+      71
+    ],
+    [
+      "ScaryAntlers5",
+      "Koss",
+      312
+    ],
+    [
+      "PEFI4ZZI0",
+      "BananaKnightly1",
+      125
+    ],
+    [
+      "PEFI4ZZI0",
+      "Littel-265",
+      86
+    ],
+    [
+      "GorgeousMacaw",
+      "Stiedemann",
+      34
+    ],
+    [
+      "GorgeousMacaw",
+      "Kling",
+      85
+    ],
+    [
+      "GorgeousMacaw",
+      "[No entry]",
+      40
+    ],
+    [
+      "Bartell",
+      "WAURFJRX3",
+      104
+    ],
+    [
+      "Bartell",
+      "TomatoOpener468",
+      15
+    ],
+    [
+      "Bartell",
+      "Weissnat-54",
+      42
+    ],
+    [
+      "Bartell",
+      "MangostineBad2",
+      56
+    ],
+    [
+      "MelonOutrageous",
+      "Jenkins-209",
+      72
+    ],
+    [
+      "MelonOutrageous",
+      "BraClimber326",
+      37
+    ],
+    [
+      "0Y20AMSN5",
+      "Wunsch-8",
+      24
+    ],
+    [
+      "Nitzsche",
+      "KnightlyPig",
+      94
+    ],
+    [
+      "Nitzsche",
+      "ScaryJaw",
+      20
+    ],
+    [
+      "Nitzsche",
+      "Wisozk-164",
+      32
+    ],
+    [
+      "Simonis",
+      "KnightlyPig",
+      108
+    ],
+    [
+      "Simonis",
+      "ShyBadger",
+      77
+    ],
+    [
+      "Simonis",
+      "PitayaEager",
+      4
+    ],
+    [
+      "Simonis",
+      "KY8ND0YB1",
+      5
+    ],
+    [
+      "Swift",
+      "LongTrenchCoat465",
+      92
+    ],
+    [
+      "Swift",
+      "PotatoKniter",
+      73
+    ],
+    [
+      "Swift",
+      "Roberts-180",
+      77
+    ],
+    [
+      "UMTLTK6G6",
+      "Padberg-7",
+      49
+    ],
+    [
+      "UMTLTK6G6",
+      "Funk-51",
+      41
+    ],
+    [
+      "BlackcurrantInnocent",
+      "Volkman-295",
+      152
+    ],
+    [
+      "BlackcurrantInnocent",
+      "Farrell",
+      13
+    ],
+    [
+      "BlackcurrantInnocent",
+      "Heaney",
+      55
+    ],
+    [
+      "S4IIP5GQ2",
+      "Ondricka",
+      22
+    ],
+    [
+      "S4IIP5GQ2",
+      "ShirtTalker",
+      84
+    ],
+    [
+      "Langosh",
+      "TerribleRazor",
+      65
+    ],
+    [
+      "Langosh",
+      "ComfortableCrab43",
+      75
+    ],
+    [
+      "Langosh",
+      "Lemke",
+      2
+    ],
+    [
+      "TenderJersey",
+      "TerribleRazor",
+      31
+    ],
+    [
+      "TenderJersey",
+      "Smitham",
+      46
+    ],
+    [
+      "TenderJersey",
+      "Shanahan",
+      77
+    ],
+    [
+      "RichShirt",
+      "Little",
+      40
+    ],
+    [
+      "RichShirt",
+      "Bruen-147",
+      29
+    ],
+    [
+      "RichShirt",
+      "Mraz",
+      76
+    ],
+    [
+      "Wiza-70",
+      "GentlePig935",
+      127
+    ],
+    [
+      "Wiza-70",
+      "FunnyAircraft15",
+      54
+    ],
+    [
+      "Wiza-70",
+      "Anderson",
+      64
+    ],
+    [
+      "RaspberryTame878",
+      "GentlePig935",
+      357
+    ],
+    [
+      "RaspberryTame878",
+      "Hoeger",
+      70
+    ],
+    [
+      "RaspberryTame878",
+      "SmilingBaby",
+      98
+    ],
+    [
+      "Pollich",
+      "Hegmann",
+      65
+    ],
+    [
+      "Pollich",
+      "Kub",
+      79
+    ],
+    [
+      "Pollich",
+      "Cole",
+      49
+    ],
+    [
+      "Pollich",
+      "Corwin-201",
+      68
+    ],
+    [
+      "6I8FWIGB9",
+      "NEB4YIDW5",
+      78
+    ],
+    [
+      "Parisian",
+      "Hegmann",
+      41
+    ],
+    [
+      "Parisian",
+      "Schowalter-246",
+      50
+    ],
+    [
+      "Parisian",
+      "Walter-114",
+      24
+    ],
+    [
+      "Rippin-84",
+      "Reynolds",
+      60
+    ],
+    [
+      "Rippin-84",
+      "Kilback",
+      82
+    ],
+    [
+      "Rippin-84",
+      "Halvorson",
+      28
+    ],
+    [
+      "Rippin-84",
+      "Considine",
+      79
+    ],
+    [
+      "MushyPig3",
+      "Reynolds",
+      99
+    ],
+    [
+      "MushyPig3",
+      "BeltWriteer",
+      85
+    ],
+    [
+      "MushyPig3",
+      "M69EUJHH5",
+      116
+    ],
+    [
+      "MushyPig3",
+      "Bergstrom-39",
+      118
+    ],
+    [
+      "Dickinson",
+      "XW7LZFEB1",
+      5
+    ],
+    [
+      "Dickinson",
+      "Kessler-31",
+      89
+    ],
+    [
+      "36EYHO732",
+      "MouseTalker106",
+      30
+    ],
+    [
+      "36EYHO732",
+      "Price-5",
+      31
+    ],
+    [
+      "Macejkovic",
+      "Schuster",
+      28
+    ],
+    [
+      "Macejkovic",
+      "DeerSiter",
+      98
+    ],
+    [
+      "Macejkovic",
+      "R89SQTOI8",
+      49
+    ],
+    [
+      "Koss",
+      "ScaryAntlers5",
+      69
+    ],
+    [
+      "Koss",
+      "Rogahn-254",
+      93
+    ],
+    [
+      "Koss",
+      "Eden",
+      329
+    ],
+    [
+      "Littel-265",
+      "PEFI4ZZI0",
+      41
+    ],
+    [
+      "Stiedemann",
+      "GorgeousMacaw",
+      76
+    ],
+    [
+      "Stiedemann",
+      "Kling",
+      11
+    ],
+    [
+      "Kling",
+      "[No entry]",
+      92
+    ],
+    [
+      "[No entry]",
+      "Simonis",
+      52
+    ],
+    [
+      "TomatoOpener468",
+      "Bartell",
+      45
+    ],
+    [
+      "TomatoOpener468",
+      "Weissnat-54",
+      14
+    ],
+    [
+      "Weissnat-54",
+      "MangostineBad2",
+      90
+    ],
+    [
+      "MangostineBad2",
+      "Wiza-70",
+      74
+    ],
+    [
+      "Jenkins-209",
+      "MelonOutrageous",
+      41
+    ],
+    [
+      "Jenkins-209",
+      "BraClimber326",
+      87
+    ],
+    [
+      "BraClimber326",
+      "Wiza-70",
+      92
+    ],
+    [
+      "Wunsch-8",
+      "0Y20AMSN5",
+      19
+    ],
+    [
+      "Wunsch-8",
+      "JambulPrickling814",
+      107
+    ],
+    [
+      "ScaryJaw",
+      "Nitzsche",
+      77
+    ],
+    [
+      "ScaryJaw",
+      "Wisozk-164",
+      5
+    ],
+    [
+      "Wisozk-164",
+      "Padberg-7",
+      113
+    ],
+    [
+      "ShyBadger",
+      "Simonis",
+      65
+    ],
+    [
+      "ShyBadger",
+      "PitayaEager",
+      92
+    ],
+    [
+      "PitayaEager",
+      "KY8ND0YB1",
+      84
+    ],
+    [
+      "KY8ND0YB1",
+      "Simonis",
+      26
+    ],
+    [
+      "LongTrenchCoat465",
+      "Swift",
+      84
+    ],
+    [
+      "LongTrenchCoat465",
+      "PotatoKniter",
+      83
+    ],
+    [
+      "PotatoKniter",
+      "Swift",
+      94
+    ],
+    [
+      "PotatoKniter",
+      "Roberts-180",
+      57
+    ],
+    [
+      "Roberts-180",
+      "Swift",
+      11
+    ],
+    [
+      "Roberts-180",
+      "WAURFJRX3",
+      91
+    ],
+    [
+      "Funk-51",
+      "UMTLTK6G6",
+      30
+    ],
+    [
+      "Farrell",
+      "BlackcurrantInnocent",
+      63
+    ],
+    [
+      "Farrell",
+      "Heaney",
+      57
+    ],
+    [
+      "Heaney",
+      "BlackcurrantInnocent",
+      72
+    ],
+    [
+      "Ondricka",
+      "S4IIP5GQ2",
+      57
+    ],
+    [
+      "Ondricka",
+      "ShirtTalker",
+      81
+    ],
+    [
+      "ShirtTalker",
+      "S4IIP5GQ2",
+      58
+    ],
+    [
+      "ShirtTalker",
+      "RaspberryTame878",
+      78
+    ],
+    [
+      "ComfortableCrab43",
+      "Langosh",
+      39
+    ],
+    [
+      "ComfortableCrab43",
+      "Lemke",
+      71
+    ],
+    [
+      "Lemke",
+      "Parisian",
+      42
+    ],
+    [
+      "Smitham",
+      "TenderJersey",
+      42
+    ],
+    [
+      "Smitham",
+      "Shanahan",
+      16
+    ],
+    [
+      "Shanahan",
+      "RaspberryTame878",
+      34
+    ],
+    [
+      "Little",
+      "RichShirt",
+      49
+    ],
+    [
+      "Little",
+      "Bruen-147",
+      10
+    ],
+    [
+      "Bruen-147",
+      "RichShirt",
+      9
+    ],
+    [
+      "Bruen-147",
+      "Mraz",
+      60
+    ],
+    [
+      "Mraz",
+      "BlackcurrantInnocent",
+      97
+    ],
+    [
+      "FunnyAircraft15",
+      "Wiza-70",
+      60
+    ],
+    [
+      "FunnyAircraft15",
+      "Anderson",
+      74
+    ],
+    [
+      "Anderson",
+      "Wiza-70",
+      22
+    ],
+    [
+      "Hoeger",
+      "RaspberryTame878",
+      12
+    ],
+    [
+      "Hoeger",
+      "SmilingBaby",
+      22
+    ],
+    [
+      "SmilingBaby",
+      "Wiza-70",
+      87
+    ],
+    [
+      "Kub",
+      "Pollich",
+      32
+    ],
+    [
+      "Kub",
+      "Cole",
+      44
+    ],
+    [
+      "Cole",
+      "Corwin-201",
+      55
+    ],
+    [
+      "Corwin-201",
+      "JambulPrickling814",
+      79
+    ],
+    [
+      "NEB4YIDW5",
+      "6I8FWIGB9",
+      91
+    ],
+    [
+      "NEB4YIDW5",
+      "GentlePig935",
+      29
+    ],
+    [
+      "Schowalter-246",
+      "Parisian",
+      107
+    ],
+    [
+      "Schowalter-246",
+      "Walter-114",
+      79
+    ],
+    [
+      "Walter-114",
+      "Parisian",
+      48
+    ],
+    [
+      "Kilback",
+      "Rippin-84",
+      43
+    ],
+    [
+      "Kilback",
+      "Halvorson",
+      43
+    ],
+    [
+      "Halvorson",
+      "Rippin-84",
+      13
+    ],
+    [
+      "Halvorson",
+      "Considine",
+      91
+    ],
+    [
+      "Considine",
+      "Rippin-84",
+      85
+    ],
+    [
+      "BeltWriteer",
+      "MushyPig3",
+      97
+    ],
+    [
+      "BeltWriteer",
+      "M69EUJHH5",
+      97
+    ],
+    [
+      "M69EUJHH5",
+      "MushyPig3",
+      28
+    ],
+    [
+      "M69EUJHH5",
+      "Bergstrom-39",
+      51
+    ],
+    [
+      "Bergstrom-39",
+      "BlackcurrantInnocent",
+      100
+    ],
+    [
+      "Kessler-31",
+      "Dickinson",
+      98
+    ],
+    [
+      "Price-5",
+      "36EYHO732",
+      79
+    ],
+    [
+      "Price-5",
+      "Littel-265",
+      84
+    ],
+    [
+      "Schuster",
+      "Macejkovic",
+      63
+    ],
+    [
+      "Schuster",
+      "DeerSiter",
+      84
+    ],
+    [
+      "DeerSiter",
+      "R89SQTOI8",
+      79
+    ],
+    [
+      "R89SQTOI8",
+      "Macejkovic",
+      66
+    ],
+    [
+      "R89SQTOI8",
+      "TomatoOpener468",
+      65
+    ],
+    [
+      "Rogahn-254",
+      "Koss",
+      99
+    ],
+    [
+      "Rogahn-254",
+      "Eden",
+      83
+    ],
+    [
+      "Eden",
+      "Koss",
+      90
+    ],
+    [
+      "Eden",
+      "RaspberryTame878",
+      336
+    ]
+  ],
+  "attempt": 1
+}
+travel: Eden garbage=0 ship=0
+tick: start
+travel: TomatoOpener468 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Wunsch-8 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: MushyPig3 garbage=25 ship=0
+collector: winner #295
+collect: Загружено 90%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Parisian garbage=0 ship=11
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Padberg-7 garbage=23 ship=11
+collect: Учитываем мусор на корабле, загружено 90%
+collector: winner #938
+collet: Загрузка изменилась на 7%. :)
+collect: Загружено 97%
+collect: Осталось 22 22
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Hoeger garbage=26 ship=0
+collector: winner #565
+collect: Загружено 94%
+collect: Осталось 13 13
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Langosh garbage=30 ship=0
+collector: winner #331
+collect: Загружено 96%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: ShyBadger garbage=26 ship=0
+collector: winner #691
+collect: Загружено 96%
+collect: Осталось 12 12
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Bergstrom-39 garbage=26 ship=0
+collector: winner #16
+collect: Загружено 95%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: PitayaEager garbage=26 ship=0
+collector: winner #496
+collect: Загружено 89%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Howe garbage=28 ship=10
+collect: Учитываем мусор на корабле, загружено 89%
+collector: winner #819
+collet: Загрузка изменилась на 9%. :)
+collect: Загружено 98%
+collect: Осталось 25 25
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: MangostineBad2 garbage=28 ship=0
+collector: winner #436
+collect: Загружено 94%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Pollich garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Macejkovic garbage=27 ship=0
+collector: winner #19
+collect: Загружено 93%
+collect: Осталось 16 16
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Beatty garbage=16 ship=0
+collector: winner #172
+collect: Загружено 85%
+collect: Осталось 4 4
+tick: end
+
+tick: start
+travel: CourageousPark garbage=14 ship=12
+collect: Учитываем мусор на корабле, загружено 85%
+collector: winner #508
+collet: Загрузка изменилась на 3%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: TenderJersey garbage=28 ship=0
+collector: winner #596
+collect: Загружено 95%
+collect: Осталось 15 15
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: XW7LZFEB1 garbage=26 ship=0
+collector: winner #707
+collect: Загружено 93%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Weissnat-54 garbage=24 ship=0
+collector: winner #923
+collect: Загружено 91%
+collect: Осталось 11 11
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: DeerSiter garbage=25 ship=0
+collector: winner #699
+collect: Загружено 89%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: ShirtTalker garbage=25 ship=11
+collect: Учитываем мусор на корабле, загружено 89%
+collector: winner #827
+collet: Загрузка изменилась на 2%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Ondricka garbage=28 ship=0
+collector: winner #76
+collect: Загружено 96%
+collect: Осталось 14 14
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Wisozk-164 garbage=40 ship=0
+collector: winner #608
+collect: Загружено 91%
+collect: Осталось 29 29
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: S4IIP5GQ2 garbage=30 ship=0
+collector: winner #595
+collect: Загружено 90%
+collect: Осталось 19 19
+tick: end
+
+tick: start
+travel: Kilback garbage=0 ship=11
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Kessler-31 garbage=26 ship=11
+collect: Учитываем мусор на корабле, загружено 90%
+collector: winner #48
+collet: Загрузка изменилась на -2%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Dickinson garbage=51 ship=0
+collector: winner #3
+collect: Загружено 96%
+collect: Осталось 39 39
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Smitham garbage=33 ship=0
+collector: winner #675
+collect: Загружено 98%
+collect: Осталось 17 17
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=16
+travel: ShyBadger garbage=12 ship=0
+collector: winner #679
+collect: Загружено 81%
+collect: Осталось 3 3
+tick: end
+
+tick: start
+travel: KnightlyPig garbage=21 ship=9
+collect: Учитываем мусор на корабле, загружено 81%
+collector: winner #714
+collet: Загрузка изменилась на 9%. :)
+collect: Загружено 90%
+collect: Осталось 19 19
+tick: end
+
+tick: start
+travel: Empty PATH!
+collect: Учитываем мусор на корабле, загружено 90%
+collector: winner #405
+collet: Загрузка изменилась на -2%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Considine garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: CourageousPark garbage=0 ship=0
+collector: winner #987
+collect: Загружено 81%
+collect: Загрузка провалилась - no garbage on this planet
+tick: end
+
+tick: start
+travel: WAURFJRX3 garbage=14 ship=10
+collect: Учитываем мусор на корабле, загружено 81%
+collector: winner #83
+collet: Загрузка изменилась на 7%. :)
+collect: Загружено 88%
+collect: Загрузка провалилась - Round (Final 9) is ended 0 seconds ago
+tick: end
+
+tick: start
+travel: Wiza-70 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Smitham garbage=0 ship=10
+collect: Учитываем мусор на корабле, загружено 88%
+collector: winner #69
+collet: Загрузка изменилась на 1%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: [No entry] garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: PitayaEager garbage=0 ship=0
+collector: winner #66
+collect: Загружено 87%
+collect: Загрузка провалилась - Round (Final 9) is ended 1 seconds ago
+tick: end
+
+tick: start
+travel: DeerSiter garbage=0 ship=12
+collect: Учитываем мусор на корабле, загружено 87%
+collector: winner #471
+collet: Загрузка изменилась на 1%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Langosh garbage=0 ship=0
+collector: winner #51
+collect: Загружено 93%
+collect: Загрузка провалилась - Round (Final 9) is ended 2 seconds ago
+tick: end
+
+tick: start
+travel: JambulPrickling814 garbage=0 ship=15
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: SmilingBaby garbage=0 ship=15
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Walter-114 garbage=0 ship=15
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+=================== WARNING =======================
+AxiosError: Request failed with status code 502
+    at settle (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/node_modules/axios/lib/core/settle.js:19:12)
+    at IncomingMessage.handleStreamEnd (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/node_modules/axios/lib/adapters/http.js:589:11)
+    at IncomingMessage.emit (node:events:526:35)
+    at endReadableNT (node:internal/streams/readable:1408:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+    at Axios.request (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/node_modules/axios/lib/core/Axios.js:45:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Api.request (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/api/api.js:120:20)
+    at async Api.travelToPlanet (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/api/api.js:166:17)
+    at async Bot.travel (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:71:24)
+    at async Bot.goToNext (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:199:5)
+    at async Bot.tick (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:206:5)
+    at async Bot.loop (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:220:14) {
+  code: 'ERR_BAD_RESPONSE',
+  config: {
+    transitional: {
+      silentJSONParsing: true,
+      forcedJSONParsing: true,
+      clarifyTimeoutError: false
+    },
+    adapter: [ 'xhr', 'http' ],
+    transformRequest: [ [Function: transformRequest] ],
+    transformResponse: [ [Function: transformResponse] ],
+    timeout: 0,
+    xsrfCookieName: 'XSRF-TOKEN',
+    xsrfHeaderName: 'X-XSRF-TOKEN',
+    maxContentLength: -1,
+    maxBodyLength: -1,
+    env: { FormData: [Function], Blob: [class Blob] },
+    validateStatus: [Function: validateStatus],
+    headers: Object [AxiosHeaders] {
+      Accept: 'application/json, text/plain, */*',
+      'Content-Type': 'application/json',
+      'X-Auth-Token': '660e9f201bdf2660e9f201bdf5',
+      'User-Agent': 'axios/1.6.8',
+      'Content-Length': '58',
+      'Accept-Encoding': 'gzip, compress, deflate, br'
+    },
+    method: 'post',
+    url: 'https://datsedenspace.datsteam.dev/player/travel',
+    data: '{"planets":["Parisian","Hegmann","6I8FWIGB9","NEB4YIDW5"]}'
+  },
+  request: <ref *1> ClientRequest {
+    _events: [Object: null prototype] {
+      abort: [Function (anonymous)],
+      aborted: [Function (anonymous)],
+      connect: [Function (anonymous)],
+      error: [Function (anonymous)],
+      socket: [Function (anonymous)],
+      timeout: [Function (anonymous)],
+      finish: [Function: requestOnFinish]
+    },
+    _eventsCount: 7,
+    _maxListeners: undefined,
+    outputData: [],
+    outputSize: 0,
+    writable: true,
+    destroyed: true,
+    _last: false,
+    chunkedEncoding: false,
+    shouldKeepAlive: true,
+    maxRequestsOnConnectionReached: false,
+    _defaultKeepAlive: true,
+    useChunkedEncodingByDefault: true,
+    sendDate: false,
+    _removedConnection: false,
+    _removedContLen: false,
+    _removedTE: false,
+    strictContentLength: false,
+    _contentLength: '58',
+    _hasBody: true,
+    _trailer: '',
+    finished: true,
+    _headerSent: true,
+    _closed: true,
+    socket: TLSSocket {
+      _tlsOptions: [Object],
+      _secureEstablished: true,
+      _securePending: false,
+      _newSessionPending: false,
+      _controlReleased: true,
+      secureConnecting: false,
+      _SNICallback: null,
+      servername: 'datsedenspace.datsteam.dev',
+      alpnProtocol: false,
+      authorized: true,
+      authorizationError: null,
+      encrypted: true,
+      _events: [Object: null prototype],
+      _eventsCount: 9,
+      connecting: false,
+      _hadError: false,
+      _parent: null,
+      _host: 'datsedenspace.datsteam.dev',
+      _closeAfterHandlingError: false,
+      _readableState: [ReadableState],
+      _maxListeners: undefined,
+      _writableState: [WritableState],
+      allowHalfOpen: false,
+      _sockname: null,
+      _pendingData: null,
+      _pendingEncoding: '',
+      server: undefined,
+      _server: null,
+      ssl: [TLSWrap],
+      _requestCert: true,
+      _rejectUnauthorized: true,
+      timeout: 5000,
+      parser: null,
+      _httpMessage: null,
+      [Symbol(alpncallback)]: null,
+      [Symbol(res)]: [TLSWrap],
+      [Symbol(verified)]: true,
+      [Symbol(pendingSession)]: null,
+      [Symbol(async_id_symbol)]: -1,
+      [Symbol(kHandle)]: [TLSWrap],
+      [Symbol(lastWriteQueueSize)]: 0,
+      [Symbol(timeout)]: Timeout {
+        _idleTimeout: 5000,
+        _idlePrev: [TimersList],
+        _idleNext: [TimersList],
+        _idleStart: 29944,
+        _onTimeout: [Function: bound ],
+        _timerArgs: undefined,
+        _repeat: null,
+        _destroyed: false,
+        [Symbol(refed)]: false,
+        [Symbol(kHasPrimitive)]: false,
+        [Symbol(asyncId)]: 1919,
+        [Symbol(triggerId)]: 1917
+      },
+      [Symbol(kBuffer)]: null,
+      [Symbol(kBufferCb)]: null,
+      [Symbol(kBufferGen)]: null,
+      [Symbol(kCapture)]: false,
+      [Symbol(kSetNoDelay)]: false,
+      [Symbol(kSetKeepAlive)]: true,
+      [Symbol(kSetKeepAliveInitialDelay)]: 1,
+      [Symbol(kBytesRead)]: 0,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(connect-options)]: [Object]
+    },
+    _header: 'POST /player/travel HTTP/1.1\r\n' +
+      'Accept: application/json, text/plain, */*\r\n' +
+      'Content-Type: application/json\r\n' +
+      'X-Auth-Token: 660e9f201bdf2660e9f201bdf5\r\n' +
+      'User-Agent: axios/1.6.8\r\n' +
+      'Content-Length: 58\r\n' +
+      'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+      'Host: datsedenspace.datsteam.dev\r\n' +
+      'Connection: keep-alive\r\n' +
+      '\r\n',
+    _keepAliveTimeout: 0,
+    _onPendingData: [Function: nop],
+    agent: Agent {
+      _events: [Object: null prototype],
+      _eventsCount: 2,
+      _maxListeners: undefined,
+      defaultPort: 443,
+      protocol: 'https:',
+      options: [Object: null prototype],
+      requests: [Object: null prototype] {},
+      sockets: [Object: null prototype] {},
+      freeSockets: [Object: null prototype],
+      keepAliveMsecs: 1000,
+      keepAlive: true,
+      maxSockets: Infinity,
+      maxFreeSockets: 256,
+      scheduling: 'lifo',
+      maxTotalSockets: Infinity,
+      totalSocketCount: 1,
+      maxCachedSessions: 100,
+      _sessionCache: [Object],
+      [Symbol(kCapture)]: false
+    },
+    socketPath: undefined,
+    method: 'POST',
+    maxHeaderSize: undefined,
+    insecureHTTPParser: undefined,
+    joinDuplicateHeaders: undefined,
+    path: '/player/travel',
+    _ended: true,
+    res: IncomingMessage {
+      _readableState: [ReadableState],
+      _events: [Object: null prototype],
+      _eventsCount: 4,
+      _maxListeners: undefined,
+      socket: null,
+      httpVersionMajor: 1,
+      httpVersionMinor: 1,
+      httpVersion: '1.1',
+      complete: true,
+      rawHeaders: [Array],
+      rawTrailers: [],
+      joinDuplicateHeaders: undefined,
+      aborted: false,
+      upgrade: false,
+      url: '',
+      method: null,
+      statusCode: 502,
+      statusMessage: 'Bad Gateway',
+      client: [TLSSocket],
+      _consuming: false,
+      _dumped: false,
+      req: [Circular *1],
+      responseUrl: 'https://datsedenspace.datsteam.dev/player/travel',
+      redirects: [],
+      [Symbol(kCapture)]: false,
+      [Symbol(kHeaders)]: [Object],
+      [Symbol(kHeadersCount)]: 10,
+      [Symbol(kTrailers)]: null,
+      [Symbol(kTrailersCount)]: 0
+    },
+    aborted: false,
+    timeoutCb: null,
+    upgradeOrConnect: false,
+    parser: null,
+    maxHeadersCount: null,
+    reusedSocket: true,
+    host: 'datsedenspace.datsteam.dev',
+    protocol: 'https:',
+    _redirectable: Writable {
+      _writableState: [WritableState],
+      _events: [Object: null prototype],
+      _eventsCount: 3,
+      _maxListeners: undefined,
+      _options: [Object],
+      _ended: true,
+      _ending: true,
+      _redirectCount: 0,
+      _redirects: [],
+      _requestBodyLength: 58,
+      _requestBodyBuffers: [],
+      _onNativeResponse: [Function (anonymous)],
+      _currentRequest: [Circular *1],
+      _currentUrl: 'https://datsedenspace.datsteam.dev/player/travel',
+      [Symbol(kCapture)]: false
+    },
+    [Symbol(kCapture)]: false,
+    [Symbol(kBytesWritten)]: 0,
+    [Symbol(kNeedDrain)]: false,
+    [Symbol(corked)]: 0,
+    [Symbol(kOutHeaders)]: [Object: null prototype] {
+      accept: [Array],
+      'content-type': [Array],
+      'x-auth-token': [Array],
+      'user-agent': [Array],
+      'content-length': [Array],
+      'accept-encoding': [Array],
+      host: [Array]
+    },
+    [Symbol(errored)]: null,
+    [Symbol(kHighWaterMark)]: 16384,
+    [Symbol(kRejectNonStandardBodyWrites)]: false,
+    [Symbol(kUniqueHeaders)]: null
+  },
+  response: {
+    status: 502,
+    statusText: 'Bad Gateway',
+    headers: Object [AxiosHeaders] {
+      server: 'nginx/1.18.0 (Ubuntu)',
+      date: 'Sat, 06 Apr 2024 15:25:03 GMT',
+      'content-type': 'text/html',
+      'content-length': '166',
+      connection: 'keep-alive'
+    },
+    config: {
+      transitional: [Object],
+      adapter: [Array],
+      transformRequest: [Array],
+      transformResponse: [Array],
+      timeout: 0,
+      xsrfCookieName: 'XSRF-TOKEN',
+      xsrfHeaderName: 'X-XSRF-TOKEN',
+      maxContentLength: -1,
+      maxBodyLength: -1,
+      env: [Object],
+      validateStatus: [Function: validateStatus],
+      headers: [Object [AxiosHeaders]],
+      method: 'post',
+      url: 'https://datsedenspace.datsteam.dev/player/travel',
+      data: '{"planets":["Parisian","Hegmann","6I8FWIGB9","NEB4YIDW5"]}'
+    },
+    request: <ref *1> ClientRequest {
+      _events: [Object: null prototype],
+      _eventsCount: 7,
+      _maxListeners: undefined,
+      outputData: [],
+      outputSize: 0,
+      writable: true,
+      destroyed: true,
+      _last: false,
+      chunkedEncoding: false,
+      shouldKeepAlive: true,
+      maxRequestsOnConnectionReached: false,
+      _defaultKeepAlive: true,
+      useChunkedEncodingByDefault: true,
+      sendDate: false,
+      _removedConnection: false,
+      _removedContLen: false,
+      _removedTE: false,
+      strictContentLength: false,
+      _contentLength: '58',
+      _hasBody: true,
+      _trailer: '',
+      finished: true,
+      _headerSent: true,
+      _closed: true,
+      socket: [TLSSocket],
+      _header: 'POST /player/travel HTTP/1.1\r\n' +
+        'Accept: application/json, text/plain, */*\r\n' +
+        'Content-Type: application/json\r\n' +
+        'X-Auth-Token: 660e9f201bdf2660e9f201bdf5\r\n' +
+        'User-Agent: axios/1.6.8\r\n' +
+        'Content-Length: 58\r\n' +
+        'Accept-Encoding: gzip, compress, deflate, br\r\n' +
+        'Host: datsedenspace.datsteam.dev\r\n' +
+        'Connection: keep-alive\r\n' +
+        '\r\n',
+      _keepAliveTimeout: 0,
+      _onPendingData: [Function: nop],
+      agent: [Agent],
+      socketPath: undefined,
+      method: 'POST',
+      maxHeaderSize: undefined,
+      insecureHTTPParser: undefined,
+      joinDuplicateHeaders: undefined,
+      path: '/player/travel',
+      _ended: true,
+      res: [IncomingMessage],
+      aborted: false,
+      timeoutCb: null,
+      upgradeOrConnect: false,
+      parser: null,
+      maxHeadersCount: null,
+      reusedSocket: true,
+      host: 'datsedenspace.datsteam.dev',
+      protocol: 'https:',
+      _redirectable: [Writable],
+      [Symbol(kCapture)]: false,
+      [Symbol(kBytesWritten)]: 0,
+      [Symbol(kNeedDrain)]: false,
+      [Symbol(corked)]: 0,
+      [Symbol(kOutHeaders)]: [Object: null prototype],
+      [Symbol(errored)]: null,
+      [Symbol(kHighWaterMark)]: 16384,
+      [Symbol(kRejectNonStandardBodyWrites)]: false,
+      [Symbol(kUniqueHeaders)]: null
+    },
+    data: '<html>\r\n' +
+      '<head><title>502 Bad Gateway</title></head>\r\n' +
+      '<body>\r\n' +
+      '<center><h1>502 Bad Gateway</h1></center>\r\n' +
+      '<hr><center>nginx/1.18.0 (Ubuntu)</center>\r\n' +
+      '</body>\r\n' +
+      '</html>\r\n'
+  }
+}
+travel: NEB4YIDW5 garbage=0 ship=15
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: ScaryJaw garbage=0 ship=15
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: MangostineBad2 garbage=0 ship=15
+collect: Учитываем мусор на корабле, загружено 93%
+collector: winner #400
+collet: Загрузка изменилась на 1%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=15
+travel: Schuster garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: TenderJersey garbage=0 ship=0
+collector: winner #544
+collect: Загружено 86%
+collect: Загрузка провалилась - Round (Final 10) will start in 294 seconds
+tick: end
+
+tick: start
+travel: KnightlyPig garbage=0 ship=11
+collect: Учитываем мусор на корабле, загружено 86%
+collector: winner #501
+collet: Загрузка изменилась на 1%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Rogahn-254 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Littel-265 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Reynolds garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: ShirtTalker garbage=0 ship=0
+collector: winner #96
+collect: Загружено 86%
+collect: Загрузка провалилась - Round (Final 10) will start in 292 seconds
+tick: end
+
+tick: start
+travel: UMTLTK6G6 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: BadImpala garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Bruen-147 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Stamm-209 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Funk-51 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: PEFI4ZZI0 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Farrell garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: FunnyAircraft15 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Ondricka garbage=0 ship=10
+collect: Учитываем мусор на корабле, загружено 86%
+collector: winner #479
+collet: Загрузка изменилась на 1%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Dickinson garbage=0 ship=0
+collector: winner #31
+collect: Загружено 90%
+collect: Загрузка провалилась - Round (Final 10) will start in 288 seconds
+tick: end
+
+tick: start
+travel: Heaney garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: GentlePig935 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Macejkovic garbage=0 ship=10
+collect: Учитываем мусор на корабле, загружено 90%
+collector: winner #282
+collet: Загрузка изменилась на -2%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: WAURFJRX3 garbage=0 ship=0
+collector: winner #49
+collect: Загружено 83%
+collect: Загрузка провалилась - Round (Final 10) will start in 287 seconds
+tick: end
+
+tick: start
+travel: Schowalter-246 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: 6I8FWIGB9 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: BraClimber326 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: SQX8TPRJ4 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: M69EUJHH5 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: ScaryAntlers5 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Kling garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: RichShirt garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Jenkins-209 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Stiedemann garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: BlackcurrantInnocent garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Padberg-7 garbage=0 ship=0
+collector: winner #275
+collect: Загружено 89%
+collect: Загрузка провалилась - Round (Final 10) will start in 283 seconds
+tick: end
+
+tick: start
+travel: Mraz garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Bergstrom-39 garbage=0 ship=10
+collect: Учитываем мусор на корабле, загружено 89%
+collector: winner #450
+collet: Загрузка изменилась на 2%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: GorgeousMacaw garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: ShyBadger garbage=0 ship=0
+collector: winner #0
+collect: Загружено 20%
+collect: Загрузка провалилась - Round (Final 10) will start in 282 seconds
+tick: end
+
+tick: start
+travel: Volkman-295 garbage=0 ship=3
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: BeltWriteer garbage=0 ship=3
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Wisozk-164 garbage=0 ship=3
+collect: Учитываем мусор на корабле, загружено 20%
+collector: winner #66
+collet: Загрузка изменилась на 69%. :)
+collect: Загружено 89%
+collect: Загрузка провалилась - Round (Final 10) will start in 281 seconds
+tick: end
+
+tick: start
+travel: Hoeger garbage=0 ship=11
+collect: Учитываем мусор на корабле, загружено 89%
+collector: winner #486
+collet: Загрузка изменилась на -2%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: MushyPig3 garbage=0 ship=0
+collector: winner #986
+collect: Загружено 83%
+collect: Загрузка провалилась - Round (Final 10) will start in 279 seconds
+tick: end
+
+tick: start
+travel: Little garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Weissnat-54 garbage=0 ship=10
+collect: Учитываем мусор на корабле, загружено 83%
+collector: winner #25
+collet: Загрузка изменилась на 5%. :)
+collect: Загружено 88%
+collect: Загрузка провалилась - Round (Final 10) will start in 279 seconds
+tick: end
+
+tick: start
+travel: BananaKnightly1 garbage=0 ship=11
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Anderson garbage=0 ship=11
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Dickinson-191 garbage=0 ship=11
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: R89SQTOI8 garbage=0 ship=11
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: NEB4YIDW5 garbage=0 ship=11
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: TenderJersey garbage=0 ship=11
+collect: Учитываем мусор на корабле, загружено 88%
+collector: winner #130
+collet: Загрузка изменилась на -2%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Langosh garbage=0 ship=0
+collector: winner #11
+collect: Загружено 88%
+collect: Загрузка провалилась - Round (Final 10) will start in 277 seconds
+tick: end
+
+tick: start
+travel: Wisozk-164 garbage=0 ship=14
+collect: Учитываем мусор на корабле, загружено 88%
+collector: winner #107
+collet: Загрузка изменилась на 3%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=14
+travel: Hegmann garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: BlackcurrantInnocent garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: KnightlyPig garbage=0 ship=0
+collector: winner #521
+collect: Загружено 81%
+collect: Загрузка провалилась - Round (Final 10) will start in 275 seconds
+tick: end
+
+tick: start
+travel: ComfortableCrab43 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: TerribleRazor garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: FunnyAircraft15 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: MelonOutrageous garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: GorgeousMacaw garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: UMTLTK6G6 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Earth garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Nitzsche garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Kilback garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: [No entry] garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: BlackcurrantInnocent garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Little garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: TomatoOpener468 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Cole garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Considine garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Volkman-295 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Pollich garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Smitham garbage=0 ship=10
+collect: Учитываем мусор на корабле, загружено 81%
+collector: winner #707
+collet: Загрузка изменилась на 12%. :)
+collect: Загружено 93%
+collect: Загрузка провалилась - Round (Final 10) will start in 270 seconds
+tick: end
+
+tick: start
+travel: XW7LZFEB1 garbage=0 ship=12
+collect: Учитываем мусор на корабле, загружено 93%
+collector: winner #694
+collet: Загрузка изменилась на 0%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: Wiza-70 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Kilback garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Little garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: KnightlyPig garbage=0 ship=0
+collector: winner #364
+collect: Загружено 82%
+collect: Загрузка провалилась - Round (Final 10) will start in 268 seconds
+tick: end
+
+tick: start
+travel: ShirtTalker garbage=0 ship=10
+collect: Учитываем мусор на корабле, загружено 82%
+collector: winner #983
+collet: Загрузка изменилась на 7%. :)
+collect: Загружено 89%
+collect: Загрузка провалилась - Round (Final 10) will start in 267 seconds
+tick: end
+
+tick: start
+travel: UMTLTK6G6 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Bartell garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: ScaryAntlers5 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: XW7LZFEB1 garbage=0 ship=10
+collector: winner #49
+collect: Загружено 85%
+collect: Загрузка провалилась - Round (Final 10) will start in 267 seconds
+tick: end
+
+tick: start
+travel: MelonOutrageous garbage=0 ship=11
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Kub garbage=0 ship=11
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Macejkovic garbage=0 ship=11
+collect: Учитываем мусор на корабле, загружено 85%
+collector: winner #188
+collet: Загрузка изменилась на 4%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=11
+travel: Rogahn-254 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Farrell garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Volkman-295 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Littel-265 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Stamm-209 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Parisian garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Stiedemann garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: MelonOutrageous garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: GorgeousMacaw garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: MelonOutrageous garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: BlackcurrantInnocent garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Empty PATH!
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Lemke garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: BlackcurrantInnocent garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Swift garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: SQX8TPRJ4 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Schowalter-246 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: BraClimber326 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Macejkovic garbage=0 ship=0
+collector: winner #942
+collect: Загружено 88%
+collect: Загрузка провалилась - Round (Final 10) will start in 261 seconds
+tick: end
+
+tick: start
+travel: TerribleRazor garbage=0 ship=12
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Corwin-201 garbage=0 ship=12
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Little garbage=0 ship=12
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: PEFI4ZZI0 garbage=0 ship=12
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Koss garbage=0 ship=12
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Macejkovic garbage=0 ship=12
+collector: winner #553
+collect: Загружено 89%
+collect: Загрузка провалилась - Round (Final 10) will start in 259 seconds
+tick: end
+
+tick: start
+travel: XW7LZFEB1 garbage=0 ship=13
+collect: Учитываем мусор на корабле, загружено 89%
+collector: winner #693
+collet: Загрузка изменилась на 1%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=13
+travel: Koss garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: KnightlyPig garbage=0 ship=0
+collector: winner #32
+collect: Загружено 81%
+collect: Загрузка провалилась - Round (Final 10) will start in 257 seconds
+tick: end
+
+tick: start
+travel: Roberts-180 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Halvorson garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Ondricka garbage=0 ship=10
+collect: Учитываем мусор на корабле, загружено 81%
+collector: winner #129
+collet: Загрузка изменилась на 5%. :)
+collect: Загружено 86%
+collect: Загрузка провалилась - Round (Final 10) will start in 257 seconds
+tick: end
+
+tick: start
+travel: ShyBadger garbage=0 ship=10
+collect: Учитываем мусор на корабле, загружено 86%
+collector: winner #33
+collet: Загрузка изменилась на -4%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: MangostineBad2 garbage=0 ship=0
+collector: winner #37
+collect: Загружено 88%
+collect: Загрузка провалилась - Round (Final 10) will start in 256 seconds
+tick: end
+
+tick: start
+travel: Kub garbage=0 ship=12
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Volkman-295 garbage=0 ship=12
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Stamm-209 garbage=0 ship=12
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: BlackcurrantInnocent garbage=0 ship=12
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: 36EYHO732 garbage=0 ship=12
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Anderson garbage=0 ship=12
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Wisozk-164 garbage=0 ship=12
+collect: Учитываем мусор на корабле, загружено 88%
+collector: winner #135
+collet: Загрузка изменилась на 1%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=12
+travel: MouseTalker106 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Dickinson-191 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Volkman-295 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Ondricka garbage=0 ship=0
+collector: winner #276
+collect: Загружено 82%
+collect: Загрузка провалилась - Round (Final 10) will start in 252 seconds
+tick: end
+
+tick: start
+travel: GentlePig935 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: BraClimber326 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Cole garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: ShirtTalker garbage=0 ship=10
+collect: Учитываем мусор на корабле, загружено 82%
+collector: winner #577
+collet: Загрузка изменилась на 6%. :)
+collect: Загружено 88%
+collect: Загрузка провалилась - Round (Final 10) will start in 250 seconds
+tick: end
+
+tick: start
+travel: Littel-265 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: ZMR0FDY61 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: [No entry] garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Shanahan garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: ScaryJaw garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: TerribleRazor garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Stiedemann garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Swift garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Anderson garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: XW7LZFEB1 garbage=0 ship=10
+collect: Учитываем мусор на корабле, загружено 88%
+collector: winner #385
+collet: Загрузка изменилась на 1%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: Padberg-7 garbage=0 ship=0
+collector: winner #356
+collect: Загружено 90%
+collect: Загрузка провалилась - Round (Final 10) will start in 247 seconds
+tick: end
+
+tick: start
+travel: Littel-265 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Considine garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: MouseTalker106 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Howe garbage=0 ship=10
+collect: Учитываем мусор на корабле, загружено 90%
+collector: winner #187
+collet: Загрузка изменилась на 1%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: MushyPig3 garbage=0 ship=0
+collector: winner #341
+collect: Загружено 82%
+collect: Загрузка провалилась - Round (Final 10) will start in 245 seconds
+tick: end
+
+tick: start
+travel: SQX8TPRJ4 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Dickinson-191 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Jenkins-209 garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: [No entry] garbage=0 ship=10
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: ShirtTalker garbage=0 ship=10
+collect: Учитываем мусор на корабле, загружено 82%
+collector: winner #202
+collet: Загрузка изменилась на 5%. :)
+collect: Загружено 87%
+collect: Загрузка провалилась - Round (Final 10) will start in 243 seconds
+tick: end
+
+tick: start
+travel: Kessler-31 garbage=0 ship=9
+collect: Учитываем мусор на корабле, загружено 87%
+collector: winner #684
+collet: Загрузка изменилась на 3%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=9
+travel: GorgeousMacaw garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Dickinson garbage=0 ship=0
+collector: winner #324
+collect: Загружено 90%
+collect: Загрузка провалилась - Round (Final 10) will start in 241 seconds
+tick: end
+
+tick: start
+travel: Howe garbage=0 ship=10
+collect: Учитываем мусор на корабле, загружено 90%
+collector: winner #981
+collet: Загрузка изменилась на -1%. :(
+tick: end
+
+tick: start
+travel: Eden garbage=0 ship=10
+travel: BlackcurrantInnocent garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: M69EUJHH5 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Considine garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: MelonOutrageous garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: SmilingBaby garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Anderson garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: M69EUJHH5 garbage=0 ship=0
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
+travel: Hoeger garbage=0 ship=0
+collector: winner #551
+collect: Загружено 81%
+collect: Загрузка провалилась - Round (Final 10) will start in 238 seconds
+tick: end
+
+tick: start
+travel: TerribleRazor garbage=0 ship=9
+collect: Нет мусора! Похоже мы потеряли информацию об этой планете
+tick: end
+
+tick: start
