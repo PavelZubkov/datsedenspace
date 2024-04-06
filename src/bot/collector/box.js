@@ -1,4 +1,4 @@
-import { Vec2 } from "../../math/math.js"
+import { Vec2, rnd } from "../../math/math.js"
 import { Rewind } from "../../rewind/rewind.js"
 import { Figure } from "./figure.js"
 
@@ -7,9 +7,9 @@ export function shuffleArray(array) {
     // Получить случайный индекс от 0 до i
     const j = Math.floor(Math.random() * (i + 1));
     // Поменять местами элементы с индексами i и j
-    [array[i], array[j]] = [array[j], array[i]];
+    [array[i], array[j]] = [array[j], array[i]]
   }
-  return array;
+  return array
 }
 export class Box {
   /**
@@ -78,9 +78,9 @@ export class Box {
       const boxY = y + pos.y
       if (
         boxX < 0 ||
-        boxX > this.size.x ||
+        boxX >= this.size.x ||
         boxY < 0 ||
-        boxY > this.size.y ||
+        boxY >= this.size.y ||
         this.box[boxX][boxY] !== ""
       ) {
         return false
@@ -120,98 +120,11 @@ export class Box {
   static putAllRndSort(figures) {
     const decrees = figures.slice().sort((a, b) => b.size - a.size)
     const increase = figures.slice().sort((a, b) => b.size - a.size)
-    const random = [
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-      shuffleArray(figures.slice()),
-    ]
+    const randomCount = 300
+    const random = []
+    for (let i = 0; i < randomCount; i++) {
+      random.push(shuffleArray(figures.slice()))
+    }
 
     const boxes = [decrees, increase, ...random].map((figs, index) => {
       const box = new Box
@@ -219,7 +132,7 @@ export class Box {
       return { index, box, leaved }
     })
 
-    const [winner] = boxes.sort((a,b) => b.box.loading() - a.box.loading())
+    const [winner] = boxes.sort((a, b) => b.box.loading() - a.box.loading())
 
     console.log(`collector: winner #${winner.index}`)
 
@@ -244,9 +157,25 @@ export class Box {
       let placed = false // Флаг, поместили ли фигуру
 
       // Пробуем разместить каждую вариацию фигуры
-      for (const variant of figure.vars) {
-        for (let x = 0; x <= this.size.x - 4; x++) {
-          for (let y = 0; y <= this.size.y - 4; y++) {
+      const vars = shuffleArray(figure.vars.slice())
+      const incX = Boolean(rnd(0, 1))
+      const incY = Boolean(rnd(0, 1))
+
+      for (const variant of vars) {
+        // Устанавливаем начальные и конечные значения для циклов в зависимости от incX и incY
+        const gap = 4
+
+        const startX = incX ? 0 - gap : this.size.x + gap
+        const endX = incX ? this.size.x + gap : 0 - gap
+        const stepX = incX ? 1 : -1
+
+        const startY = incY ? 0 - gap : this.size.y + gap
+        const endY = incY ? this.size.y + gap : 0 - gap
+        const stepY = incY ? 1 : -1
+
+        // Используем for loop с учетом направления итерации
+        for (let x = startX; incX ? x <= endX : x >= endX; x += stepX) {
+          for (let y = startY; incY ? y <= endY : y >= endY; y += stepY) {
             const position = new Vec2(x, y)
             // Проверяем, можно ли разместить фигуру на текущем месте
             if (this.putCheck(position, variant)) {
