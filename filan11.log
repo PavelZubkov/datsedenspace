@@ -1,0 +1,2618 @@
+Nou Sagi@DESKTOP-092CICL MINGW64 ~/Desktop/datsedenspace (master)
+$ node ./src/bot/bot.js
+log: Open json error
+updated null
+BOT started
+log: Open json error
+log: Open json error
+Connected to server
+travel: Eden garbage=0 ship=0
+tick: start 19:11:41
+travel: 2B61M0994 garbage=25 ship=0
+collector: winner #483
+collect: Загружено 91%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:11:42
+travel: Eden garbage=0 ship=11
+travel: Franecki-99 garbage=25 ship=0
+collector: winner #0
+collect: Загружено 90%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:11:43
+travel: Eden garbage=0 ship=11
+travel: Schimmel-289 garbage=27 ship=0
+collector: winner #413
+collect: Загружено 93%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:11:44
+travel: Eden garbage=0 ship=12
+travel: SQLAMKMS5 garbage=27 ship=0
+collector: winner #765
+collect: Загружено 94%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:11:45
+travel: Eden garbage=0 ship=12
+travel: Armstrong-38 garbage=27 ship=0
+collector: winner #190
+collect: Загружено 95%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:11:46
+travel: Eden garbage=0 ship=12
+travel: FV1EY5M37 garbage=27 ship=0
+collector: winner #342
+collect: Загружено 97%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:11:47
+travel: Eden garbage=0 ship=13
+travel: 2WZLMW356 garbage=25 ship=0
+collector: winner #734
+collect: Загружено 91%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:11:47
+travel: Eden garbage=0 ship=11
+travel: Little garbage=30 ship=0
+collector: winner #232
+collect: Загружено 98%
+collect: Осталось 17 17
+tick: end
+
+tick: start 19:11:48
+travel: Eden garbage=0 ship=13
+travel: LongGirl garbage=29 ship=0
+collector: winner #636
+collect: Загружено 95%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:11:49
+travel: Eden garbage=0 ship=13
+travel: PVKOFNZ64 garbage=29 ship=0
+collector: winner #651
+collect: Загружено 95%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:11:50
+travel: Eden garbage=0 ship=13
+travel: Swaniawski garbage=24 ship=0
+collector: winner #372
+collect: Загружено 88%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:11:51
+travel: Eden garbage=0 ship=10
+travel: HS7TZVMK7 garbage=26 ship=0
+collector: winner #937
+collect: Загружено 90%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:11:53
+travel: Eden garbage=0 ship=11
+travel: Casper garbage=29 ship=0
+collector: winner #323
+collect: Загружено 97%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:11:54
+travel: Eden garbage=0 ship=14
+travel: ZA9EAART6 garbage=24 ship=0
+collector: winner #254
+collect: Загружено 89%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:11:55
+travel: Eden garbage=0 ship=10
+travel: Greenfelder garbage=28 ship=0
+collector: winner #752
+collect: Загружено 97%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:11:56
+travel: Eden garbage=0 ship=13
+travel: Smith garbage=26 ship=0
+collector: winner #906
+collect: Загружено 95%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:11:57
+travel: Eden garbage=0 ship=12
+travel: FlagKniter760 garbage=29 ship=0
+collector: winner #206
+collect: Загружено 93%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:11:58
+travel: Eden garbage=0 ship=14
+travel: Schimmel-289 garbage=15 ship=0
+collector: winner #658
+collect: Загружено 86%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:11:58
+travel: Eden garbage=0 ship=11
+travel: AL42ZREJ2 garbage=29 ship=0
+collector: winner #492
+collect: Загружено 96%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:11:59
+travel: Eden garbage=0 ship=13
+travel: 2B61M0994 garbage=14 ship=0
+collector: winner #155
+collect: Загружено 85%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:12:00
+travel: Eden garbage=0 ship=10
+travel: Vandervort-262 garbage=27 ship=0
+collector: winner #81
+collect: Загружено 93%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:12:01
+travel: Eden garbage=0 ship=12
+travel: Langworth garbage=23 ship=0
+collector: winner #134
+collect: Загружено 83%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:12:02
+travel: Eden garbage=0 ship=9
+travel: GS65JI5A9 garbage=26 ship=0
+collector: winner #758
+collect: Загружено 90%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:12:03
+travel: Eden garbage=0 ship=11
+travel: Parisian-205 garbage=29 ship=0
+collector: winner #369
+collect: Загружено 96%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:12:04
+travel: Eden garbage=0 ship=13
+travel: ProudHare6 garbage=24 ship=0
+collector: winner #33
+collect: Загружено 88%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:12:05
+travel: Eden garbage=0 ship=10
+travel: FaithfulJuicer garbage=26 ship=0
+collector: winner #514
+collect: Загружено 97%
+collect: Осталось 13 13
+tick: end
+
+tick: start 19:12:06
+travel: Eden garbage=0 ship=13
+travel: Greenfelder garbage=15 ship=0
+collector: winner #23
+collect: Загружено 90%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:12:06
+travel: Eden garbage=0 ship=12
+travel: Maggio-263 garbage=24 ship=0
+collector: winner #830
+collect: Загружено 88%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:12:07
+travel: Eden garbage=0 ship=10
+travel: RYB7LX7M0 garbage=26 ship=0
+collector: winner #207
+collect: Загружено 96%
+collect: Осталось 13 13
+tick: end
+
+tick: start 19:12:08
+travel: Eden garbage=0 ship=13
+travel: CabinetSmeller39 garbage=27 ship=0
+collector: winner #282
+collect: Загружено 93%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:12:09
+travel: Eden garbage=0 ship=11
+travel: VictoriousRat garbage=26 ship=0
+collector: winner #465
+collect: Загружено 89%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:12:10
+travel: Eden garbage=0 ship=11
+travel: Mann-205 garbage=28 ship=0
+collector: winner #13
+collect: Загружено 93%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:12:11
+travel: Eden garbage=0 ship=12
+travel: Schamberger-257 garbage=26 ship=0
+collector: winner #186
+collect: Загружено 93%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:12:11
+travel: Eden garbage=0 ship=12
+travel: SuperRabbit garbage=24 ship=0
+collector: winner #380
+collect: Загружено 93%
+collect: Осталось 13 13
+tick: end
+
+tick: start 19:12:12
+travel: Eden garbage=0 ship=11
+travel: AvocadoItchy garbage=26 ship=0
+collector: winner #17
+collect: Загружено 94%
+collect: Осталось 13 13
+tick: end
+
+tick: start 19:12:13
+travel: Eden garbage=0 ship=13
+travel: JL9668H92 garbage=29 ship=0
+collector: winner #306
+collect: Загружено 91%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:12:14
+travel: Eden garbage=0 ship=13
+travel: CatStander garbage=26 ship=0
+collector: winner #187
+collect: Загружено 91%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:12:15
+travel: Eden garbage=0 ship=11
+travel: H7R0FY0N8 garbage=30 ship=0
+collector: winner #683
+collect: Загружено 98%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:12:16
+travel: Eden garbage=0 ship=15
+travel: AvocadoItchy garbage=13 ship=0
+collector: winner #43
+collect: Загружено 82%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:12:17
+travel: Eden garbage=0 ship=10
+travel: Mann-205 garbage=16 ship=0
+collector: winner #763
+collect: Загружено 88%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:12:18
+travel: Eden garbage=0 ship=12
+travel: FV1EY5M37 garbage=14 ship=0
+collector: winner #623
+collect: Загружено 86%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:12:18
+travel: Eden garbage=0 ship=11
+travel: WGKIZCC28 garbage=27 ship=0
+collector: winner #110
+collect: Загружено 91%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:12:19
+travel: Eden garbage=0 ship=12
+travel: RYB7LX7M0 garbage=13 ship=0
+collector: winner #763
+collect: Загружено 85%
+collect: Осталось 2 2
+tick: end
+
+tick: start 19:12:20
+travel: Eden garbage=0 ship=11
+travel: Morar garbage=27 ship=0
+collector: winner #529
+collect: Загружено 89%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:12:21
+travel: Eden garbage=0 ship=11
+travel: Hegmann garbage=24 ship=0
+collector: winner #354
+collect: Загружено 88%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:12:22
+travel: Eden garbage=0 ship=10
+travel: KXM4RROW0 garbage=24 ship=0
+collector: winner #592
+collect: Загружено 88%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:12:22
+travel: Eden garbage=0 ship=10
+travel: Bogisich-208 garbage=25 ship=0
+collector: winner #167
+collect: Загружено 96%
+collect: Осталось 13 13
+tick: end
+
+tick: start 19:12:23
+travel: Eden garbage=0 ship=12
+travel: JL9668H92 garbage=16 ship=0
+collector: winner #188
+collect: Загружено 87%
+collect: Осталось 5 5
+tick: end
+
+tick: start 19:12:24
+travel: Eden garbage=0 ship=11
+travel: 65T45F6G5 garbage=25 ship=0
+collector: winner #398
+collect: Загружено 94%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:12:25
+travel: Eden garbage=0 ship=11
+travel: Vandervort-262 garbage=15 ship=0
+collector: winner #88
+collect: Загружено 80%
+collect: Осталось 5 5
+tick: end
+
+tick: start 19:12:25
+travel: Eden garbage=0 ship=10
+travel: Armstrong-38 garbage=15 ship=0
+collector: winner #449
+collect: Загружено 91%
+collect: Осталось 2 2
+tick: end
+
+tick: start 19:12:26
+travel: Eden garbage=0 ship=13
+travel: 0EMYUXF35 garbage=30 ship=0
+collector: winner #159
+collect: Загружено 98%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:12:28
+travel: Eden garbage=0 ship=15
+travel: 2WZLMW356 garbage=14 ship=0
+collector: winner #828
+collect: Загружено 86%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:12:28
+travel: Eden garbage=0 ship=11
+travel: Grant-179 garbage=25 ship=0
+collector: winner #155
+collect: Загружено 91%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:12:29
+travel: Eden garbage=0 ship=10
+travel: AttractiveRaven002 garbage=26 ship=0
+collector: winner #857
+collect: Загружено 93%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:12:30
+travel: Eden garbage=0 ship=12
+travel: FlagKniter760 garbage=15 ship=0
+collector: winner #336
+collect: Загружено 86%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:12:31
+travel: Eden garbage=0 ship=12
+travel: ZA9EAART6 garbage=14 ship=0
+collector: winner #610
+collect: Загружено 86%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:12:31
+travel: Eden garbage=0 ship=11
+travel: Hagenes-134 garbage=27 ship=0
+collector: winner #887
+collect: Загружено 93%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:12:32
+travel: Eden garbage=0 ship=12
+travel: Kuhic garbage=27 ship=0
+collector: winner #617
+collect: Загружено 97%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:12:33
+travel: Eden garbage=0 ship=12
+travel: Olson-165 garbage=27 ship=0
+collector: winner #5
+collect: Загружено 95%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:12:34
+travel: Eden garbage=0 ship=13
+travel: Morar garbage=16 ship=0
+collector: winner #749
+collect: Загружено 87%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:12:34
+travel: Eden garbage=0 ship=12
+travel: Langworth garbage=14 ship=0
+collector: winner #566
+collect: Загружено 82%
+collect: Осталось 5 5
+tick: end
+
+tick: start 19:12:35
+travel: Eden garbage=0 ship=9
+travel: V9ERU4VU2 garbage=23 ship=0
+collector: winner #830
+collect: Загружено 87%
+collect: Осталось 13 13
+tick: end
+
+tick: start 19:12:36
+travel: Eden garbage=0 ship=10
+travel: FV1EY5M37 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 20%
+collect: Очищено!
+tick: end
+
+tick: start 19:12:37
+travel: WearySwan garbage=26 ship=3
+collect: Учитываем мусор на корабле, загружено 20%
+collector: winner #844
+collet: Загрузка изменилась на 73%. :)
+collect: Загружено 93%
+collect: Осталось 17 17
+tick: end
+
+tick: start 19:12:38
+travel: Eden garbage=0 ship=12
+travel: ClumsyToad garbage=26 ship=0
+collector: winner #349
+collect: Загружено 94%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:12:39
+travel: Eden garbage=0 ship=12
+travel: Greenfelder garbage=3 ship=0
+collector: winner #0
+collect: Загружено 19%
+collect: Очищено!
+tick: end
+
+tick: start 19:12:40
+travel: Lebsack garbage=24 ship=3
+collect: Учитываем мусор на корабле, загружено 19%
+collector: winner #620
+collet: Загрузка изменилась на 71%. :)
+collect: Загружено 90%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:12:40
+travel: Eden garbage=0 ship=11
+travel: ProudHare6 garbage=14 ship=0
+collector: winner #378
+collect: Загружено 88%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:12:41
+travel: Eden garbage=0 ship=11
+travel: AL42ZREJ2 garbage=16 ship=0
+collector: winner #52
+collect: Загружено 88%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:12:41
+travel: Eden garbage=0 ship=13
+travel: SQLAMKMS5 garbage=15 ship=0
+collector: winner #293
+collect: Загружено 88%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:12:42
+travel: Eden garbage=0 ship=12
+travel: Morar garbage=4 ship=0
+collector: winner #0
+collect: Загружено 24%
+collect: Очищено!
+tick: end
+
+tick: start 19:12:43
+travel: Runte-259 garbage=28 ship=4
+collect: Учитываем мусор на корабле, загружено 24%
+collector: winner #762
+collet: Загрузка изменилась на 72%. :)
+collect: Загружено 96%
+collect: Осталось 18 18
+tick: end
+
+tick: start 19:12:44
+travel: Eden garbage=0 ship=14
+travel: ZA9EAART6 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 22%
+collect: Очищено!
+tick: end
+
+tick: start 19:12:44
+travel: WideJellyfish646 garbage=25 ship=3
+collect: Учитываем мусор на корабле, загружено 22%
+collector: winner #647
+collet: Загрузка изменилась на 68%. :)
+collect: Загружено 90%
+collect: Осталось 18 18
+tick: end
+
+tick: start 19:12:45
+travel: Eden garbage=0 ship=10
+travel: McLaughlin-160 garbage=26 ship=0
+collector: winner #79
+collect: Загружено 94%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:12:46
+travel: Eden garbage=0 ship=11
+travel: Maggio-263 garbage=14 ship=0
+collector: winner #289
+collect: Загружено 86%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:12:47
+travel: Eden garbage=0 ship=10
+travel: Kozey garbage=26 ship=0
+collector: winner #242
+collect: Загружено 90%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:12:47
+travel: Eden garbage=0 ship=11
+travel: ComposerSleeper garbage=24 ship=0
+collector: winner #740
+collect: Загружено 87%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:12:48
+travel: Eden garbage=0 ship=10
+travel: CherryWeary garbage=29 ship=0
+collector: winner #364
+collect: Загружено 94%
+collect: Осталось 17 17
+tick: end
+
+tick: start 19:12:49
+travel: Eden garbage=0 ship=12
+travel: Stanton-232 garbage=25 ship=0
+collector: winner #468
+collect: Загружено 93%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:12:50
+travel: Eden garbage=0 ship=11
+travel: OQC27RZL0 garbage=29 ship=0
+collector: winner #168
+collect: Загружено 94%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:12:51
+travel: Eden garbage=0 ship=13
+travel: Gusikowski garbage=26 ship=0
+collector: winner #513
+collect: Загружено 97%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:12:52
+travel: Eden garbage=0 ship=12
+travel: Hegmann garbage=14 ship=0
+collector: winner #79
+collect: Загружено 87%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:12:53
+travel: Eden garbage=0 ship=10
+travel: Durgan garbage=25 ship=0
+collector: winner #444
+collect: Загружено 90%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:12:54
+travel: Eden garbage=0 ship=11
+travel: Hyatt garbage=26 ship=0
+collector: winner #405
+collect: Загружено 88%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:12:54
+travel: Eden garbage=0 ship=10
+travel: 65T45F6G5 garbage=14 ship=0
+collector: winner #512
+collect: Загружено 85%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:12:55
+travel: Eden garbage=0 ship=11
+travel: Maggio-263 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 27%
+collect: Очищено!
+tick: end
+
+tick: start 19:12:55
+travel: KXM4RROW0 garbage=14 ship=4
+collect: Учитываем мусор на корабле, загружено 27%
+collector: winner #323
+collet: Загрузка изменилась на 60%. :)
+collect: Загружено 87%
+collect: Осталось 7 7
+tick: end
+
+tick: start 19:12:56
+travel: Eden garbage=0 ship=11
+travel: Hyatt garbage=16 ship=0
+collector: winner #851
+collect: Загружено 88%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:12:57
+travel: Eden garbage=0 ship=12
+travel: 2WZLMW356 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 21%
+collect: Очищено!
+tick: end
+
+tick: start 19:12:57
+travel: WearySwan garbage=17 ship=3
+collect: Учитываем мусор на корабле, загружено 21%
+collector: winner #197
+collet: Загрузка изменилась на 62%. :)
+collect: Загружено 83%
+collect: Осталось 9 9
+tick: end
+
+tick: start 19:12:58
+travel: Eden garbage=0 ship=11
+travel: Grimes-166 garbage=25 ship=0
+collector: winner #650
+collect: Загружено 87%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:12:59
+travel: Eden garbage=0 ship=10
+travel: Hilpert garbage=23 ship=0
+collector: winner #809
+collect: Загружено 88%
+collect: Осталось 13 13
+tick: end
+
+tick: start 19:13:00
+travel: Eden garbage=0 ship=10
+travel: Franecki-99 garbage=14 ship=0
+collector: winner #706
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:13:01
+travel: Eden garbage=0 ship=10
+travel: Hegmann garbage=4 ship=0
+collector: winner #0
+collect: Загружено 25%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:02
+travel: Schamberger-257 garbage=14 ship=4
+collect: Учитываем мусор на корабле, загружено 25%
+collector: winner #189
+collet: Загрузка изменилась на 61%. :)
+collect: Загружено 86%
+collect: Осталось 7 7
+tick: end
+
+tick: start 19:13:02
+travel: Eden garbage=0 ship=11
+travel: S0B2UHYC1 garbage=27 ship=0
+collector: winner #84
+collect: Загружено 93%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:13:03
+travel: Eden garbage=0 ship=12
+travel: SuperRabbit garbage=13 ship=0
+collector: winner #805
+collect: Загружено 88%
+collect: Осталось 2 2
+tick: end
+
+tick: start 19:13:04
+travel: Eden garbage=0 ship=11
+travel: Leuschke-207 garbage=27 ship=0
+collector: winner #80
+collect: Загружено 95%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:13:05
+travel: Eden garbage=0 ship=12
+travel: KXM4RROW0 garbage=7 ship=0
+collector: winner #0
+collect: Загружено 45%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:05
+travel: ClumsyToad garbage=14 ship=7
+collect: Учитываем мусор на корабле, загружено 45%
+collector: winner #370
+collet: Загрузка изменилась на 42%. :)
+collect: Загружено 87%
+collect: Осталось 10 10
+tick: end
+
+tick: start 19:13:06
+travel: Eden garbage=0 ship=11
+travel: ClementineVictorious garbage=25 ship=0
+collector: winner #666
+collect: Загружено 95%
+collect: Осталось 13 13
+tick: end
+
+tick: start 19:13:07
+travel: Eden garbage=0 ship=12
+travel: CabinetSmeller39 garbage=16 ship=0
+collector: winner #50
+collect: Загружено 89%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:13:07
+travel: Eden garbage=0 ship=13
+travel: Vandervort-262 garbage=5 ship=0
+collector: winner #0
+collect: Загружено 32%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:08
+travel: Schimmel-289 garbage=4 ship=5
+collect: Учитываем мусор на корабле, загружено 32%
+collector: winner #0
+collet: Загрузка изменилась на 24%. :)
+collect: Загружено 56%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:08
+travel: VictoriousRat garbage=15 ship=9
+collect: Учитываем мусор на корабле, загружено 56%
+collector: winner #166
+collet: Загрузка изменилась на 33%. :)
+collect: Загружено 89%
+collect: Осталось 12 12
+tick: end
+
+tick: start 19:13:09
+travel: Eden garbage=0 ship=12
+travel: HI83JSVH7 garbage=25 ship=0
+collector: winner #967
+collect: Загружено 90%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:13:10
+travel: Eden garbage=0 ship=11
+travel: Franecki-99 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 29%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:10
+travel: RYB7LX7M0 garbage=2 ship=4
+collect: Учитываем мусор на корабле, загружено 29%
+collector: winner #0
+collet: Загрузка изменилась на 14%. :)
+collect: Загружено 43%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:11
+travel: SuperRabbit garbage=2 ship=6
+collect: Учитываем мусор на корабле, загружено 43%
+collector: winner #0
+collet: Загрузка изменилась на 13%. :)
+collect: Загружено 56%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:11
+travel: Swaniawski garbage=14 ship=8
+collect: Учитываем мусор на корабле, загружено 56%
+collector: winner #5
+collet: Загрузка изменилась на 27%. :)
+collect: Загружено 83%
+collect: Осталось 12 12
+tick: end
+
+tick: start 19:13:13
+travel: Eden garbage=0 ship=10
+travel: Hilpert garbage=13 ship=0
+collector: winner #465
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:13:13
+travel: Eden garbage=0 ship=9
+travel: FlagKniter760 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 21%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:13
+travel: HS7TZVMK7 garbage=15 ship=3
+collect: Учитываем мусор на корабле, загружено 21%
+collector: winner #571
+collet: Загрузка изменилась на 67%. :)
+collect: Загружено 88%
+collect: Осталось 6 6
+tick: end
+
+tick: start 19:13:14
+travel: Eden garbage=0 ship=12
+travel: CabinetSmeller39 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 16%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:15
+travel: Hermiston garbage=27 ship=3
+collect: Учитываем мусор на корабле, загружено 16%
+collector: winner #907
+collet: Загрузка изменилась на 79%. :)
+collect: Загружено 95%
+collect: Осталось 18 18
+tick: end
+
+tick: start 19:13:16
+travel: Eden garbage=0 ship=12
+travel: Langworth garbage=5 ship=0
+collector: winner #0
+collect: Загружено 38%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:16
+travel: Grimes-166 garbage=15 ship=5
+collect: Учитываем мусор на корабле, загружено 38%
+collector: winner #18
+collet: Загрузка изменилась на 48%. :)
+collect: Загружено 86%
+collect: Осталось 9 9
+tick: end
+
+tick: start 19:13:17
+travel: Eden garbage=0 ship=11
+travel: Little garbage=17 ship=0
+collector: winner #708
+collect: Загружено 91%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:13:18
+travel: Eden garbage=0 ship=14
+travel: ClementineVictorious garbage=13 ship=0
+collector: winner #221
+collect: Загружено 83%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:13:18
+travel: Eden garbage=0 ship=10
+travel: Labadie garbage=27 ship=0
+collector: winner #120
+collect: Загружено 93%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:13:19
+travel: Eden garbage=0 ship=12
+travel: ElderberrySmiling garbage=27 ship=0
+collector: winner #461
+collect: Загружено 95%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:13:20
+travel: Eden garbage=0 ship=11
+travel: GS65JI5A9 garbage=15 ship=0
+collector: winner #94
+collect: Загружено 87%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:13:21
+travel: Eden garbage=0 ship=11
+travel: Kihn garbage=26 ship=0
+collector: winner #187
+collect: Загружено 91%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:13:22
+travel: Eden garbage=0 ship=11
+travel: Hyatt garbage=4 ship=0
+collector: winner #0
+collect: Загружено 23%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:23
+travel: Hermiston garbage=18 ship=4
+collect: Учитываем мусор на корабле, загружено 23%
+collector: winner #175
+collet: Загрузка изменилась на 68%. :)
+collect: Загружено 91%
+collect: Осталось 10 10
+tick: end
+
+tick: start 19:13:24
+travel: Eden garbage=0 ship=12
+travel: Runte-259 garbage=18 ship=0
+collector: winner #552
+collect: Загружено 85%
+collect: Осталось 7 7
+tick: end
+
+tick: start 19:13:24
+travel: Eden garbage=0 ship=11
+travel: JL9668H92 garbage=5 ship=0
+collector: winner #0
+collect: Загружено 30%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:25
+travel: AL42ZREJ2 garbage=3 ship=5
+collect: Учитываем мусор на корабле, загружено 30%
+collector: winner #0
+collet: Загрузка изменилась на 17%. :)
+collect: Загружено 47%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:26
+travel: Casper garbage=15 ship=8
+collect: Учитываем мусор на корабле, загружено 47%
+collector: winner #319
+collet: Загрузка изменилась на 42%. :)
+collect: Загружено 89%
+collect: Осталось 11 11
+tick: end
+
+tick: start 19:13:26
+travel: Eden garbage=0 ship=12
+travel: Barton-122 garbage=24 ship=0
+collector: winner #673
+collect: Загружено 88%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:13:27
+travel: Eden garbage=0 ship=10
+travel: Hills-88 garbage=27 ship=0
+collector: winner #771
+collect: Загружено 90%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:13:28
+travel: Eden garbage=0 ship=11
+travel: Kozey garbage=15 ship=0
+collector: winner #706
+collect: Загружено 87%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:13:28
+travel: Eden garbage=0 ship=12
+travel: Parker-179 garbage=31 ship=0
+collector: winner #395
+collect: Загружено 96%
+collect: Осталось 18 18
+tick: end
+
+tick: start 19:13:29
+travel: Eden garbage=0 ship=13
+travel: TeaStacker garbage=29 ship=0
+collector: winner #503
+collect: Загружено 98%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:13:30
+travel: Eden garbage=0 ship=14
+travel: Labadie garbage=15 ship=0
+collector: winner #607
+collect: Загружено 86%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:13:31
+travel: Eden garbage=0 ship=12
+travel: W7GHAYZX1 garbage=25 ship=0
+collector: winner #120
+collect: Загружено 90%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:13:32
+travel: Eden garbage=0 ship=10
+travel: AvocadoItchy garbage=3 ship=0
+collector: winner #0
+collect: Загружено 21%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:33
+travel: Hauck garbage=24 ship=3
+collect: Учитываем мусор на корабле, загружено 21%
+collector: winner #638
+collet: Загрузка изменилась на 69%. :)
+collect: Загружено 90%
+collect: Осталось 18 18
+tick: end
+
+tick: start 19:13:34
+travel: Eden garbage=0 ship=9
+travel: Bogisich-215 garbage=29 ship=0
+collector: winner #41
+collect: Загружено 96%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:13:35
+travel: Eden garbage=0 ship=13
+travel: Bayer garbage=25 ship=0
+collector: winner #695
+collect: Загружено 95%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:13:36
+travel: Eden garbage=0 ship=11
+travel: Labadie garbage=3 ship=0
+collector: winner #0
+collect: Загружено 16%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:36
+travel: P2I2WZL76 garbage=26 ship=3
+collect: Учитываем мусор на корабле, загружено 16%
+collector: winner #886
+collet: Загрузка изменилась на 78%. :)
+collect: Загружено 94%
+collect: Осталось 17 17
+tick: end
+
+tick: start 19:13:37
+travel: Eden garbage=0 ship=12
+travel: VonRueden-153 garbage=27 ship=0
+collector: winner #865
+collect: Загружено 97%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:13:38
+travel: Eden garbage=0 ship=13
+travel: V37VNI6U9 garbage=28 ship=0
+collector: winner #390
+collect: Загружено 95%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:13:39
+travel: Eden garbage=0 ship=13
+travel: Anderson garbage=27 ship=0
+collector: winner #156
+collect: Загружено 95%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:13:40
+travel: Eden garbage=0 ship=13
+travel: Bogisich-208 garbage=13 ship=0
+collector: winner #248
+collect: Загружено 85%
+collect: Осталось 2 2
+tick: end
+
+tick: start 19:13:41
+travel: Eden garbage=0 ship=11
+travel: Hauck garbage=18 ship=0
+collector: winner #178
+collect: Загружено 86%
+collect: Осталось 7 7
+tick: end
+
+tick: start 19:13:41
+travel: Eden garbage=0 ship=11
+travel: H7R0FY0N8 garbage=15 ship=0
+collector: winner #505
+collect: Загружено 81%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:13:42
+travel: Eden garbage=0 ship=11
+travel: V9ERU4VU2 garbage=13 ship=0
+collector: winner #190
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:13:43
+travel: Eden garbage=0 ship=9
+travel: Herzog garbage=26 ship=0
+collector: winner #30
+collect: Загружено 90%
+collect: Осталось 14 14
+tick: end
+
+tick: start 19:13:44
+travel: Eden garbage=0 ship=12
+travel: HS7TZVMK7 garbage=6 ship=0
+collector: winner #0
+collect: Загружено 39%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:44
+travel: Lebsack garbage=16 ship=6
+collect: Учитываем мусор на корабле, загружено 39%
+collector: winner #105
+collet: Загрузка изменилась на 54%. :)
+collect: Загружено 93%
+collect: Осталось 11 11
+tick: end
+
+tick: start 19:13:45
+travel: Eden garbage=0 ship=11
+travel: Bogisich-215 garbage=16 ship=0
+collector: winner #16
+collect: Загружено 87%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:13:45
+travel: Eden garbage=0 ship=13
+travel: CatStander garbage=15 ship=0
+collector: winner #596
+collect: Загружено 86%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:13:47
+travel: Eden garbage=0 ship=11
+travel: Casper garbage=11 ship=0
+collector: winner #0
+collect: Загружено 65%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:47
+travel: VictoriousRat garbage=12 ship=11
+collect: Учитываем мусор на корабле, загружено 65%
+collector: winner #530
+collet: Загрузка изменилась на 22%. :)
+collect: Загружено 87%
+collect: Осталось 9 9
+tick: end
+
+tick: start 19:13:48
+travel: Eden garbage=0 ship=14
+travel: W7GHAYZX1 garbage=15 ship=0
+collector: winner #251
+collect: Загружено 90%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:13:48
+travel: Eden garbage=0 ship=12
+travel: Parker garbage=27 ship=0
+collector: winner #951
+collect: Загружено 95%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:13:50
+travel: Eden garbage=0 ship=12
+travel: ClementineVictorious garbage=3 ship=0
+collector: winner #0
+collect: Загружено 20%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:50
+travel: Gusikowski garbage=14 ship=3
+collect: Учитываем мусор на корабле, загружено 20%
+collector: winner #417
+collet: Загрузка изменилась на 69%. :)
+collect: Загружено 89%
+collect: Осталось 5 5
+tick: end
+
+tick: start 19:13:50
+travel: Eden garbage=0 ship=12
+travel: Powlowski-265 garbage=27 ship=0
+collector: winner #52
+collect: Загружено 88%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:13:51
+travel: Eden garbage=0 ship=11
+travel: Bogisich-208 garbage=2 ship=0
+collector: winner #0
+collect: Загружено 16%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:52
+travel: ProudHare6 garbage=3 ship=2
+collect: Учитываем мусор на корабле, загружено 16%
+collector: winner #0
+collet: Загрузка изменилась на 21%. :)
+collect: Загружено 37%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:52
+travel: Hills-88 garbage=16 ship=5
+collect: Учитываем мусор на корабле, загружено 37%
+collector: winner #961
+collet: Загрузка изменилась на 51%. :)
+collect: Загружено 88%
+collect: Осталось 9 9
+tick: end
+
+tick: start 19:13:53
+travel: Eden garbage=0 ship=12
+travel: A54889UT4 garbage=26 ship=0
+collector: winner #613
+collect: Загружено 95%
+collect: Осталось 13 13
+tick: end
+
+tick: start 19:13:54
+travel: Eden garbage=0 ship=13
+travel: Parisian-205 garbage=16 ship=0
+collector: winner #158
+collect: Загружено 90%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:13:54
+travel: Eden garbage=0 ship=13
+travel: V9ERU4VU2 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 28%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:55
+travel: SV1WBI5H8 garbage=25 ship=4
+collect: Учитываем мусор на корабле, загружено 28%
+collector: winner #217
+collet: Загрузка изменилась на 63%. :)
+collect: Загружено 91%
+collect: Осталось 18 18
+tick: end
+
+tick: start 19:13:57
+travel: Eden garbage=0 ship=11
+travel: CherryWeary garbage=17 ship=0
+collector: winner #594
+collect: Загружено 88%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:13:57
+travel: Eden garbage=0 ship=13
+travel: H587E9VR1 garbage=25 ship=0
+collector: winner #137
+collect: Загружено 87%
+collect: Осталось 16 16
+tick: end
+
+tick: start 19:13:59
+travel: Eden garbage=0 ship=9
+travel: Hilpert garbage=4 ship=0
+collector: winner #0
+collect: Загружено 28%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:59
+travel: H7R0FY0N8 garbage=4 ship=4
+collect: Учитываем мусор на корабле, загружено 28%
+collector: winner #0
+collet: Загрузка изменилась на 29%. :)
+collect: Загружено 57%
+collect: Очищено!
+tick: end
+
+tick: start 19:13:59
+travel: OQC27RZL0 garbage=16 ship=8
+collect: Учитываем мусор на корабле, загружено 57%
+collector: winner #613
+collet: Загрузка изменилась на 32%. :)
+collect: Загружено 89%
+collect: Осталось 12 12
+tick: end
+
+tick: start 19:14:01
+travel: Eden garbage=0 ship=12
+travel: H587E9VR1 garbage=16 ship=0
+collector: winner #494
+collect: Загружено 88%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:01
+travel: Eden garbage=0 ship=12
+travel: Kozey garbage=3 ship=0
+collector: winner #0
+collect: Загружено 20%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:01
+travel: WGKIZCC28 garbage=15 ship=3
+collect: Учитываем мусор на корабле, загружено 20%
+collector: winner #971
+collet: Загрузка изменилась на 70%. :)
+collect: Загружено 90%
+collect: Осталось 6 6
+tick: end
+
+tick: start 19:14:03
+travel: Eden garbage=0 ship=12
+travel: SQLAMKMS5 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 18%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:03
+travel: PVKOFNZ64 garbage=16 ship=3
+collect: Учитываем мусор на корабле, загружено 18%
+collector: winner #468
+collet: Загрузка изменилась на 76%. :)
+collect: Загружено 94%
+collect: Осталось 5 5
+tick: end
+
+tick: start 19:14:03
+travel: Eden garbage=0 ship=14
+travel: VictoriousRat garbage=9 ship=0
+collector: winner #0
+collect: Загружено 53%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:04
+travel: ComposerSleeper garbage=14 ship=9
+collect: Учитываем мусор на корабле, загружено 53%
+collector: winner #545
+collet: Загрузка изменилась на 34%. :)
+collect: Загружено 87%
+collect: Осталось 12 12
+tick: end
+
+tick: start 19:14:05
+travel: Eden garbage=0 ship=11
+travel: Schamberger-257 garbage=7 ship=0
+collector: winner #0
+collect: Загружено 44%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:06
+travel: Crist garbage=27 ship=7
+collect: Учитываем мусор на корабле, загружено 44%
+collector: winner #381
+collet: Загрузка изменилась на 45%. :)
+collect: Загружено 89%
+collect: Осталось 24 24
+tick: end
+
+tick: start 19:14:07
+travel: Eden garbage=0 ship=10
+travel: HI83JSVH7 garbage=14 ship=0
+collector: winner #173
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:07
+travel: Eden garbage=0 ship=10
+travel: 65T45F6G5 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 19%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:08
+travel: WGKIZCC28 garbage=6 ship=3
+collect: Учитываем мусор на корабле, загружено 19%
+collector: winner #0
+collet: Загрузка изменилась на 38%. :)
+collect: Загружено 57%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:08
+travel: Bergstrom-51 garbage=24 ship=9
+collect: Учитываем мусор на корабле, загружено 57%
+collector: winner #746
+collet: Загрузка изменилась на 31%. :)
+collect: Загружено 88%
+collect: Осталось 23 23
+tick: end
+
+tick: start 19:14:10
+travel: Eden garbage=0 ship=10
+travel: H587E9VR1 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 23%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:10
+travel: Kirlin garbage=28 ship=4
+collect: Учитываем мусор на корабле, загружено 23%
+collector: winner #322
+collet: Загрузка изменилась на 68%. :)
+collect: Загружено 91%
+collect: Осталось 20 20
+tick: end
+
+tick: start 19:14:11
+travel: Eden garbage=0 ship=12
+travel: W7GHAYZX1 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 19%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:11
+travel: HI83JSVH7 garbage=4 ship=3
+collect: Учитываем мусор на корабле, загружено 19%
+collector: winner #0
+collet: Загрузка изменилась на 26%. :)
+collect: Загружено 45%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:12
+travel: Bergstrom-51 garbage=23 ship=7
+collect: Учитываем мусор на корабле, загружено 45%
+collector: winner #762
+collet: Загрузка изменилась на 45%. :)
+collect: Загружено 90%
+collect: Осталось 18 18
+tick: end
+
+tick: start 19:14:13
+travel: Eden garbage=0 ship=12
+travel: Armstrong-38 garbage=2 ship=0
+collector: winner #0
+collect: Загружено 13%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:13
+travel: Hagenes-134 garbage=15 ship=2
+collect: Учитываем мусор на корабле, загружено 13%
+collector: winner #73
+collet: Загрузка изменилась на 72%. :)
+collect: Загружено 85%
+collect: Осталось 5 5
+tick: end
+
+tick: start 19:14:14
+travel: Eden garbage=0 ship=12
+travel: Herzog garbage=14 ship=0
+collector: winner #745
+collect: Загружено 85%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:15
+travel: Eden garbage=0 ship=10
+travel: WideJellyfish646 garbage=18 ship=0
+collector: winner #933
+collect: Загружено 88%
+collect: Осталось 6 6
+tick: end
+
+tick: start 19:14:15
+travel: Eden garbage=0 ship=12
+travel: Hagenes-134 garbage=5 ship=0
+collector: winner #0
+collect: Загружено 28%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:16
+travel: Bogisich-215 garbage=3 ship=5
+collect: Учитываем мусор на корабле, загружено 28%
+collector: winner #0
+collet: Загрузка изменилась на 19%. :)
+collect: Загружено 47%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:17
+travel: Grant-179 garbage=15 ship=8
+collect: Учитываем мусор на корабле, загружено 47%
+collector: winner #22
+collet: Загрузка изменилась на 47%. :)
+collect: Загружено 94%
+collect: Осталось 10 10
+tick: end
+
+tick: start 19:14:18
+travel: Eden garbage=0 ship=13
+travel: ComposerSleeper garbage=12 ship=0
+collector: winner #50
+collect: Загружено 78%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:18
+travel: Eden garbage=0 ship=12
+travel: Leuschke-207 garbage=15 ship=0
+collector: winner #736
+collect: Загружено 91%
+collect: Осталось 2 2
+tick: end
+
+tick: start 19:14:19
+travel: Eden garbage=0 ship=13
+travel: A54889UT4 garbage=13 ship=0
+collector: winner #151
+collect: Загружено 81%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:14:20
+travel: Eden garbage=0 ship=10
+travel: Ziemann garbage=26 ship=0
+collector: winner #801
+collect: Загружено 90%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:14:20
+travel: Eden garbage=0 ship=11
+travel: Durgan garbage=14 ship=0
+collector: winner #226
+collect: Загружено 81%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:21
+travel: Eden garbage=0 ship=10
+travel: P2I2WZL76 garbage=17 ship=0
+collector: winner #303
+collect: Загружено 86%
+collect: Осталось 6 6
+tick: end
+
+tick: start 19:14:22
+travel: Eden garbage=0 ship=11
+travel: Kihn garbage=15 ship=0
+collector: winner #405
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:23
+travel: Eden garbage=0 ship=11
+travel: Parker garbage=15 ship=0
+collector: winner #11
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:23
+travel: Eden garbage=0 ship=11
+travel: GS65JI5A9 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 24%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:24
+travel: Hills-88 garbage=9 ship=4
+collect: Учитываем мусор на корабле, загружено 24%
+collector: winner #9
+collet: Загрузка изменилась на 57%. :)
+collect: Загружено 81%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:24
+travel: Eden garbage=0 ship=13
+travel: TeaStacker garbage=15 ship=0
+collector: winner #577
+collect: Загружено 93%
+collect: Осталось 2 2
+tick: end
+
+tick: start 19:14:25
+travel: Eden garbage=0 ship=13
+travel: Bayer garbage=14 ship=0
+collector: winner #69
+collect: Загружено 86%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:14:26
+travel: Eden garbage=0 ship=11
+travel: Leuschke-207 garbage=2 ship=0
+collector: winner #0
+collect: Загружено 13%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:27
+travel: Herzog garbage=4 ship=2
+collect: Учитываем мусор на корабле, загружено 13%
+collector: winner #0
+collet: Загрузка изменилась на 28%. :)
+collect: Загружено 41%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:27
+travel: Durgan garbage=4 ship=6
+collect: Учитываем мусор на корабле, загружено 41%
+collector: winner #0
+collet: Загрузка изменилась на 28%. :)
+collect: Загружено 69%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:28
+travel: Hauck garbage=7 ship=10
+collect: Учитываем мусор на корабле, загружено 69%
+collector: winner #844
+collet: Загрузка изменилась на 13%. :)
+collect: Загружено 82%
+collect: Осталось 5 5
+tick: end
+
+tick: start 19:14:28
+travel: Eden garbage=0 ship=12
+travel: ElderberrySmiling garbage=16 ship=0
+collector: winner #190
+collect: Загружено 85%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:29
+travel: Eden garbage=0 ship=12
+travel: 2B61M0994 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 24%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:30
+travel: Olson-165 garbage=14 ship=4
+collect: Учитываем мусор на корабле, загружено 24%
+collector: winner #872
+collet: Загрузка изменилась на 62%. :)
+collect: Загружено 86%
+collect: Осталось 7 7
+tick: end
+
+tick: start 19:14:30
+travel: Eden garbage=0 ship=11
+travel: Little garbage=3 ship=0
+collector: winner #0
+collect: Загружено 16%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:31
+travel: Lebsack garbage=11 ship=3
+collect: Учитываем мусор на корабле, загружено 16%
+collector: winner #394
+collet: Загрузка изменилась на 65%. :)
+collect: Загружено 81%
+collect: Осталось 2 2
+tick: end
+
+tick: start 19:14:31
+travel: Eden garbage=0 ship=12
+travel: S0B2UHYC1 garbage=15 ship=0
+collector: winner #218
+collect: Загружено 89%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:14:32
+travel: Eden garbage=0 ship=12
+travel: AttractiveRaven002 garbage=14 ship=0
+collector: winner #532
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:33
+travel: Eden garbage=0 ship=10
+travel: JET948017 garbage=28 ship=0
+collector: winner #601
+collect: Загружено 97%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:14:34
+travel: Eden garbage=0 ship=13
+travel: ClumsyToad garbage=10 ship=0
+collector: winner #0
+collect: Загружено 64%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:35
+travel: A54889UT4 garbage=3 ship=10
+collect: Учитываем мусор на корабле, загружено 64%
+collector: winner #332
+collet: Загрузка изменилась на 19%. :)
+collect: Загружено 83%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:35
+travel: Eden garbage=0 ship=13
+travel: Mann-205 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 25%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:36
+travel: P2I2WZL76 garbage=6 ship=4
+collect: Учитываем мусор на корабле, загружено 25%
+collector: winner #0
+collet: Загрузка изменилась на 38%. :)
+collect: Загружено 63%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:36
+travel: Parker garbage=4 ship=10
+collect: Учитываем мусор на корабле, загружено 63%
+collector: winner #66
+collet: Загрузка изменилась на 24%. :)
+collect: Загружено 87%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:37
+travel: Eden garbage=0 ship=14
+travel: Swaniawski garbage=12 ship=0
+collector: winner #6
+collect: Загружено 77%
+collect: Осталось 1 1
+tick: end
+
+tick: start 19:14:38
+travel: Eden garbage=0 ship=11
+travel: V37VNI6U9 garbage=15 ship=0
+collector: winner #147
+collect: Загружено 88%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:14:39
+travel: Eden garbage=0 ship=12
+travel: ZooSmeller4 garbage=24 ship=0
+collector: winner #237
+collect: Загружено 83%
+collect: Осталось 15 15
+tick: end
+
+tick: start 19:14:40
+travel: Eden garbage=0 ship=9
+travel: Kuhic garbage=15 ship=0
+collector: winner #844
+collect: Загружено 87%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:14:40
+travel: Eden garbage=0 ship=12
+travel: 0EMYUXF35 garbage=15 ship=0
+collector: winner #61
+collect: Загружено 88%
+collect: Осталось 2 2
+tick: end
+
+tick: start 19:14:41
+travel: Eden garbage=0 ship=13
+travel: Parisian-205 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 18%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:41
+travel: Barton-122 garbage=14 ship=3
+collect: Учитываем мусор на корабле, загружено 18%
+collector: winner #768
+collet: Загрузка изменилась на 70%. :)
+collect: Загружено 88%
+collect: Осталось 6 6
+tick: end
+
+tick: start 19:14:42
+travel: Eden garbage=0 ship=11
+travel: Lebsack garbage=2 ship=0
+collector: winner #0
+collect: Загружено 11%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:42
+travel: FaithfulJuicer garbage=13 ship=2
+collect: Учитываем мусор на корабле, загружено 11%
+collector: winner #309
+collet: Загрузка изменилась на 72%. :)
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:43
+travel: Eden garbage=0 ship=11
+travel: Grimes-166 garbage=9 ship=0
+collector: winner #0
+collect: Загружено 65%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:44
+travel: Ziemann garbage=15 ship=9
+collect: Учитываем мусор на корабле, загружено 65%
+collector: winner #399
+collet: Загрузка изменилась на 23%. :)
+collect: Загружено 88%
+collect: Осталось 13 13
+tick: end
+
+tick: start 19:14:44
+travel: Eden garbage=0 ship=11
+travel: McLaughlin-160 garbage=15 ship=0
+collector: winner #416
+collect: Загружено 91%
+collect: Осталось 2 2
+tick: end
+
+tick: start 19:14:45
+travel: Eden garbage=0 ship=13
+travel: Anderson garbage=14 ship=0
+collector: winner #7
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:46
+travel: Eden garbage=0 ship=10
+travel: Anderson garbage=4 ship=0
+collector: winner #0
+collect: Загружено 28%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:47
+travel: SV1WBI5H8 garbage=18 ship=4
+collect: Учитываем мусор на корабле, загружено 28%
+collector: winner #170
+collet: Загрузка изменилась на 63%. :)
+collect: Загружено 91%
+collect: Осталось 10 10
+tick: end
+
+tick: start 19:14:47
+travel: Eden garbage=0 ship=12
+travel: Kuhic garbage=3 ship=0
+collector: winner #0
+collect: Загружено 18%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:48
+travel: FaithfulJuicer garbage=4 ship=3
+collect: Учитываем мусор на корабле, загружено 18%
+collector: winner #0
+collet: Загрузка изменилась на 22%. :)
+collect: Загружено 40%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:48
+travel: SV1WBI5H8 garbage=10 ship=7
+collect: Учитываем мусор на корабле, загружено 40%
+collector: winner #197
+collet: Загрузка изменилась на 47%. :)
+collect: Загружено 87%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:49
+travel: Eden garbage=0 ship=13
+travel: Swaniawski garbage=1 ship=0
+collector: winner #0
+collect: Загружено 6%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:50
+travel: Powlowski-265 garbage=16 ship=1
+collect: Учитываем мусор на корабле, загружено 6%
+collector: winner #646
+collet: Загрузка изменилась на 84%. :)
+collect: Загружено 90%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:50
+travel: Eden garbage=0 ship=13
+travel: Stanton-232 garbage=14 ship=0
+collector: winner #257
+collect: Загружено 82%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:51
+travel: Eden garbage=0 ship=10
+travel: LongGirl garbage=16 ship=0
+collector: winner #686
+collect: Загружено 85%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:52
+travel: Eden garbage=0 ship=12
+travel: ZooSmeller4 garbage=15 ship=0
+collector: winner #802
+collect: Загружено 83%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:52
+travel: Eden garbage=0 ship=11
+travel: VonRueden-153 garbage=14 ship=0
+collector: winner #159
+collect: Загружено 82%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:14:53
+travel: Eden garbage=0 ship=11
+travel: McLaughlin-160 garbage=2 ship=0
+collector: winner #0
+collect: Загружено 13%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:54
+travel: ElderberrySmiling garbage=4 ship=2
+collect: Учитываем мусор на корабле, загружено 13%
+collector: winner #0
+collet: Загрузка изменилась на 22%. :)
+collect: Загружено 35%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:55
+travel: 0EMYUXF35 garbage=2 ship=6
+collect: Учитываем мусор на корабле, загружено 35%
+collector: winner #0
+collet: Загрузка изменилась на 12%. :)
+collect: Загружено 47%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:55
+travel: S0B2UHYC1 garbage=3 ship=8
+collect: Учитываем мусор на корабле, загружено 47%
+collector: winner #0
+collet: Загрузка изменилась на 16%. :)
+collect: Загружено 63%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:55
+travel: Olson-165 garbage=7 ship=11
+collect: Учитываем мусор на корабле, загружено 63%
+collector: winner #45
+collet: Загрузка изменилась на 25%. :)
+collect: Загружено 88%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:14:56
+travel: Eden garbage=0 ship=14
+travel: Bergstrom-51 garbage=18 ship=0
+collector: winner #617
+collect: Загружено 85%
+collect: Осталось 6 6
+tick: end
+
+tick: start 19:14:57
+travel: Eden garbage=0 ship=12
+travel: Stanton-232 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 24%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:57
+travel: Kihn garbage=4 ship=4
+collect: Учитываем мусор на корабле, загружено 24%
+collector: winner #0
+collet: Загрузка изменилась на 24%. :)
+collect: Загружено 48%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:58
+travel: SV1WBI5H8 garbage=4 ship=8
+collect: Учитываем мусор на корабле, загружено 48%
+collector: winner #0
+collet: Загрузка изменилась на 20%. :)
+collect: Загружено 68%
+collect: Очищено!
+tick: end
+
+tick: start 19:14:59
+travel: WearySwan garbage=9 ship=12
+collect: Учитываем мусор на корабле, загружено 68%
+collector: winner #235
+collet: Загрузка изменилась на 18%. :)
+collect: Загружено 86%
+collect: Осталось 8 8
+tick: end
+
+tick: start 19:15:00
+travel: Eden garbage=0 ship=13
+travel: TeaStacker garbage=2 ship=0
+collector: winner #0
+collect: Загружено 12%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:00
+travel: WideJellyfish646 garbage=6 ship=2
+collect: Учитываем мусор на корабле, загружено 12%
+collector: winner #0
+collet: Загрузка изменилась на 34%. :)
+collect: Загружено 46%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:00
+travel: LongGirl garbage=4 ship=8
+collect: Учитываем мусор на корабле, загружено 46%
+collector: winner #0
+collet: Загрузка изменилась на 22%. :)
+collect: Загружено 68%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:01
+travel: Buckridge garbage=28 ship=12
+collect: Учитываем мусор на корабле, загружено 68%
+collector: winner #578
+collet: Загрузка изменилась на 23%. :)
+collect: Загружено 91%
+collect: Осталось 29 29
+tick: end
+
+tick: start 19:15:02
+travel: Eden garbage=0 ship=11
+travel: CatStander garbage=4 ship=0
+collector: winner #0
+collect: Загружено 25%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:02
+travel: JET948017 garbage=15 ship=4
+collect: Учитываем мусор на корабле, загружено 25%
+collector: winner #117
+collet: Загрузка изменилась на 64%. :)
+collect: Загружено 89%
+collect: Осталось 6 6
+tick: end
+
+tick: start 19:15:03
+travel: Eden garbage=0 ship=13
+travel: VonRueden-153 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 18%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:03
+travel: Olson-165 garbage=4 ship=3
+collect: Учитываем мусор на корабле, загружено 18%
+collector: winner #0
+collet: Загрузка изменилась на 20%. :)
+collect: Загружено 38%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:04
+travel: OQC27RZL0 garbage=12 ship=7
+collect: Учитываем мусор на корабле, загружено 38%
+collector: winner #612
+collet: Загрузка изменилась на 51%. :)
+collect: Загружено 89%
+collect: Осталось 5 5
+tick: end
+
+tick: start 19:15:05
+travel: Eden garbage=0 ship=14
+travel: Grant-179 garbage=10 ship=0
+collector: winner #0
+collect: Загружено 54%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:05
+travel: WearySwan garbage=8 ship=10
+collect: Учитываем мусор на корабле, загружено 54%
+collector: winner #914
+collet: Загрузка изменилась на 36%. :)
+collect: Загружено 90%
+collect: Осталось 2 2
+tick: end
+
+tick: start 19:15:06
+travel: Eden garbage=0 ship=16
+travel: PVKOFNZ64 garbage=5 ship=0
+collector: winner #0
+collect: Загружено 30%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:07
+travel: JET948017 garbage=6 ship=5
+collect: Учитываем мусор на корабле, загружено 30%
+collector: winner #0
+collet: Загрузка изменилась на 36%. :)
+collect: Загружено 66%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:07
+travel: Hand garbage=23 ship=11
+collect: Учитываем мусор на корабле, загружено 66%
+collector: winner #212
+collet: Загрузка изменилась на 20%. :)
+collect: Загружено 86%
+collect: Осталось 25 25
+tick: end
+
+tick: start 19:15:08
+travel: Eden garbage=0 ship=9
+travel: Crist garbage=24 ship=0
+collector: winner #113
+collect: Загружено 88%
+collect: Осталось 11 11
+tick: end
+
+tick: start 19:15:09
+travel: Eden garbage=0 ship=13
+travel: Gusikowski garbage=5 ship=0
+collector: winner #0
+collect: Загружено 31%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:09
+travel: Kirlin garbage=20 ship=5
+collect: Учитываем мусор на корабле, загружено 31%
+collector: winner #33
+collet: Загрузка изменилась на 59%. :)
+collect: Загружено 90%
+collect: Осталось 12 12
+tick: end
+
+tick: start 19:15:10
+travel: Eden garbage=0 ship=13
+travel: V37VNI6U9 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 19%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:10
+travel: AttractiveRaven002 garbage=4 ship=3
+collect: Учитываем мусор на корабле, загружено 19%
+collector: winner #0
+collet: Загрузка изменилась на 25%. :)
+collect: Загружено 44%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:11
+travel: WearySwan garbage=2 ship=7
+collect: Учитываем мусор на корабле, загружено 44%
+collector: winner #0
+collet: Загрузка изменилась на 10%. :)
+collect: Загружено 54%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:11
+travel: CherryWeary garbage=4 ship=9
+collect: Учитываем мусор на корабле, загружено 54%
+collector: winner #4
+collet: Загрузка изменилась на 20%. :)
+collect: Загружено 74%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:12
+travel: Ziemann garbage=13 ship=13
+collect: Учитываем мусор на корабле, загружено 74%
+collector: winner #74
+collet: Загрузка изменилась на 13%. :)
+collect: Загружено 87%
+collect: Осталось 13 13
+tick: end
+
+tick: start 19:15:13
+travel: Eden garbage=0 ship=13
+travel: Hauck garbage=5 ship=0
+collector: winner #0
+collect: Загружено 30%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:13
+travel: Hand garbage=25 ship=5
+collect: Учитываем мусор на корабле, загружено 30%
+collector: winner #194
+collet: Загрузка изменилась на 64%. :)
+collect: Загружено 94%
+collect: Осталось 18 18
+tick: end
+
+tick: start 19:15:14
+travel: Eden garbage=0 ship=12
+travel: Parker-179 garbage=18 ship=0
+collector: winner #277
+collect: Загружено 94%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:15:15
+travel: Eden garbage=0 ship=15
+travel: Ziemann garbage=13 ship=0
+collector: winner #4
+collect: Загружено 75%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:16
+travel: Eden garbage=0 ship=13
+travel: Hand garbage=18 ship=0
+collector: winner #535
+collect: Загружено 88%
+collect: Осталось 5 5
+tick: end
+
+tick: start 19:15:17
+travel: Eden garbage=0 ship=13
+travel: ZooSmeller4 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 27%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:17
+travel: Bergstrom-51 garbage=6 ship=4
+collect: Учитываем мусор на корабле, загружено 27%
+collector: winner #0
+collet: Загрузка изменилась на 39%. :)
+collect: Загружено 66%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:18
+travel: Kirlin garbage=12 ship=10
+collect: Учитываем мусор на корабле, загружено 66%
+collector: winner #625
+collet: Загрузка изменилась на 21%. :)
+collect: Загружено 87%
+collect: Осталось 9 9
+tick: end
+
+tick: start 19:15:18
+travel: Eden garbage=0 ship=13
+travel: Hermiston garbage=10 ship=0
+collector: winner #0
+collect: Загружено 54%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:18
+travel: Smith garbage=14 ship=10
+collect: Учитываем мусор на корабле, загружено 54%
+collector: winner #493
+collet: Загрузка изменилась на 40%. :)
+collect: Загружено 94%
+collect: Осталось 11 11
+tick: end
+
+tick: start 19:15:20
+travel: Eden garbage=0 ship=13
+travel: Smith garbage=11 ship=0
+collector: winner #1
+collect: Загружено 68%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:20
+travel: Bayer garbage=3 ship=11
+collect: Учитываем мусор на корабле, загружено 68%
+collector: winner #920
+collet: Загрузка изменилась на 18%. :)
+collect: Загружено 86%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:21
+travel: Eden garbage=0 ship=14
+travel: Powlowski-265 garbage=4 ship=0
+collector: winner #0
+collect: Загружено 25%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:22
+travel: Runte-259 garbage=7 ship=4
+collect: Учитываем мусор на корабле, загружено 25%
+collector: winner #0
+collet: Загрузка изменилась на 41%. :)
+collect: Загружено 66%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:22
+travel: Barton-122 garbage=6 ship=11
+collect: Учитываем мусор на корабле, загружено 66%
+collector: winner #5
+collet: Загрузка изменилась на 21%. :)
+collect: Загружено 87%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:15:22
+travel: Eden garbage=0 ship=13
+travel: Kirlin garbage=9 ship=0
+collector: winner #0
+collect: Загружено 52%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:23
+travel: Barton-122 garbage=4 ship=9
+collect: Учитываем мусор на корабле, загружено 52%
+collector: winner #0
+collet: Загрузка изменилась на 21%. :)
+collect: Загружено 73%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:24
+travel: Hand garbage=5 ship=13
+collect: Учитываем мусор на корабле, загружено 73%
+collector: winner #773
+collet: Загрузка изменилась на 12%. :)
+collect: Загружено 85%
+collect: Осталось 3 3
+tick: end
+
+tick: start 19:15:24
+travel: Eden garbage=0 ship=15
+travel: Hand garbage=3 ship=0
+collector: winner #0
+collect: Загружено 18%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:25
+travel: OQC27RZL0 garbage=5 ship=3
+collect: Учитываем мусор на корабле, загружено 18%
+collector: winner #0
+collet: Загрузка изменилась на 23%. :)
+collect: Загружено 41%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:25
+travel: Crist garbage=11 ship=8
+collect: Учитываем мусор на корабле, загружено 41%
+collector: winner #698
+collet: Загрузка изменилась на 46%. :)
+collect: Загружено 87%
+collect: Осталось 4 4
+tick: end
+
+tick: start 19:15:26
+travel: Eden garbage=0 ship=15
+travel: Crist garbage=4 ship=0
+collector: winner #0
+collect: Загружено 22%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:27
+travel: Buckridge garbage=29 ship=4
+collect: Учитываем мусор на корабле, загружено 22%
+collector: winner #290
+collet: Загрузка изменилась на 73%. :)
+collect: Загружено 95%
+collect: Осталось 19 19
+tick: end
+
+tick: start 19:15:28
+travel: Eden garbage=0 ship=14
+travel: Parker-179 garbage=3 ship=0
+collector: winner #0
+collect: Загружено 15%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:28
+travel: Buckridge garbage=19 ship=3
+collect: Учитываем мусор на корабле, загружено 15%
+collector: winner #257
+collet: Загрузка изменилась на 75%. :)
+collect: Загружено 90%
+collect: Осталось 6 6
+tick: end
+
+tick: start 19:15:29
+travel: Eden garbage=0 ship=16
+travel: Buckridge garbage=6 ship=0
+collector: winner #0
+collect: Загружено 31%
+collect: Очищено!
+tick: end
+
+tick: start 19:15:30
+{ from: 'Buckridge', to: undefined }
+C:\Users\Nou Sagi\Desktop\datsedenspace\node_modules\ngraph.path\a-star\a-star.js:67
+    if (!to) throw new Error('toId is not defined in this graph: ' + toId);
+                   ^
+
+Error: toId is not defined in this graph: undefined
+    at Object.find (C:\Users\Nou Sagi\Desktop\datsedenspace\node_modules\ngraph.path\a-star\a-star.js:67:20)
+    at Navigator.findPath (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/navigator.js:63:37)
+    at Bot.goToNext (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:190:52)
+    at Bot.tick (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:198:16)
+    at Bot.loop (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:212:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+
+Node.js v20.9.0
+
+
+Nou Sagi@DESKTOP-092CICL MINGW64 ~/Desktop/datsedenspace (master)
+$ node ./src/bot/bot.js
+log: Open json error
+updated null
+BOT started
+Connected to server
+file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:98
+    this.box = new Box(new Vec2(this.player.ship.capacityX, this.player.ship.capacityY))
+                                                 ^
+
+TypeError: Cannot read properties of undefined (reading 'capacityX')
+    at Bot.init (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:98:50)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Bot.loop (file:///C:/Users/Nou%20Sagi/Desktop/datsedenspace/src/bot/bot.js:212:5)

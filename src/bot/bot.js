@@ -80,11 +80,16 @@ export class Bot {
 
     if (!garbageCount) {
       this.setPlanetEmpty(planetName, true)
+      this.planetGarbage.set(planetName, {})
     } else {
       this.planetGarbage.set(planetName, planetData.planetGarbage)
     }
 
     return garbageCount
+  }
+
+  isFinished() {
+    return this.planetCleared.size === 98
   }
 
   async init() {
@@ -132,12 +137,6 @@ export class Bot {
       console.log(`collect: Учитываем мусор на корабле, загружено ${this.box.loading()}%`)
     }
 
-    //   const placed = this.box.getGarbagePlaced(false)
-    //   this.planetGarbage.set(planetName, { ...planetData.planetGarbage, ...placed })
-    // } else {
-    //   this.planetGarbage.set(planetName, planetData.planetGarbage)
-    // }
-
     const shipGarbage = this.box.getGarbagePlaced(false)
     const totalGarbage = { ...garbageKnown, ...shipGarbage }
     const figures = Object.entries(totalGarbage).map(([id, points]) => new Figure(`${id}`, points))
@@ -162,6 +161,7 @@ export class Bot {
 
     const collected = box.getGarbagePlaced()
     const { garbage, leaved, error } = await this.api.collectGarbage({ garbage: collected })
+    console.log(this.planetCurrent, leaved)
 
     if (error) {
       const neighbor = this.navigator.getNeighborPlanets(this.planetCurrent)
@@ -183,7 +183,7 @@ export class Bot {
       console.log(`collect: Осталось ${leaved.length} ${Object.keys(myLeaved).length}`)
     }
 
-    return box.loading() >= 87
+    return box.loading() >= 75
   }
 
   async goToNext(needToEden = true) {
@@ -191,10 +191,7 @@ export class Bot {
       const pathToEden = this.navigator.findPath(this.planetCurrent, 'Eden')
       await this.travel(pathToEden)
     }
-    let randomFullyPlanet = this.navigator.getRandomPlanet(this.excludedPlanets())
-    if (!randomFullyPlanet) {
-      randomFullyPlanet = this.navigator.getRandomPlanet([])
-    }
+    let randomFullyPlanet = 'Earth' // this.navigator.getRandomPlanet(this.excludedPlanets())
     const pathToRandomFullyPlanet = this.navigator.findPath(this.planetCurrent, randomFullyPlanet)
     return await this.travel(pathToRandomFullyPlanet)
   }
@@ -202,7 +199,13 @@ export class Bot {
   needToEdenInNextTick = false
 
   async tick() {
-    console.log(`tick: start`)
+    console.log(`tick: start ${new Date().toLocaleTimeString()}`)
+
+    if (this.isFinished()) {
+      console.log('DONEDONE')
+      return true
+    }
+
     await this.goToNext(this.needToEdenInNextTick)
     this.needToEdenInNextTick = await this.collect()
     console.log(`tick: end\n`)
